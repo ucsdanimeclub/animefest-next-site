@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Button from 'react-bootstrap/Button'
 
 export default function Home() {
   return (
@@ -49,6 +50,8 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <Button variant="outline-primary">Vote for the winners here!</Button>
       </main>
 
       <footer className={styles.footer}>
