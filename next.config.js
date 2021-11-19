@@ -1,6 +1,6 @@
-const isProd = process.env.NODE_ENV === 'production'
+const isGithubActions = process.env.GITHUB_ACTIONS === 'true'
 
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: isProd ? '/animefest-next-site/' : ''
+  assetPrefix: isGithubActions ? '/animefest-next-site/' : ''
 }
