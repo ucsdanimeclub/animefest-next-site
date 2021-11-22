@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Button from 'react-bootstrap/Button'
-import Layout from '../components/layout'
 
 
 export default function Home() {
@@ -69,13 +68,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
-}
-
-Home.getLayout = function getLayout(page) {
-  return (
-    <Layout>
-      {page}
-    </Layout>
   )
 }
