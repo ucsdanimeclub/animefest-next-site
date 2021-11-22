@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import Layout from '../components/layout'
 
 
-export default function Home() {
+export default function Food() {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Home
+          Food
         </h1>
 
         <p className={styles.description}>
@@ -72,7 +72,7 @@ export default function Home() {
   )
 }
 
-Home.getLayout = function getLayout(page) {
+Food.getLayout = function getLayout(page) {
   return (
     <Layout>
       {page}
