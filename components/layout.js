@@ -38,7 +38,9 @@ export default function Layout({ children }) {
       </Navbar>
       <main>{children}</main>
       <footer className="footer">
-        © 2022 Cal Animage Beta. All assets belong to their respective owners.
+        <Container>
+          © 2022 Cal Animage Beta. All assets belong to their respective owners.
+        </Container>
       </footer>
     </>
   )
