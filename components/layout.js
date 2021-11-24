@@ -7,6 +7,7 @@ import Link from 'next/link'
 export default function Layout({ children }) {
   return (
     <>
+      {/* Sticky top is not good for legacy, consider fixing the position instead (but that comes with covering up the page) */}
       <Navbar bg="light" expand="lg" sticky="top">
         <Container>
           <Link href="/" passHref><Navbar.Brand>ANIMEFEST</Navbar.Brand></Link>
@@ -30,6 +31,7 @@ export default function Layout({ children }) {
                 <Link href="/programming#showings" passHref><NavDropdown.Item>Showings</NavDropdown.Item></Link>
                 <Link href="/programming#manga" passHref><NavDropdown.Item>Manga Library</NavDropdown.Item></Link>
               </NavDropdown>
+              <Link href='/rules' passHref><Nav.Link>Rules</Nav.Link></Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

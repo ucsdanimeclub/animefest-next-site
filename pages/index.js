@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Container, ListGroup } from 'react-bootstrap'
+import Link from 'next/link'
 // import Flicking from "@egjs/react-flicking"
 
 
@@ -12,36 +13,39 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Container fluid className="pt-5 p-5 text-center landing">
-        <h1 className="display-4">Fluid jumbotron</h1>
-        <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      <Container fluid className="p-5 text-center landing">
+        <h1 className="display-4">Animefest 2022</h1>
+        <p className="lead">February 12 at UC San Diego's Price Center</p>
       </Container>
 
-      <Container fluid className="w-100 p-5 mt-4 section" id="about">
+      <Container fluid className="p-4 text-center">
+        <ListGroup horizontal className="justify-content-center">
+        <ListGroup.Item className="bg-transparent"><img src="images/discord.svg" alt="Discord" width={50}></img></ListGroup.Item>
+        <Link href='https://twitter.com/ucsdanimeclub'><ListGroup.Item className="bg-transparent"><img src="images/twitter.svg" alt="Twitter" width={50}></img></ListGroup.Item></Link>
+        <Link href='https://www.facebook.com/groups/CALAnimageBeta/'><ListGroup.Item className="bg-transparent"><img src="images/facebook.png" alt="Facebook" width={50}></img></ListGroup.Item></Link>
+        <Link href='https://www.instagram.com/ucsdanimagebeta/'><ListGroup.Item className="bg-transparent"><img src="images/instagram.png" alt="Instagram" width={50}></img></ListGroup.Item></Link>
+        </ListGroup>
+        Contact us and get live event coverage on our social media!
+      </Container>
+
+      <Container fluid className="p-5 mb-4 section" id="about">
         <h1 className="text-left mb-4">About</h1>
         Welcome to Animefest 2022! For a taste of the con, take a look at our promo video of Animefest 2019:
       </Container>
 
-      <Container fluid className="w-100 p-5 mt-4 section" id="map">
+      <Container fluid className="p-5 mb-4 section" id="map">
         <h1 className="text-left mb-4">Map and Schedule</h1>
-        Map
+        Coming Soon!
       </Container>
 
-      <Container fluid className="w-100 p-5 mt-4 section" id="location">
+      <Container fluid className="p-5 mb-4 section" id="location">
         <h1 className="text-left mb-4">Location and Parking</h1>
-        Animefest is held in Price Center on UC San Diego's campus.
-        Specifically, our events will be held in the Price Center West and East Ballrooms, and the ERC, Marshall, Muir, and Revelle College rooms.
-        A map of Price Center can be found here.
-        <br/>
-        Parking is NOT free at UCSD. We recommend you find free parking off campus and walking to campus or taking the bus to campus.
-        For parking on campus, parking on Gilman is $X for full day parking, and YY and zz are $X for full day parking.
-        We apologize for the inconvenience.
+        Coming Soon!
       </Container>
 
-
-      <Container fluid className="w-100 p-5 mt-4 section" id="sponsors">
+      <Container fluid className="p-5 mb-4 section" id="sponsors">
         <h1 className="text-left mb-4">Sponsors</h1>
-        Thank You To Our Sponsors
+        Coming Soon!
       </Container>
     </div>
   )

@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import Button from 'react-bootstrap/Button'
+import {Container} from 'react-bootstrap'
+// import Button from 'react-bootstrap/Button'
 
 
 export default function Programming() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Animefest 2022</title>
         <meta name="description" content="February 12 at UC San Diego's Price Center" />
@@ -15,57 +16,47 @@ export default function Programming() {
         <h1 className="title">
           Programming
         </h1>
-
-        <p className="description">
-          Get started by editing{' '}
-          <code className="code">pages/index.js</code>
-        </p>
-
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-
-        <Button variant="outline-primary">Vote for the winners here!</Button>
       </main>
 
-      <footer className="footer">
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className="logo">
-            <img src="images/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      <Container fluid className="p-5 mb-4 section" id="main">
+        <h1 className="text-left mb-4">Main Stage</h1>
+        Coming Soon!
+      </Container>
+
+      <Container fluid className="p-5 mb-4 section" id="artist">
+        <h1 className="text-left mb-4">Artist Alley</h1>
+        Coming Soon!
+      </Container>
+
+      <Container fluid className="p-5 mb-4 section" id="vendors">
+        <h1 className="text-left mb-4">Vendors</h1>
+        Coming Soon!
+      </Container>
+
+      <Container fluid className="p-5 mb-4 section" id="panels">
+        <h1 className="text-left mb-4">Panels</h1>
+        Coming Soon!
+      </Container>
+
+      <Container fluid className="p-5 mb-4 section" id="cosplay">
+        <h1 className="text-left mb-4">Cosplay Masquerade</h1>
+        Coming Soon!
+      </Container>
+
+      <Container fluid className="p-5 mb-4 section" id="gaming">
+        <h1 className="text-left mb-4">Gaming</h1>
+        Coming Soon!
+      </Container>
+
+      <Container fluid className="p-5 mb-4 section" id="showings">
+        <h1 className="text-left mb-4">Showings</h1>
+        Coming Soon!
+      </Container>
+
+      <Container fluid className="p-5 mb-4 section" id="manga">
+        <h1 className="text-left mb-4">Manga Library</h1>
+        Coming Soon!
+      </Container>
     </div>
   )
 }
