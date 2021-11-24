@@ -1,22 +1,33 @@
 import Head from 'next/head'
+import { Col, Container, Row } from 'react-bootstrap'
 // import Button from 'react-bootstrap/Button'
 
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Animefest 2022</title>
         <meta name="description" content="February 12 at UC San Diego's Price Center" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <main className="main">
+      <Container fluid className="p-5 text-center landing">
+        <h1 className="display-4">Fluid jumbotron</h1>
+        <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </Container>
+
+      <Container fluid className="w-100 p-5 mt-4 section" id="about">
+        <h1 className="text-left mb-4">About</h1>
+        Welcome to Animefest 2022! For a taste of the con, take a look at our promo video of Animefest 2019:
+      </Container>
+
+      <main className="main">
         <h1 className="title">
           Home
         </h1>
 
-        <p className="description">
+        {/* <p className="description">
           Get started by editing{' '}
           <code className="code">pages/index.js</code>
         </p>
@@ -51,8 +62,8 @@ export default function Home() {
           </a>
         </div>
 
-        <Button variant="outline-primary">Vote for the winners here!</Button>
-      </main> */}
+        <Button variant="outline-primary">Vote for the winners here!</Button> */}
+      </main>
 
       {/* <footer className="footer">
         <a

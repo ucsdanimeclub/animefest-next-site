@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #0D0B16;
+  color: #FFFFFF;
 }
 
 a {
@@ -130,4 +132,16 @@ a {
     width: 100%;
     flex-direction: column;
   }
+}
+
+.landing {
+  background-color: rgb(150, 150, 150);
+}
+
+.section {
+  background-color: #2C2F3F;
+}
+
+.navbar {
+  background-color: #CA2721
 }

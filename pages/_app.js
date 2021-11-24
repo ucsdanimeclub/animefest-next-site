@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.css'
+import '../styles/theme.scss'
 import Layout from '../components/layout'
 
 
