@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Button from 'react-bootstrap/Button'
+// import Button from 'react-bootstrap/Button'
 
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="main">
+      {/* <main className="main">
         <h1 className="title">
           Home
         </h1>
@@ -52,9 +52,9 @@ export default function Home() {
         </div>
 
         <Button variant="outline-primary">Vote for the winners here!</Button>
-      </main>
+      </main> */}
 
-      <footer className="footer">
+      {/* <footer className="footer">
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -65,7 +65,7 @@ export default function Home() {
             <img src="images/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }

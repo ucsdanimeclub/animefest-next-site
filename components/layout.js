@@ -3,7 +3,6 @@ import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Container from 'react-bootstrap/Container'
 import Link from 'next/link'
-// import Footer from './footer'
 
 export default function Layout({ children }) {
   return (
@@ -36,7 +35,9 @@ export default function Layout({ children }) {
         </Container>
       </Navbar>
       <main>{children}</main>
-      {/* <Footer /> */}
+      <footer className="footer">
+        © 2022 Cal Animage Beta. All assets belong to their respective owners.
+      </footer>
     </>
   )
 }
