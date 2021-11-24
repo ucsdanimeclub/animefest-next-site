@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { Container, ListGroup } from 'react-bootstrap'
 import Link from 'next/link'
-import Image from 'next/image'
 // import Flicking from "@egjs/react-flicking"
 
 
