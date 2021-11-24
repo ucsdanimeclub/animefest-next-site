@@ -16,7 +16,7 @@ export default function Home() {
 
       <Container fluid className="p-5 text-center landing">
         <h1 className="display-4">Animefest 2022</h1>
-        <p className="lead">February 12 at UC San Diego's Price Center</p>
+        <p className="lead">February 12 at UC San Diego&apos;s Price Center</p>
       </Container>
 
       <Container fluid className="p-4 text-center">
