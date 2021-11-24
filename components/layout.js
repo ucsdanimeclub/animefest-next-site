@@ -7,7 +7,7 @@ import Link from 'next/link'
 export default function Layout({ children }) {
   return (
     <>
-      <Navbar className="navbar border-bottom" expand="lg" fixed="top">
+      <Navbar bg="light" expand="lg" sticky="top">
         <Container>
           <Link href="/" passHref><Navbar.Brand>ANIMEFEST</Navbar.Brand></Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -34,7 +34,6 @@ export default function Layout({ children }) {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <hr className="mt-0 mb-0 navbar"/>
       <main>{children}</main>
       <footer className="footer">
         © 2022 Cal Animage Beta. All assets belong to their respective owners.
