@@ -28,22 +28,22 @@ export default function Home() {
         Contact us and get live event coverage on our social media!
       </Container>
 
-      <Container fluid className="p-5 mb-4 section" id="about">
+      <Container fluid className="p-5 section" id="about">
         <h1 className="text-left mb-4">About</h1>
         Welcome to Animefest 2022! For a taste of the con, take a look at our promo video of Animefest 2019:
       </Container>
 
-      <Container fluid className="p-5 mb-4 section" id="map">
+      <Container fluid className="p-5 mt-4 section" id="map">
         <h1 className="text-left mb-4">Map and Schedule</h1>
         Coming Soon!
       </Container>
 
-      <Container fluid className="p-5 mb-4 section" id="location">
+      <Container fluid className="p-5 mt-4 section" id="location">
         <h1 className="text-left mb-4">Location and Parking</h1>
         Coming Soon!
       </Container>
 
-      <Container fluid className="p-5 mb-4 section" id="sponsors">
+      <Container fluid className="p-5 mt-4 section" id="sponsors">
         <h1 className="text-left mb-4">Sponsors</h1>
         Coming Soon!
       </Container>

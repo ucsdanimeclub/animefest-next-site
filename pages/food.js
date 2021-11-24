@@ -11,13 +11,11 @@ export default function Food() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="main">
-        <h1 className="title">
-          Food
-        </h1>
-      </main>
+      <Container fluid className="p-5 text-center landing">
+        <h1 className="display-4">Food</h1>
+      </Container>
 
-      <Container fluid className="p-5 mb-4 section">
+      <Container fluid className="p-5 mt-4 section">
         Coming Soon!
       </Container>
     </div>

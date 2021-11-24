@@ -11,13 +11,11 @@ export default function Rules() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="main">
-        <h1 className="title">
-          Rules
-        </h1>
-      </main>
+      <Container fluid className="p-5 text-center landing">
+        <h1 className="display-4">Rules</h1>
+      </Container>
 
-      <Container fluid className="p-5 mb-4 section">
+      <Container fluid className="p-5 mt-4 section">
         Coming Soon!
       </Container>
     </div>
