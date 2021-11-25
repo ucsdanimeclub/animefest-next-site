@@ -21,9 +21,9 @@ export default function Home() {
       <Container fluid className="p-4 text-center">
         <ListGroup horizontal className="justify-content-center">
         <ListGroup.Item className="bg-transparent"><img src="/images/discord.svg" alt="Discord" width={50}></img></ListGroup.Item>
-        <Link href="https://twitter.com/ucsdanimeclub"><ListGroup.Item className="bg-transparent"><img src="/images/twitter.svg" alt="Twitter" width={50}></img></ListGroup.Item></Link>
-        <Link href="https://www.facebook.com/groups/CALAnimageBeta/"><ListGroup.Item className="bg-transparent"><img src="/images/facebook.png" alt="Facebook" width={50}></img></ListGroup.Item></Link>
-        <Link href="https://www.instagram.com/ucsdanimagebeta/"><ListGroup.Item className="bg-transparent"><img src="/images/instagram.png" alt="Instagram" width={50}></img></ListGroup.Item></Link>
+        <ListGroup.Item className="bg-transparent"><Link href="https://twitter.com/ucsdanimeclub"><a><img src="/images/twitter.svg" alt="Twitter" width={50}></img></a></Link></ListGroup.Item>
+        <ListGroup.Item className="bg-transparent"><Link href="https://www.facebook.com/groups/CALAnimageBeta/"><a><img src="/images/facebook.png" alt="Facebook" width={50}></img></a></Link></ListGroup.Item>
+        <ListGroup.Item className="bg-transparent"><Link href="https://www.instagram.com/ucsdanimagebeta/"><a><img src="/images/instagram.png" alt="Instagram" width={50}></img></a></Link></ListGroup.Item>
         </ListGroup>
         Contact us and get live event coverage on our social media!
       </Container>
