@@ -21,13 +21,8 @@ export default function Programming() {
         Coming Soon!
       </Container>
 
-      <Container fluid className="p-5 mt-4 section" id="artist">
-        <h1 className="text-left mb-4">Artist Alley</h1>
-        Coming Soon!
-      </Container>
-
-      <Container fluid className="p-5 mt-4 section" id="vendors">
-        <h1 className="text-left mb-4">Vendors</h1>
+      <Container fluid className="p-5 mt-4 section" id="exhibitor">
+        <h1 className="text-left mb-4">Exhibitor Hall</h1>
         Coming Soon!
       </Container>
 

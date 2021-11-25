@@ -23,8 +23,7 @@ export default function Layout({ children }) {
               <Link href='/food' passHref><Nav.Link>Food</Nav.Link></Link>
               <NavDropdown title="Programming" id="basic-nav-dropdown">
                 <Link href="/programming#main" passHref><NavDropdown.Item>Main Stage</NavDropdown.Item></Link>
-                <Link href="/programming#artist" passHref><NavDropdown.Item>Artist Alley</NavDropdown.Item></Link>
-                <Link href="/programming#vendors" passHref><NavDropdown.Item>Vendors</NavDropdown.Item></Link>
+                <Link href="/programming#exhibitor" passHref><NavDropdown.Item>Exhibitor Hall</NavDropdown.Item></Link>
                 <Link href="/programming#panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
                 <Link href="/programming#cosplay" passHref><NavDropdown.Item>Cosplay Masquerade</NavDropdown.Item></Link>
                 <Link href="/programming#gaming" passHref><NavDropdown.Item>Gaming</NavDropdown.Item></Link>
