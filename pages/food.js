@@ -4,7 +4,7 @@ import {Container} from 'react-bootstrap'
 
 export default function Food() {
   return (
-    <div>
+    <>
       <Head>
         <title>Animefest 2022</title>
         <meta name="description" content="February 12 at UC San Diego's Price Center" />
@@ -18,6 +18,6 @@ export default function Food() {
       <Container fluid className="p-5 mt-4 section">
         Coming Soon!
       </Container>
-    </div>
+    </>
   )
 }

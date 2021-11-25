@@ -37,7 +37,7 @@ export default function Layout({ children }) {
       </Navbar>
       <main>{children}</main>
       <footer className="footer">
-        <Container>
+        <Container fluid className="text-center">
           © 2022 Cal Animage Beta. All assets belong to their respective owners.
         </Container>
       </footer>
