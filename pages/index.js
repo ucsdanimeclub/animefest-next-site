@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { Container, ListGroup } from 'react-bootstrap'
 import Link from 'next/link'
 import Flicking from "@egjs/react-flicking"
-import "@egjs/react-flicking/dist/flicking.css"
 
 
 export default function Home() {
