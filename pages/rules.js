@@ -11,7 +11,7 @@ export default function Rules() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Container fluid className="p-5 text-center landing">
+      <Container fluid className="p-5 text-center jumbo-display">
         <h1 className="display-4">Rules</h1>
       </Container>
 

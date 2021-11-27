@@ -3,6 +3,7 @@ import { Container, ListGroup, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Flicking from "@egjs/react-flicking"
 import MyImage from "../components/myimage"
+import BackgroundImage from "../components/backgroundimage"
 
 
 export default function Home() {
@@ -14,17 +15,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Container fluid className="p-5 text-center landing">
-        <h1 className="display-4">Animefest 2022</h1>
-        <p className="lead">February 12 at UC San Diego&apos;s Price Center</p>
+
+      <Container fluid className="text-center">
+        <BackgroundImage src="images/landing.jpg" className="landing">
+          <h1 className="display-4">Animefest 2022</h1>
+          <p className="lead">February 12 at UC San Diego&apos;s Price Center</p>
+        </BackgroundImage>
       </Container>
+
 
       <Container fluid className="p-4 text-center">
         <ListGroup horizontal className="justify-content-center">
-          <ListGroup.Item className="bg-transparent"><MyImage src="images/discord.svg" alt="Discord" width={50}/></ListGroup.Item>
-          <ListGroup.Item className="bg-transparent"><Link href="https://twitter.com/ucsdanimeclub"><a><MyImage src="images/twitter.svg" alt="Twitter" width={50}/></a></Link></ListGroup.Item>
-          <ListGroup.Item className="bg-transparent"><Link href="https://www.facebook.com/groups/CALAnimageBeta/"><a><MyImage src="images/facebook.png" alt="Facebook" width={50}/></a></Link></ListGroup.Item>
-          <ListGroup.Item className="bg-transparent"><Link href="https://www.instagram.com/ucsdanimagebeta/"><a><MyImage src="images/instagram.png" alt="Instagram" width={50}/></a></Link></ListGroup.Item>
+          <ListGroup.Item className="bg-transparent"><MyImage src="images/discord.svg" alt="Discord" height={50} /></ListGroup.Item>
+          <ListGroup.Item className="bg-transparent"><Link href="https://twitter.com/ucsdanimeclub"><a><MyImage src="images/twitter.svg" alt="Twitter" height={50} /></a></Link></ListGroup.Item>
+          <ListGroup.Item className="bg-transparent"><Link href="https://www.facebook.com/groups/CALAnimageBeta/"><a><MyImage src="images/facebook.png" alt="Facebook" height={50} /></a></Link></ListGroup.Item>
+          <ListGroup.Item className="bg-transparent"><Link href="https://www.instagram.com/ucsdanimagebeta/"><a><MyImage src="images/instagram.png" alt="Instagram" height={50} /></a></Link></ListGroup.Item>
         </ListGroup>
         Contact us and get live event coverage on our social media!
       </Container>

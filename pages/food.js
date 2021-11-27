@@ -11,7 +11,7 @@ export default function Food() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Container fluid className="p-5 text-center landing">
+      <Container fluid className="p-5 text-center jumbo-display">
         <h1 className="display-4">Food</h1>
       </Container>
 

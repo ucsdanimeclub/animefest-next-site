@@ -133,8 +133,12 @@ a {
   }
 }
 
-.landing {
+.jumbo-display {
   background-color: rgb(150, 150, 150);
+}
+
+.landing {
+  background-size: cover;
 }
 
 .section {
