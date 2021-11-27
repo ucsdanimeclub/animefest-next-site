@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Container, ListGroup, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Flicking from "@egjs/react-flicking"
+import MyImage from "../components/myimage"
 
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
 
       <Container fluid className="p-4 text-center">
         <ListGroup horizontal className="justify-content-center">
-          <ListGroup.Item className="bg-transparent"><img src="/images/discord.svg" alt="Discord" width={50}></img></ListGroup.Item>
+          <ListGroup.Item className="bg-transparent"><MyImage src="images/discord.svg" alt="Discord" width={50}/></ListGroup.Item>
           <ListGroup.Item className="bg-transparent"><Link href="https://twitter.com/ucsdanimeclub"><a><img src="/images/twitter.svg" alt="Twitter" width={50}></img></a></Link></ListGroup.Item>
           <ListGroup.Item className="bg-transparent"><Link href="https://www.facebook.com/groups/CALAnimageBeta/"><a><img src="/images/facebook.png" alt="Facebook" width={50}></img></a></Link></ListGroup.Item>
           <ListGroup.Item className="bg-transparent"><Link href="https://www.instagram.com/ucsdanimagebeta/"><a><img src="/images/instagram.png" alt="Instagram" width={50}></img></a></Link></ListGroup.Item>
