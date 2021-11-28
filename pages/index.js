@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Container, ListGroup, Row, Col } from 'react-bootstrap'
+import { Container, ListGroup, Row, Col, Ratio } from 'react-bootstrap'
 import Link from 'next/link'
 import Flicking from "@egjs/react-flicking"
 import MyImage from "../components/myimage"
@@ -18,7 +18,7 @@ export default function Home() {
 
       <Container fluid className="text-center vh-100 p-0">
         <BackgroundImage src="images/landing.jpg" className="landing">
-          <Row className="align-items-center h-100">
+          <Row className="align-items-center h-100 g-0">
             <Col>
               <h1 className="display-4">Animefest 2022</h1>
               <p className="lead">February 12 at UC San Diego&apos;s Price Center</p>
@@ -42,8 +42,10 @@ export default function Home() {
         <h1 className="text-left mb-4">About</h1>
         Welcome to Animefest 2022! For a taste of the con, take a look at our promo video of Animefest 2019:
         <Row>
-          <Col className="text-center">
-            <iframe className="mt-4" width="560" height="315" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+          <Col>
+            <Ratio aspectRatio="16x9">
+              <iframe className="mt-4 video-player" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+            </Ratio>
           </Col>
         </Row>
         {/* <Flicking circular={true} moveType='freeScroll' bound={true}>
