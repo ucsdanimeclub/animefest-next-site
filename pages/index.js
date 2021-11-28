@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
 
-      <Container fluid className="text-center">
+      <Container fluid className="text-center vh-100 p-0">
         <BackgroundImage src="images/landing.jpg" className="landing">
           <h1 className="display-4">Animefest 2022</h1>
           <p className="lead">February 12 at UC San Diego&apos;s Price Center</p>
