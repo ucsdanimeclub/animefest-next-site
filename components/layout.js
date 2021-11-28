@@ -22,7 +22,6 @@ export default function Layout({ children }) {
                 <Link href='/#location' passHref><NavDropdown.Item>Location and Parking</NavDropdown.Item></Link>
                 <Link href='/#sponsors' passHref><NavDropdown.Item>Sponsors</NavDropdown.Item></Link>
               </NavDropdown>
-              <Link href='/food' passHref><Nav.Link>Food</Nav.Link></Link>
               <NavDropdown title="Programming" id="basic-nav-dropdown">
                 <Link href='/programming' passHref><NavDropdown.Item>Programming</NavDropdown.Item></Link>
                 <NavDropdown.Divider />
@@ -34,6 +33,7 @@ export default function Layout({ children }) {
                 <Link href="/programming#showings" passHref><NavDropdown.Item>Showings</NavDropdown.Item></Link>
                 <Link href="/programming#manga" passHref><NavDropdown.Item>Manga Library</NavDropdown.Item></Link>
               </NavDropdown>
+              <Link href='/food' passHref><Nav.Link>Food</Nav.Link></Link>
               <Link href='/rules' passHref><Nav.Link>Rules</Nav.Link></Link>
             </Nav>
           </Navbar.Collapse>
