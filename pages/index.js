@@ -20,7 +20,7 @@ export default function Home() {
       </Container>
 
       <Container fluid className="p-4 text-center">
-        <ListGroup horizontal className="justify-content-center">
+        <ListGroup horizontal className="justify-content-center mb-2">
           <ListGroup.Item className="bg-transparent"><MyImage src="images/discord.svg" alt="Discord" height={50} /></ListGroup.Item>
           <ListGroup.Item className="bg-transparent"><Link href="https://twitter.com/ucsdanimeclub"><a><MyImage src="images/twitter.svg" alt="Twitter" height={50} /></a></Link></ListGroup.Item>
           <ListGroup.Item className="bg-transparent"><Link href="https://www.facebook.com/groups/CALAnimageBeta/"><a><MyImage src="images/facebook.png" alt="Facebook" height={50} /></a></Link></ListGroup.Item>
