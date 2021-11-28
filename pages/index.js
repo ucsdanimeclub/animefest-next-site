@@ -9,13 +9,6 @@ import BackgroundImage from "../components/backgroundimage"
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Animefest 2022</title>
-        <meta name="description" content="February 12 at UC San Diego's Price Center" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
-      </Head>
-
-
       <Container fluid className="text-center vh-100 p-0">
         <BackgroundImage src="images/landing.jpg" className="landing">
           <Row className="align-items-center h-100 g-0">
@@ -41,11 +34,11 @@ export default function Home() {
       <Container fluid className="p-5 section" id="about">
         <h1 className="text-left mb-4">About</h1>
         Welcome to Animefest 2022! For a taste of the con, take a look at our recap video of Animefest 2019:
-        <Row className="text-center">
-          <Col>
-                <iframe className="mt-4 video-player" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
-          </Col>
-        </Row>
+        <div className="video-player mx-auto">
+          <Ratio aspectRatio="16x9">
+            <iframe className="mt-4" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+          </Ratio>
+        </div>
         {/* <Flicking circular={true} moveType='freeScroll' bound={true}>
           <span className="mr-2">1</span>
           <span className="mr-2">2</span>
