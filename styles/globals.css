@@ -160,3 +160,9 @@ a {
   max-width: 500px;
   max-height: auto;
 }
+
+.border-stroke {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #313D44;
+}
