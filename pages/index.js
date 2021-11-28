@@ -1,6 +1,5 @@
 import { Container, ListGroup, Row, Col, Ratio } from 'react-bootstrap'
 import Link from 'next/link'
-import Flicking from "@egjs/react-flicking"
 import MyImage from "../components/myimage"
 import BackgroundImage from "../components/backgroundimage"
 
@@ -37,13 +36,6 @@ export default function Home() {
             <iframe className="mt-4" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
           </Ratio>
         </div>
-        {/* <Flicking circular={true} moveType='freeScroll' bound={true}>
-          <span className="mr-2">1</span>
-          <span className="mr-2">2</span>
-          <span className="mr-2">3</span>
-          <span className="mr-2">4</span>
-          <span className="mr-2">5</span>
-        </Flicking> */}
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="map">
