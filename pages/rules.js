@@ -13,7 +13,7 @@ export default function Rules() {
         <ol className="mb-5">
           <li><p>Cal Animage Beta and UC San Diego reserves the right to remove anyone not in compliance of the rules to their discretion.</p></li>
           <li><p>All university policies and regulations apply to attendees of Animefest.</p></li>
-          <li><p><b>All attendees are mandated to wear a mask.</b></p></li>
+          <b><li><p>All attendees are mandated to wear a mask.</p></li></b>
           <li><p>Attendees must respect common sense rules for public behavior, personal interaction, common courtesy, and respect for private property. Harassing or offensive behavior will not be tolerated. If your behavior becomes problematic,
             security will have to intervene to dispute the issue.</p></li>
           <li><p>Attendees are prohibited from directly handling the console setups. Any attendee seen tampering or otherwise damaging Animefest property are liable for repairs and/or replacements.
