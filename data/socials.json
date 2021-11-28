@@ -1,0 +1,23 @@
+{
+    "socials": [
+        {
+            "name": "Discord",
+            "icon": "images/discord.svg"
+        },
+        {
+            "name": "Twitter",
+            "icon": "images/twitter.svg",
+            "url": "https://twitter.com/ucsdanimeclub"
+        },
+        {
+            "name": "Facebook",
+            "icon": "images/facebook.png",
+            "url": "https://www.facebook.com/groups/CALAnimageBeta/"
+        },
+        {
+            "name": "Instagram",
+            "icon": "images/instagram.png",
+            "url": "https://www.instagram.com/ucsdanimagebeta/"
+        }
+    ]
+}
