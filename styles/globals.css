@@ -155,6 +155,11 @@ a {
   max-width: 560px;
 }
 
+.map {
+  max-height: 450px;
+  max-width: 600px;
+}
+
 .carousel {
   max-width: 500px;
   max-height: auto;
