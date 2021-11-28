@@ -18,8 +18,12 @@ export default function Home() {
 
       <Container fluid className="text-center vh-100 p-0">
         <BackgroundImage src="images/landing.jpg" className="landing">
-          <h1 className="display-4">Animefest 2022</h1>
-          <p className="lead">February 12 at UC San Diego&apos;s Price Center</p>
+          <Row className="align-items-center h-100">
+            <Col>
+              <h1 className="display-4">Animefest 2022</h1>
+              <p className="lead">February 12 at UC San Diego&apos;s Price Center</p>
+            </Col>
+          </Row>
         </BackgroundImage>
       </Container>
 
