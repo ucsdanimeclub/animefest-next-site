@@ -28,7 +28,7 @@ export default function Rules() {
           <li><p>Staying home if an attendee feels any sickness or symptoms of COVID-19 before the festival.</p></li>
           <li><p>Maintaining 6 feet of social distancing whenever possible.</p></li>
           <li><p>Cover coughs and sneezes and wash hands.</p></li>
-          <li><p>Enable contact tracing: On Android Google Play, contact tracing apps can be downloaded <Link href="https://www.sandiegocounty.gov/content/sdc/dmpr/gfx/appcenter/index.html">here</Link>. On iPhone, opt-in to Exposure Notifications in device settings.</p></li>
+          <li><p>Enable contact tracing: On Android Google Play, contact tracing apps for your state can be downloaded following the link <Link href="https://www.google.com/covid19/exposurenotifications/select/">here</Link>. On iPhone, opt-in to Exposure Notifications in device settings.</p></li>
         </ol>
       </Container>
     </>
