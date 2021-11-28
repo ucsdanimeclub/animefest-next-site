@@ -31,7 +31,7 @@ export default function Home() {
       <Container fluid className="p-5 section" id="about">
         <h1 className="text-left mb-4">About</h1>
         <p>Animefest 2022, a time and place where animanga lovers, artists, and entertainers celebrate what we love! On February 12, 2022, participants go to the Price Center at UCSD to attend discussion and workshop panels, buy the best artwork,
-          and check out your favorite manga in our manga library! And of course, there will be cosplays, an ani-movie event, as well as festival games and video games will be available, all for some otaku fun~</p>
+          and check out your favorite manga in our manga library! And of course, there will be cosplays, an ani-movie event, as well as festival games and video games will be available, all for some otaku fun.</p>
         <p>For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
         <div className="video-player mx-auto">
           <Ratio aspectRatio="16x9">
@@ -130,7 +130,7 @@ export default function Home() {
         <p>Animefest is held at the Price Center at UC San Diego. Specific rooms coming soon!</p>
         <div className="map mx-auto">
           <Ratio aspectRatio="4x3">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.697394192468!2d-117.2383838856308!3d32.87972498605018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c46a524fb9%3A0x68571efb243bc289!2sPrice%20Center%2C%20La%20Jolla%2C%20CA%2092093!5e0!3m2!1sen!2sus!4v1638064542514!5m2!1sen!2sus" width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
+            <iframe className="mt-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.697394192468!2d-117.2383838856308!3d32.87972498605018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c46a524fb9%3A0x68571efb243bc289!2sPrice%20Center%2C%20La%20Jolla%2C%20CA%2092093!5e0!3m2!1sen!2sus!4v1638064542514!5m2!1sen!2sus" width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
           </Ratio>
         </div>
       </Container>

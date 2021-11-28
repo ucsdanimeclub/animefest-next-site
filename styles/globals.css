@@ -146,10 +146,6 @@ a {
   background-color: #2C2F3F;
 }
 
-.navbar-active {
-  background-color: #CA2721;
-}
-
 .video-player {
   max-height: 315px;
   max-width: 560px;
