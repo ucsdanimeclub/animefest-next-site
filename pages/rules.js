@@ -28,7 +28,7 @@ export default function Rules() {
           <li><p>Staying home if an attendee feels any sickness or symptoms of COVID-19 before the festival.</p></li>
           <li><p>Maintaining 6 feet of social distancing whenever possible.</p></li>
           <li><p>Cover coughs and sneezes and wash hands.</p></li>
-          <li><p>Enable contact tracing: On Android, contact tracing from Google can be enabled in your device'&apos;s settings, or downloaded as an app for your state at the link <Link href="https://support.google.com/android/answer/9888358?hl=en">here</Link>. On iPhone, opt-in to Exposure Notifications in your device&apos;s settings.</p></li>
+          <li><p>Enable contact tracing: On Android, contact tracing from Google can be enabled in your device&apos;s settings, or downloaded as an app for your state at the link <Link href="https://support.google.com/android/answer/9888358?hl=en">here</Link>. On iPhone, opt-in to Exposure Notifications in your device&apos;s settings.</p></li>
         </ol>
       </Container>
     </>
