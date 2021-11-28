@@ -1,4 +1,4 @@
-import { Container, ListGroup, Row, Col, Ratio } from 'react-bootstrap'
+import { Container, ListGroup, Row, Col, Ratio, Carousel } from 'react-bootstrap'
 import Link from 'next/link'
 import MyImage from "../components/myimage"
 import BackgroundImage from "../components/backgroundimage"
@@ -36,6 +36,91 @@ export default function Home() {
             <iframe className="mt-4" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
           </Ratio>
         </div>
+        <Carousel className="carousel mt-5 mx-auto">
+          <Carousel.Item>
+            <MyImage
+              className="d-block w-100"
+              src="images/main_stage.png"
+              alt="Main Stage slide"
+            />
+            <Carousel.Caption>
+              <h3>Main Stage</h3>
+              <p>From Cosplay Masquerade to dance performances to Intermission Orchestra, all of our main events are held on the Main Stage!</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <MyImage
+              className="d-block w-100"
+              src="images/exhibitor_hall.png"
+              alt="Exhibitor Hall slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Exhibitor Hall</h3>
+              <p>Browse fanmade merchandise drawn or designed by local artists in the Artist Alley, or check out items sold by industry vendors.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <MyImage
+              className="d-block w-100"
+              src="images/panels.png"
+              alt="Panels slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Panels</h3>
+              <p>There are both informational and interactive panels lined up this year for your enjoyment run by students, alumni, and professionals. Check them out!</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <MyImage
+              className="d-block w-100"
+              src="images/cosplay_masquerade.png"
+              alt="Cosplay Masquerade slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Cosplay Masquerade</h3>
+              <p>Register for the Cosplay Masquerade Contest for the chance at some sweet prizes, and vote for the winners here.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <MyImage
+              className="d-block w-100"
+              src="images/gaming.png"
+              alt="Gaming slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Gaming</h3>
+              <p>We have both video games and table top games available to play throughout the day as well as tournaments with prizes!</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <MyImage
+              className="d-block w-100"
+              src="images/showings.png"
+              alt="Showings slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Showings</h3>
+              <p>Movie showings will be held in the Price Center Theater.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <MyImage
+              className="d-block w-100"
+              src="images/manga_library.png"
+              alt="Manga Library slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Manga Library</h3>
+              <p>Relax and check out a book from Cal Animage Beta&apos;s library of donated manga.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="map">
