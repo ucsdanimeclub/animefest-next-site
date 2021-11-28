@@ -15,6 +15,8 @@ export default function Layout({ children }) {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <NavDropdown title="Home" id="basic-nav-dropdown">
+                <Link href='/' passHref><NavDropdown.Item>Home</NavDropdown.Item></Link>
+                <NavDropdown.Divider />
                 <Link href='/#about' passHref><NavDropdown.Item>About</NavDropdown.Item></Link>
                 <Link href='/#map' passHref><NavDropdown.Item>Map and Schedule</NavDropdown.Item></Link>
                 <Link href='/#location' passHref><NavDropdown.Item>Location and Parking</NavDropdown.Item></Link>
@@ -22,6 +24,8 @@ export default function Layout({ children }) {
               </NavDropdown>
               <Link href='/food' passHref><Nav.Link>Food</Nav.Link></Link>
               <NavDropdown title="Programming" id="basic-nav-dropdown">
+                <Link href='/programming' passHref><NavDropdown.Item>Programming</NavDropdown.Item></Link>
+                <NavDropdown.Divider />
                 <Link href="/programming#main" passHref><NavDropdown.Item>Main Stage</NavDropdown.Item></Link>
                 <Link href="/programming#exhibitor" passHref><NavDropdown.Item>Exhibitor Hall</NavDropdown.Item></Link>
                 <Link href="/programming#panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
