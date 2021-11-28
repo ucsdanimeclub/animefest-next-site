@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import { Container, ListGroup, Row, Col, Ratio } from 'react-bootstrap'
 import Link from 'next/link'
 import Flicking from "@egjs/react-flicking"
@@ -19,7 +18,6 @@ export default function Home() {
           </Row>
         </BackgroundImage>
       </Container>
-
 
       <Container fluid className="p-4 text-center">
         <ListGroup horizontal className="justify-content-center">
