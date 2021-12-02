@@ -182,3 +182,11 @@ body {
   font-size: 12pt;
   font-weight: 300;
 }
+
+.highlight {
+  color: #69F1F7
+}
+
+.button-color {
+  color: #CA2721
+}
