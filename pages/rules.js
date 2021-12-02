@@ -10,6 +10,10 @@ export default function Rules() {
       </Container>
 
       <Container fluid className="p-5 mt-4 section">
+        <h4 className="text-center title-text mb-5">By attending Animefest 2022, you agree to have read and will abide by 
+          our detailed rules:
+        </h4>
+        {/* <h4 className="text-left title-text mb-4">Animefest Rules</h4> */}
         <ol className="mb-5">
           <li><p>Cal Animage Beta and UC San Diego reserves the right to remove anyone not in compliance of the rules to their discretion.</p></li>
           <li><p>All university policies and regulations apply to attendees of Animefest.</p></li>
