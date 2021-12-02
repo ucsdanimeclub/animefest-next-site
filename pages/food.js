@@ -8,7 +8,7 @@ export default function Food() {
         <h1 className="display-4 mb-0">Food</h1>
       </Container>
 
-      <Container fluid className="p-5 mt-4 section">
+      <Container fluid className="p-5 section">
         Coming Soon!
       </Container>
     </>

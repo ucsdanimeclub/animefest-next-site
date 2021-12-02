@@ -9,7 +9,7 @@ export default function Rules() {
         <h1 className="display-4 mb-0">Rules</h1>
       </Container>
 
-      <Container fluid className="p-5 mt-4 section">
+      <Container fluid className="p-5 section">
         <h4 className="text-center title-text mb-5">By attending Animefest 2022, you agree to have read and will abide by 
           our detailed rules:
         </h4>

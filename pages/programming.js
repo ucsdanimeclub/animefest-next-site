@@ -9,7 +9,7 @@ export default function Programming() {
         <h1 className="display-4 mb-0">Programming</h1>
       </Container>
 
-      <Container fluid className="p-5 mt-4 section" id="main">
+      <Container fluid className="p-5 section" id="main">
         <h1 className="text-left mb-4 display-text">Main Stage</h1>
         Coming Soon!
       </Container>
@@ -22,7 +22,7 @@ export default function Programming() {
       <Container fluid className="p-5 mt-4 section" id="panels">
         <h1 className="text-left mb-4 display-text">Panels</h1>
         <p className="mb-0">The best place for learning more not just about anime, but passion and culture as well! Interesting discussion topics will be present ranging from LGBTIA+ identity all the way to origami will be available for participation at your discretion! 
-          Some panels will even have workshops for a hands-on experience!</p>
+          Some panels will even have workshops for a hands-on experience! More details coming soon.</p>
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="cosplay">
@@ -40,7 +40,7 @@ export default function Programming() {
         <p className="mb-0">For this year&apos;s animated film, we will be showcasing famous Japanese film director Shinkai Makoto&apos;s &quot;Weathering With You&quot;, or Tenki no Ko. 
           Following its predecessor, Kimi no Nawa, Tenki no Ko, is a modern romance film excelling in audiovisuals, emotional drama, and a picturesque perspective on climate change in Tokyo. 
           After selling millions of tickets in 2019, the film won Animaton of the Year award at the 43rd annual Japan Academy Prize Ceremony as well as the Social Impact Award at the 23rd Japan Media Arts Festival. 
-          In other words, it is a must-see!</p>
+          In other words, it&apos;s a must-see!</p>
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="manga">
