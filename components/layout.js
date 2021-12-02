@@ -10,7 +10,7 @@ export default function Layout({ children }) {
       {/* Sticky top is not good for legacy, consider fixing the position instead (but that comes with covering up the page) */}
       <Navbar bg="light" expand="lg" sticky="top">
         <Container>
-          <Link href="/" passHref><Navbar.Brand>ANIMEFEST</Navbar.Brand></Link>
+          <Link href="/" passHref><Navbar.Brand className="display-text">ANIMEFEST</Navbar.Brand></Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -40,7 +40,7 @@ export default function Layout({ children }) {
         </Container>
       </Navbar>
       <main>{children}</main>
-      <footer className="footer">
+      <footer className="footer caption-text">
         <Container fluid className="text-center">
           &copy; 2022 Cal Animage Beta. All assets belong to their respective owners.
         </Container>

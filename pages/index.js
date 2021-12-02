@@ -1,5 +1,4 @@
-import { Container, ListGroup, Row, Col, Ratio, Carousel } from 'react-bootstrap'
-import Link from 'next/link'
+import { Container, Row, Col, Ratio, Carousel } from 'react-bootstrap'
 import MyImage from "../components/myimage"
 import BackgroundImage from "../components/backgroundimage"
 import Social from "../components/social"
@@ -20,11 +19,11 @@ export default function Home() {
       </Container>
 
       <Social>
-        Contact us and get live event coverage on our social media!
+        <p className="mb-0 caption-text">Contact us and get live event coverage on our social media!</p>
       </Social>
 
       <Container fluid className="p-5 section" id="about">
-        <h1 className="text-left mb-4">About</h1>
+        <h1 className="text-left mb-4 display-text">About</h1>
         <p>Animefest 2022, a time and place where animanga lovers, artists, and entertainers celebrate what we love! On February 12, 2022, participants go to the Price Center at UCSD to attend discussion and workshop panels, buy the best artwork,
           and check out your favorite manga in our manga library! And of course, there will be cosplays, an ani-movie event, as well as festival games and video games will be available, all for some otaku fun.</p>
         <p>For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
@@ -121,12 +120,12 @@ export default function Home() {
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="map">
-        <h1 className="text-left mb-4">Map and Schedule</h1>
+        <h1 className="text-left mb-4 display-text">Map and Schedule</h1>
         Coming Soon!
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="location">
-        <h1 className="text-left mb-4">Location and Parking</h1>
+        <h1 className="text-left mb-4 display-text">Location and Parking</h1>
         <p>Animefest is held at the Price Center at UC San Diego. Specific rooms coming soon!</p>
         <div className="map mx-auto">
           <Ratio aspectRatio="4x3">
@@ -136,7 +135,7 @@ export default function Home() {
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="sponsors">
-        <h1 className="text-left mb-4">Sponsors</h1>
+        <h1 className="text-left mb-4 display-text">Sponsors</h1>
         Coming Soon!
       </Container>
     </>

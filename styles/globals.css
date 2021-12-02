@@ -6,6 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
   background-color: #0D0B16;
   color: #FFFFFF;
+  font-size: 16pt;
 }
 
 a {
@@ -134,7 +135,7 @@ a {
 }
 
 .jumbo-display {
-  background-color: rgb(150, 150, 150);
+  background-color: #0D0B16;
 }
 
 .landing {
@@ -165,4 +166,19 @@ a {
   border-style: solid;
   border-width: 2px;
   border-color: #313D44;
+}
+
+.display-text {
+  font-size: 32pt;
+  font-weight: 900;
+}
+
+.title-text {
+  font-size: 22pt;
+  font-weight: 600;
+}
+
+.caption-text {
+  font-size: 12pt;
+  font-weight: 300;
 }
