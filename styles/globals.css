@@ -6,7 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
   background-color: #0D0B16;
   color: #FFFFFF;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 /* a {
@@ -169,12 +169,12 @@ body {
 }
 
 .display-text {
-  font-size: 32pt;
+  font-size: 30pt;
   font-weight: 900;
 }
 
 .title-text {
-  font-size: 22pt;
+  font-size: 20pt;
   font-weight: 600;
 }
 
