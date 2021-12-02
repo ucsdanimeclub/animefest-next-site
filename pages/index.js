@@ -41,7 +41,7 @@ export default function Home() {
             />
             <Carousel.Caption>
               <h3>Main Stage</h3>
-              <p>From Cosplay Masquerade to dance performances to Intermission Orchestra, all of our main events are held on the Main Stage!</p>
+              <p>From Cosplay Masquerade to dance and music performances, all of our main events are held on the Main Stage!</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>

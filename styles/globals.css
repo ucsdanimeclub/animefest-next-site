@@ -9,16 +9,16 @@ body {
   font-size: 16pt;
 }
 
-a {
+/* a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
 * {
   box-sizing: border-box;
 }
 
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
@@ -29,7 +29,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .footer {
   display: flex;
@@ -40,7 +40,7 @@ a {
   align-items: center;
 }
 
-.footer a {
+/* .footer a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,7 +132,7 @@ a {
     width: 100%;
     flex-direction: column;
   }
-}
+} */
 
 .jumbo-display {
   background-color: #0D0B16;
