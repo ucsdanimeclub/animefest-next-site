@@ -25,7 +25,7 @@ export default function Home() {
       <Container fluid className="p-5 section" id="about">
         <h1 className="text-left mb-4 display-text">About</h1>
         <p>Animefest 2022, a time and place where animanga lovers, artists, and entertainers celebrate what we love! On February 12, 2022, participants go to the Price Center at UCSD to attend discussion and workshop panels, buy the best artwork,
-          and check out your favorite manga in our manga library! And of course, there will be cosplays, an ani-movie event, as well as festival games and video games will be available, all for some otaku fun.</p>
+          and check out your favorite manga in our manga library! And of course, there will be cosplays, festival games, and video games&mdash;all for some otaku fun.</p>
         <p>For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
         <div className="video-player mx-auto">
           <Ratio aspectRatio="16x9">
