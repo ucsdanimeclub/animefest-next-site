@@ -20,7 +20,7 @@ export default function Layout({ children }) {
                 <Link href='/#about' passHref><NavDropdown.Item>About</NavDropdown.Item></Link>
                 <Link href='/#map' passHref><NavDropdown.Item>Map and Schedule</NavDropdown.Item></Link>
                 <Link href='/#location' passHref><NavDropdown.Item>Location and Parking</NavDropdown.Item></Link>
-                <Link href='/#sponsors' passHref><NavDropdown.Item>Sponsors</NavDropdown.Item></Link>
+                {/* <Link href='/#sponsors' passHref><NavDropdown.Item>Sponsors</NavDropdown.Item></Link> */}
               </NavDropdown>
               <NavDropdown title="Programming" id="basic-nav-dropdown">
                 <Link href='/programming' passHref><NavDropdown.Item>Programming</NavDropdown.Item></Link>
@@ -30,7 +30,7 @@ export default function Layout({ children }) {
                 <Link href="/programming#panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
                 <Link href="/programming#cosplay" passHref><NavDropdown.Item>Cosplay Masquerade</NavDropdown.Item></Link>
                 <Link href="/programming#gaming" passHref><NavDropdown.Item>Gaming</NavDropdown.Item></Link>
-                <Link href="/programming#showings" passHref><NavDropdown.Item>Showings</NavDropdown.Item></Link>
+                {/* <Link href="/programming#showings" passHref><NavDropdown.Item>Showings</NavDropdown.Item></Link> */}
                 <Link href="/programming#manga" passHref><NavDropdown.Item>Manga Library</NavDropdown.Item></Link>
               </NavDropdown>
               <Link href='/food' passHref><Nav.Link>Food</Nav.Link></Link>

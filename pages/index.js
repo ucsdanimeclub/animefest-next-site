@@ -134,10 +134,10 @@ export default function Home() {
         </div>
       </Container>
 
-      <Container fluid className="p-5 mt-4 section" id="sponsors">
+      {/* <Container fluid className="p-5 mt-4 section" id="sponsors">
         <h1 className="text-left mb-4 display-text">Sponsors</h1>
         Coming Soon!
-      </Container>
+      </Container> */}
     </>
   )
 }
