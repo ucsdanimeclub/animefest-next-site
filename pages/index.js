@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Container fluid className="text-center vh-100 p-0">
         <BackgroundImage src="images/landing.jpg" className="landing">
-          <Row className="align-items-center h-100 g-0">
+          <Row className="align-items-center h-100 g-0 glow-text">
             <Col>
               <h1 className="display-4">Animefest 2022</h1>
               <p className="lead">February 12 at UC San Diego&apos;s Price Center</p>
@@ -32,7 +32,7 @@ export default function Home() {
             <iframe className="mt-2 border-stroke" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
           </Ratio>
         </div>
-        <Carousel className="carousel mt-5 mx-auto border-stroke">
+        <Carousel className="carousel mt-5 mx-auto border-stroke carousel-text">
           <Carousel.Item>
             <MyImage
               className="d-block w-100"
@@ -40,7 +40,7 @@ export default function Home() {
               alt="Main Stage slide"
             />
             <Carousel.Caption>
-              <h3>Main Stage</h3>
+              <h4>Main Stage</h4>
               <p>From Cosplay Masquerade to dance and music performances, all of our main events are held on the Main Stage!</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -52,7 +52,7 @@ export default function Home() {
             />
 
             <Carousel.Caption>
-              <h3>Exhibitor Hall</h3>
+              <h4>Exhibitor Hall</h4>
               <p>Browse fanmade merchandise drawn or designed by local artists in the Artist Alley, or check out items sold by industry vendors.</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -64,7 +64,7 @@ export default function Home() {
             />
 
             <Carousel.Caption>
-              <h3>Panels</h3>
+              <h4>Panels</h4>
               <p>There are both informational and interactive panels lined up this year for your enjoyment run by students, alumni, and professionals. Check them out!</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -76,7 +76,7 @@ export default function Home() {
             />
 
             <Carousel.Caption>
-              <h3>Cosplay Masquerade</h3>
+              <h4>Cosplay Masquerade</h4>
               <p>Register for the Cosplay Masquerade Contest for the chance at some sweet prizes, and vote for the winners here.</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -88,7 +88,7 @@ export default function Home() {
             />
 
             <Carousel.Caption>
-              <h3>Gaming</h3>
+              <h4>Gaming</h4>
               <p>We have both video games and table top games available to play throughout the day as well as tournaments with prizes!</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -100,7 +100,7 @@ export default function Home() {
             />
 
             <Carousel.Caption>
-              <h3>Showings</h3>
+              <h4>Showings</h4>
               <p>Movie showings will be held in the Price Center Theater.</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -112,7 +112,7 @@ export default function Home() {
             />
 
             <Carousel.Caption>
-              <h3>Manga Library</h3>
+              <h4>Manga Library</h4>
               <p>Relax and check out a book from Cal Animage Beta&apos;s library of donated manga.</p>
             </Carousel.Caption>
           </Carousel.Item>

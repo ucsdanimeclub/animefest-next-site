@@ -183,10 +183,19 @@ body {
   font-weight: 300;
 }
 
+.carousel-text {
+  font-size: 12pt;
+  text-shadow: 0px 0px 10px #0D0B16;
+}
+
 .highlight {
   color: #69F1F7
 }
 
 .button-color {
   color: #CA2721
+}
+
+.glow-text {
+  text-shadow: 0px 0px 10px #0D0B16;
 }
