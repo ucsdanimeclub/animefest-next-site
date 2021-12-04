@@ -92,24 +92,24 @@ export default function Home() {
               <p>We have both video games and table top games available to play throughout the day as well as tournaments with prizes!</p>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          {/* <Carousel.Item>
             <MyImage
               className="d-block w-100"
               src="images/showings.png"
               alt="Showings slide"
             />
 
-            {/* <Carousel.Caption>
+            <Carousel.Caption>
               <h4>Showings</h4>
               <p>Movie showings will be held in the Price Center Theater.</p>
             </Carousel.Caption>
-          </Carousel.Item>
+          </Carousel.Item> */}
           <Carousel.Item>
             <MyImage
               className="d-block w-100"
               src="images/manga_library.png"
               alt="Manga Library slide"
-            /> */}
+            />
 
             <Carousel.Caption>
               <h4>Manga Library</h4>
