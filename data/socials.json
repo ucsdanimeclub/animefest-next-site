@@ -2,7 +2,8 @@
     "socials": [
         {
             "name": "Discord",
-            "icon": "images/discord.svg"
+            "icon": "images/discord.svg",
+            "url": "https://discord.gg/Jja4tsVW8q"
         },
         {
             "name": "Twitter",
