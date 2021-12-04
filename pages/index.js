@@ -65,7 +65,7 @@ export default function Home() {
 
             <Carousel.Caption>
               <h4>Panels</h4>
-              <p>There are both informational and interactive panels lined up this year for your enjoyment run by students, alumni, and professionals. Check them out!</p>
+              <p>We have informational and interactive panels for your enjoyment run by students, alumni, and professionals. Check them out!</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -99,7 +99,7 @@ export default function Home() {
               alt="Showings slide"
             />
 
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h4>Showings</h4>
               <p>Movie showings will be held in the Price Center Theater.</p>
             </Carousel.Caption>
@@ -109,7 +109,7 @@ export default function Home() {
               className="d-block w-100"
               src="images/manga_library.png"
               alt="Manga Library slide"
-            />
+            /> */}
 
             <Carousel.Caption>
               <h4>Manga Library</h4>
