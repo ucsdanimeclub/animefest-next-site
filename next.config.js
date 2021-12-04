@@ -1,7 +1,7 @@
-const isGithubActions = process.env.GITHUB_ACTIONS === 'true'
+const useSubDirectory = process.env.USE_SUB_DIRECTORY === 'true'
 
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: isGithubActions ? '/animefest-next-site/' : '',
-  basePath: isGithubActions ? '/animefest-next-site' : ''
+  assetPrefix: useSubDirectory ? '/animefest-next-site/' : '',
+  basePath: useSubDirectory ? '/animefest-next-site' : ''
 }
