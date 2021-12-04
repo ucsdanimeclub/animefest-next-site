@@ -41,7 +41,7 @@ jobs:
           
       - name: Copy CNAME
         run: |
-          cp CNAME .out/CNAME
+          cp CNAME out/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
