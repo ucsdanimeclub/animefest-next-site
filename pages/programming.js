@@ -11,18 +11,22 @@ export default function Programming() {
 
       <Container fluid className="p-5 section" id="main">
         <h1 className="text-left mb-4 display-text">Main Stage</h1>
-        Coming Soon!
+        <p>Schedule coming soon!</p>
+        <p className="mb-0">If you are a performer and are interested in performing at Animefest, please view our Performers application <a href="https://forms.gle/U5vXp6oN8YotrfzBA">here.</a> The deadline to apply is January 22nd.</p>
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="exhibitor">
         <h1 className="text-left mb-4 display-text">Exhibitor Hall</h1>
-        Coming Soon!
+        <p>If you are interested in participating in our Artist Alley, please view our application <a href="https://forms.gle/kwaHKZfCBGKtAGZf6">here.</a></p>
+        <p>If you are an industry vendor and are interested in having a presence at Animefest, please view our Vendors application <a href="https://forms.gle/PeRgEDPYgjWv4mtB7">here.</a></p>
+        <p className="mb-0">The deadline to apply for both applications is January 1st.</p>
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="panels">
         <h1 className="text-left mb-4 display-text">Panels</h1>
-        <p className="mb-0">The best place for learning more not just about anime, but passion and culture as well! Interesting discussion topics will be present ranging from LGBTIA+ identity all the way to origami will be available for participation at your discretion! 
+        <p>The best place for learning more not just about anime, but passion and culture as well! Interesting discussion topics will be present ranging from LGBTIA+ identity all the way to origami will be available for participation at your discretion! 
           Some panels will even have workshops for a hands-on experience. More panels and information coming soon!</p>
+          <p className="mb-0">Interested in hosting a panel? Please view our Panelist application <a href="https://forms.gle/FmQKZ6JMe9xvr3CU8">here.</a> The deadline to apply is February 1st.</p>
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="cosplay">
