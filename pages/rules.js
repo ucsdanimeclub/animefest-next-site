@@ -9,13 +9,20 @@ export default function Rules() {
       </Container>
 
       <Container fluid className="p-5 section">
-        <h4 className="text-center title-text mb-5">By attending Animefest 2022, you agree to have read and will abide by
-          our detailed rules:
+        <h4 className="text-center title-text">By attending Animefest 2022, you agree to have read and will abide by
+          our detailed rules below.
         </h4>
+        <h4 className="highlight text-center title-text mb-5">These rules are NOT final as we are still preparing for Animefest. Please revisit our rules the week prior to Animefest to read the most updated information.</h4>
         <ol className="mb-5">
           <li><p>Cal Animage Beta and UC San Diego reserves the right to remove anyone not in compliance of the rules to their discretion.</p></li>
-          <li><p>All university policies and regulations apply to attendees of Animefest.</p></li>
-          <li><p><u>All attendees are mandated to wear a mask.</u></p></li>
+          <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
+            <ul>
+              <li><p>All attendees are mandated to wear a mask, even if vaccinated.</p></li>
+              <li><p>Students, staff and faculty must show their daily symptom screener. Must have a green thumb to attend.</p></li>
+              <li><p>Non-affiliate attendees must follow all campus requirements, including providing proof of vaccination or a negative COVID-19 test result received within the last 48 hours.</p></li>
+              <li><p>Food is not allowed inside the venue.</p></li>
+            </ul>
+          </li>
           <li><p>Attendees must respect common sense rules for public behavior, personal interaction, common courtesy, and respect for private property. Harassing or offensive behavior will not be tolerated. If your behavior becomes problematic,
             security will have to intervene to dispute the issue.</p></li>
           <li><p>Attendees are prohibited from directly handling the console setups. Any attendee seen tampering or otherwise damaging Animefest property are liable for repairs and/or replacements.
@@ -26,7 +33,7 @@ export default function Rules() {
         </ol>
         <p><u>COVID-19 Guidelines:</u> Festivalgoers are strongly advised to adhere to CDC guidelines which include:</p>
         <ol className="mb-5">
-          <li><p>Getting a vaccination, or at the very least quarantine if coming in contact with an affected individual and getting tested.</p></li>
+          <li><p>Keeping fully vaccinated, and quarantine if coming in contact with an affected individual and getting tested.</p></li>
           <li><p>Staying home if an attendee feels any sickness or symptoms of COVID-19 before the festival.</p></li>
           <li><p>Maintaining 6 feet of social distancing whenever possible.</p></li>
           <li><p>Cover coughs and sneezes and wash hands.</p></li>
