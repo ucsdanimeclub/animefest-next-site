@@ -32,7 +32,7 @@ export default function Home() {
             <iframe className="mt-2 border-stroke" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
           </Ratio>
         </div>
-        <Carousel className="carousel mt-5 mx-auto border-stroke carousel-text">
+        <Carousel className="carousel mt-5 mx-auto border-stroke caption-text glow-text">
           <Carousel.Item>
             <MyImage
               className="d-block w-100"

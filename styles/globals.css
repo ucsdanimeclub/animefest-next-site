@@ -183,11 +183,6 @@ body {
   font-weight: 300;
 }
 
-.carousel-text {
-  font-size: 12pt;
-  text-shadow: 0px 0px 10px #0D0B16;
-}
-
 .highlight {
   color: #69F1F7
 }
@@ -199,3 +194,21 @@ body {
 .glow-text {
   text-shadow: 0px 0px 10px #0D0B16;
 }
+
+/* .navbar-color {
+  background-color: #2C2F3F;
+}
+
+.navbar-custom .nav-item.active,
+.navbar-custom .nav-item:focus,
+.navbar-custom .nav-item:hover {
+  background-color: #CA2721;
+}
+
+.navbar-custom .dropdown-menu {
+  background-color: #CA2721;
+}
+
+.navbar-custom .dropdown-item:hover {
+  background-color: #ac221d;
+} */
