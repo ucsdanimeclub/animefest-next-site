@@ -30,11 +30,11 @@ export default function Rules() {
           <li><p>Staying home if an attendee feels any sickness or symptoms of COVID-19 before the festival.</p></li>
           <li><p>Maintaining 6 feet of social distancing whenever possible.</p></li>
           <li><p>Cover coughs and sneezes and wash hands.</p></li>
-          <li><p>Enable contact tracing: On Android, contact tracing from Google can be enabled in your device&apos;s settings, or downloaded as an app for your state at the link <a href="https://support.google.com/android/answer/9888358?hl=en">here</a>. On iPhone, opt-in to Exposure Notifications in your device&apos;s settings.</p></li>
+          <li><p>Enable contact tracing: On Android, contact tracing from Google can be enabled in your device&apos;s settings, or downloaded as an app for your state at the link <a href="https://support.google.com/android/answer/9888358?hl=en" className="highlight">here</a>. On iPhone, opt-in to Exposure Notifications in your device&apos;s settings.</p></li>
         </ol>
         <h4 className="text-left title-text mb-4">About Cal Animage Beta</h4>
         <p>Cal Animage Beta is the anime club at UC San Diego. We hold weekly meetings on Mondays, where we show anime or hold other fun events. We also have other socials on weekends such as karaoke, game nights, and potlucks. Membership is free and open to all!</p>
-        <p>If you are interested in learning more about our club or events, please visit our website <a href="http://ucsd.moe/">ucsd.moe</a> for more information.</p>
+        <p>If you are interested in learning more about our club or events, please visit our website <a href="http://ucsd.moe/" className="highlight">ucsd.moe</a> for more information.</p>
       </Container>
     </>
   )
