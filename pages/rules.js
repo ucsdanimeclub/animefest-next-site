@@ -12,7 +12,7 @@ export default function Rules() {
         <h4 className="text-center title-text">By attending Animefest 2022, you agree to have read and will abide by
           our detailed rules below.
         </h4>
-        <h4 className="highlight text-center title-text mb-5">These rules are NOT final as we are still preparing for Animefest. Please revisit our rules the week prior to Animefest to read the most updated information.</h4>
+        <h4 className="highlight text-center title-text mb-5">These rules are NOT final and we will continue to update these as we prepare for Animefest. Please revisit our rules the week prior to Animefest to read the most updated information.</h4>
         <ol className="mb-5">
           <li><p>Cal Animage Beta and UC San Diego reserves the right to remove anyone not in compliance of the rules to their discretion.</p></li>
           <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
