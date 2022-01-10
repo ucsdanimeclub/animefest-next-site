@@ -14,7 +14,7 @@ export default function Home() {
             <Col>
             <MyImage src="images/logo.png" className="w-75"></MyImage>
               {/* <h1 className="display-4">Animefest 2022</h1> */}
-              <p className="lead">February 12 at UC San Diego&apos;s Price Center</p>
+              <p className="h4">February 12 at UC San Diego&apos;s Price Center</p>
             </Col>
           </Row>
         </BackgroundImage>
