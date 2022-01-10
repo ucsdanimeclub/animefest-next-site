@@ -56,7 +56,7 @@ export default function Home() {
         <h1 className="text-left mb-4 display-text">Map and Schedule</h1>
         <p>Animefest is held at the Price Center at UC San Diego. Specifically, it will be at the West Ballroom, Theater, Marshall, Roosevelt, Revelle, Bear, Red Shoe, and Green Table rooms.</p>
         <p>All rooms are located on the second floor with the exception of the Theater, which is on the first floor and below the Bear Room.</p>
-        <p classname="mb-0">Full map and schedule coming soon!</p>
+        <p className="mb-0">Full map and schedule coming soon!</p>
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="parking">
