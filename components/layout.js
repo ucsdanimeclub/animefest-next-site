@@ -34,8 +34,8 @@ export default function Layout({ children }) {
                 <Link href="/programming#panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
                 <Link href="/programming#cosplay" passHref><NavDropdown.Item>Cosplay Masquerade</NavDropdown.Item></Link>
                 <Link href="/programming#gaming" passHref><NavDropdown.Item>Gaming</NavDropdown.Item></Link>
-                {/* <Link href="/programming#theater" passHref><NavDropdown.Item>Theater</NavDropdown.Item></Link> */}
-                {/* <Link href="/programming#tabletop" passHref><NavDropdown.Item>Tabletop Games and Origami</NavDropdown.Item></Link> */}
+                <Link href="/programming#theater" passHref><NavDropdown.Item>Theater</NavDropdown.Item></Link>
+                <Link href="/programming#tabletop" passHref><NavDropdown.Item>Tabletop Games and Origami</NavDropdown.Item></Link>
                 <Link href="/programming#manga" passHref><NavDropdown.Item>Manga Library</NavDropdown.Item></Link>
               </NavDropdown>
               <Link href='/food' passHref><Nav.Link>Food</Nav.Link></Link>

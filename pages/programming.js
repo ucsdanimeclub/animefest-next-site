@@ -39,13 +39,18 @@ export default function Programming() {
         Coming Soon!
       </Container>
 
-      {/* <Container fluid className="p-5 mt-4 section" id="showings">
-        <h1 className="text-left mb-4 display-text">Showings</h1>
+      <Container fluid className="p-5 mt-4 section" id="showings">
+        <h1 className="text-left mb-4 display-text">Theater</h1>
         <p className="mb-0">For this year&apos;s animated film, we will be showcasing famous Japanese film director Shinkai Makoto&apos;s &quot;Weathering With You&quot;, or Tenki no Ko. 
           Following its predecessor, Kimi no Nawa, Tenki no Ko, is a modern romance film excelling in audiovisuals, emotional drama, and a picturesque perspective on climate change in Tokyo. 
           After selling millions of tickets in 2019, the film won Animaton of the Year award at the 43rd annual Japan Academy Prize Ceremony as well as the Social Impact Award at the 23rd Japan Media Arts Festival. 
           In other words, it&apos;s a must-see!</p>
-      </Container> */}
+      </Container>
+
+      <Container fluid className="p-5 mt-4 section" id="showings">
+        <h1 className="text-left mb-4 display-text">Tabletop Games and Origami</h1>
+        Coming Soon!
+      </Container>
 
       <Container fluid className="p-5 mt-4 section" id="manga">
         <h1 className="text-left mb-4 display-text">Manga Library</h1>
