@@ -12,7 +12,8 @@ export default function Home() {
         <BackgroundImage src="images/landing.jpg" className="landing">
           <Row className="align-items-center h-100 g-0 glow-text">
             <Col>
-              <h1 className="display-4">Animefest 2022</h1>
+            <MyImage src="images/logo.png" className="w-75"></MyImage>
+              {/* <h1 className="display-4">Animefest 2022</h1> */}
               <p className="lead">February 12 at UC San Diego&apos;s Price Center</p>
             </Col>
           </Row>
@@ -28,12 +29,23 @@ export default function Home() {
         <p>Animefest 2022, a time and place where animanga lovers, artists, and entertainers celebrate what we love! On February 12, 2022, participants go to the Price Center at UCSD to attend discussion and workshop panels, buy the best artwork,
           and check out your favorite manga in our manga library! And of course, there will be cosplays, festival games, and video games&mdash;all for some otaku fun.</p>
         <p>For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
-        <div className="video-player mx-auto">
-          <Ratio aspectRatio="16x9">
-            <iframe className="mt-2 border-stroke" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
-          </Ratio>
-        </div>
-        <ProgramsCarousel/>
+        <Row className="align-items-end">
+          <Col className="d-none d-lg-block">
+            <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100"/>
+          </Col>
+          <Col>
+            <div className="video-player mx-auto">
+              <Ratio aspectRatio="16x9">
+                <iframe className="mt-2 border-stroke" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
+              </Ratio>
+            </div>
+            <ProgramsCarousel />
+          </Col>
+          <Col className="d-none d-lg-block">
+            <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100"/>
+          </Col>
+        </Row>
+
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="map">
@@ -55,6 +67,8 @@ export default function Home() {
         <h1 className="text-left mb-4 display-text">Sponsors</h1>
         Coming Soon!
       </Container> */}
+
+
     </>
   )
 }
