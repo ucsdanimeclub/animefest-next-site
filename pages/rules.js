@@ -19,7 +19,7 @@ export default function Rules() {
             <ul>
               <li><p>All attendees are mandated to wear a mask, even if vaccinated.</p></li>
               <li><p>UCSD students, staff and faculty must show their daily symptom screener. Must have a green thumb to attend.</p></li>
-              <li><p>Attendees that are not affiliated with UCSD must follow all campus requirements, including providing proof of vaccination or a negative COVID-19 test result received within the last 48 hours.</p></li>
+              <li><p>Attendees that are not affiliated with UCSD must follow all campus requirements, including providing proof of vaccination or a negative COVID-19 test result received within the last 24 hours.</p></li>
               <li><p>Food is not allowed inside the venue.</p></li>
             </ul>
           </li>
