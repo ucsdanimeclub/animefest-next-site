@@ -17,7 +17,7 @@ export default function Home() {
         <BackgroundImage src="images/landing.jpg" className="landing">
           <Row className="align-items-center h-75 g-0 glow-text">
             <Col>
-              <MyImage src="images/logo.png" className="w-75"></MyImage>
+              <MyImage src="images/logo_af.png" className="w-75"></MyImage>
               <p className="h4">February 12 at UC San Diego&apos;s Price Center</p>
             </Col>
           </Row>
