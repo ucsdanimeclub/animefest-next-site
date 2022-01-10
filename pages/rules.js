@@ -17,16 +17,15 @@ export default function Rules() {
           <li><p>Cal Animage Beta and UC San Diego reserves the right to remove anyone not in compliance of the rules to their discretion.</p></li>
           <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
             <ul>
-              <li><p>All attendees are mandated to wear a mask, even if vaccinated.</p></li>
+              <li><p>All attendees must wear a mask, even if vaccinated.</p></li>
               <li><p>UCSD students, staff and faculty must show their daily symptom screener. Must have a green thumb to attend.</p></li>
               <li><p>Attendees that are not affiliated with UCSD must follow all campus requirements, including providing proof of vaccination or a negative COVID-19 test result received within the last 24 hours.</p></li>
-              <li><p>Food is not allowed inside the venue.</p></li>
+              <li><p>Food and drink are not allowed inside ANY room in use for Animefest, including West Ballroom.</p></li>
             </ul>
           </li>
           <li><p>Attendees must respect common sense rules for public behavior, personal interaction, common courtesy, and respect for private property. Harassing or offensive behavior will not be tolerated. If your behavior becomes problematic,
             security will have to intervene to dispute the issue.</p></li>
-          <li><p>Attendees are prohibited from directly handling the console setups. Any attendee seen tampering or otherwise damaging Animefest property are liable for repairs and/or replacements.
-            For free play setups, if you would like to change the game, contact a volunteer or officer at the administrative table.</p></li>
+          <li><p>Attendees are prohibited from directly handling the console setups. Any attendee seen tampering or otherwise damaging Animefest property are liable for repairs and/or replacements.</p></li>
           <li><p>Physical contact, photography, or recordings of other individuals is not allowed without their explicit permission.</p></li>
           <li><p>No weapons or props designed or made with the ability to cause death or serious bodily injury to any person or property is permitted. Misuse of a prop will result in that prop being deemed unsafe.</p></li>
           <li><p>Please don&apos;t hesitate to call campus security, volunteers, or officers of Cal Animage Beta if you see anything suspicious or disorderly conduct.</p></li>
