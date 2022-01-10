@@ -8,7 +8,7 @@ export default function ProgramsCarousel() {
       <Carousel.Item>
         <MyImage
           className="d-block w-100"
-          src="images/main_stage.png"
+          src="images/main_stage.jpg"
           alt="Main Stage slide"
         />
         <Carousel.Caption>
@@ -19,7 +19,7 @@ export default function ProgramsCarousel() {
       <Carousel.Item>
         <MyImage
           className="d-block w-100"
-          src="images/exhibitor_hall.png"
+          src="images/exhibitor_hall.jpg"
           alt="Exhibitor Hall slide"
         />
 
@@ -31,7 +31,7 @@ export default function ProgramsCarousel() {
       <Carousel.Item>
         <MyImage
           className="d-block w-100"
-          src="images/panels.png"
+          src="images/panels.jpg"
           alt="Panels slide"
         />
 
@@ -44,7 +44,7 @@ export default function ProgramsCarousel() {
       <Carousel.Item>
         <MyImage
           className="d-block w-100"
-          src="images/showings.png"
+          src="images/showings.jpg"
           alt="Performances and Showings slide"
         />
 
@@ -57,7 +57,7 @@ export default function ProgramsCarousel() {
       <Carousel.Item>
         <MyImage
           className="d-block w-100"
-          src="images/gaming.png"
+          src="images/gaming.jpg"
           alt="Gaming slide"
         />
 
@@ -70,7 +70,7 @@ export default function ProgramsCarousel() {
       <Carousel.Item>
         <MyImage
           className="d-block w-100"
-          src="images/tabletop.png"
+          src="images/tabletop.jpg"
           alt="Tabletop slide" />
 
         <Carousel.Caption>
@@ -81,7 +81,7 @@ export default function ProgramsCarousel() {
       <Carousel.Item>
         <MyImage
           className="d-block w-100"
-          src="images/manga_library.png"
+          src="images/manga_library.jpg"
           alt="Manga Library slide"
         />
 
