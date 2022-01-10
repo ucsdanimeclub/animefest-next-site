@@ -11,7 +11,7 @@ export default function Programming() {
 
       <Container fluid className="p-5 section" id="main">
         <h1 className="text-left mb-4 display-text">Main Stage</h1>
-        <p>The Main Stage is located at the front of the the West Ballroom. It is home to our annual Cosplay Masquerade, a contest where participants show off their cosplay! The top winners will be awarded prizes. Look out for our sign up form!</p>
+        <p>The Main Stage is located at the front of the West Ballroom. It is home to our annual Cosplay Masquerade, a contest where participants show off their cosplay! The top winners will be awarded prizes. Look out for our sign up form!</p>
         <p>We will also be hosting raffles throughout the day.</p>
         <p className="mb-0">Schedule coming soon!</p>
       </Container>
