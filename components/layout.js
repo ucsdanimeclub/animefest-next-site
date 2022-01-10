@@ -19,7 +19,8 @@ export default function Layout({ children }) {
                 <NavDropdown.Divider />
                 <Link href='/#about' passHref><NavDropdown.Item>About</NavDropdown.Item></Link>
                 <Link href='/#map' passHref><NavDropdown.Item>Map and Schedule</NavDropdown.Item></Link>
-                <Link href='/#location' passHref><NavDropdown.Item>Location and Parking</NavDropdown.Item></Link>
+                <Link href='/#parking' passHref><NavDropdown.Item>Parking</NavDropdown.Item></Link>
+                {/* <Link href='/#sponsors' passHref><NavDropdown.Item>Photobooth</NavDropdown.Item></Link> */}
                 {/* <Link href='/#sponsors' passHref><NavDropdown.Item>Sponsors</NavDropdown.Item></Link> */}
               </NavDropdown>
               <NavDropdown title="Programming" id="basic-nav-dropdown">
