@@ -34,9 +34,9 @@ export default function Home() {
           and check out your favorite manga in our manga library! And of course, there will be cosplays, festival games, and video games&mdash;all for some otaku fun.</p>
         <p>For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
         <Row className="align-items-end">
-          <Col className="d-none d-lg-block">
-            <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100" />
-          </Col>
+          {/* <Col className="d-none d-lg-block">
+            <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100"/>
+          </Col> */}
           <Col>
             <div className="video-player mx-auto">
               <Ratio aspectRatio="16x9">
@@ -45,9 +45,9 @@ export default function Home() {
             </div>
             <ProgramsCarousel />
           </Col>
-          <Col className="d-none d-lg-block">
-            <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100" />
-          </Col>
+          {/* <Col className="d-none d-lg-block">
+            <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100"/>
+          </Col> */}
         </Row>
 
       </Container>
