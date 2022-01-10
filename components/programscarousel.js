@@ -40,30 +40,7 @@ export default function ProgramsCarousel() {
           <p>We have informational and interactive panels for your enjoyment run by students, alumni, and professionals. Check them out!</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <MyImage
-          className="d-block w-100"
-          src="images/cosplay_masquerade.png"
-          alt="Cosplay Masquerade slide"
-        />
 
-        <Carousel.Caption>
-          <h4>Cosplay Masquerade</h4>
-          <p>Register for the Cosplay Masquerade Contest for the chance at some sweet prizes, and vote for the winners here.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <MyImage
-          className="d-block w-100"
-          src="images/gaming.png"
-          alt="Gaming slide"
-        />
-
-        <Carousel.Caption>
-          <h4>Gaming</h4>
-          <p>We have both video games and table top games available to play throughout the day as well as tournaments with prizes!</p>
-        </Carousel.Caption>
-      </Carousel.Item>
       <Carousel.Item>
         <MyImage
           className="d-block w-100"
@@ -76,6 +53,33 @@ export default function ProgramsCarousel() {
           <p>Movie showings and performances will be held in the Price Center Theater.</p>
         </Carousel.Caption>
       </Carousel.Item>
+
+      <Carousel.Item>
+        <MyImage
+          className="d-block w-100"
+          src="images/cosplay_masquerade.png"
+          alt="Cosplay Masquerade slide"
+        />
+
+        <Carousel.Caption>
+          <h4>Cosplay Masquerade</h4>
+          <p>Register for the Cosplay Masquerade Contest for the chance at some sweet prizes, and vote for the winners here.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <MyImage
+          className="d-block w-100"
+          src="images/gaming.png"
+          alt="Gaming slide"
+        />
+
+        <Carousel.Caption>
+          <h4>Gaming</h4>
+          <p>We have both video games and table top games available to play throughout the day as well as tournaments with prizes!</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      
       <Carousel.Item>
         <MyImage
           className="d-block w-100"
@@ -84,7 +88,7 @@ export default function ProgramsCarousel() {
 
         <Carousel.Caption>
           <h4>Tabletop Games and Origami</h4>
-          <p>Have fun with activities hosted by the Board Game and Origami Club.</p>
+          <p>Have fun with activities hosted by the Board Game and Origami Folders clubs.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

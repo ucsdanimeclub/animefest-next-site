@@ -8,12 +8,16 @@ import ProgramsCarousel from "../components/programscarousel"
 export default function Home() {
   return (
     <>
+      <Container fluid className="text-center my-1 text-danger">
+        UCSD students and staff must show a green thumb to attend the convention. All other attendees must show a proof of vaccination or
+        a negative COVID-19 test result received within the last 24 hours.
+      </Container>
+
       <Container fluid className="text-center vh-100 p-0">
         <BackgroundImage src="images/landing.jpg" className="landing">
-          <Row className="align-items-center h-100 g-0 glow-text">
+          <Row className="align-items-center h-75 g-0 glow-text">
             <Col>
-            <MyImage src="images/logo.png" className="w-75"></MyImage>
-              {/* <h1 className="display-4">Animefest 2022</h1> */}
+              <MyImage src="images/logo.png" className="w-75"></MyImage>
               <p className="h4">February 12 at UC San Diego&apos;s Price Center</p>
             </Col>
           </Row>
@@ -31,7 +35,7 @@ export default function Home() {
         <p>For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
         <Row className="align-items-end">
           <Col className="d-none d-lg-block">
-            <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100"/>
+            <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100" />
           </Col>
           <Col>
             <div className="video-player mx-auto">
@@ -42,7 +46,7 @@ export default function Home() {
             <ProgramsCarousel />
           </Col>
           <Col className="d-none d-lg-block">
-            <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100"/>
+            <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100" />
           </Col>
         </Row>
 
@@ -67,8 +71,6 @@ export default function Home() {
         <h1 className="text-left mb-4 display-text">Sponsors</h1>
         Coming Soon!
       </Container> */}
-
-
     </>
   )
 }
