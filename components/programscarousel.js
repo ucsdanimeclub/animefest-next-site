@@ -13,7 +13,7 @@ export default function ProgramsCarousel() {
         />
         <Carousel.Caption>
           <h4>Main Stage</h4>
-          <p>From Cosplay Masquerade to dance and music performances, all of our main events are held on the Main Stage!</p>
+          <p>Our annual Cosplay Masquerade and raffles are held on the Main Stage in West Ballroom.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -44,26 +44,13 @@ export default function ProgramsCarousel() {
       <Carousel.Item>
         <MyImage
           className="d-block w-100"
-          src="images/theater.png"
-          alt="Theater slide"
+          src="images/showings.png"
+          alt="Performances and Showings slide"
         />
 
         <Carousel.Caption>
-          <h4>Theater</h4>
-          <p>Movie showings and performances will be held in the Price Center Theater.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <MyImage
-          className="d-block w-100"
-          src="images/cosplay_masquerade.png"
-          alt="Cosplay Masquerade slide"
-        />
-
-        <Carousel.Caption>
-          <h4>Cosplay Masquerade</h4>
-          <p>Register for the Cosplay Masquerade Contest for the chance at some sweet prizes, and vote for the winners here.</p>
+          <h4>Performances and Showings</h4>
+          <p>Performances and movie showings will be held in the Price Center Theater.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -76,7 +63,7 @@ export default function ProgramsCarousel() {
 
         <Carousel.Caption>
           <h4>Gaming</h4>
-          <p>We have both video games and table top games available to play throughout the day as well as tournaments with prizes!</p>
+          <p>We are hosting a Super Smash Bros Ultimate tournament with prizes, brought to you by Triton Smash!</p>
         </Carousel.Caption>
       </Carousel.Item>
       

@@ -1,8 +1,8 @@
-import { Container, Row, Col, Ratio, Carousel } from 'react-bootstrap'
-import MyImage from "../components/myimage"
+import { Col, Container, Ratio, Row } from 'react-bootstrap'
 import BackgroundImage from "../components/backgroundimage"
-import Social from "../components/social"
+import MyImage from "../components/myimage"
 import ProgramsCarousel from "../components/programscarousel"
+import Social from "../components/social"
 
 
 export default function Home() {

@@ -28,7 +28,7 @@ export default function Layout({ children }) {
                 <Link href="/programming#main" passHref><NavDropdown.Item>Main Stage</NavDropdown.Item></Link>
                 <Link href="/programming#exhibitor" passHref><NavDropdown.Item>Exhibitor Hall</NavDropdown.Item></Link>
                 <Link href="/programming#panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
-                <Link href="/programming#theater" passHref><NavDropdown.Item>Theater</NavDropdown.Item></Link>
+                <Link href="/programming#performances" passHref><NavDropdown.Item>Performances and Showings</NavDropdown.Item></Link>
                 <Link href="/programming#cosplay" passHref><NavDropdown.Item>Cosplay Masquerade</NavDropdown.Item></Link>
                 <Link href="/programming#gaming" passHref><NavDropdown.Item>Gaming</NavDropdown.Item></Link>
                 <Link href="/programming#tabletop" passHref><NavDropdown.Item>Tabletop Games and Origami</NavDropdown.Item></Link>
