@@ -17,7 +17,7 @@ export default function Home() {
         <BackgroundImage src="images/landing.jpg" className="landing">
           <Row className="align-items-center h-75 g-0 glow-text">
             <Col>
-              <MyImage src="images/logo_af.png" className="w-75"></MyImage>
+              <MyImage src="images/logo_af.svg" className="w-75" alt="Animefest 2022 logo"></MyImage>
               <p className="h4">February 12 at UC San Diego&apos;s Price Center</p>
             </Col>
           </Row>
@@ -77,8 +77,12 @@ export default function Home() {
       </Container> */}
 
       {/* <Container fluid className="p-5 mt-4 section" id="sponsors">
-        <h1 className="text-left mb-4 display-text">Sponsors</h1>
-        Coming Soon!
+        <h1 className="text-left mb-4 display-text">Sponsored By</h1>
+        <Row className="text-center">
+          <Col>
+          <MyImage src="images/logo_bushiroad.png" alt="Bushiroad sponsor logo"></MyImage>
+          </Col>
+        </Row>
       </Container> */}
     </>
   )
