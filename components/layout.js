@@ -3,6 +3,9 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import { Col, Row } from 'react-bootstrap'
+import MyImage from "../components/myimage"
+// organize imports later and convert sponsors to a function
 
 export default function Layout({ children }) {
   return (
@@ -21,7 +24,6 @@ export default function Layout({ children }) {
                 <Link href='/#map' passHref><NavDropdown.Item>Map and Schedule</NavDropdown.Item></Link>
                 <Link href='/#parking' passHref><NavDropdown.Item>Parking</NavDropdown.Item></Link>
                 {/* <Link href='/#sponsors' passHref><NavDropdown.Item>Photobooth</NavDropdown.Item></Link> */}
-                {/* <Link href='/#sponsors' passHref><NavDropdown.Item>Sponsors</NavDropdown.Item></Link> */}
               </NavDropdown>
               <NavDropdown title="Programming" id="basic-nav-dropdown">
                 <Link href='/programming' passHref><NavDropdown.Item>Programming</NavDropdown.Item></Link>
@@ -41,9 +43,17 @@ export default function Layout({ children }) {
         </Container>
       </Navbar>
       <main>{children}</main>
-      <footer className="footer caption-text">
-        <Container fluid className="text-center">
-          &copy; 2022 Cal Animage Beta. All assets belong to their respective owners.
+      <footer className="footer">
+        <Container className="text-center">
+          <h5 className="mb-3">Sponsored By</h5>
+          <Row className="mx-4 mb-4 gy-4 justify-content-center">
+            <Col xs={12} sm={6} md={3}>
+              <a href="https://en.bushiroad.com/">
+                <MyImage src="images/logo_bushiroad.png" alt="Bushiroad sponsor logo" className="mw-100 bg-light"></MyImage>
+              </a>
+            </Col>
+          </Row>
+          <p className="caption-text">&copy; 2022 Cal Animage Beta. All assets belong to their respective owners.</p>
         </Container>
       </footer>
     </>

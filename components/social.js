@@ -6,7 +6,7 @@ import MyImage from "./myimage"
 export default function Social({ children, height=50 }) {
   return (
     <Container fluid className="p-4 text-center">
-      <ListGroup horizontal className="justify-content-center mb-2">
+      <ListGroup horizontal="sm" className="justify-content-center mb-2">
         {Socials['socials'].map((social, index) => (
           <ListGroup.Item className="bg-transparent" key={index}>
             {

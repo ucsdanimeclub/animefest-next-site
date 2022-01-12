@@ -75,15 +75,6 @@ export default function Home() {
         <h1 className="text-left mb-4 display-text">Photobooth</h1>
         Coming Soon!
       </Container> */}
-
-      {/* <Container fluid className="p-5 mt-4 section" id="sponsors">
-        <h1 className="text-left mb-4 display-text">Sponsored By</h1>
-        <Row className="text-center">
-          <Col>
-          <MyImage src="images/logo_bushiroad.png" alt="Bushiroad sponsor logo"></MyImage>
-          </Col>
-        </Row>
-      </Container> */}
     </>
   )
 }
