@@ -49,7 +49,7 @@ export default function Layout({ children }) {
           <Row className="mx-4 mb-4 gy-4 justify-content-center">
             <Col xs={12} sm={6} md={3}>
               <a href="https://en.bushiroad.com/">
-                <MyImage src="images/logo_bushiroad.png" alt="Bushiroad sponsor logo" className="mw-100 bg-light"></MyImage>
+                <MyImage src="images/logo_bushiroad.png" alt="Bushiroad sponsor logo" className="mw-100 bg-light rounded border-stroke"></MyImage>
               </a>
             </Col>
           </Row>
