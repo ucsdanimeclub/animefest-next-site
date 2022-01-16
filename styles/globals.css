@@ -172,7 +172,6 @@ body {
 .display-text {
   font-size: 30pt;
   font-weight: 900;
-  text-transform: uppercase;
 }
 
 .title-text {
@@ -213,4 +212,9 @@ body {
 
 .navbar-custom .dropdown-item:hover {
   background-color: #ac221d;
+} */
+
+/* .navbar ul.dropdown-menu {
+  max-height: 20vh;
+  overflow-y: auto;
 } */

@@ -30,7 +30,7 @@ export default function Home() {
       </Social>
 
       <Container fluid className="p-5 section" id="about">
-        <h1 className="text-left mb-4 display-text">About</h1>
+        <h1 className="text-left mb-4 display-text">ABOUT</h1>
         <p>Animefest 2022, a time and place where animanga lovers, artists, and entertainers celebrate what we love! On February 12, 2022, participants go to the Price Center at UCSD to attend discussion and workshop panels, buy the best artwork,
           and check out your favorite manga in our manga library! And of course, there will be cosplays, festival games, and video games&mdash;all for some otaku fun.</p>
         <p>For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
@@ -54,14 +54,14 @@ export default function Home() {
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="map">
-        <h1 className="text-left mb-4 display-text">Map and Schedule</h1>
+        <h1 className="text-left mb-4 display-text">MAP AND SCHEDULE</h1>
         <p>Animefest is held at the Price Center at UC San Diego. Specifically, it will be at the West Ballroom, Theater, Thurgood Marshall, Eleanor Roosevelt, Roger Revelle, Bear, Red Shoe, and Green Table rooms.</p>
         <p>All rooms are located on the second floor with the exception of the Theater, which is on the first floor and below the Bear Room.</p>
         <p className="mb-0">Full map and schedule coming soon!</p>
       </Container>
 
       <Container fluid className="p-5 mt-4 section" id="parking">
-        <h1 className="text-left mb-4 display-text">Parking</h1>
+        <h1 className="text-left mb-4 display-text">PARKING</h1>
         <p>Unfortunately, <a href="https://transportation.ucsd.edu/visit/visitor/index.html" className="highlight">parking is not free</a> on UCSD&apos;s campus. We recommend you find free parking off campus and walking to campus or taking the bus to campus. We apologize for the inconvenience.</p>
         <p>For parking on campus, please take a look at the <a href="https://maps.ucsd.edu/map/?id=1005#!ce/17201?ct/36591,27576,20079,18312,18027,35364,29152,36849,42782,43513,45236?mc/32.877341347399,-117.23531663418?z/18?lvl/0" className="highlight">official campus map</a> and select <b>Parking Structure</b> in the menu to see areas where you can park.
           The Gilman Parking Structure is closest to the convention. You can use the Wayfinding feature or the map below to navigate to Price Center:</p>
