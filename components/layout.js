@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Container, Col, Row, Nav, Navbar, NavDropdown } from 'react-bootstrap'
-import MyImage from "../components/myimage"
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import Sponsor from "../components/sponsor"
 
 
 export default function Layout({ children }) {
@@ -42,13 +42,7 @@ export default function Layout({ children }) {
       <footer className="footer">
         <Container className="text-center">
           <h5 className="mb-3">Sponsored By</h5>
-          <Row className="mx-4 mb-4 gy-4 justify-content-center">
-            <Col xs={12} sm={6} md={3}>
-              <a href="https://en.bushiroad.com/">
-                <MyImage src="images/logo_bushiroad.png" alt="Bushiroad sponsor logo" className="mw-100 bg-light rounded border-stroke"></MyImage>
-              </a>
-            </Col>
-          </Row>
+          <Sponsor />
           <p className="caption-text">&copy; 2022 Cal Animage Beta. All assets belong to their respective owners.</p>
         </Container>
       </footer>
