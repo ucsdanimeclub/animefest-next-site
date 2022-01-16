@@ -1,6 +1,6 @@
 import { Container, ListGroup } from "react-bootstrap"
-import Socials from "../data/socials.json"
-import MyImage from "./myimage"
+import Socials from "../../data/socials.json"
+import MyImage from "../myimage"
 
 
 export default function Social({ children, height = 50 }) {

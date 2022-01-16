@@ -1,6 +1,6 @@
 import { Carousel } from "react-bootstrap"
-import Programs from "../data/programs.json"
-import MyImage from "./myimage"
+import Programs from "../../data/programs.json"
+import MyImage from "../myimage"
 
 
 export default function ProgramsCarousel() {
