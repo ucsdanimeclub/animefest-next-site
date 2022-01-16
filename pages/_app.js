@@ -1,8 +1,8 @@
+import { useRouter } from "next/dist/client/router"
+import Head from 'next/head'
+import Layout from '../components/layout'
 import '../styles/globals.css'
 import '../styles/theme.scss'
-import Layout from '../components/layout'
-import Head from 'next/head'
-import { useRouter } from "next/dist/client/router"
 
 
 export default function MyApp({ Component, pageProps }) {

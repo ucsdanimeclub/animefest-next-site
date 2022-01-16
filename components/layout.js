@@ -1,11 +1,7 @@
 import Link from 'next/link'
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
-import { Col, Row } from 'react-bootstrap'
+import { Container, Col, Row, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import MyImage from "../components/myimage"
-// organize imports later and convert sponsors to a function
+
 
 export default function Layout({ children }) {
   return (
