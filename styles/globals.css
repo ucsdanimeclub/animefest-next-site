@@ -172,6 +172,7 @@ body {
 .display-text {
   font-size: 30pt;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .title-text {

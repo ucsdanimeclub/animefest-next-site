@@ -6,7 +6,7 @@ export default function Programming() {
   return (
     <>
       <Container fluid className="p-5 text-center jumbo-display">
-        <h1 className="display-4 mb-0">Programming</h1>
+        <h1 className="display-4 mb-0">PROGRAMMING</h1>
       </Container>
 
       <Container fluid className="p-5 section" id="main">
