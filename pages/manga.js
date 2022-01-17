@@ -15,7 +15,7 @@ export default function Manga() {
         <p>If there&apos;s any dream of any animanga connoisseur or artist, it&apos;s to see all different kinds of physical copies of manga all in one place!
           Whether it be light novels or manga you have or have not seen before, we will be showcasing a modest collection for anyone interested themselves.
           Seeing manga in its authentic book form will be an unforgettable bucket-list experience!</p>
-        <MyImage src="images/manga_library_program.jpg" alt="Manga Library photo" className="my-4 border-stroke mx-auto d-block" style={{ maxHeight: "50vh" }} />
+        <MyImage src="images/manga_library_program.jpg" alt="Manga Library photo" className="mt-4 border-stroke mx-auto d-block" style={{ maxHeight: "50vh" }} />
       </Container>
     </>
   )
