@@ -11,14 +11,19 @@
             "description": "Browse fanmade merchandise drawn or designed by local artists in the Artist Alley, or check out items sold by industry vendors."
         },
         {
+            "name": "Showings",
+            "image": "images/showings.jpg",
+            "description": "Performances and movie showings will be held in the Price Center Theater."
+        },
+        {
             "name": "Panels",
             "image": "images/panels.jpg",
             "description": "We have informational and interactive panels for your enjoyment run by students, alumni, and professionals. Check them out!"
         },
         {
-            "name": "Performances and Showings",
-            "image": "images/showings.jpg",
-            "description": "Performances and movie showings will be held in the Price Center Theater."
+            "name": "Manga Library",
+            "image": "images/manga_library.jpg",
+            "description": "Relax and check out a book from Cal Animage Beta's library of donated manga."
         },
         {
             "name": "Gaming",
@@ -26,14 +31,9 @@
             "description": "We have a Super Smash Bros Ultimate tournament with prizes, brought to you by Triton Smash!"
         },
         {
-            "name": "Tabletop Games and Origami",
+            "name": "Featured Activities",
             "image": "images/tabletop.jpg",
-            "description": "Have fun with activities hosted by the Board Game and Origami Folders clubs."
-        },
-        {
-            "name": "Manga Library",
-            "image": "images/manga_library.jpg",
-            "description": "Relax and check out a book from Cal Animage Beta's library of donated manga."
+            "description": "Learn a craft with the Origami Folders club and try out the Cardfight!! Vanguard card game."
         }
     ]
 }
