@@ -1,4 +1,5 @@
 import { Container } from 'react-bootstrap'
+import MyImage from "../components/myimage"
 
 
 export default function Gaming() {
@@ -10,7 +11,8 @@ export default function Gaming() {
 
       <Container fluid className="p-5 section">
         <h4 className="text-left mb-4 display-text">ABOUT</h4>
-        <p className="mb-0">Hosted by Triton Smash, look forward to a Super Smash Bros Ultimate Tournament at the Bear and Red Shoe rooms in the Sun God Lounge! More information and sign ups coming soon.</p>
+        <p>Hosted by Triton Smash, look forward to a Super Smash Bros Ultimate Tournament at the Bear and Red Shoe rooms in the Sun God Lounge! More information and sign ups coming soon.</p>
+        <MyImage src="images/smashbros.jpg" alt="Super Smash Bros gameplay" className="my-4 mw-100 border-stroke mx-auto d-block" />
       </Container>
     </>
   )
