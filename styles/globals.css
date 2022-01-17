@@ -214,7 +214,7 @@ body {
   background-color: #ac221d;
 } */
 
-/* .navbar ul.dropdown-menu {
-  max-height: 20vh;
-  overflow-y: auto;
-} */
+.dropdown-menu {
+  max-height: 75vh;
+  overflow-y: scroll;
+}
