@@ -20,7 +20,7 @@ export default function Showings() {
               After selling millions of tickets in 2019, the film won Animaton of the Year award at the 43rd annual Japan Academy Prize Ceremony as well as the Social Impact Award at the 23rd Japan Media Arts Festival.
               In other words, it&apos;s a must-see!</p>
           </Col>
-          <Col lg={5}>
+          <Col md={4}>
             <MyImage src="images/wwy_poster.jpg" alt="Weathering With You poster" className="border-stroke mw-100 mx-auto d-block" />
           </Col>
         </Row>
