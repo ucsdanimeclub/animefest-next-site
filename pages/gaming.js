@@ -10,7 +10,7 @@ export default function Gaming() {
 
       <Container fluid className="p-5 section">
         <h4 className="text-left mb-4 display-text">ABOUT</h4>
-        <p className="mb-0">Hosted by Triton Smash, look forward to a Super Smash Bros Ultimate Tournament at the Bear and Red Shoe rooms! More information and sign ups coming soon.</p>
+        <p className="mb-0">Hosted by Triton Smash, look forward to a Super Smash Bros Ultimate Tournament at the Bear and Red Shoe rooms in the Sun God Lounge! More information and sign ups coming soon.</p>
       </Container>
     </>
   )
