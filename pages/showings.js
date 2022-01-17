@@ -21,7 +21,7 @@ export default function Showings() {
               In other words, it&apos;s a must-see!</p>
           </Col>
           <Col lg={5}>
-            <MyImage src="images/wwy_poster.jpg" alt="Weathering With You poster" className="border-stroke mx-auto d-block" style={{ maxHeight: "75vh" }} />
+            <MyImage src="images/wwy_poster.jpg" alt="Weathering With You poster" className="border-stroke mw-100 mx-auto d-block" />
           </Col>
         </Row>
       </Container>
