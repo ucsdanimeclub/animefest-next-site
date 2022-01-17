@@ -9,6 +9,7 @@ export default function Food() {
       </Container>
 
       <Container fluid className="p-5 section">
+        {/* <h4 className="text-left title-text mb-4">Dining at Price Center</h4> */}
         Coming Soon!
       </Container>
     </>

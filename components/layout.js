@@ -23,16 +23,16 @@ export default function Layout({ children }) {
               </NavDropdown>
               <NavDropdown title="Programming" id="basic-nav-dropdown">
                 <NavDropdown.Header>West Ballroom</NavDropdown.Header>
-                <Link href="/programming#main" passHref><NavDropdown.Item>Main Stage</NavDropdown.Item></Link>
-                <Link href="/programming#exhibitor" passHref><NavDropdown.Item>Exhibitor Hall</NavDropdown.Item></Link>
+                <Link href="/mainstage" passHref><NavDropdown.Item>Main Stage</NavDropdown.Item></Link>
+                <Link href="/exhibitor" passHref><NavDropdown.Item>Exhibitor Hall</NavDropdown.Item></Link>
                 <NavDropdown.Header>Price Center Theater</NavDropdown.Header>
-                <Link href="/programming#performances" passHref><NavDropdown.Item>Performances and Showings</NavDropdown.Item></Link>
+                <Link href="/showings" passHref><NavDropdown.Item>Showings</NavDropdown.Item></Link>
                 <NavDropdown.Header>College Rooms</NavDropdown.Header>
-                <Link href="/programming#panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
-                <Link href="/programming#manga" passHref><NavDropdown.Item>Manga Library</NavDropdown.Item></Link>
+                <Link href="/panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
+                <Link href="/manga" passHref><NavDropdown.Item>Manga Library</NavDropdown.Item></Link>
                 <NavDropdown.Header>Sun God Lounge</NavDropdown.Header>
-                <Link href="/programming#gaming" passHref><NavDropdown.Item>Gaming</NavDropdown.Item></Link>
-                <Link href="/programming#tabletop" passHref><NavDropdown.Item>Tabletop Games and Origami</NavDropdown.Item></Link>
+                <Link href="/gaming" passHref><NavDropdown.Item>Gaming</NavDropdown.Item></Link>
+                <Link href="/activities" passHref><NavDropdown.Item>Featured Activities</NavDropdown.Item></Link>
               </NavDropdown>
               <Link href='/food' passHref><Nav.Link>Food</Nav.Link></Link>
               <Link href='/rules' passHref><Nav.Link>Rules</Nav.Link></Link>

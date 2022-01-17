@@ -62,8 +62,8 @@ export default function Home() {
 
       <Container fluid className="p-5 mt-4 section" id="parking">
         <h1 className="text-left mb-4 display-text">PARKING</h1>
-        <p>Unfortunately, <a href="https://transportation.ucsd.edu/visit/visitor/index.html" className="highlight">parking is not free</a> on UCSD&apos;s campus. We recommend you find free parking off campus and walking to campus or taking the bus to campus. We apologize for the inconvenience.</p>
-        <p>For parking on campus, please take a look at the <a href="https://maps.ucsd.edu/map/?id=1005#!ce/17201?ct/36591,27576,20079,18312,18027,35364,29152,36849,42782,43513,45236?mc/32.877341347399,-117.23531663418?z/18?lvl/0" className="highlight">official campus map</a> and select <b>Parking Structure</b> in the menu to see areas where you can park.
+        <p>Unfortunately, <a href="https://transportation.ucsd.edu/visit/visitor/index.html">parking is not free</a> on UCSD&apos;s campus. We recommend you find free parking off campus and walking to campus or taking the bus to campus. We apologize for the inconvenience.</p>
+        <p>For parking on campus, please take a look at the <a href="https://maps.ucsd.edu/map/?id=1005#!ce/17201?ct/36591,27576,20079,18312,18027,35364,29152,36849,42782,43513,45236?mc/32.877341347399,-117.23531663418?z/18?lvl/0">official campus map</a> and select <b>Parking Structure</b> in the menu to see areas where you can park.
           The Gilman Parking Structure is closest to the convention. You can use the Wayfinding feature or the map below to navigate to Price Center:</p>
         <div className="map mx-auto">
           <Ratio aspectRatio="4x3">
