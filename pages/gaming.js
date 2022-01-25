@@ -10,8 +10,11 @@ export default function Gaming() {
       </Container>
 
       <Container fluid className="p-5 section">
-        <h4 className="text-left mb-4 display-text">ABOUT</h4>
-        <p>Hosted by Triton Smash, look forward to a Super Smash Bros. Ultimate Tournament at the Bear and Red Shoe rooms in the Sun God Lounge! More information and sign ups coming soon.</p>
+        <h4 className="text-left mb-4 display-text">TRITON SMASH TOURNAMENT</h4>
+        <p className="text-left caption-text mb-1">12:00 PM: Venue Opens for Friendlies and Sign-ups</p>
+        <p className="text-left caption-text mb-4">1:00 PM: Bracket Begins</p>
+        <p>Want to play games with others in the San Diego area? Look forward to a Super Smash Bros. Ultimate Tournament at the Bear and Red Shoe rooms in the Sun God Lounge!</p>
+        <p><a href="https://smash.gg/tournament/animefest-2022/details">Sign up for free here.</a> Entrants must bring their own controller.</p>
         <MyImage src="images/smashbros.jpg" alt="Super Smash Bros gameplay" className="mt-4 mw-100 border-stroke mx-auto d-block" />
       </Container>
     </>
