@@ -9,8 +9,9 @@ export default function Home() {
   return (
     <>
       <Container fluid className="text-center my-1 text-danger">
-        UCSD students and staff must show a green thumb to attend the convention. All other attendees must show a proof of vaccination or
-        a negative COVID-19 test result received within the last 24 hours.
+        Following University regulations, Animefest has been postponed to a later date TBA. Look out for updates here and on our social media!
+        {/* UCSD students and staff must show a green thumb to attend the convention. All other attendees must show a proof of vaccination or
+        a negative COVID-19 test result received within the last 24 hours. */}
       </Container>
 
       <Container fluid className="text-center vh-100 p-0">
@@ -18,7 +19,7 @@ export default function Home() {
           <Row className="align-items-center h-75 g-0 glow-text">
             <Col>
               <MyImage src="images/logo_af.svg" className="w-75" alt="Animefest 2022 logo"></MyImage>
-              <h4>February 12 at UC San Diego&apos;s Price Center</h4>
+              <h4>Date TBA at UC San Diego&apos;s Price Center</h4>
               <h5>Free Admission</h5>
             </Col>
           </Row>
@@ -31,9 +32,10 @@ export default function Home() {
 
       <Container fluid className="p-5 section" id="about">
         <h1 className="text-left mb-4 display-text">ABOUT</h1>
-        <p>Animefest 2022, a time and place where animanga lovers, artists, and entertainers celebrate what we love! On February 12, 2022, participants go to the Price Center at UCSD to attend discussion and workshop panels, buy the best artwork,
+        <p>Animefest, a time and place where animanga lovers, artists, and entertainers celebrate what we love! On this single-day convention, participants go to the Price Center at UCSD to attend discussion and workshop panels, buy the best artwork,
           and check out your favorite manga in our manga library! And of course, there will be cosplays, festival games, and video games&mdash;all for some otaku fun.</p>
-        <p>For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
+        <p>Please stay tuned for updates on the new date of Animefest 2022.</p>
+        <p>For a taste of what to expect, take a look at our recap video of Animefest 2019:</p>
         <Row className="align-items-end">
           {/* <Col className="d-none d-lg-block">
             <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100"/>
