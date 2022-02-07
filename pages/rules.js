@@ -28,6 +28,7 @@ export default function Rules() {
           <li><p>Attendees are prohibited from directly handling the console setups. Any attendee seen tampering or otherwise damaging Animefest property are liable for repairs and/or replacements.</p></li>
           <li><p>Physical contact, photography, or recordings of other individuals is not allowed without their explicit permission.</p></li>
           <li><p>No weapons or props designed or made with the ability to cause death or serious bodily injury to any person or property is permitted. Misuse of a prop will result in that prop being deemed unsafe.</p></li>
+          <li><p>Props resembling firearms are prohibited, including but not limited to: airsoft, replica, paintball, BB guns, and Nerf guns.</p></li>
           <li><p>Please don&apos;t hesitate to call campus security, volunteers, or officers of Cal Animage Beta if you see anything suspicious or disorderly conduct.</p></li>
         </ol>
         <p><u>COVID-19 Guidelines:</u> Festivalgoers are strongly advised to adhere to CDC guidelines which include:</p>
@@ -40,7 +41,7 @@ export default function Rules() {
         </ol>
         <h4 className="text-left title-text mb-4">About Cal Animage Beta</h4>
         <p>Cal Animage Beta is the anime club at UC San Diego. We hold weekly meetings on Mondays, where we show anime or hold other fun events. We also have other socials on weekends such as karaoke, game nights, and potlucks. Membership is free and open to all!</p>
-        <p className="mb-0">If you are interested in learning more about our club or events, please visit our website <a href="http://ucsd.moe/">ucsd.moe</a> for more information.</p>
+        <p className="mb-0">If you are interested in learning more about our club or events, please visit our website <a href="https://ucsd.moe/">ucsd.moe</a> for more information.</p>
       </Container>
     </>
   )
