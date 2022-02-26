@@ -2,7 +2,7 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-If you are running the development server, [SASS/SCSS](https://sass-lang.com/) is also required to be installed on your device in order to compile the `styles/themes.scss` file.
+If you are running the development server, [SASS/SCSS](https://sass-lang.com/) is also required to be installed on your device in order to compile the `styles/theme.scss` file.
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ During development, the project was served on the subdomain [ucsdanimeclub.githu
 
 This library contains helpful components that you can use to build the site.
 
-Many components (eg. Carousel, ListGroup, Navbar) are from the (React-Bootstrap)[https://react-bootstrap.github.io/components/alerts/] library.
+Many components (eg. Carousel, ListGroup, Navbar) are from the [React-Bootstrap](https://react-bootstrap.github.io/components/alerts/) library.
 
 Use the React-Bootstrap `<Container>` tag instead of the regular Bootstrap container (`<div class="container">`).
 
