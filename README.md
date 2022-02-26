@@ -2,6 +2,8 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+If you are running the development server, [SASS/SCSS](https://sass-lang.com/) is also required to be installed on your device in order to compile the `styles/themes.scss` file.
+
 ## Getting Started
 
 First, run the development server:
@@ -27,7 +29,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 # animefest.ucsd.moe
 
+## Pushing code
+
+The default branch is ```main```; when your changes are ready you can update the ````production```` branch (what actually goes to [animefest.ucsd.moe](https://animefest.ucsd.moe)) with the command "git push origin main:production". The site will be successfully updated if the build completes in the GitHub Actions tab.
+
 ## BasePath
+
+During development, the project was served on the subdomain [ucsdanimeclub.github.io/animefest-next-site/](https://ucsdanimeclub.github.io/animefest-next-site/). By default Next.js is not meant to be deployed on the sub-path of a domain, so `next.config.js` is edited to resolve this issue by applying path prefixes when necessary. The `<MyImage>` tag is also created to resolve the issue when loading image sources, so please use this instead of `<image>` or `<Image>` tags.
 
 ## Packages
 
@@ -53,7 +61,7 @@ This component contains the Navbar as well as footer tags. It is called in `page
 
 ### myimage.js
 
-This component is a substitute for the <image> or <Image> tag. It is a workaround to the basePath issue that Next.js has with GitHub Pages, so please use this component instead of the regular image tags.
+This component is a substitute for the `<image>` or `<Image>` tag. It is a workaround to the basePath issue that Next.js has with GitHub Pages, so please use this component instead of the regular image tags.
 
 ### sponsor.js
 
@@ -63,7 +71,7 @@ Sponsor logos are placed on a white background for visibility.
 
 ### index/background.js
 
-This component is only used in `pages/index.js`. It places the Animefest landing image within the first Container in the page.
+This component is only used in `pages/index.js`. It is used to place the Animefest landing image within the first Container in the page.
 
 ### index/programscarousel.js
 
@@ -101,6 +109,19 @@ Since we do not have a server, it is recommended to use .SVG or .JPEG files for 
 
 ### globals.css
 
+The CSS file for pages and components to use. To use a style in Next.js, you must use "className" prop in the desired tag instead of "class".
+
+### styles.scss
+
+This file is only used to overwrite Bootstrap's default styling. It does this by defining the custom styles before importing Bootstrap.
+
+### **next.config.js**
+
+Mainly used to adjust the basePath when the website is served on a subdomain (i.e. [ucsdanimeclub.github.io/animefest-next-site/](https://ucsdanimeclub.github.io/animefest-next-site/)) instead of [animefest.ucsd.moe](https://animefest.ucsd.moe).
+
+### **CNAME**
+
+A record that contains the domain name. GitHub Actions copies this file into its output when building the project.
 
 ## Credits
 
