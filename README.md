@@ -31,7 +31,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Pushing code
 
-The default branch is ```main```; when your changes are ready you can update the ````production```` branch (what actually goes to [animefest.ucsd.moe](https://animefest.ucsd.moe)) with the command "git push origin main:production". The site will be successfully updated if the build completes in the GitHub Actions tab.
+The default branch is ```main```; when your changes are ready you can update the ````production```` branch (what actually goes to [animefest.ucsd.moe](https://animefest.ucsd.moe)) with the command `git push origin main:production`. The site will be successfully updated if the build completes in the GitHub Actions tab.
+
+Before pushing code, run `git pull` to avoid merge conflicts. 
 
 ## BasePath
 
@@ -117,7 +119,7 @@ Since we do not have a server, it is recommended to use .SVG or .JPEG files for 
 
 ### *globals.css*
 
-The CSS file for pages and components to use. To use a style in Next.js, you must use "className" prop in the desired tag instead of "class".
+The CSS file for pages and components to use. To use a style in Next.js, you must use the `className` prop in the desired tag instead of `class`.
 
 ### *theme.scss*
 
