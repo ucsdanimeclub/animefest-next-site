@@ -2,8 +2,6 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-If you are running the development server, [SASS/SCSS](https://sass-lang.com/) is also required to be installed on your device in order to compile the `styles/theme.scss` file.
-
 ## Getting Started
 
 First, run the development server:
@@ -37,7 +35,7 @@ Before pushing code, run `git pull` to avoid merge conflicts.
 
 ## BasePath
 
-During development, the project was served on the subdomain [ucsdanimeclub.github.io/animefest-next-site/](https://ucsdanimeclub.github.io/animefest-next-site/). By default Next.js is not meant to be deployed on the sub-path of a domain, so `next.config.js` is edited to resolve this issue by applying path prefixes when necessary. The `<MyImage>` tag is also created to resolve the issue when loading image sources, so please use it instead of `<image>` or `<Image>` tags.
+During development, the project was served on the subdomain [ucsdanimeclub.github.io/animefest-next-site/](https://ucsdanimeclub.github.io/animefest-next-site/). By default Next.js is not meant to be deployed on the sub-path of a domain, so `next.config.js` is edited to resolve this issue by applying path prefixes when necessary. The `<MyImage>` tag is also created to resolve the issue when loading image sources, so please use it instead of `<img>` or `<Image>` tags.
 
 ## Libraries
 
@@ -53,57 +51,59 @@ Use the React-Bootstrap `<Container>` tag instead of the regular Bootstrap conta
 
 ### Pages
 
-### *_app.js*
+#### _app.js
 
 This "page" overrides the default App component that initializes pages. Recommended to use for page layouts that are used in all pages (eg. the `components/layout.js` component that contains the Navbar and footer is always present in all pages, so it is called here).
 
 This project also contains the HTML `<head>` tag in this file.
 
-### *index.js*
+#### index.js
 
 This page is the default page that loads when visiting [animefest.ucsd.moe](https://animefest.ucsd.moe).
 
 ### Components
 
-### *layout.js*
+#### layout.js
 
 This component contains the Navbar as well as footer tags. It is called in `pages/_app.js`.
 
-### *myimage.js*
+#### myimage.js
 
-This component is a substitute for the `<image>` or `<Image>` tag. It is a workaround to the basePath issue that Next.js has with GitHub Pages, so please use this component instead of the regular image tags.
+This component is a substitute for the `<img>` or `<Image>` tag. It is a workaround to the basePath issue that Next.js has with GitHub Pages, so please use this component instead of the regular image tags.
 
-### *sponsor.js*
+#### sponsor.js
 
-This component reads `data/sponsors.json` and formats it into a grid. This component is called in the `layout.js` footer, so that they are displayed a the bottom of every page.
+This component reads `data/sponsors.json` and formats it into a grid. This component is called in the `layout.js` footer, so that they are displayed at the bottom of every page.
 
 Sponsor logos are placed on a white background for visibility.
 
-### *index/background.js*
+#### index/background.js
 
 This component is only used in `pages/index.js`. It is used to place the Animefest landing image within the first Container in the page.
 
-### *index/programscarousel.js*
+#### index/programscarousel.js
 
 This component is only used in `pages/index.js`. This component reads `data/programs.json` and returns a Carousel.
 
-### *index/social.js*
+#### index/social.js
 
 This component is only used in `pages/index.js`. This component reads `data/socials.json` and returns a horizontal ListGroup of the social media icons.
 
 ### Data
 
-### *programs.json*
+Data is read from JSON files so we can change content without changing structure. Components like carousels and lists benefit from this practice as entries can be numerous or change with each year.
+
+#### programs.json
 
 This JSON file contains the name, image source, and descriptions of Animefest programs. Each program should correspond to each page (except `pages/index.js`).
 
-### *socials.json*
+#### socials.json
 
 This JSON file contains the name, social media icon source, and URL for each social media page we want to share.
 
 Please download icons from the social media's official Branding page.
 
-### *sponsors.json*
+#### sponsors.json
 
 This JSON file contains the name, logo image source, and URL for each sponsor we have for the year.
 
@@ -117,11 +117,11 @@ Since we do not have a server, it is recommended to use .SVG or .JPEG files for 
 
 ### Styles
 
-### *globals.css*
+#### globals.css
 
 The CSS file for pages and components to use. To use a style in Next.js, you must use the `className` prop in the desired tag instead of `class`.
 
-### *theme.scss*
+#### theme.scss
 
 This file is only used to overwrite Bootstrap's default styling. It does this by defining the custom styles before importing Bootstrap.
 
