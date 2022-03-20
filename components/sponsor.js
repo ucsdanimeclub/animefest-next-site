@@ -3,7 +3,7 @@ import Sponsors from "../data/sponsors.json"
 import MyImage from "./myimage"
 
 
-export default function ProgramsCarousel() {
+export default function Sponsor() {
   return (
     <Row className="mx-4 mb-4 gy-4 justify-content-center">
       {Sponsors['sponsors'].map((sponsor, index) => (
