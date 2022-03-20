@@ -55,7 +55,7 @@ Use the React-Bootstrap `<Container>` tag instead of the regular Bootstrap conta
 
 #### _app.js
 
-This "page" overrides the default App component that initializes pages. Recommended to use for page layouts that are used in all pages (eg. the `components/layout.js` component that contains the Navbar and footer is always present in all pages, so it is called here).
+This "page" overrides the default App component that initializes pages. Recommended to use for page layouts that are used in all pages (eg. the `components/navigation/layout.js` component that contains the Navbar and footer is always present in all pages, so it is called here).
 
 This project also contains the HTML `<head>` tag in this file.
 
@@ -65,15 +65,15 @@ This page is the default page that loads when visiting [animefest.ucsd.moe](http
 
 ### Components
 
-#### layout.js
-
-This component contains the Navbar as well as footer tags. It is called in `pages/_app.js`.
-
 #### myimage.js
 
 This component is a substitute for the `<img>` or `<Image>` tag. It is a workaround to the basePath issue that Next.js has with GitHub Pages, so please use this component instead of the regular image tags.
 
-#### sponsor.js
+#### navigation/layout.js
+
+This component contains the Navbar as well as footer tags. It is called in `pages/_app.js`.
+
+#### navigation/sponsor.js
 
 This component reads `data/sponsors.json` and formats it into a grid. This component is called in the `layout.js` footer, so that they are displayed at the bottom of every page.
 
@@ -91,9 +91,13 @@ This component is only used in `pages/index.js`. This component reads `data/prog
 
 This component is only used in `pages/index.js`. This component reads `data/socials.json` and returns a horizontal ListGroup of the social media icons.
 
-#### exhibitor/exhibitortable.js
+#### exhibitor/artisttable.js
 
-This component is only used in `pages/exhibitor.js` It can read `data/artists.json` or `data/vendors.json` and returns a Table.
+This component is only used in `pages/exhibitor.js` It reads `data/artists.json` and returns a Table.
+
+#### exhibitor/vendortable.js
+
+This component is only used in `pages/exhibitor.js` It reads `data/vendors.json` and returns a Table.
 
 ### Data
 
