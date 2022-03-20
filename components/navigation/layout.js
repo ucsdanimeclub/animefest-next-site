@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
-import Sponsor from "../components/sponsor"
+import Sponsor from "./sponsor"
 
 
 export default function Layout({ children }) {

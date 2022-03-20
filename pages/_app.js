@@ -1,6 +1,6 @@
 import { useRouter } from "next/dist/client/router"
 import Head from 'next/head'
-import Layout from '../components/layout'
+import Layout from '../components/navigation/layout'
 import '../styles/globals.css'
 import '../styles/theme.scss'
 

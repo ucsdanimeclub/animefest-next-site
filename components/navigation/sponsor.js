@@ -1,6 +1,6 @@
 import { Col, Row } from 'react-bootstrap'
-import Sponsors from "../data/sponsors.json"
-import MyImage from "./myimage"
+import Sponsors from "../../data/sponsors.json"
+import MyImage from "../myimage"
 
 
 export default function Sponsor() {
