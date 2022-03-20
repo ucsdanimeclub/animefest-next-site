@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-When cloning the repository, run ```npm install```.
+When cloning the repository to your device, run `npm install`.
 
 Then, run the development server:
 
@@ -91,6 +91,10 @@ This component is only used in `pages/index.js`. This component reads `data/prog
 
 This component is only used in `pages/index.js`. This component reads `data/socials.json` and returns a horizontal ListGroup of the social media icons.
 
+#### exhibitor/exhibitortable.js
+
+This component is only used in `pages/exhibitor.js` It can read `data/artists.json` or `data/vendors.json` and returns a Table.
+
 ### Data
 
 Data is read from JSON files so we can change content without changing structure. Components like carousels and lists benefit from this practice as entries can be numerous or change with each year.
@@ -110,6 +114,14 @@ Please download icons from the social media's official Branding page.
 This JSON file contains the name, logo image source, and URL for each sponsor we have for the year.
 
 Please ask your sponsor to provide the logo image, or download it from the sponsor's official Branding or Media/Press Kit page.
+
+#### artists.json
+
+This JSON file contains the display names and links of each artist we have for the year.
+
+#### vendors.json
+
+This JSON file contains the organization names and links of each vendor we have for the year.
 
 ### Images
 
