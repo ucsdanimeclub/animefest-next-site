@@ -91,13 +91,9 @@ This component is only used in `pages/index.js`. This component reads `data/prog
 
 This component is only used in `pages/index.js`. This component reads `data/socials.json` and returns a horizontal ListGroup of the social media icons.
 
-#### exhibitor/artisttable.js
+#### exhibitor/exhibitortable.js
 
-This component is only used in `pages/exhibitor.js` It reads `data/artists.json` and returns a Table.
-
-#### exhibitor/vendortable.js
-
-This component is only used in `pages/exhibitor.js` It reads `data/vendors.json` and returns a Table.
+This component is only used in `pages/exhibitor.js` It can read `data/artists.json` or `data/vendors.json` and returns a Table.
 
 ### Data
 
