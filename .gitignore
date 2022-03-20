@@ -31,3 +31,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# IntelliJ project files
+.idea/.gitignore
+.idea/animefest-next-site.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
