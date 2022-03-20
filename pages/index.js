@@ -39,7 +39,7 @@ export default function Home() {
             <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100"/>
           </Col> */}
           <Col>
-            <div className="video-player mx-auto">
+            <div className="video-player mx-auto mb-5">
               <Ratio aspectRatio="16x9">
                 <iframe className="mt-2 border-stroke" src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
               </Ratio>
@@ -71,11 +71,6 @@ export default function Home() {
           </Ratio>
         </div>
       </Container>
-
-      {/* <Container fluid className="p-5 mt-4 section" id="photobooth">
-        <h1 className="text-left mb-4 display-text">Photobooth</h1>
-        Coming Soon!
-      </Container> */}
     </>
   )
 }

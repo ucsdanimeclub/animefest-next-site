@@ -3,9 +3,13 @@ import Programs from "../../data/programs.json"
 import MyImage from "../myimage"
 
 
-export default function ProgramsCarousel() {
+export default function ProgramsCarousel({centered = true}) {
+  let classes = "carousel border-stroke caption-text glow-text"
+  if (centered) {
+    classes = classes + " mx-auto"
+  }
   return (
-    <Carousel className="carousel mt-5 mx-auto border-stroke caption-text glow-text">
+    <Carousel className={classes}>
       {Programs['programs'].map((program, index) => (
         <Carousel.Item key={index}>
           <MyImage
