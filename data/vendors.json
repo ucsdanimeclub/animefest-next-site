@@ -1,42 +1,82 @@
 [
   {
-    "vendor_name": "Pika Dude",
-    "vendor_link": "https:\/\/pikadude.com\/"
+    "name": [
+      "Pika Dude"
+    ],
+    "link": [
+      "https:\/\/pikadude.com\/"
+    ]
   },
   {
-    "vendor_name": "Xaviercal Customs And Collectibles",
-    "vendor_link": "https:\/\/www.xaviercalcustomsandcollectibles.com\/"
+    "name": [
+      "Xaviercal Customs And Collectibles"
+    ],
+    "link": [
+      "https:\/\/www.xaviercalcustomsandcollectibles.com\/"
+    ]
   },
   {
-    "vendor_name": "Nandesuka",
-    "vendor_link": "https:\/\/www.instagram.com\/Nandesuka_clothing\/"
+    "name": [
+      "Nandesuka"
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/Nandesuka_clothing\/"
+    ]
   },
   {
-    "vendor_name": "Anime Topia",
-    "vendor_link": "https:\/\/www.instagram.com\/animetopiainc\/"
+    "name": [
+      "Anime Topia"
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/animetopiainc\/"
+    ]
   },
   {
-    "vendor_name": "JellyfishTears",
-    "vendor_link": ""
+    "name": [
+      "JellyfishTears"
+    ],
+    "link": [
+      ""
+    ]
   },
   {
-    "vendor_name": "Boba Rally",
-    "vendor_link": ""
+    "name": [
+      "Boba Rally"
+    ],
+    "link": [
+      ""
+    ]
   },
   {
-    "vendor_name": "M8's Warudo",
-    "vendor_link": ""
+    "name": [
+      "M8's Warudo"
+    ],
+    "link": [
+      ""
+    ]
   },
   {
-    "vendor_name": "Power Coin Toy Collectibles",
-    "vendor_link": ""
+    "name": [
+      "Power Coin Toy Collectibles"
+    ],
+    "link": [
+      ""
+    ]
   },
   {
-    "vendor_name": "Mini Boba Boutique LLC",
-    "vendor_link": ""
+    "name": [
+      "Mini Boba Boutique LLC"
+    ],
+    "link": [
+      ""
+    ]
   },
   {
-    "vendor_name": "ANIMECOAST.com",
-    "vendor_link": "https:\/\/www.animecoast.com\/"
+    "name": [
+      "ANIMECOAST.com"
+    ],
+    "link": [
+      "https:\/\/www.animecoast.com\/"
+    ]
   }
 ]

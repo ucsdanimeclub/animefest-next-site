@@ -1,386 +1,578 @@
 [
   {
-    "first_artist_name": "anticrystalist",
-    "first_artist_link": "https:\/\/twitter.com\/anticrystalist",
-    "second_artist_name": "kisumis",
-    "second_artist_link": "https:\/\/www.instagram.com\/kisumis_\/",
-    "third_artist_name": "astronyu",
-    "third_artist_link": "https:\/\/www.instagram.com\/astronyu\/"
+    "name": [
+      "anticrystalist",
+      "kisumis",
+      "astronyu"
+    ],
+    "link": [
+      "https:\/\/twitter.com\/anticrystalist",
+      "https:\/\/www.instagram.com\/kisumis_\/",
+      "https:\/\/www.instagram.com\/astronyu\/"
+    ]
   },
   {
-    "first_artist_name": "Aprahnicus",
-    "first_artist_link": "https:\/\/twitter.com\/aprahnicus",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Aprahnicus",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/twitter.com\/aprahnicus",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Yuururin",
-    "first_artist_link": "",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Yuururin",
+      "",
+      ""
+    ],
+    "link": [
+      "",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Nats Art Space",
-    "first_artist_link": "",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Nats Art Space",
+      "",
+      ""
+    ],
+    "link": [
+      "",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "ButtsCrafts",
-    "first_artist_link": "https:\/\/www.instagram.com\/buttscrafts\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "ButtsCrafts",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/buttscrafts\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Twisty Loop Creations",
-    "first_artist_link": "",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Twisty Loop Creations",
+      "",
+      ""
+    ],
+    "link": [
+      "",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Outer Realms Dice",
-    "first_artist_link": "https:\/\/www.instagram.com\/outer.realms.dice\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Outer Realms Dice",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/outer.realms.dice\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Eightfish",
-    "first_artist_link": "https:\/\/www.instagram.com\/actuallyoctopi\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Eightfish",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/actuallyoctopi\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Emily Echevarria",
-    "first_artist_link": "https:\/\/twitter.com\/FrenchieFie",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Emily Echevarria",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/twitter.com\/FrenchieFie",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Ghostlygoods ",
-    "first_artist_link": "https:\/\/jaxcels.carrd.co\/",
-    "second_artist_name": "Camalilium",
-    "second_artist_link": "https:\/\/camalilium.carrd.co\/",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Ghostlygoods",
+      "Camalilium",
+      ""
+    ],
+    "link": [
+      "https:\/\/jaxcels.carrd.co\/",
+      "https:\/\/camalilium.carrd.co\/",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Loonartear",
-    "first_artist_link": "https:\/\/www.instagram.com\/loonartear\/",
-    "second_artist_name": "Tnkisu",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Loonartear",
+      "Tnkisu",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/loonartear\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Superlens",
-    "first_artist_link": "https:\/\/www.instagram.com\/ellenwong_art\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Superlens",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/ellenwong_art\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Zetallis",
-    "first_artist_link": "https:\/\/shop.zetallis.com\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Zetallis",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/shop.zetallis.com\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Adzusai Art",
-    "first_artist_link": "https:\/\/twitter.com\/AdzusaiArt",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Adzusai Art",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/twitter.com\/AdzusaiArt",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "genieart",
-    "first_artist_link": "https:\/\/www.instagram.com\/genieart",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "genieart",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/genieart",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Amour",
-    "first_artist_link": "https:\/\/hyeinjenkang.wixsite.com\/amour",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Amour",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/hyeinjenkang.wixsite.com\/amour",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Tenshika",
-    "first_artist_link": "",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Tenshika",
+      "",
+      ""
+    ],
+    "link": [
+      "",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "The Apothekary",
-    "first_artist_link": "https:\/\/www.etsy.com\/shop\/TheApothekary",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "The Apothekary",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.etsy.com\/shop\/TheApothekary",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "KYUPLS",
-    "first_artist_link": "https:\/\/tiffanychin.carbonmade.com\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "KYUPLS",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/tiffanychin.carbonmade.com\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Uppermind Ink",
-    "first_artist_link": "https:\/\/www.instagram.com\/uppermindink\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Uppermind Ink",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/uppermindink\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "pakeji",
-    "first_artist_link": "https:\/\/sta.sh\/2kektgtici8",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "pakeji",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/sta.sh\/2kektgtici8",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "khuwun",
-    "first_artist_link": "https:\/\/twitter.com\/khuwun",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "khuwun",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/twitter.com\/khuwun",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Lottemp3",
-    "first_artist_link": "https:\/\/www.lotte.studio\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Lottemp3",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.lotte.studio\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Chim Arts",
-    "first_artist_link": "",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Chim Arts",
+      "",
+      ""
+    ],
+    "link": [
+      "",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Merrymint",
-    "first_artist_link": "https:\/\/merrymintstore.bigcartel.com\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Merrymint",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/merrymintstore.bigcartel.com\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Nachoz",
-    "first_artist_link": "https:\/\/www.nachozart.com\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Nachoz",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.nachozart.com\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "missdurianne",
-    "first_artist_link": "https:\/\/twitter.com\/missdurianne",
-    "second_artist_name": "shim_loo",
-    "second_artist_link": "https:\/\/twitter.com\/shim_loo",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "missdurianne",
+      "shim_loo",
+      ""
+    ],
+    "link": [
+      "https:\/\/twitter.com\/missdurianne",
+      "https:\/\/twitter.com\/shim_loo",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Artistsan Studio",
-    "first_artist_link": "",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Artistsan Studio",
+      "",
+      ""
+    ],
+    "link": [
+      "",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Hybrid Night Creations",
-    "first_artist_link": "https:\/\/www.hybridnight.com\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Hybrid Night Creations",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.hybridnight.com\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "MiaoYuen",
-    "first_artist_link": "https:\/\/miaoyuen.carrd.co\/",
-    "second_artist_name": "Missdoodlesalot",
-    "second_artist_link": "https:\/\/www.etsy.com\/shop\/YuniqueWares?ref=seller-platform-mcnav",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "MiaoYuen",
+      "Missdoodlesalot",
+      ""
+    ],
+    "link": [
+      "https:\/\/miaoyuen.carrd.co\/",
+      "https:\/\/www.etsy.com\/shop\/YuniqueWares?ref=seller-platform-mcnav",
+      ""
+    ]
   },
   {
-    "first_artist_name": "WOLFGANG INDUSTRIES",
-    "first_artist_link": "",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "WOLFGANG INDUSTRIES",
+      "",
+      ""
+    ],
+    "link": [
+      "",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "basiatlu",
-    "first_artist_link": "https:\/\/www.instagram.com\/basiatlu\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "basiatlu",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/basiatlu\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Turqlight",
-    "first_artist_link": "",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Turqlight",
+      "",
+      ""
+    ],
+    "link": [
+      "",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Pitangawang",
-    "first_artist_link": "https:\/\/www.instagram.com\/pitangawang\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Pitangawang",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/pitangawang\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Royally Divine",
-    "first_artist_link": "https:\/\/www.instagram.com\/royallydivine\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Royally Divine",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/royallydivine\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Alberto Maldonado",
-    "first_artist_link": "",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Alberto Maldonado",
+      "",
+      ""
+    ],
+    "link": [
+      "",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Girls Are Scary",
-    "first_artist_link": "",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Girls Are Scary",
+      "",
+      ""
+    ],
+    "link": [
+      "",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Poison Tragic",
-    "first_artist_link": "https:\/\/poisontragic.com\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Poison Tragic",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/poisontragic.com\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Poppypraise",
-    "first_artist_link": "https:\/\/www.instagram.com\/poppypraise\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Poppypraise",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/poppypraise\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Bubble Tea Penguin ",
-    "first_artist_link": "https:\/\/bubbleteapenguin.carrd.co\/ ",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Bubble Tea Penguin",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/bubbleteapenguin.carrd.co\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Maliadoodles",
-    "first_artist_link": "https:\/\/www.instagram.com\/maliadoodles\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Maliadoodles",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.instagram.com\/maliadoodles\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "pandailee",
-    "first_artist_link": "https:\/\/pandailee.carrd.co\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "pandailee",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/pandailee.carrd.co\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "InfinityRise1 ",
-    "first_artist_link": "https:\/\/www.infinityrise.net\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "InfinityRise1",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.infinityrise.net\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Requiemofkings",
-    "first_artist_link": "https:\/\/requiemofkings.artstation.com\/",
-    "second_artist_name": "Refreshments",
-    "second_artist_link": "https:\/\/refreshmints.carbonmade.com\/",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Requiemofkings",
+      "Refreshments",
+      ""
+    ],
+    "link": [
+      "https:\/\/requiemofkings.artstation.com\/",
+      "https:\/\/refreshmints.carbonmade.com\/",
+      ""
+    ]
   },
   {
-    "first_artist_name": "o.megano",
-    "first_artist_link": "https:\/\/www.etsy.com\/shop\/moomoomegan",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "o.megano",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.etsy.com\/shop\/moomoomegan",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Flight & Fancy Co.",
-    "first_artist_link": "https:\/\/www.flightandfancy.co\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Flight & Fancy Co.",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/www.flightandfancy.co\/",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Fifth Element Pins",
-    "first_artist_link": "https:\/\/fifthelementpins.carrd.co",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Fifth Element Pins",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/fifthelementpins.carrd.co",
+      "",
+      ""
+    ]
   },
   {
-    "first_artist_name": "Blulious",
-    "first_artist_link": "https:\/\/blulious.carbonmade.com\/",
-    "second_artist_name": "",
-    "second_artist_link": "",
-    "third_artist_name": "",
-    "third_artist_link": ""
+    "name": [
+      "Blulious",
+      "",
+      ""
+    ],
+    "link": [
+      "https:\/\/blulious.carbonmade.com\/",
+      "",
+      ""
+    ]
   }
 ]
