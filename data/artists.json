@@ -1,578 +1,451 @@
 [
-  {
-    "name": [
-      "anticrystalist",
-      "kisumis",
-      "astronyu"
-    ],
-    "link": [
-      "https:\/\/twitter.com\/anticrystalist",
-      "https:\/\/www.instagram.com\/kisumis_\/",
-      "https:\/\/www.instagram.com\/astronyu\/"
-    ]
-  },
-  {
-    "name": [
-      "Aprahnicus",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/twitter.com\/aprahnicus",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Yuururin",
-      "",
-      ""
-    ],
-    "link": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Nats Art Space",
-      "",
-      ""
-    ],
-    "link": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "ButtsCrafts",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/buttscrafts\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Twisty Loop Creations",
-      "",
-      ""
-    ],
-    "link": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Outer Realms Dice",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/outer.realms.dice\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Eightfish",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/actuallyoctopi\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Emily Echevarria",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/twitter.com\/FrenchieFie",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Ghostlygoods",
-      "Camalilium",
-      ""
-    ],
-    "link": [
-      "https:\/\/jaxcels.carrd.co\/",
-      "https:\/\/camalilium.carrd.co\/",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Loonartear",
-      "Tnkisu",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/loonartear\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Superlens",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/ellenwong_art\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Zetallis",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/shop.zetallis.com\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Adzusai Art",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/twitter.com\/AdzusaiArt",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "genieart",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/genieart",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Amour",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/hyeinjenkang.wixsite.com\/amour",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Tenshika",
-      "",
-      ""
-    ],
-    "link": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "The Apothekary",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.etsy.com\/shop\/TheApothekary",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "KYUPLS",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/tiffanychin.carbonmade.com\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Uppermind Ink",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/uppermindink\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "pakeji",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/sta.sh\/2kektgtici8",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "khuwun",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/twitter.com\/khuwun",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Lottemp3",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.lotte.studio\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Chim Arts",
-      "",
-      ""
-    ],
-    "link": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Merrymint",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/merrymintstore.bigcartel.com\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Nachoz",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.nachozart.com\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "missdurianne",
-      "shim_loo",
-      ""
-    ],
-    "link": [
-      "https:\/\/twitter.com\/missdurianne",
-      "https:\/\/twitter.com\/shim_loo",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Artistsan Studio",
-      "",
-      ""
-    ],
-    "link": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Hybrid Night Creations",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.hybridnight.com\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "MiaoYuen",
-      "Missdoodlesalot",
-      ""
-    ],
-    "link": [
-      "https:\/\/miaoyuen.carrd.co\/",
-      "https:\/\/www.etsy.com\/shop\/YuniqueWares?ref=seller-platform-mcnav",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "WOLFGANG INDUSTRIES",
-      "",
-      ""
-    ],
-    "link": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "basiatlu",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/basiatlu\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Turqlight",
-      "",
-      ""
-    ],
-    "link": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Pitangawang",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/pitangawang\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Royally Divine",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/royallydivine\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Alberto Maldonado",
-      "",
-      ""
-    ],
-    "link": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Girls Are Scary",
-      "",
-      ""
-    ],
-    "link": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Poison Tragic",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/poisontragic.com\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Poppypraise",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/poppypraise\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Bubble Tea Penguin",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/bubbleteapenguin.carrd.co\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Maliadoodles",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.instagram.com\/maliadoodles\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "pandailee",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/pandailee.carrd.co\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "InfinityRise1",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.infinityrise.net\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Requiemofkings",
-      "Refreshments",
-      ""
-    ],
-    "link": [
-      "https:\/\/requiemofkings.artstation.com\/",
-      "https:\/\/refreshmints.carbonmade.com\/",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "o.megano",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.etsy.com\/shop\/moomoomegan",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Flight & Fancy Co.",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/www.flightandfancy.co\/",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Fifth Element Pins",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/fifthelementpins.carrd.co",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": [
-      "Blulious",
-      "",
-      ""
-    ],
-    "link": [
-      "https:\/\/blulious.carbonmade.com\/",
-      "",
-      ""
-    ]
-  }
+    {
+        "id": 1,
+        "people": [
+            {
+                "name": "anticrystalist",
+                "link": "https://twitter.com/anticrystalist"
+            },
+            {
+                "name": "kisumis",
+                "link": "https://www.instagram.com/kisumis_/"
+            },
+            {
+                "name": "astronyu",
+                "link": "https://www.instagram.com/astronyu/"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "people": [
+            {
+                "name": "Aprahnicus",
+                "link": "https://twitter.com/aprahnicus"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "people": [
+            {
+                "name": "Yuururin"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "people": [
+            {
+                "name": "Nats Art Space"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "people": [
+            {
+                "name": "ButtsCrafts",
+                "link": "https://www.instagram.com/buttscrafts/"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "people": [
+            {
+                "name": "Twisty Loop Creations"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "people": [
+            {
+                "name": "Outer Realms Dice",
+                "link": "https://www.instagram.com/outer.realms.dice/"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "people": [
+            {
+                "name": "Eightfish",
+                "link": "https://www.instagram.com/actuallyoctopi/"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "people": [
+            {
+                "name": "Emily Echevarria",
+                "link": "https://twitter.com/FrenchieFie"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "people": [
+            {
+                "name": "Ghostlygoods",
+                "link": "https://jaxcels.carrd.co/"
+            },
+            {
+                "name": "Camalilium",
+                "link": "https://camalilium.carrd.co/"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "people": [
+            {
+                "name": "Loonartear",
+                "link": "https://www.instagram.com/loonartear/"
+            },
+            {
+                "name": "Tnkisu"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "people": [
+            {
+                "name": "Superlens",
+                "link": "https://www.instagram.com/ellenwong_art/"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "people": [
+            {
+                "name": "Zetallis",
+                "link": "https://shop.zetallis.com/"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "people": [
+            {
+                "name": "Adzusai Art",
+                "link": "https://twitter.com/AdzusaiArt"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "people": [
+            {
+                "name": "genieart",
+                "link": "https://www.instagram.com/genieart"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "people": [
+            {
+                "name": "Amour",
+                "link": "https://hyeinjenkang.wixsite.com/amour"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "people": [
+            {
+                "name": "Tenshika"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "people": [
+            {
+                "name": "The Apothekary",
+                "link": "https://www.etsy.com/shop/TheApothekary"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "people": [
+            {
+                "name": "KYUPLS",
+                "link": "https://tiffanychin.carbonmade.com/"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "people": [
+            {
+                "name": "Uppermind Ink",
+                "link": "https://www.instagram.com/uppermindink/"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "people": [
+            {
+                "name": "pakeji",
+                "link": "https://sta.sh/2kektgtici8"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "people": [
+            {
+                "name": "khuwun",
+                "link": "https://twitter.com/khuwun"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "people": [
+            {
+                "name": "Lottemp3",
+                "link": "https://www.lotte.studio/"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "people": [
+            {
+                "name": "Chim Arts"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "people": [
+            {
+                "name": "Merrymint",
+                "link": "https://merrymintstore.bigcartel.com/"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "people": [
+            {
+                "name": "Nachoz",
+                "link": "https://www.nachozart.com/"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "people": [
+            {
+                "name": "missdurianne",
+                "link": "https://twitter.com/missdurianne"
+            },
+            {
+                "name": "shim_loo",
+                "link": "https://twitter.com/shim_loo"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "people": [
+            {
+                "name": "Artistsan Studio"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "people": [
+            {
+                "name": "Hybrid Night Creations",
+                "link": "https://www.hybridnight.com/"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "people": [
+            {
+                "name": "MiaoYuen",
+                "link": "https://miaoyuen.carrd.co/"
+            },
+            {
+                "name": "Missdoodlesalot",
+                "link": "https://www.etsy.com/shop/YuniqueWares?ref=seller-platform-mcnav"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "people": [
+            {
+                "name": "WOLFGANG INDUSTRIES"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "people": [
+            {
+                "name": "basiatlu",
+                "link": "https://www.instagram.com/basiatlu/"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "people": [
+            {
+                "name": "Turqlight"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "people": [
+            {
+                "name": "Pitangawang",
+                "link": "https://www.instagram.com/pitangawang/"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "people": [
+            {
+                "name": "Royally Divine",
+                "link": "https://www.instagram.com/royallydivine/"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "people": [
+            {
+                "name": "Alberto Maldonado"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "people": [
+            {
+                "name": "Girls Are Scary"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "people": [
+            {
+                "name": "Poison Tragic",
+                "link": "https://poisontragic.com/"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "people": [
+            {
+                "name": "Poppypraise",
+                "link": "https://www.instagram.com/poppypraise/"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "people": [
+            {
+                "name": "Bubble Tea Penguin",
+                "link": "https://bubbleteapenguin.carrd.co/"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "people": [
+            {
+                "name": "Maliadoodles",
+                "link": "https://www.instagram.com/maliadoodles/"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "people": [
+            {
+                "name": "pandailee",
+                "link": "https://pandailee.carrd.co/"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "people": [
+            {
+                "name": "InfinityRise1",
+                "link": "https://www.infinityrise.net/"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "people": [
+            {
+                "name": "Requiemofkings",
+                "link": "https://requiemofkings.artstation.com/"
+            },
+            {
+                "name": "Refreshments",
+                "link": "https://refreshmints.carbonmade.com/"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "people": [
+            {
+                "name": "o.megano",
+                "link": "https://www.etsy.com/shop/moomoomegan"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "people": [
+            {
+                "name": "Flight & Fancy Co.",
+                "link": "https://www.flightandfancy.co/"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "people": [
+            {
+                "name": "Fifth Element Pins",
+                "link": "https://fifthelementpins.carrd.co"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "people": [
+            {
+                "name": "Blulious",
+                "link": "https://blulious.carbonmade.com/"
+            }
+        ]
+    }
 ]
