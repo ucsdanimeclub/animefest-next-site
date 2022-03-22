@@ -50,9 +50,6 @@ export default function ExhibitorTable({data, ...otherProps}) {
                             </tr>
                         )
                     })}
-                    <tr>
-                        <td>Test row</td>
-                    </tr>
                     </tbody>
                 </Table>
             </Col>
