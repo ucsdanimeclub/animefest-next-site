@@ -34,14 +34,14 @@ export default function ExhibitorTable({data, ...otherProps}) {
                             <tr key={index}>
                                 <td>
                                     {table["people"].map((person, index) => (
-                                        <>
-                                            <Exhibitor data={person} key={index}/>
+                                        <span key={index}>
+                                            <Exhibitor data={person} />
                                             {index < table["people"].length - 1 && table["people"].length > 2 && ','}
                                             {index < table["people"].length - 1 && ' '}
                                             <i>
                                                 {index === table["people"].length - 2 && 'and '}
                                             </i>
-                                        </>
+                                        </span>
                                     ))}
                                 </td>
                                 <td>
