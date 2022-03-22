@@ -1,87 +1,87 @@
 [
-    {
-        "id": 1,
-        "people": [
-            {
-                "name": "Pika Dude",
-                "link": "https://pikadude.com/"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "people": [
-            {
-                "name": "Xaviercal Customs And Collectibles",
-                "link": "https://www.xaviercalcustomsandcollectibles.com/"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "people": [
-            {
-                "name": "Nandesuka",
-                "link": "https://www.instagram.com/Nandesuka_clothing/"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "people": [
-            {
-                "name": "Anime Topia",
-                "link": "https://www.instagram.com/animetopiainc/"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "people": [
-            {
-                "name": "JellyfishTears"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "people": [
-            {
-                "name": "Boba Rally"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "people": [
-            {
-                "name": "M8's Warudo"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "people": [
-            {
-                "name": "Power Coin Toy Collectibles"
-            }
-        ]
-    },
-    {
-        "id": 9,
-        "people": [
-            {
-                "name": "Mini Boba Boutique LLC"
-            }
-        ]
-    },
-    {
-        "id": 10,
-        "people": [
-            {
-                "name": "ANIMECOAST.com",
-                "link": "https://www.animecoast.com/"
-            }
-        ]
-    }
+  {
+    "id": "1",
+    "people": [
+      {
+        "name": "Nandesuka",
+        "link": "https://www.instagram.com/Nandesuka_clothing/"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "people": [
+      {
+        "name": "ANIMECOAST.com",
+        "link": "https://www.animecoast.com/"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "people": [
+      {
+        "name": "Power Coin Toy Collectibles"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "people": [
+      {
+        "name": "Pika Dude",
+        "link": "https://pikadude.com/"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "people": [
+      {
+        "name": "JellyfishTears"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "people": [
+      {
+        "name": "Boba Rally"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "people": [
+      {
+        "name": "M8's Warudo"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "people": [
+      {
+        "name": "Anime Topia",
+        "link": "https://www.instagram.com/animetopiainc/"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "people": [
+      {
+        "name": "Xaviercal Customs And Collectibles",
+        "link": "https://www.xaviercalcustomsandcollectibles.com/"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "people": [
+      {
+        "name": "Mini Boba Boutique LLC"
+      }
+    ]
+  }
 ]
