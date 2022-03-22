@@ -1,5 +1,19 @@
 import {Table, Col, Row} from "react-bootstrap"
 
+export function Exhibitor({data}) {
+    // takes a person object with "name" and optional "link" properties
+    if (data["link"]) {
+        return (
+            <a href={data["link"]}>{data["name"]}</a>
+        )
+    } else {
+        return (
+            <>
+                {data["name"]}
+            </>
+        )
+    }
+}
 
 export default function ExhibitorTable({data, ...otherProps}) {
     return (
@@ -11,22 +25,31 @@ export default function ExhibitorTable({data, ...otherProps}) {
                     <thead>
                     <tr>
                         <th width={"75%"}>Name</th>
-                        {/*<th>Table</th>*/}
+                        <th>Table</th>
                     </tr>
                     </thead>
                     <tbody>
-                    {data.map((exhibitor, index) => (
-                        <tr key={index}>
-                            <td>
-                                {exhibitor['name'].map((name, index) => (
-                                        <a href={exhibitor['link'][index]}>{name + ' '}</a>
-                                ))}
-                            </td>
-                            {/*<td>*/}
-                            {/*    /!*table assignment here*!/*/}
-                            {/*</td>*/}
-                        </tr>
-                    ))}
+                    {data.map((table, index) => {
+                        return (
+                            <tr key={index}>
+                                <td>
+                                    {table["people"].map((person, index) => (
+                                        <>
+                                            <Exhibitor data={person} key={index}/>
+                                            {index < table["people"].length - 1 && table["people"].length > 2 && ','}
+                                            {index < table["people"].length - 1 && ' '}
+                                            <i>
+                                                {index === table["people"].length - 2 && 'and '}
+                                            </i>
+                                        </>
+                                    ))}
+                                </td>
+                                <td>
+                                    {table["id"]}
+                                </td>
+                            </tr>
+                        )
+                    })}
                     <tr>
                         <td>Test row</td>
                     </tr>
