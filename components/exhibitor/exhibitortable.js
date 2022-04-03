@@ -1,26 +1,40 @@
 import {Table, Col, Row} from "react-bootstrap"
+import {useState} from "react";
 
-export function Exhibitor({data}) {
+export function Exhibitor({data, highlighted}) {
     // takes a person object with "name" and optional "link" properties
+    let styles = {}
+    if (highlighted) {
+        styles["color"] = "gold"
+    }
     if (data["link"]) {
+
         return (
-            <a href={data["link"]}>{data["name"]}</a>
+            <a href={data["link"]} style={styles}>{data["name"]}</a>
         )
     } else {
         return (
-            <>
+            <span style={styles}>
                 {data["name"]}
-            </>
+            </span>
         )
     }
 }
 
 export default function ExhibitorTable({data, ...otherProps}) {
+    let [text, setText] = useState("")
+    const onSearchChange = (e) => {
+        setText(e.target.value)
+    }
+    const inSearch = (person) => person["name"].toLowerCase().includes(text.toLowerCase())
     return (
         <Row {...otherProps}>
             <Col xs={0} md={1} lg={2}>
             </Col>
             <Col xs={12} md={10} lg={8}>
+                <input type="search" placeholder="Search name..." value={text}
+                       className="mb-1 w-75 bg-dark text-white border-stroke" onChange={onSearchChange}/>
+
                 <Table striped bordered hover responsive variant="dark" className="exhibitor-table border-stroke">
                     <thead>
                     <tr>
@@ -29,13 +43,15 @@ export default function ExhibitorTable({data, ...otherProps}) {
                     </tr>
                     </thead>
                     <tbody>
-                    {data.map((table, index) => {
+                    {data.filter((table) =>
+                        table["people"].some(inSearch)
+                    ).map((table, index) => {
                         return (
                             <tr key={index}>
                                 <td>
                                     {table["people"].map((person, index) => (
                                         <span key={index}>
-                                            <Exhibitor data={person} />
+                                            <Exhibitor data={person} highlighted={inSearch(person) && text !== ""}/>
                                             {index < table["people"].length - 1 && table["people"].length > 2 && ','}
                                             {index < table["people"].length - 1 && ' '}
                                             <i>
