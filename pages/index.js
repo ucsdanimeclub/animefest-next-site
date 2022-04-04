@@ -1,4 +1,4 @@
-import {Col, Container, Ratio, Row} from 'react-bootstrap'
+import { Col, Container, Ratio, Row } from 'react-bootstrap'
 import BackgroundImage from "../components/index/backgroundimage"
 import ProgramsCarousel from "../components/index/programscarousel"
 import Social from "../components/index/social"
@@ -18,7 +18,7 @@ export default function Home() {
                 <BackgroundImage src="images/landing.jpg" className="landing">
                     <Row className="align-items-center h-75 g-0 glow-text">
                         <Col>
-                            <MyImage src="images/logo_af.svg" className="w-75" alt="Animefest 2022 logo"/>
+                            <MyImage src="images/logo_af.svg" className="w-75" alt="Animefest 2022 logo" />
                             <h4>May 7 at UC San Diego&apos;s Price Center</h4>
                             <h5>Free Admission</h5>
                         </Col>
@@ -46,13 +46,13 @@ export default function Home() {
                         <div className="video-player mx-auto mb-5">
                             <Ratio aspectRatio="16x9">
                                 <iframe className="border-stroke"
-                                        src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c"
-                                        title="YouTube video player" frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowFullScreen={true}/>
+                                    src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c"
+                                    title="YouTube video player" frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen={true} />
                             </Ratio>
                         </div>
-                        <ProgramsCarousel/>
+                        <ProgramsCarousel />
                     </Col>
                     {/* <Col className="d-none d-lg-block">
             <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100"/>
@@ -75,17 +75,19 @@ export default function Home() {
                 <p>Unfortunately, <a href="https://transportation.ucsd.edu/visit/visitor/index.html">parking is not
                     free</a> on UCSD&apos;s campus. We recommend you find free parking off campus and walking to campus
                     or taking the bus to campus. We apologize for the inconvenience.</p>
-                <p className="mb-4">For parking on campus, please take a look at the <a
+                <p>For parking on campus, please take a look at the <a
                     href="https://maps.ucsd.edu/map/?id=1005#!ce/17201?ct/36591,27576,20079,18312,18027,35364,29152,36849,42782,43513,45236?mc/32.877341347399,-117.23531663418?z/18?lvl/0">official
                     campus map</a>, expand <b>Parking by Permit Type</b>, and select <b>Visitor</b> in the menu to see
-                    areas where you can park.
+                    areas where you can park. Please ensure that you park in designated Visitor spots which will be marked on the floor in these areas.</p>
+
+                <p className="mb-4">
                     The Gilman Parking Structure is the closest parking structure to the convention. You can use the
                     Wayfinding feature or the map below to navigate to Price Center:</p>
                 <div className="map mx-auto">
                     <Ratio aspectRatio="4x3">
                         <iframe className="border-stroke"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.697394192468!2d-117.2383838856308!3d32.87972498605018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c46a524fb9%3A0x68571efb243bc289!2sPrice%20Center%2C%20La%20Jolla%2C%20CA%2092093!5e0!3m2!1sen!2sus!4v1638064542514!5m2!1sen!2sus"
-                                width="600" height="450" allowFullScreen="" loading="lazy"/>
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.697394192468!2d-117.2383838856308!3d32.87972498605018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c46a524fb9%3A0x68571efb243bc289!2sPrice%20Center%2C%20La%20Jolla%2C%20CA%2092093!5e0!3m2!1sen!2sus!4v1638064542514!5m2!1sen!2sus"
+                            width="600" height="450" allowFullScreen="" loading="lazy" />
                     </Ratio>
                 </div>
             </Container>
