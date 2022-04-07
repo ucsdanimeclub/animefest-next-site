@@ -3,7 +3,6 @@ import Artists from "../data/artists.json"
 import Vendors from "../data/vendors.json"
 import ExhibitorTable from "../components/exhibitor/exhibitortable"
 import MyImage from "../components/myimage"
-import Link from 'next/link'
 
 
 export default function Exhibitor() {
@@ -23,9 +22,9 @@ export default function Exhibitor() {
                 <h4 className="text-left title-text mb-4">Vendors</h4>
                 <ExhibitorTable data={Vendors} className="mb-4"/>
                 <h4 className="text-left title-text mb-4">West Ballroom Map</h4>
-                <Link href="images/west_ballroom_exhibitors.png"><MyImage src="images/west_ballroom_exhibitors.png"
+                <a href="images/west_ballroom_exhibitors.png"><MyImage src="images/west_ballroom_exhibitors.png"
                                                                           alt="West Ballroom map"
-                                                                          className="mw-100 mx-auto d-block mb-1"/></Link>
+                                                                          className="mw-100 mx-auto d-block mb-1"/></a>
                 <p className="text-center caption-text">Click on the image to enlarge.</p>
             </Container>
         </>
