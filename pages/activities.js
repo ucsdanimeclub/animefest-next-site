@@ -10,6 +10,7 @@ export default function Activities() {
 
       <Container fluid className="p-5 section">
         <h4 className="text-left mb-4 display-text">ABOUT</h4>
+        <p className="text-left caption-text mb-4">11:00 AM - 5:00 PM: Activities Open</p>
         <p className="mb-0">The Board Game and Origami Folders clubs will be hosting tabletop games and origami lessons at the Green Table Room in the Sun God Lounge.
           We will also have a Cardfight!! Vanguard demo area for attendees to learn how to play the game.</p>
       </Container>
