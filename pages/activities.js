@@ -19,7 +19,7 @@ export default function Activities() {
         <h4 className="text-left mb-4 display-text">CLUBS</h4>
         <h4 className="text-left title-text mb-4">Board Game Club</h4>
         <p className="mb-5">Welcome to UCSD Board Game Club! We are a social club that connects those who love to indulge in board games whether it be heavier games like Twilight Struggle and Cosmic Encounters,
-          or party games like Codenames and Exploding Kittens. We host game nights in Price Center every Sunday afternoon/evening (3-8pm) that are super casual. Come and go as you'd like, bring all your friends, play one of our many games or bring your favorites!</p>
+          or party games like Codenames and Exploding Kittens. We host game nights in Price Center every Sunday afternoon/evening (3-8pm) that are super casual. Come and go as you&apos;d like, bring all your friends, play one of our many games or bring your favorites!</p>
         <h4 className="text-left title-text mb-4">Origami Folders</h4>
         <p>Origami Folders at UCSD is a venue for origami enthusiasts to practice and share their craft with others. Beginners are introduced to the traditional Japanese art, as well as its applications in math and engineering.</p>
         <p className="mb-0">During Animefest, we will exhibit a few anime related models. Visitors are welcome to stay awhile and learn how to fold these models for themselves.</p>
