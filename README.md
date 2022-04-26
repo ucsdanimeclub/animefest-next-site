@@ -115,6 +115,10 @@ This JSON file contains the name, logo image source, and URL for each sponsor we
 
 Please ask your sponsor to provide the logo image, or download it from the sponsor's official Branding or Media/Press Kit page.
 
+#### panels.json
+
+This JSON file contains the start and end time, panel topic, panelist display name, and description for each panel, by the room that they are hosted in.
+
 #### artists.json
 
 This JSON file contains the display names and links of each artist we have for the year.
