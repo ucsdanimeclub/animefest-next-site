@@ -30,6 +30,8 @@ export default function EventTable({ data, location = "", ...otherProps }) {
     if (location !== "") {
         events = events.filter((e) => e["location"] === location)
     }
+    // sort events by time
+    const events_sorted = events.sort((e1, e2) => e1["start"].localeCompare(e2["start"]))
 
     return (
         <Table striped bordered hover responsive variant="dark" className={classes} {...otherPropsWithoutClassName}>
@@ -40,7 +42,7 @@ export default function EventTable({ data, location = "", ...otherProps }) {
                 </tr>
             </thead>
             <tbody>
-                {events.map((event, index) => {
+                {events_sorted.map((event, index) => {
                     return (
                         <tr key={index}>
                             <td>
