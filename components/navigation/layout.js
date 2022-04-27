@@ -26,7 +26,7 @@ export default function Layout({ children }) {
                 <Link href="/mainstage" passHref><NavDropdown.Item>Main Stage</NavDropdown.Item></Link>
                 <Link href="/exhibitor" passHref><NavDropdown.Item>Exhibitor Hall</NavDropdown.Item></Link>
                 <NavDropdown.Header>Price Center Theater</NavDropdown.Header>
-                <Link href="/showings" passHref><NavDropdown.Item>Showings</NavDropdown.Item></Link>
+                <Link href="/theater" passHref><NavDropdown.Item>Theater</NavDropdown.Item></Link>
                 <NavDropdown.Header>College Rooms</NavDropdown.Header>
                 <Link href="/panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
                 <Link href="/manga" passHref><NavDropdown.Item>Manga Library</NavDropdown.Item></Link>

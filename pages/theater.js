@@ -2,11 +2,11 @@ import {Col, Container, Ratio, Row} from 'react-bootstrap'
 import MyImage from "../components/myimage"
 
 
-export default function Showings() {
+export default function Theater() {
     return (
         <>
             <Container fluid className="p-5 text-center jumbo-display">
-                <h1 className="display-4 mb-0">SHOWINGS</h1>
+                <h1 className="display-4 mb-0">THEATER</h1>
             </Container>
 
             <Container fluid className="p-5 section">

@@ -16,7 +16,7 @@ export default function Mainstage() {
                     prizes. Look out for our sign up form on the day of the convention!</p>
                 <p>We will also be hosting raffles throughout the day.</p>
                 <p>Schedule coming soon!</p>
-                <p className="mb-0">This year, performances will be hosted at the <Link href="/showings" passHref>Price
+                <p className="mb-0">This year, performances will be hosted at the <Link href="/theater" passHref>Price
                     Center Theater</Link> instead of the Main Stage.</p>
             </Container>
 
