@@ -69,6 +69,10 @@ This page is the default page that loads when visiting [animefest.ucsd.moe](http
 
 This component is a substitute for the `<img>` or `<Image>` tag. It is a workaround to the basePath issue that Next.js has with GitHub Pages, so please use this component instead of the regular image tags.
 
+#### eventtable.js
+
+This component reads data in the format of `data/panels.json` and returns a table with columns for each entry's start-end times and topic.
+
 #### navigation/layout.js
 
 This component contains the Navbar as well as footer tags. It is called in `pages/_app.js`.
