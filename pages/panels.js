@@ -21,16 +21,16 @@ export default function Panels() {
       <Container fluid className="p-5 section mt-4">
         <h4 className="text-left mb-5 display-text">SCHEDULE</h4>
         <Row className="mb-4">
-          <Col sm={0} md={1} />
-          <Col sm={12} md={5} className="mb-2">
+          <Col xs={0} md={1} />
+          <Col xs={12} md={5} className="mb-2">
             <h4 className="text-left title-text text-center">Thurgood Marshall</h4>
             <EventTable data={Panelists["panels"]} location={"marshall"} />
           </Col>
-          <Col sm={12} md={5}>
+          <Col xs={12} md={5}>
             <h4 className="text-left title-text text-center">Eleanor Roosevelt</h4>
             <EventTable data={Panelists["panels"]} location={"roosevelt"} />
           </Col>
-          <Col sm={0} md={1} />
+          <Col xs={0} md={1} />
         </Row>
         <h4 className="text-left title-text mb-4">Panel Descriptions</h4>
         {panels_abc.map((panel, index) => {
