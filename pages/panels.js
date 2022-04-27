@@ -19,7 +19,7 @@ export default function Panels() {
       </Container>
 
       <Container fluid className="p-5 section mt-4">
-        <h4 className="text-left mb-5 display-text">SCHEDULE</h4>
+        <h4 className="text-left mb-4 display-text">SCHEDULE</h4>
         <Row className="mb-4">
           <Col xs={0} md={1} />
           <Col xs={12} md={5} className="mb-2">
