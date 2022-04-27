@@ -20,17 +20,21 @@ function TimeConvert(time) {
 }
 
 export default function EventTable({ data, location = "", ...otherProps }) {
-    let events = data
+    let {className, ...otherPropsWithoutClassName} = otherProps
+    let classes = "border-stroke"
+    if (className) {
+      classes = classes + " " + className
+    }
 
+    let events = data
     if (location !== "") {
         events = events.filter((e) => e["location"] === location)
     }
-
     // sort events by time
     const events_sorted = events.sort((e1, e2) => e1["start"].localeCompare(e2["start"]))
 
     return (
-        <Table striped bordered hover responsive variant="dark" className="exhibitor-table border-stroke">
+        <Table striped bordered hover responsive variant="dark" className={classes} {...otherPropsWithoutClassName}>
             <thead>
                 <tr>
                     <th width={"40%"}>Time</th>
