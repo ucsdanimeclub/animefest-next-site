@@ -1,5 +1,7 @@
 import {Container} from 'react-bootstrap'
 import PrizeDisplay from "../components/prizes/prizedisplay"
+import PrizeImages from "../components/prizes/prizeimages"
+import Prizes from "../data/prizes.json"
 
 
 export default function Sandbox() {
@@ -7,10 +9,12 @@ export default function Sandbox() {
         "Afternoon Raffle", "Cosplay Masquerade", "Evening Raffle", "Fist of the North Star",
         "Genshin Cosplay", "Kancolle", "Modelkit", "Smash Ultimate"
     ]
+    const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Afternoon Raffle").map((prize) => prize["image"])
     return (
         <>
             <Container fluid className="p-5 section">
-                <PrizeDisplay pools={prizePools} />
+                <PrizeDisplay data={Prizes["prizes"]} pools={prizePools} />
+                <PrizeImages prizes={prizesInPool}></PrizeImages>
             </Container>
 
             <Container fluid className="p-4 mt-5 section">
