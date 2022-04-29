@@ -14,13 +14,12 @@ export default function Rules() {
         </h4>
         <h4 className="highlight text-center title-text mb-5">These rules are NOT final and will continue to update as we prepare for Animefest. Please revisit our rules the week prior to Animefest to read the most updated information.</h4>
         <ol className="mb-5">
-          <li><p>Cal Animage Beta and UC San Diego reserves the right to remove anyone not in compliance of the rules to their discretion.</p></li>
+          <li><p>Cal Animage Beta and UC San Diego reserves the right to remove anyone not in compliance with the rules to their discretion.</p></li>
           <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
             <ul>
-              <li><p>All attendees must wear a mask, even if vaccinated.</p></li>
+              <li><p>Masking is highly encouraged.</p></li>
               <li><p>UCSD students, staff and faculty must show their daily symptom screener. Must have a green thumb to attend.</p></li>
-              <li><p>Attendees that are not affiliated with UCSD must follow all campus requirements, including providing proof of vaccination or a negative COVID-19 test result received within the last 24 hours.</p></li>
-              <li><p>Food and drink are not allowed inside ANY room in use for Animefest, including West Ballroom.</p></li>
+              <li><p>Attendees that are not affiliated with UCSD must follow all campus requirements, including providing proof of vaccination or a negative COVID-19 test result received within the last 48 hours.</p></li>
             </ul>
           </li>
           <li><p>Attendees must respect common sense rules for public behavior, personal interaction, common courtesy, and respect for private property. Harassing or offensive behavior will not be tolerated. If your behavior becomes problematic,
