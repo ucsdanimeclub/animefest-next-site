@@ -25,7 +25,7 @@ export default function PrizeDisplay({pools, ...otherProps}) {
                             {prizesPerLocation[pool].map((imageSource, index) => {
                                 return (
                                     <MyImage key={index} src={imageSource}
-                                             className="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 m-2 border-stroke prize-image">
+                                             className="col-xs-6 col-sm-4 col-md-3 col-lg-2 m-2 border-stroke prize-image">
                                     </MyImage>
                                 )
                             })}
