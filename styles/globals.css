@@ -105,3 +105,8 @@ body {
   max-height: 80vh;
   overflow-y: auto;
 }
+.sheet-schedule {
+  height: 80vh;
+  max-height: 685px;
+  max-width: 1365px;
+}
