@@ -19,11 +19,11 @@ export default function Layout({ children }) {
                 <Link href='/#about' passHref><NavDropdown.Item>About</NavDropdown.Item></Link>
                 <Link href='/#map' passHref><NavDropdown.Item>Map and Schedule</NavDropdown.Item></Link>
                 <Link href='/#parking' passHref><NavDropdown.Item>Parking</NavDropdown.Item></Link>
-                {/* <Link href='/#photobooth' passHref><NavDropdown.Item>Photobooth</NavDropdown.Item></Link> */}
               </NavDropdown>
               <NavDropdown title="Programming" id="basic-nav-dropdown">
                 <NavDropdown.Header>West Ballroom</NavDropdown.Header>
                 <Link href="/mainstage" passHref><NavDropdown.Item>Main Stage</NavDropdown.Item></Link>
+                <Link href="/raffles" passHref><NavDropdown.Item>Raffles</NavDropdown.Item></Link>
                 <Link href="/exhibitor" passHref><NavDropdown.Item>Exhibitor Hall</NavDropdown.Item></Link>
                 <NavDropdown.Header>Price Center Theater</NavDropdown.Header>
                 <Link href="/theater" passHref><NavDropdown.Item>Theater</NavDropdown.Item></Link>
