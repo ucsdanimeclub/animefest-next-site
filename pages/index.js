@@ -11,7 +11,7 @@ export default function Home() {
             <Container fluid className="text-center my-1 text-danger">
                 UCSD students and staff must show a green thumb to attend the convention. All other attendees must show
                 a proof of vaccination or
-                a negative COVID-19 test result received within the last 24 hours.
+                a negative COVID-19 test result received within the last 48 hours.
             </Container>
 
             <Container fluid className="text-center vh-100 p-0">
