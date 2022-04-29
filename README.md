@@ -73,6 +73,10 @@ This component is a substitute for the `<img>` or `<Image>` tag. It is a workaro
 
 This component reads data in the format of `data/panels.json` and returns a table with columns for each entry's start-end times and topic.
 
+#### programscarousel.js
+
+This component reads data in the format of `data/programs.json` and returns a Carousel.
+
 #### navigation/layout.js
 
 This component contains the Navbar as well as footer tags. It is called in `pages/_app.js`.
@@ -87,10 +91,6 @@ Sponsor logos are placed on a white background for visibility.
 
 This component is only used in `pages/index.js`. It is used to place the Animefest landing image within the first Container in the page.
 
-#### index/programscarousel.js
-
-This component is only used in `pages/index.js`. This component reads `data/programs.json` and returns a Carousel.
-
 #### index/social.js
 
 This component is only used in `pages/index.js`. This component reads `data/socials.json` and returns a horizontal ListGroup of the social media icons.
@@ -98,6 +98,14 @@ This component is only used in `pages/index.js`. This component reads `data/soci
 #### exhibitor/exhibitortable.js
 
 This component is only used in `pages/exhibitor.js` It can read `data/artists.json` or `data/vendors.json` and returns a Table.
+
+#### prizes/prizedisplay.js
+
+This component receives data in the format of `data/prizes.json` and a list of relevant locations to display. It returns a tab-separated list (flexbox) of prize images using the `prizes/prizeimages.js` component.
+
+#### prizes/prizeimages.js
+
+This component receives a list of prize image sources and returns a list (flexbox) of prize images. Use this instead of `prizes/prizedisplay.js` if you don't need tabs.
 
 ### Data
 
