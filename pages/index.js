@@ -3,6 +3,7 @@ import BackgroundImage from "../components/index/backgroundimage"
 import ProgramsCarousel from "../components/index/programscarousel"
 import Social from "../components/index/social"
 import MyImage from "../components/myimage"
+import Programs from "../data/programs.json"
 
 
 export default function Home() {
@@ -52,7 +53,7 @@ export default function Home() {
                                     allowFullScreen={true} />
                             </Ratio>
                         </div>
-                        <ProgramsCarousel />
+                        <ProgramsCarousel data={Programs["programs"]} />
                     </Col>
                     {/* <Col className="d-none d-lg-block">
             <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100"/>

@@ -1,9 +1,8 @@
 import { Carousel } from "react-bootstrap"
-import Programs from "../../data/programs.json"
 import MyImage from "../myimage"
 
 
-export default function ProgramsCarousel({centered = true, ...otherProps}) {
+export default function ProgramsCarousel({data, centered = true, ...otherProps}) {
   let {className, ...otherPropsWithoutClassName} = otherProps
   let classes = "carousel border-stroke caption-text glow-text"
   if (centered) {
@@ -14,7 +13,7 @@ export default function ProgramsCarousel({centered = true, ...otherProps}) {
   }
   return (
     <Carousel className={classes} {...otherPropsWithoutClassName}>
-      {Programs['programs'].map((program, index) => (
+      {data.map((program, index) => (
         <Carousel.Item key={index}>
           <MyImage
             className="d-block w-100"
