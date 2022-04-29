@@ -18,7 +18,7 @@ export default function PrizeImages({prizes, ...otherProps}) {
                     )
                 })}
             </div>
-            <p className="text-center caption-text">(Actual designs may vary.)</p>
+            <p className="text-center caption-text mb-0">(Actual designs may vary.)</p>
         </>
     )
 }
