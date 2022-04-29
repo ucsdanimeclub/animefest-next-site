@@ -2,37 +2,37 @@
     "programs": [
         {
             "name": "Main Stage",
-            "image": "images/main_stage.jpg",
+            "image": "images/carousel_images/main_stage.jpg",
             "description": "Our annual Cosplay Masquerade and raffles are held on the Main Stage in West Ballroom."
         },
         {
             "name": "Exhibitor Hall",
-            "image": "images/exhibitor_hall.jpg",
+            "image": "images/carousel_images/exhibitor_hall.jpg",
             "description": "Browse fanmade merchandise drawn or designed by local artists in the Artist Alley, or check out items sold by industry vendors."
         },
         {
             "name": "Theater",
-            "image": "images/theater.jpg",
+            "image": "images/carousel_images/theater.jpg",
             "description": "Performances and movie showings will be held in the Price Center Theater."
         },
         {
             "name": "Panels",
-            "image": "images/panels.jpg",
+            "image": "images/carousel_images/panels.jpg",
             "description": "We have informational and interactive panels for your enjoyment run by students, alumni, and professionals. Check them out!"
         },
         {
             "name": "Manga Library",
-            "image": "images/manga_library.jpg",
+            "image": "images/carousel_images/manga_library.jpg",
             "description": "Relax and check out a book from Cal Animage Beta's library of donated manga."
         },
         {
             "name": "Gaming",
-            "image": "images/gaming.jpg",
+            "image": "images/carousel_images/gaming.jpg",
             "description": "We have a Super Smash Bros. Ultimate tournament with prizes, brought to you by Triton Smash!"
         },
         {
             "name": "Featured Activities",
-            "image": "images/tabletop.jpg",
+            "image": "images/carousel_images/tabletop.jpg",
             "description": "Have fun with the Board Game and Origami Folders clubs, and try out the Cardfight!! Vanguard card game."
         }
     ]
