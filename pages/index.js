@@ -21,6 +21,7 @@ export default function Home() {
                         <Col>
                             <MyImage src="images/logo_af.svg" className="w-75" alt="Animefest 2022 logo" />
                             <h4>May 7 at UC San Diego&apos;s Price Center</h4>
+                            <h4>11:00 AM to 8:00 PM</h4>
                             <h5>Free Admission</h5>
                         </Col>
                     </Row>
