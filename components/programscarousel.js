@@ -1,5 +1,5 @@
 import { Carousel } from "react-bootstrap"
-import MyImage from "../myimage"
+import MyImage from "./myimage"
 
 
 export default function ProgramsCarousel({data, centered = true, ...otherProps}) {
