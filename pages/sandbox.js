@@ -14,7 +14,7 @@ export default function Sandbox() {
         <>
             <Container fluid className="p-5 section">
                 <PrizeDisplay data={Prizes["prizes"]} pools={prizePools} />
-                <PrizeImages prizes={prizesInPool}></PrizeImages>
+                {/*<PrizeImages prizes={prizesInPool}></PrizeImages>*/}
             </Container>
 
             <Container fluid className="p-4 mt-5 section">
