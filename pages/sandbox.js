@@ -1,10 +1,16 @@
 import {Container} from 'react-bootstrap'
+import PrizeDisplay from "../components/prizes/prizedisplay"
 
 
 export default function Sandbox() {
+    const prizePools = [
+        "Afternoon Raffle", "Cosplay Masquerade", "Evening Raffle", "Fist of the North Star",
+        "Genshin Cosplay", "Kancolle", "Modelkit", "Smash Ultimate"
+    ]
     return (
         <>
             <Container fluid className="p-5 section">
+                <PrizeDisplay pools={prizePools} />
             </Container>
 
             <Container fluid className="p-4 mt-5 section">

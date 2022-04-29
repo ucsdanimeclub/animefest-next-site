@@ -110,3 +110,8 @@ body {
   max-height: 685px;
   max-width: 1365px;
 }
+
+.prize-image {
+  width: 100%;
+  height: 100%;
+}
