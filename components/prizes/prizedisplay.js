@@ -21,7 +21,7 @@ export default function PrizeDisplay({pools, ...otherProps}) {
             {Object.keys(prizesPerLocation).map((pool, index) => {
                 return (
                     <Tab eventKey={pool} title={pool} key={index}>
-                        <div className="p-2 d-inline-flex flex-wrap">
+                        <div className="p-2 d-inline-flex flex-wrap justify-content-between">
                             {prizesPerLocation[pool].map((imageSource, index) => {
                                 return (
                                     <MyImage key={index} src={imageSource}
