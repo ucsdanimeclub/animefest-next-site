@@ -123,6 +123,10 @@ Please ask your sponsor to provide the logo image, or download it from the spons
 
 This JSON file contains the start and end time, panel topic, panelist display name, and description for each panel, by the room that they are hosted in.
 
+#### prizes.json
+
+This JSON file contains all of the prizes given out at Animefest. Each prize has an image source and the prize pool it belongs to.
+
 #### artists.json
 
 This JSON file contains the display names and links of each artist we have for the year.
