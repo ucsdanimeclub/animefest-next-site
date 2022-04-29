@@ -17,17 +17,12 @@ export default function Raffles() {
 
             <Container fluid className="p-5 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
-                {/*<p>The Main Stage is located at the front of the West Ballroom. It is home to our annual Cosplay*/}
-                {/*    Masquerade, a contest where participants show off their cosplay! The top winners will be awarded*/}
-                {/*    prizes. Look out for our sign up form on the day of the convention!</p>*/}
-                {/*<p>We will also be hosting raffles throughout the day.</p>*/}
-                {/*<p>Schedule coming soon!</p>*/}
-                {/*<p className="mb-0">This year, performances will be hosted at the <Link href="/theater" passHref>Price*/}
-                {/*    Center Theater</Link> instead of the Main Stage.</p>*/}
+                <p>Want some free stuff? Then Animefest is the right place for you! Earn raffle tickets by attending various events throughout the convention—from panels, to movie showings, various fun games, and many more!</p>
+                <p className="mb-0">Submit your tickets into one of our many raffle pools, located by our help desk in West Ballroom.</p>
             </Container>
 
             <Container fluid className="p-5 mt-4 section">
-                <h4 className="text-left mb-4 display-text">PRIZING</h4>
+                <h4 className="text-left mb-4 display-text">RAFFLE POOLS</h4>
                 <PrizeDisplay data={Prizes["prizes"]} pools={prizePools} />
             </Container>
         </>
