@@ -1,4 +1,4 @@
-import {Col, Container, Row} from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import MyImage from "../components/myimage";
 
 
@@ -11,10 +11,17 @@ export default function Activities() {
 
             <Container fluid className="p-5 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
-                <p className="text-left caption-text mb-4">11:00 AM - 5:00 PM: Activities Open</p>
-                <p className="mb-0">The Board Game and Origami Folders clubs will be hosting tabletop games and origami
-                    lessons at the Green Table Room in the Sun God Lounge.
-                    We will also have a Cardfight!! Vanguard demo area for attendees to learn how to play the game.</p>
+                <Row className="align-items-start">
+                    <Col lg={8}>
+                        <p className="text-left caption-text mb-4">11:00 AM - 5:00 PM: Activities Open</p>
+                        <p className="mb-0">The Board Game and Origami Folders clubs will be hosting tabletop games and origami
+                            lessons at the Green Table Room in the Sun God Lounge.
+                            We will also have a Cardfight!! Vanguard demo area for attendees to learn how to play the game.</p>
+                    </Col>
+                    <Col lg={4} className="d-none d-lg-block">
+                        <MyImage src="images/VGE-logo.png" alt="Cardfight!! Vanguard logo" style={{ "background-color": "hsl(231, 18%, 19%)" }} className="mw-100 p-4 rounded" />
+                    </Col>
+                </Row>
             </Container>
 
             <Container fluid className="p-5 mt-4 section">
@@ -28,8 +35,8 @@ export default function Activities() {
                 <Row className="mb-4">
                     <Col xs={0} md={2} lg={4} />
                     <Col xs={12} md={8} lg={4}>
-                <MyImage src="images/board_game_club.jpg" alt="Board Game Club photo"
-                         className="mw-100 border-stroke mx-auto d-block"/>
+                        <MyImage src="images/board_game_club.jpg" alt="Board Game Club photo"
+                            className="mw-100 border-stroke mx-auto d-block" />
                     </Col>
                     <Col xs={0} md={2} lg={4} />
                 </Row>

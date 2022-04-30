@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import {Col, Container, Row, Button} from 'react-bootstrap'
-import PrizeDisplay from "../components/prizes/prizedisplay";
-import Prizes from "../data/prizes.json";
-import MyImage from "../components/myimage";
+import { Col, Container, Row, Button } from 'react-bootstrap'
+import PrizeDisplay from "../components/prizes/prizedisplay"
+import Prizes from "../data/prizes.json"
+import MyImage from "../components/myimage"
 
 
 export default function Mainstage() {
@@ -24,30 +24,25 @@ export default function Mainstage() {
                     Center Theater</Link> instead of the Main Stage.</p>
             </Container>
 
-            <Container fluid className="p-5 mt-4 section">
-                <h1 className="text-left mb-4 display-text">COSPLAY MASQUERADE</h1>
-                <p className="text-left caption-text mb-4">4:30 PM - 5:00 PM: Contest</p>
-                <p className="mb-0">The Cosplay Masquerade is a contest where participants show off their cosplay! The
-                    top winners will be awarded
-                    prizes seen below. Check back here for our sign up and voting forms on the day of the
-                    convention!</p>
-                {/*<p className="mb-5"><span className="highlight">Sign ups are now live!</span> The voting form will open*/}
-                {/*    once the contest*/}
-                {/*    has begun.</p>*/}
-                {/*<div className="text-center">*/}
-                {/*    <Button variant="danger" href="https://forms.gle/E9RKd5Di2JVS16Je8" size="lg" className="mb-4">Cosplay Masquerade Sign Up Form</Button>*/}
-                {/*    <br/>*/}
-                {/*    <Button variant="danger" href="https://forms.gle/QcQZJKVACZNGxfLq8">Vote for the winners HERE!</Button>*/}
-                {/*</div>*/}
-            </Container>
+            <Row className="align-items-center g-0">
+                <Col lg={8}>
+                    <Container fluid className="p-5 mt-4 section">
+                        <h1 className="text-left mb-4 display-text">COSPLAY MASQUERADE</h1>
+                        <p className="text-left caption-text mb-4">4:30 PM - 5:00 PM: Contest</p>
+                        <p>The Cosplay Masquerade is a contest where participants show off their cosplay! The top winners will be awarded prizes seen below.</p>
+                        <p className="mb-4">Sign up and vote for the winners here! The forms will open on the day of the convention.</p>
+                        <div className="text-center">
+                            <Button variant="danger" href="https://forms.gle/E9RKd5Di2JVS16Je8" size="lg" className="mb-4">Cosplay Masquerade Sign Up Form</Button>
+                            <br />
+                            <Button variant="danger" href="https://forms.gle/QcQZJKVACZNGxfLq8">Vote for the winners HERE!</Button>
+                        </div>
+                    </Container>
 
-            <Container fluid className="p-5 mt-4 section">
-                <h1 className="text-left mb-4 display-text">PHOTO BOOTH</h1>
-                <Row className="align-items-start">
-                    <Col>
+                    <Container fluid className="p-5 mt-4 section">
+                        <h1 className="text-left mb-4 display-text">PHOTO BOOTH</h1>
                         <p className="mb-4">Earn a chance to get a free ticket by taking a picture in our photo booth!
                             If
-                            you post your picture onto social media with the hashtag <b>#Animefest2022</b>, you&apos;ll
+                            you post your picture onto social media with the hashtag <span className="highlight">#Animefest2022</span>, you&apos;ll
                             get another extra ticket. You can find the photo booth to the right of the stage in West
                             Ballroom.</p>
                         <h4 className="text-left title-text mb-4">Genshin Cosplay</h4>
@@ -55,16 +50,15 @@ export default function Mainstage() {
                             picture in our photo booth, you will be entered into an exclusive raffle with special
                             prizes,
                             seen below!</p>
-                    </Col>
-                    {/*<Col className="d-none d-lg-block">*/}
-                    {/*    <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100"/>*/}
-                    {/*</Col>*/}
-                </Row>
-            </Container>
-
+                    </Container>
+                </Col>
+                <Col lg={4} className="d-none d-lg-block p-4">
+                    <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100" />
+                </Col>
+            </Row>
             <Container fluid className="p-5 mt-4 section">
                 <h4 className="text-left mb-4 display-text">PRIZING</h4>
-                <PrizeDisplay data={Prizes["prizes"]} pools={prizePools}/>
+                <PrizeDisplay data={Prizes["prizes"]} pools={prizePools} />
             </Container>
         </>
     )
