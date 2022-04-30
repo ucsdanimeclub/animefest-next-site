@@ -41,7 +41,7 @@ export default function Exhibitor() {
                 <a href="images/west_ballroom_exhibitors.png"><MyImage src="images/west_ballroom_exhibitors.png"
                     alt="West Ballroom map"
                     className="mw-100 mx-auto d-block mb-1" /></a>
-                <p className="text-center caption-text">Click on the image to enlarge.</p>
+                <p className="text-center caption-text mb-0">Click on the image to enlarge.</p>
             </Container>
         </>
     )
