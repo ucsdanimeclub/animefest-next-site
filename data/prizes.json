@@ -1,15 +1,23 @@
 {
   "prizes": [
     {
-      "image": "images/raffle/Afternoon Raffle/250260.jpg",
+      "image": "images/raffle/Afternoon Raffle/DSD06-1-box.png",
+      "pool": "Afternoon Raffle"
+    },
+    {
+      "image": "images/raffle/Afternoon Raffle/Display.png",
+      "pool": "Afternoon Raffle"
+    },
+    {
+      "image": "images/raffle/Afternoon Raffle/weiss-schwarz-rwby-trial-starter-deck.jpg",
+      "pool": "Afternoon Raffle"
+    },
+    {
+      "image": "images/raffle/Afternoon Raffle/weiss-schwarz-rwby-booster-box.jpg",
       "pool": "Afternoon Raffle"
     },
     {
       "image": "images/raffle/Afternoon Raffle/barbara_acrylic_stand.jpg",
-      "pool": "Afternoon Raffle"
-    },
-    {
-      "image": "images/raffle/Afternoon Raffle/CARDFIGHTVANGUARDoverDressStartDeck06Mirei Minae-Sealed Blaze Maiden-.jpg",
       "pool": "Afternoon Raffle"
     },
     {
@@ -37,11 +45,7 @@
       "pool": "Afternoon Raffle"
     },
     {
-      "image": "images/raffle/Afternoon Raffle/weiss-schwarz-rwby-booster-box.jpg",
-      "pool": "Afternoon Raffle"
-    },
-    {
-      "image": "images/raffle/Afternoon Raffle/weiss-schwarz-rwby-trial-starter-deck.jpg",
+      "image": "images/raffle/Afternoon Raffle/433053.jpg",
       "pool": "Afternoon Raffle"
     },
     {
@@ -79,6 +83,26 @@
     {
       "image": "images/raffle/Cosplay Masquerade Pool/Y-styleYagamiHayateyukataver.jpg",
       "pool": "Cosplay Masquerade"
+    },
+    {
+      "image": "images/raffle/Cosplay Masquerade Pool/433053.jpg",
+      "pool": "Cosplay Masquerade"
+    },
+    {
+      "image": "images/raffle/Evening Raffle/DSD06-1-box.png",
+      "pool": "Evening Raffle"
+    },
+    {
+      "image": "images/raffle/Evening Raffle/Display.png",
+      "pool": "Evening Raffle"
+    },
+    {
+      "image": "images/raffle/Evening Raffle/weiss-schwarz-rwby-trial-starter-deck.jpg",
+      "pool": "Evening Raffle"
+    },
+    {
+      "image": "images/raffle/Evening Raffle/weiss-schwarz-rwby-booster-box.jpg",
+      "pool": "Evening Raffle"
     },
     {
       "image": "images/raffle/Evening Raffle/1b98ee3e-7a53-4aa9-8ca2-bc6757f0c6d4.jpg",
@@ -121,14 +145,6 @@
       "pool": "Evening Raffle"
     },
     {
-      "image": "images/raffle/Evening Raffle/250257.webp",
-      "pool": "Evening Raffle"
-    },
-    {
-      "image": "images/raffle/Evening Raffle/250260.webp",
-      "pool": "Evening Raffle"
-    },
-    {
       "image": "images/raffle/Evening Raffle/287894.jpg",
       "pool": "Evening Raffle"
     },
@@ -154,10 +170,6 @@
     },
     {
       "image": "images/raffle/Evening Raffle/O1CN01I7ghuv1v7IWIPDxC2__2208460416125_2f377120-9db1-47bb-9be1-3d0311308b2e_590x.webp",
-      "pool": "Evening Raffle"
-    },
-    {
-      "image": "images/raffle/Evening Raffle/weiss-schwarz-rwby-trial-starter-deck.jpg",
       "pool": "Evening Raffle"
     },
     {
