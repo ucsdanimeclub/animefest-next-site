@@ -15,9 +15,11 @@ export default function Food() {
                     href="https://universitycenters.ucsd.edu/dining-retail/dining/">dining
                     options</a> convenient for staying fed during the convention.
                 </p>
-                <a href="images/food_coupon.png"><MyImage src="images/food_coupon.png" alt="Food coupon"
-                                                          className="mw-100 border-stroke mx-auto d-block mb-1"/></a>
-                <p className="text-center caption-text">Click on the image to enlarge.</p>
+                <div className="text-center">
+                    <a href="images/food_coupon.png"><MyImage src="images/food_coupon.png" alt="Food coupon"
+                                                              className="mw-100 border-stroke mb-1"/></a>
+                    <p className="caption-text mb-0">Click on the image to open.</p>
+                </div>
             </Container>
         </>
     )

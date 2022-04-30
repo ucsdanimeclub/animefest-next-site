@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap'
+import {Container, Row, Col} from 'react-bootstrap'
 import Artists from "../data/artists.json"
 import Vendors from "../data/vendors.json"
 import ExhibitorTable from "../components/exhibitor/exhibitortable"
@@ -22,7 +22,7 @@ export default function Exhibitor() {
                     <Col xs={0} md={1} lg={2}>
                     </Col>
                     <Col xs={12} md={10} lg={8}>
-                        <ExhibitorTable data={Artists} className="mb-4" />
+                        <ExhibitorTable data={Artists} className="mb-4"/>
                     </Col>
                     <Col xs={0} md={1} lg={2}>
                     </Col>
@@ -32,16 +32,18 @@ export default function Exhibitor() {
                     <Col xs={0} md={1} lg={2}>
                     </Col>
                     <Col xs={12} md={10} lg={8}>
-                        <ExhibitorTable data={Vendors} className="mb-4" />
+                        <ExhibitorTable data={Vendors} className="mb-4"/>
                     </Col>
                     <Col xs={0} md={1} lg={2}>
                     </Col>
                 </Row>
                 <h4 className="text-left title-text mb-4">West Ballroom Map</h4>
-                <a href="images/west_ballroom_exhibitors.png"><MyImage src="images/west_ballroom_exhibitors.png"
-                    alt="West Ballroom map"
-                    className="mw-100 mx-auto d-block mb-1" /></a>
-                <p className="text-center caption-text mb-0">Click on the image to enlarge.</p>
+                <div className="text-center">
+                    <a href="images/west_ballroom_exhibitors.png"><MyImage src="images/west_ballroom_exhibitors.png"
+                                                                           alt="West Ballroom map"
+                                                                           className="mw-100 mb-1"/></a>
+                    <p className="caption-text mb-0">Click on the image to open.</p>
+                </div>
             </Container>
         </>
     )
