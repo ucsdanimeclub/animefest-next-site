@@ -36,9 +36,9 @@ export default function Panels() {
         {panels_abc.map((panel, index) => {
           return (
             <div key={index}>
-              <p className="text-left highlight mb-1">{panel["topic"] !== "Panel TBA" && panel["topic"]}</p>
-              <p className="caption-text mb-2 ms-4">{panel["topic"] !== "Panel TBA" && 'By ' + panel["panelist"]}</p>
-              <p className="mb-4 ms-4">{panel["topic"] !== "Panel TBA" && panel["description"]}</p>
+              <p className="text-left highlight mb-1">{panel["topic"]}</p>
+              <p className="caption-text mb-2 ms-4">{'By ' + panel["panelist"]}</p>
+              <p className="mb-4 ms-4">{panel["description"]}</p>
             </div>
           )
         })}
