@@ -45,7 +45,7 @@ export default function Layout({ children }) {
         <Container className="text-center">
           <h5 className="mb-3">Sponsored By</h5>
           <Sponsor />
-          <p className="caption-text">&copy; 2022 Cal Animage Beta. All assets belong to their respective owners.</p>
+          <p className="caption-text">&copy; 2022 Cal Animage Beta. Website design by Kaitlyn Chan. All assets belong to their respective owners.</p>
         </Container>
       </footer>
     </>
