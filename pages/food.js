@@ -1,5 +1,5 @@
 import {Container} from 'react-bootstrap'
-import MyImage from "../components/myimage";
+import MyImage from "../components/myimage"
 
 
 export default function Food() {

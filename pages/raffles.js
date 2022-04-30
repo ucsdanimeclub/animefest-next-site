@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import {Container} from 'react-bootstrap'
-import PrizeDisplay from "../components/prizes/prizedisplay";
-import Prizes from "../data/prizes.json";
+import PrizeDisplay from "../components/prizes/prizedisplay"
+import Prizes from "../data/prizes.json"
 
 
 export default function Raffles() {

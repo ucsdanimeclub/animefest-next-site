@@ -1,7 +1,7 @@
 import {Col, Container, Row} from 'react-bootstrap'
 import MyImage from "../components/myimage"
-import Prizes from "../data/prizes.json";
-import PrizeImages from "../components/prizes/prizeimages";
+import Prizes from "../data/prizes.json"
+import PrizeImages from "../components/prizes/prizeimages"
 
 
 export default function Gaming() {
