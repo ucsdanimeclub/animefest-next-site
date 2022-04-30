@@ -21,7 +21,7 @@ export default function Raffles() {
                     various events throughout the convention—from panels, to movie showings, various fun games, and many
                     more!</p>
                 <p className="mb-0">Submit your tickets into one of our many raffle pools, located by our help desk in
-                    West Ballroom. Raffles will be drawn at the <Link href="/mainstage" passHref>Main Stage</Link>.</p>
+                    West Ballroom. Raffles will be drawn at the <Link href="/mainstage" passHref>Main Stage.</Link></p>
             </Container>
 
             <Container fluid className="p-5 mt-4 section">
