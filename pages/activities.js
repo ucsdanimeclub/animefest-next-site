@@ -12,13 +12,13 @@ export default function Activities() {
             <Container fluid className="p-5 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
                 <Row className="align-items-start">
-                    <Col md={8}>
+                    <Col xs={12} md={8}>
                         <p className="text-left caption-text mb-4">11:00 AM - 5:00 PM: Activities Open</p>
-                        <p className="mb-0">The Board Game and Origami Folders clubs will be hosting tabletop games and origami
+                        <p>The Board Game and Origami Folders clubs will be hosting tabletop games and origami
                             lessons at the Green Table Room in the Sun God Lounge.
                             We will also have a Cardfight!! Vanguard demo area for attendees to learn how to play the game.</p>
                     </Col>
-                    <Col md={4} className="d-none d-md-block">
+                    <Col xs={12} md={4}>
                         <MyImage src="images/VGE-logo.png" alt="Cardfight!! Vanguard logo" style={{ "backgroundColor": "hsl(231, 18%, 19%)" }} className="mw-100 p-4 rounded" />
                     </Col>
                 </Row>
