@@ -17,6 +17,8 @@ export default function Raffles() {
 
             <Container fluid className="p-5 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
+                <p className="text-left caption-text mb-1">1:30 PM - 2:00 PM: Afternoon Raffle</p>
+                <p className="text-left caption-text mb-4">7:30 PM - 8:00 PM: Evening Raffle</p>
                 <p>Want some free stuff? Then Animefest is the right place for you! Earn raffle tickets by attending
                     various events throughout the convention—from panels, to movie showings, various fun games, and many
                     more!</p>

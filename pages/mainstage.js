@@ -26,6 +26,7 @@ export default function Mainstage() {
 
             <Container fluid className="p-5 mt-4 section">
                 <h1 className="text-left mb-4 display-text">COSPLAY MASQUERADE</h1>
+                <p className="text-left caption-text mb-4">4:30 PM - 5:00 PM: Contest</p>
                 <p className="mb-0">The Cosplay Masquerade is a contest where participants show off their cosplay! The
                     top winners will be awarded
                     prizes seen below. Check back here for our sign up and voting forms on the day of the
