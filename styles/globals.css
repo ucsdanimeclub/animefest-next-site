@@ -107,6 +107,9 @@ body {
 }
 .sheet-schedule {
   height: 80vh;
+}
+
+.sheet-constraint {
   max-height: 685px;
   max-width: 1365px;
 }
