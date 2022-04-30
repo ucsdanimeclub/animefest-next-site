@@ -19,7 +19,7 @@ export default function Activities() {
                             We will also have a Cardfight!! Vanguard demo area for attendees to learn how to play the game.</p>
                     </Col>
                     <Col lg={4} className="d-none d-lg-block">
-                        <MyImage src="images/VGE-logo.png" alt="Cardfight!! Vanguard logo" style={{ "background-color": "hsl(231, 18%, 19%)" }} className="mw-100 p-4 rounded" />
+                        <MyImage src="images/VGE-logo.png" alt="Cardfight!! Vanguard logo" style={{ "backgroundColor": "hsl(231, 18%, 19%)" }} className="mw-100 p-4 rounded" />
                     </Col>
                 </Row>
             </Container>
