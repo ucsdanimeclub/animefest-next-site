@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Col, Container, Row, Button } from 'react-bootstrap'
+import { Col, Container, Row, Button, Ratio } from 'react-bootstrap'
 import PrizeDisplay from "../components/prizes/prizedisplay"
 import Prizes from "../data/prizes.json"
 import MyImage from "../components/myimage"
@@ -22,6 +22,24 @@ export default function Mainstage() {
                     day!</p>
                 <p className="mb-0">This year, performances will be hosted at the <Link href="/theater" passHref>Price
                     Center Theater</Link> instead of the Main Stage.</p>
+            </Container>
+
+            <Container fluid className="p-5 mt-4 section">
+                <h4 className="text-left mb-4 display-text">MUSIC BY ROMTIMNEY</h4>
+                <p className="text-left caption-text mb-4">6:00 PM - 7:00 PM: Set</p>
+                <p>I&apos;m RomTimney, but some call me Rom. I enjoy making all types of electronic music,
+                    and I hope to push the boundaries of people&apos;s expectations by creating a new district sound that everyone can enjoy.
+                    My influences include a wide range of Future Bass, Chiptune, Trance, Drum &amp; Bass, and even elements of Jazz/Funk Fusion.</p>
+                <p className="mb-4">Sample:</p>
+                <div className="video-player mx-auto">
+                    <Ratio aspectRatio="16x9">
+                        <iframe className="border-stroke"
+                                src="https://www.youtube-nocookie.com/embed/dXodViGW8c8"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen={true}/>
+                    </Ratio>
+                </div>
             </Container>
 
             <Row className="align-items-center g-0">
