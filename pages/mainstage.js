@@ -34,10 +34,10 @@ export default function Mainstage() {
                 <div className="video-player mx-auto">
                     <Ratio aspectRatio="16x9">
                         <iframe className="border-stroke"
-                                src="https://www.youtube-nocookie.com/embed/dXodViGW8c8"
-                                title="YouTube video player" frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen={true}/>
+                            src="https://www.youtube-nocookie.com/embed/dXodViGW8c8"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen={true} />
                     </Ratio>
                 </div>
             </Container>
