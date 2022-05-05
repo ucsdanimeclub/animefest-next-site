@@ -14,8 +14,9 @@ export default function Gaming() {
 
             <Container fluid className="p-5 section">
                 <h4 className="text-left mb-4 display-text">TRITON SMASH TOURNAMENT</h4>
-                <p className="text-left caption-text mb-1">12:00 PM: Venue Opens for Friendlies and Sign-ups</p>
-                <p className="text-left caption-text mb-4">1:00 PM: Bracket Begins</p>
+                <p className="text-left caption-text mb-1">11:00 AM - 1:00 PM: Venue Opens for Free Play and Sign-ups</p>
+                <p className="text-left caption-text mb-1">1:00 PM - 6:30 PM: Tournament</p>
+                <p className="text-left caption-text mb-4">6:30 PM - 8:00 PM: Free Play</p>
                 <p>Want to play games with others in the San Diego area? Look forward to a Super Smash Bros. Ultimate
                     Tournament at the Red Shoe and Bear rooms in the Sun God Lounge! The top players will receive
                     prizes, seen below.</p>
