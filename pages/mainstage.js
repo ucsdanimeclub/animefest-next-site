@@ -58,16 +58,13 @@ export default function Mainstage() {
 
                     <Container fluid className="p-5 mt-4 section">
                         <h1 className="text-left mb-4 display-text">PHOTO BOOTH</h1>
-                        <p className="mb-4">Earn a chance to get a free ticket by taking a picture in our photo booth!
-                            If
-                            you post your picture onto social media with the hashtag <span className="highlight">#Animefest2022</span>, you&apos;ll
-                            get another extra ticket. You can find the photo booth to the right of the stage in West
-                            Ballroom.</p>
+                        <p className="mb-4">Earn a chance to get a free raffle ticket by taking a picture in our
+                            photo booth and posting it to social media with the hashtag <span className="highlight">#Animefest2022</span>!
+                            You can find the photo booth to the right of the stage in West Ballroom.</p>
                         <h4 className="text-left title-text mb-4">Genshin Cosplay</h4>
-                        <p className="mb-0">If you show up to our convention with a Genshin Impact cosplay and take a
-                            picture in our photo booth, you will be entered into an exclusive raffle with special
-                            prizes,
-                            seen below!</p>
+                        <p className="mb-0">If you take a picture in our photo booth with a Genshin Impact cosplay
+                            and post it to social media with the hashtag above, you will receive a special ticket for
+                            a raffle with exclusive prizes, seen below!</p>
                     </Container>
                 </Col>
                 <Col lg={4} className="d-none d-lg-block p-4">
