@@ -39,7 +39,7 @@ export default function Theater() {
                     <Col md={8}>
                         <h4 className="text-left mb-4 display-text">WEATHERING WITH YOU</h4>
                         <p className="text-left caption-text mb-1">11:30 AM - 1:30 PM: First Showing</p>
-                        <p className="text-left caption-text mb-4">5:30 PM - 7:30 PM: Second Showing</p>
+                        <p className="text-left caption-text mb-4">5:00 PM - 7:00 PM: Second Showing</p>
                         <p>For this year&apos;s animated film, we will be showcasing famous Japanese film director
                             Shinkai Makoto&apos;s &quot;Weathering With You&quot;, or Tenki no Ko.
                             Following its predecessor, Kimi no Nawa, Tenki no Ko, is a modern romance film excelling in
