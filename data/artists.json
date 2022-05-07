@@ -363,6 +363,15 @@
     ]
   },
   {
+    "id": "F5",
+    "people": [
+      {
+        "name": "DurgaVC",
+        "link": "https://www.instagram.com/artbyvc/"
+      }
+    ]
+  },
+  {
     "id": "F6",
     "people": [
       {
@@ -402,15 +411,6 @@
       {
         "name": "jnii.jpg",
         "link": "https://www.instagram.com/jnii.jpg/"
-      }
-    ]
-  },
-  {
-    "id": "G4",
-    "people": [
-      {
-        "name": "pandailee",
-        "link": "https://pandailee.carrd.co/"
       }
     ]
   },
