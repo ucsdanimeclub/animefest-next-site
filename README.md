@@ -169,4 +169,4 @@ A record that contains the domain name. GitHub Actions copies this file into its
 
 ## Credits
 
-Designed and programmed by Kaitlyn Chan.
+Original 2021-2022 website designed and programmed by Kaitlyn Chan.
