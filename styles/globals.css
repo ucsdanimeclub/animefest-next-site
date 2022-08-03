@@ -55,6 +55,7 @@ body {
 .display-text {
   font-size: 30pt;
   font-weight: 900;
+  word-break: break-word;
 }
 
 .title-text {
