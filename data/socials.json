@@ -13,12 +13,12 @@
         {
             "name": "Facebook",
             "icon": "images/facebook.png",
-            "url": "https://www.facebook.com/groups/CALAnimageBeta/"
+            "url": "https://www.facebook.com/groups/ucsdanimeclub"
         },
         {
             "name": "Instagram",
             "icon": "images/instagram.png",
-            "url": "https://www.instagram.com/ucsdanimagebeta/"
+            "url": "https://www.instagram.com/ucsdanimeclub/"
         }
     ]
 }
