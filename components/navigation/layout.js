@@ -45,7 +45,7 @@ export default function Layout({ children }) {
         <Container className="text-center">
           <h5 className="mb-3">Sponsored By</h5>
           <Sponsor data={Sponsors}/>
-          <p className="caption-text">&copy; Anime &amp; Manga Enthusiasts at UC San Diego. Website design by Kaitlyn Chan. All assets belong to their respective owners.</p>
+          <p className="caption-text">&copy; 2022 Anime &amp; Manga Enthusiasts at UC San Diego. Website design by Kaitlyn Chan. All assets belong to their respective owners.</p>
         </Container>
       </footer>
     </>
