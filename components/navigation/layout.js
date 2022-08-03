@@ -6,7 +6,6 @@ import Sponsor from "./sponsor"
 export default function Layout({ children }) {
   return (
     <>
-      {/* Sticky top is not good for legacy, consider fixing the position instead (but that comes with covering up the page) */}
       <Navbar bg="light" expand="lg" sticky="top">
         <Container>
           <Link href="/" passHref><Navbar.Brand className="display-text">ANIMEFEST</Navbar.Brand></Link>
@@ -45,7 +44,7 @@ export default function Layout({ children }) {
         <Container className="text-center">
           <h5 className="mb-3">Sponsored By</h5>
           <Sponsor />
-          <p className="caption-text">&copy; 2022 Cal Animage Beta. Website design by Kaitlyn Chan. All assets belong to their respective owners.</p>
+          <p className="caption-text">&copy; Anime &amp; Manga Enthusiasts at UC San Diego. Website design by Kaitlyn Chan. All assets belong to their respective owners.</p>
         </Container>
       </footer>
     </>

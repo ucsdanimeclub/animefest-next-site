@@ -15,7 +15,7 @@ export default function Rules() {
         </h4>
         <h4 className="highlight text-center title-text mb-5">These rules are NOT final and will continue to update as we prepare for Animefest. Please revisit our rules the week prior to Animefest to read the most updated information.</h4>
         <ol className="mb-5">
-          <li><p>Cal Animage Beta and UC San Diego reserves the right to remove anyone not in compliance with the rules to their discretion.</p></li>
+          <li><p>Anime &amp; Manga Enthusiasts and UC San Diego reserves the right to remove anyone not in compliance with the rules to their discretion.</p></li>
           <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
             <ul>
               <li><p>Masking is highly encouraged.</p></li>
@@ -29,7 +29,7 @@ export default function Rules() {
           <li><p>Physical contact, photography, or recordings of other individuals is not allowed without their explicit permission.</p></li>
           <li><p>No weapons or props designed or made with the ability to cause death or serious bodily injury to any person or property is permitted. Misuse of a prop will result in that prop being deemed unsafe.</p></li>
           <li><p>Props resembling firearms are prohibited, including but not limited to: airsoft, replica, paintball, BB guns, and Nerf guns.</p></li>
-          <li><p>Please don&apos;t hesitate to call campus security, volunteers, or officers of Cal Animage Beta if you see anything suspicious or disorderly conduct.</p></li>
+          <li><p>Please don&apos;t hesitate to call campus security, volunteers, or officers of Anime &amp; Manga Enthusiasts if you see anything suspicious or disorderly conduct.</p></li>
         </ol>
         <p><u>COVID-19 Guidelines:</u> Festivalgoers are strongly advised to adhere to CDC guidelines which include:</p>
         <ol className="mb-5">
@@ -44,8 +44,8 @@ export default function Rules() {
             <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100" />
           </Col>
           <Col lg={8}>
-            <h4 className="text-left title-text mb-4">About Cal Animage Beta</h4>
-            <p>Cal Animage Beta is the anime club at UC San Diego. We hold weekly meetings on Mondays, where we show anime or hold other fun events. We also have other socials on weekends such as karaoke, game nights, and potlucks. Membership is free and open to all!</p>
+            <h4 className="text-left title-text mb-4">About Anime &amp; Manga Enthusiasts</h4>
+            <p>Anime &amp; Manga Enthusiasts is the anime club at UC San Diego. We hold weekly meetings on Mondays, where we show anime or hold other fun events. We also have other socials on weekends such as karaoke, game nights, and potlucks. Membership is free and open to all!</p>
             <p className="mb-0">If you are interested in learning more about our club or events, please visit our website <a href="https://ucsd.moe/">ucsd.moe</a> for more information.</p>
           </Col>
         </Row>
