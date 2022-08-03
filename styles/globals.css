@@ -2,10 +2,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Source Sans Pro, Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
-  background-color: #0D0B16;
-  color: #FFFFFF;
   font-size: 14pt;
 }
 
@@ -75,31 +71,9 @@ body {
   color: #69F1F7
 }
 
-.button-color {
-  color: #CA2721
-}
-
 .glow-text {
   text-shadow: 0 0 10px #0D0B16;
 }
-
-/* .navbar-color {
-  background-color: #2C2F3F;
-}
-
-.navbar-custom .nav-item.active,
-.navbar-custom .nav-item:focus,
-.navbar-custom .nav-item:hover {
-  background-color: #CA2721;
-}
-
-.navbar-custom .dropdown-menu {
-  background-color: #CA2721;
-}
-
-.navbar-custom .dropdown-item:hover {
-  background-color: #ac221d;
-} */
 
 .dropdown-menu {
   max-height: 80vh;
