@@ -4,7 +4,7 @@ import Panelists from "../data/panels.json"
 
 
 export default function Panels() {
-  const panels_abc = Panelists["panels"].sort((e1, e2) => e1["topic"].localeCompare(e2["topic"]))
+  const panelsSorted = Panelists["panels"].sort((e1, e2) => e1["topic"].localeCompare(e2["topic"]))
   return (
     <>
       <Container fluid className="p-5 text-center jumbo-display">
@@ -33,7 +33,7 @@ export default function Panels() {
           <Col xs={0} md={1} />
         </Row>
         <h4 className="text-left title-text mb-4">Panel Descriptions</h4>
-        {panels_abc.map((panel, index) => {
+        {panelsSorted.map((panel, index) => {
           return (
             <div key={index}>
               <p className="text-left highlight mb-1">{panel["topic"]}</p>
