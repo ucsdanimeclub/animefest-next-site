@@ -1,27 +1,22 @@
 import {Col, Container, Ratio, Row} from 'react-bootstrap'
 import BackgroundImage from "../components/index/backgroundimage"
-import ProgramsCarousel from "../components/programscarousel"
+// import ProgramsCarousel from "../components/programscarousel"
 import Social from "../components/index/social"
 import MyImage from "../components/myimage"
-import Programs from "../data/programs.json"
+// import Programs from "../data/programs.json"
 import Socials from "../data/socials.json"
 
 
 export default function Home() {
     return (
         <>
-            <Container fluid className="text-center my-1 text-danger">
-                UCSD students and staff must show a green thumb to attend the convention. All other attendees must show
-                a proof of vaccination or
-                a negative COVID-19 test result received within the last 48 hours.
-            </Container>
-
             <Container fluid className="text-center vh-100 p-0 mb-3">
-                <BackgroundImage src="images/landing.jpg" className="landing">
+                <BackgroundImage src="images/landing.jpg" className="landing" style={{backdropFilter: "contrast(10%)"}}>
                     <Row className="align-items-center h-75 g-0 glow-text">
                         <Col>
-                            <MyImage src="images/logo_af.svg" className="w-75" alt="Animefest 2022 logo"/>
-                            <h4>May 7 at UC San Diego&apos;s Price Center</h4>
+                            {/*<MyImage src="images/logo_af.svg" className="w-75" alt="Animefest 2022 logo"/>*/}
+                            <h1>ANIMEFEST 2023</h1>
+                            <h4>February 18 at UC San Diego&apos;s Price Center</h4>
                             <h5>11:00 AM to 8:00 PM</h5>
                             <h5>Free Admission</h5>
                         </Col>
@@ -31,13 +26,14 @@ export default function Home() {
 
             <Container>
                 <Social data={Socials} className="mb-2"/>
-                <p className="caption-text text-center mb-3">Contact us and get live event coverage on our social media!</p>
+                <p className="caption-text text-center mb-3">Contact us and get live event coverage on our social
+                    media!</p>
             </Container>
 
-            <Container fluid className="p-5 section" id="about">
+            <Container fluid className="p-3 section" id="about">
                 <h1 className="text-left mb-4 display-text">ABOUT</h1>
                 <p>Animefest, a time and place where animanga lovers, artists, and entertainers celebrate what we love!
-                    On May 7, 2022, participants go to the Price Center at UCSD to attend discussion and workshop
+                    On February 18, 2023, participants go to the Price Center at UCSD to attend discussion and workshop
                     panels, buy the best artwork,
                     and check out your favorite manga in our manga library! And of course, there will be cosplays,
                     festival games, and video games&mdash;all for some otaku fun.</p>
@@ -46,30 +42,32 @@ export default function Home() {
                     <Ratio aspectRatio="16x9">
                         <iframe className="border-stroke"
                                 src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c"
-                                title="YouTube video player" frameBorder="0"
+                                title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen={true}/>
                     </Ratio>
                 </div>
-                <ProgramsCarousel data={Programs["programs"]}/>
+                {/*<ProgramsCarousel data={Programs["programs"]}/>*/}
             </Container>
 
-            <Container fluid className="p-5 mt-4 section" id="map">
+            <Container fluid className="p-3 mt-4 section" id="map">
                 <h1 className="text-left mb-4 display-text">MAP AND SCHEDULE</h1>
                 <p>Animefest is held at the Price Center at UC San Diego. Specifically, it will be at the West Ballroom,
+                    East Ballroom, Muir,
                     Thurgood Marshall,
                     Eleanor Roosevelt, Roger Revelle, Theater, Red Shoe, Bear, and Green Table
                     rooms.</p>
-                <p className="mb-4">All rooms are located on the second floor with the exception of the Theater, which
+                <p>All rooms are located on the second floor with the exception of the Theater, which
                     is on the first
                     floor and below the Bear Room.</p>
-                <div className="text-center mb-5">
-                    <iframe className="sheet-schedule sheet-constraint w-75 d-block mb-1 mx-auto"
-                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSh2gBYXSEV57p05RAVENMwqDHmJ5GFHTjgb0M9LOTAYrBbLrrwA5fMECz7R3F2qfpnRElr854rGZOG/pubhtml?widget=true&amp;headers=false"/>
-                    <p className="caption-text"><a
-                        href="https://docs.google.com/spreadsheets/d/11egWL19jhBBIf27SXAjf81tyDxkVJsRjCtNo4gr5bTE/edit?usp=sharing">Have
-                        trouble viewing? Click here!</a></p>
-                </div>
+                <p className="mb-4"><i>Schedule coming soon!</i></p>
+                {/*<div className="text-center mb-5">*/}
+                {/*    <iframe className="sheet-schedule sheet-constraint w-75 d-block mb-1 mx-auto"*/}
+                {/*            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSh2gBYXSEV57p05RAVENMwqDHmJ5GFHTjgb0M9LOTAYrBbLrrwA5fMECz7R3F2qfpnRElr854rGZOG/pubhtml?widget=true&amp;headers=false"/>*/}
+                {/*    <p className="caption-text"><a*/}
+                {/*        href="https://docs.google.com/spreadsheets/d/11egWL19jhBBIf27SXAjf81tyDxkVJsRjCtNo4gr5bTE/edit?usp=sharing">Have*/}
+                {/*        trouble viewing? Click here!</a></p>*/}
+                {/*</div>*/}
                 <div className="text-center">
                     <a href="images/map.jpg">
                         <MyImage src="images/map.jpg" className="sheet-constraint border-stroke mw-100 mb-1"
@@ -79,7 +77,7 @@ export default function Home() {
                 </div>
             </Container>
 
-            <Container fluid className="p-5 mt-4 section" id="parking">
+            <Container fluid className="p-3 mt-4 section" id="parking">
                 <h1 className="text-left mb-4 display-text">PARKING</h1>
                 <p>Unfortunately, <a href="https://transportation.ucsd.edu/visit/visitor/index.html">parking is not
                     free</a> on UCSD&apos;s campus. We recommend you find free parking off campus and walking to campus
