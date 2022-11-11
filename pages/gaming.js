@@ -22,7 +22,7 @@ export default function Gaming() {
                 {/*<p className="mb-4"><a href="https://smash.gg/tournament/animefest-2022/details">Find more information*/}
                 {/*    and sign up for free here.</a> Entrants must bring their own controller.</p>*/}
                 <p>More information coming soon!</p>
-                <Row>
+                <Row className="mb-2">
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
                         <MyImage src="images/smashbros.jpg" alt="Super Smash Bros gameplay"
