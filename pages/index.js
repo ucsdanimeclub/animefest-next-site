@@ -38,7 +38,7 @@ export default function Home() {
                     and check out your favorite manga in our manga library! And of course, there will be cosplays,
                     festival games, and video games&mdash;all for some otaku fun.</p>
                 <p className="mb-4">For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
-                <div className="video-player mx-auto mb-5">
+                <div className="video-player mx-auto mb-2">
                     <Ratio aspectRatio="16x9">
                         <iframe className="border-stroke"
                                 src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c"
@@ -73,7 +73,7 @@ export default function Home() {
                         <MyImage src="images/map.jpg" className="sheet-constraint border-stroke mw-100 mb-1"
                                  alt="Price Center map"></MyImage>
                     </a>
-                    <p className="caption-text mb-0">Click on the image to open.</p>
+                    <p className="caption-text">Click on the image to open.</p>
                 </div>
             </Container>
 
@@ -91,7 +91,7 @@ export default function Home() {
                 <p className="mb-4">
                     The Gilman Parking Structure is the closest parking structure to the convention. You can use the
                     Wayfinding feature or the map below to navigate to Price Center:</p>
-                <div className="map mx-auto">
+                <div className="map mx-auto mb-2">
                     <Ratio aspectRatio="4x3">
                         <iframe className="border-stroke"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.697394192468!2d-117.2383838856308!3d32.87972498605018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c46a524fb9%3A0x68571efb243bc289!2sPrice%20Center%2C%20La%20Jolla%2C%20CA%2092093!5e0!3m2!1sen!2sus!4v1638064542514!5m2!1sen!2sus"
