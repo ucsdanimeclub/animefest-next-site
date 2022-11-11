@@ -17,7 +17,8 @@ export default function Yugioh() {
                 {/*<p className="text-left caption-text mb-1">11:00 AM - 1:00 PM: Venue Opens for Free Play and Sign-ups</p>*/}
                 {/*<p className="text-left caption-text mb-1">1:00 PM - 6:30 PM: Tournament</p>*/}
                 {/*<p className="text-left caption-text mb-4">6:30 PM - 8:00 PM: Free Play</p>*/}
-                <p>Look forward to a tournament hosted by Gamma Gamma Driver Yugioh at UC San Diego! More information
+                <p>Look forward to a tournament hosted by Gamma Gamma Driver Yugioh at the Green Table room in the Sun
+                    God Lounge! More information
                     coming soon!</p>
                 {/*<p className="mb-4"><a href="https://smash.gg/tournament/animefest-2022/details">Find more information*/}
                 {/*    and sign up for free here.</a> Entrants must bring their own controller.</p>*/}
