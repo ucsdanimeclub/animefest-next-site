@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import MyImage from "../components/myimage"
+// import MyImage from "../components/myimage"
 
 
 export default function Rules() {
@@ -9,8 +9,8 @@ export default function Rules() {
         <h1 className="display-4 mb-0">RULES</h1>
       </Container>
 
-      <Container fluid className="p-5 section">
-        <h4 className="text-center title-text">By attending Animefest 2022, you agree to have read and will abide by
+      <Container fluid className="p-3 section">
+        <h4 className="text-center title-text">By attending Animefest 2023, you agree to have read and will abide by
           our detailed rules below.
         </h4>
         <h4 className="highlight text-center title-text mb-5">These rules are NOT final and will continue to update as we prepare for Animefest. Please revisit our rules the week prior to Animefest to read the most updated information.</h4>
@@ -19,8 +19,6 @@ export default function Rules() {
           <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
             <ul>
               <li><p>Masking is highly encouraged.</p></li>
-              <li><p>UCSD students, staff and faculty must show their daily symptom screener. Must have a green thumb to attend.</p></li>
-              <li><p>Attendees that are not affiliated with UCSD must follow all campus requirements, including providing proof of vaccination or a negative COVID-19 test result received within the last 48 hours.</p></li>
             </ul>
           </li>
           <li><p>Attendees must respect common sense rules for public behavior, personal interaction, common courtesy, and respect for private property. Harassing or offensive behavior will not be tolerated. If your behavior becomes problematic,
@@ -40,13 +38,13 @@ export default function Rules() {
           <li><p>Enable contact tracing: On Android, contact tracing from Google can be enabled in your device&apos;s settings, or downloaded as an app for your state at the link <a href="https://support.google.com/android/answer/9888358?hl=en">here.</a> On iPhone, opt-in to Exposure Notifications in your device&apos;s settings.</p></li>
         </ol>
         <Row className="align-items-center">
-          <Col lg={4} className="d-none d-lg-block">
-            <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100" />
-          </Col>
-          <Col lg={8}>
+          {/*<Col lg={4} className="d-none d-lg-block">*/}
+          {/*  <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100" />*/}
+          {/*</Col>*/}
+          <Col lg={12}> {/* Change to lg-8 when mascot art is ready*/}
             <h4 className="text-left title-text mb-4">About Anime &amp; Manga Enthusiasts</h4>
             <p>Anime &amp; Manga Enthusiasts is the anime club at UC San Diego. We hold weekly meetings on Mondays, where we show anime or hold other fun events. We also have other socials on weekends such as karaoke, game nights, and potlucks. Membership is free and open to all!</p>
-            <p className="mb-0">If you are interested in learning more about our club or events, please visit our website <a href="https://ucsd.moe/">ucsd.moe</a> for more information.</p>
+            <p>If you are interested in learning more about our club or events, please visit our website <a href="https://ucsd.moe/">ucsd.moe</a> for more information.</p>
           </Col>
         </Row>
       </Container>
