@@ -5,7 +5,8 @@ with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/
 
 ## Getting Started
 
-When cloning the repository to your device, change directory into the project root and run `npm install`.
+First, clone the repository to your device.
+Then, change directory into the project root and run `npm install`.
 
 Then, run the development server:
 
