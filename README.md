@@ -46,6 +46,19 @@ default Next.js is not meant to be deployed on the sub-path of a domain, so `nex
 issue by applying path prefixes when necessary. The `<MyImage>` tag is also created to resolve the issue when loading
 image sources, so please use it instead of `<img>` or `<Image>` tags.
 
+## Escape characters
+
+If you would like to display the following characters, they will need to be replaced by the corresponding XML escape character:
+* `"` : \&quot;
+* `'` : \&apos;
+* `&` : \&amp;
+* `<` : \&lt;
+* `>` : \&gt;
+
+Failure to do so will cause the Actions build to fail, and your website update will not be published!
+
+The only exception is JSON files, in which case you do not use escape characters.
+
 ## Libraries
 
 ### React-Bootstrap
