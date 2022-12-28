@@ -24,7 +24,7 @@ export default function Layout({children}) {
                                 <NavDropdown.Header>West Ballroom</NavDropdown.Header>
                                 <Link href="/exhibitor" passHref><NavDropdown.Item>Exhibitor
                                     Hall</NavDropdown.Item></Link>
-                                <NavDropdown.Header>East Ballroom and Muir Room</NavDropdown.Header>
+                                <NavDropdown.Header>East Ballroom</NavDropdown.Header>
                                 <Link href="/performances"
                                       passHref><NavDropdown.Item>Performances</NavDropdown.Item></Link>
                                 <Link href="/cosplay" passHref><NavDropdown.Item>Cosplay
