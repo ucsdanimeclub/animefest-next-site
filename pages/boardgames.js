@@ -12,6 +12,10 @@ export default function Boardgames() {
             <Container fluid className="p-3 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
                 <p>Coming soon!</p> {/*add className="mb-4" when displaying image*/}
+
+                {/*Rows and Cols is a grid system provided by React-Bootstrap. This allows things to be centered on a page.*/}
+                {/*The breakpoints for each display size should add up to 12. Learn more about breakpoints on getbootstrap.com*/}
+
                 {/*<Row className="mb-4">*/}
                 {/*    <Col xs={0} md={2} lg={4} />*/}
                 {/*    <Col xs={12} md={8} lg={4}>*/}
