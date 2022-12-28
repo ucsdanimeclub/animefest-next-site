@@ -14,23 +14,39 @@ export default function Gaming() {
 
             <Container fluid className="p-3 section">
                 <h4 className="text-left mb-4 display-text">SUPER SMASH BROS. ULTIMATE TOURNAMENT</h4>
-                {/*<p className="text-left caption-text mb-1">11:00 AM - 1:00 PM: Venue Opens for Free Play and Sign-ups</p>*/}
-                {/*<p className="text-left caption-text mb-1">1:00 PM - 6:30 PM: Tournament</p>*/}
-                {/*<p className="text-left caption-text mb-4">6:30 PM - 8:00 PM: Free Play</p>*/}
-                <p>Want to play video games with others in the San Diego area? Look forward to a Super Smash Bros. Ultimate
-                    Tournament at the Red Shoe and Bear rooms in the Sun God Lounge!</p>
-                {/*<p className="mb-4"><a href="https://smash.gg/tournament/animefest-2022/details">Find more information*/}
-                {/*    and sign up for free here.</a> Entrants must bring their own controller.</p>*/}
-                <p>More information coming soon!</p>
+
+                <p>Triton Smash will be hosting a tournament for Super Smash Bros. Ultimate! The tournament will be <b>free
+                    to enter</b>, and <b>open to anyone</b> at all (not just UCSD students).</p>
+                <h4 className="text-left title-text mb-4">Register:</h4>
+                <p>You can register for the event on start.gg! Registration will also be available in person until
+                    bracket starts.</p>
+                <p><a
+                    href="https://www.start.gg/tournament/animefest-2023/details">https://www.start.gg/tournament/animefest-2023/details</a>
+                </p>
+                <h4 className="text-left title-text mb-4">Cost and Prizing:</h4>
+                <p>The tournament will be free to enter, and will have prizes for the top spots provided by Anime &amp;
+                    Manga Enthusiasts!</p>
+                <h4 className="text-left title-text mb-4">Schedule:</h4>
+                <p>Doors will open at <b>12 PM</b>, and setups will be open for friendlies. The bracket will start
+                    at <b>1 PM.</b></p>
+                <h4 className="text-left title-text mb-4">Location:</h4>
+                <p>We’ll be in the <b>Red Shoe Room</b>, which is inside Sun God Lounge. Below is a helpful guide to
+                    finding the room:</p>
+
+                {/*Rows and Cols is a grid system provided by React-Bootstrap. This allows things to be centered on a page.*/}
+                {/*The breakpoints for each display size should add up to 12. Learn more about breakpoints on getbootstrap.com*/}
                 <Row className="mb-2">
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
-                        <MyImage src="images/smashbros.jpg" alt="Super Smash Bros gameplay"
+                        <MyImage src="images/smashbros.png" alt="Super Smash Bros gameplay"
                                  className="mw-100 border-stroke mx-auto d-block"/>
                     </Col>
                     <Col xs={0} md={2} lg={3}/>
                 </Row>
             </Container>
+
+            {/*when uncommenting the below section, plus any other line with the word prizes in it, a prize*/}
+            {/*section will be created displaying all the prize images for Triton Smash*/}
 
             {/*<Container fluid className="p-3 mt-4 section">*/}
             {/*    <h4 className="text-left mb-4 display-text">PRIZING</h4>*/}
