@@ -14,8 +14,7 @@ export default function Home() {
                 <BackgroundImage src="images/landing.jpg" className="landing" style={{backdropFilter: "contrast(10%)"}}>
                     <Row className="align-items-center h-75 g-0 glow-text">
                         <Col>
-                            {/*<MyImage src="images/logo_af.svg" className="w-75" alt="Animefest 2022 logo"/>*/}
-                            <h1>ANIMEFEST 2023</h1>
+                            <MyImage src="images/logo_af.svg" className="w-75 my-4" alt="Animefest 2022 logo"/>
                             <h4>February 18 at UC San Diego&apos;s Price Center</h4>
                             <h5>11:00 AM to 8:00 PM</h5>
                             <h5>Free Admission</h5>
