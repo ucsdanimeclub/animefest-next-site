@@ -14,23 +14,24 @@ export default function Yugioh() {
 
             <Container fluid className="p-3 section">
                 <h4 className="text-left mb-4 display-text">YU-GI-OH! TOURNAMENT</h4>
-                {/*<p className="text-left caption-text mb-1">11:00 AM - 1:00 PM: Venue Opens for Free Play and Sign-ups</p>*/}
-                {/*<p className="text-left caption-text mb-1">1:00 PM - 6:30 PM: Tournament</p>*/}
-                {/*<p className="text-left caption-text mb-4">6:30 PM - 8:00 PM: Free Play</p>*/}
                 <p>Look forward to a tournament hosted by Gamma Gamma Driver Yugioh at the Green Table room in the Sun
                     God Lounge! More information
                     coming soon!</p>
-                {/*<p className="mb-4"><a href="https://smash.gg/tournament/animefest-2022/details">Find more information*/}
-                {/*    and sign up for free here.</a> Entrants must bring their own controller.</p>*/}
+                {/*Rows and Cols is a grid system provided by React-Bootstrap. This allows things to be centered on a page.*/}
+                {/*The breakpoints for each display size should add up to 12. Learn more about breakpoints on getbootstrap.com*/}
+
                 {/*<Row>*/}
                 {/*    <Col xs={0} md={2} lg={3}/>*/}
                 {/*    <Col xs={12} md={8} lg={6}>*/}
-                {/*        <MyImage src="images/smashbros.jpg" alt="Super Smash Bros gameplay"*/}
+                {/*        <MyImage src="images/smashbros.png" alt="Super Smash Bros gameplay"*/}
                 {/*                 className="mw-100 border-stroke mx-auto d-block"/>*/}
                 {/*    </Col>*/}
                 {/*    <Col xs={0} md={2} lg={3}/>*/}
                 {/*</Row>*/}
             </Container>
+
+            {/*when uncommenting the below section, plus any other line with the word prizes in it, a prize*/}
+            {/*section will be created displaying all the prize images for Triton Smash*/}
 
             {/*<Container fluid className="p-3 mt-4 section">*/}
             {/*    <h4 className="text-left mb-4 display-text">PRIZING</h4>*/}
