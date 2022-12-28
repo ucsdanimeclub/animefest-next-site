@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap'
-// import Sponsor from "./sponsor"
-// import Sponsors from "../../data/sponsors.json"
+import Sponsor from "./sponsor"
+import Sponsors from "../../data/sponsors.json"
 
 
 export default function Layout({children}) {
@@ -50,8 +50,8 @@ export default function Layout({children}) {
             <main>{children}</main>
             <footer className="footer">
                 <Container className="text-center">
-                    {/*<h5 className="mb-3">Sponsored By</h5>*/}
-                    {/*<Sponsor data={Sponsors}/>*/}
+                    <h5 className="mb-3">Sponsored By</h5>
+                    <Sponsor data={Sponsors}/>
                     <p className="caption-text">&copy; 2022 Anime &amp; Manga Enthusiasts at UC San Diego. Website
                         design by Kaitlyn Chan. All assets belong to their respective owners.</p>
                 </Container>
