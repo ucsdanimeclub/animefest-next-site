@@ -1,6 +1,6 @@
 import { Table } from "react-bootstrap"
 
-function TimeConvert(time) {
+export function TimeConvert(time) {
     // time in the 24-hr format of "HH:MM"
     // lead times with a 0 if needed (e.g. 08:00)
     let hours = Number(time.slice(0,2))
@@ -31,7 +31,7 @@ export default function EventTable({ data, location = "", ...otherProps }) {
         events = events.filter((e) => e["location"] === location)
     }
     // sort events by time
-    const events_sorted = events.sort((e1, e2) => e1["start"].localeCompare(e2["start"]))
+    const eventsSorted = events.sort((e1, e2) => e1["start"].localeCompare(e2["start"]))
 
     return (
         <Table striped bordered hover responsive variant="dark" className={classes} {...otherPropsWithoutClassName}>
@@ -42,7 +42,7 @@ export default function EventTable({ data, location = "", ...otherProps }) {
                 </tr>
             </thead>
             <tbody>
-                {events_sorted.map((event, index) => {
+                {eventsSorted.map((event, index) => {
                     return (
                         <tr key={index}>
                             <td>
