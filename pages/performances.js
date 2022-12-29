@@ -10,6 +10,7 @@ function PerformerDisplay({performer, ...otherProps}) {
             <p className="mb-4">{performer["description"]}</p>
             <div className="video-player mx-auto">
                 <Ratio aspectRatio="16x9">
+                    {/*iframe props may need to be updated in the future if YouTube changes their embed feature*/}
                     <iframe className="border-stroke" src={performer["embed"]}
                             title="YouTube video player" frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -179,6 +179,10 @@ This JSON file contains the display names and links of each artist we have for t
 
 This JSON file contains the organization names and links of each vendor we have for the year.
 
+#### performers.json
+
+This JSON file contains each performance's name, times, description, and YouTube embed link for the year. It is read in the `performances.js` page.
+
 ### Images
 
 Images are contained in the `public/images` folder. The FavIcon is in the `public` folder.
