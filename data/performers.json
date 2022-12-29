@@ -1,0 +1,32 @@
+{
+	"performers": [
+		{
+			"start": "16:30",
+			"end": "17:30",
+			"performer": "Super Tonic",
+			"description": "We are a San Diego based anime and video game cover band formed in 2019. From hype anime openings to obscure video game soundtracks, we are passionate about playing music and strive to share the joy and excitement we feel about this unique subculture through our own sound.",
+			"embed": "https://www.youtube-nocookie.com/embed/HlicXuZ_LNw"
+		},
+		{
+			"start": "15:00",
+			"end": "15:30",
+			"performer": "Intermission Orchestra",
+			"description": "We're an orchestra that plays music from video games, anime, film, and other pop culture! We'll be performing select pieces from our upcoming Winter 2023 concert at Animefest.",
+			"embed": "https://www.youtube-nocookie.com/embed/jceUgX0sWgE"
+		},
+		{
+			"start": "13:00",
+			"end": "14:00",
+			"performer": "Aqu♡rius Encore Project",
+			"description": "Aqu♡rius Encore Project is going on a Carnival Field Trip! Join Jelli, Lily, Haley, Eggy, and Eden on a singing and dancing rollercoaster performance! This live will be filled with a variety of jpop songs from your favorite artists and series. Let's have fun on this musical merry-go-round!",
+			"embed": "https://www.youtube-nocookie.com/embed/TLeXOFLiPxo"
+		},
+		{
+			"start": "12:30",
+			"end": "13:00",
+			"performer": "G-Moto",
+			"description": "G-Moto is a Bamboo Flute-Beatboxer, based in Southern California. He performs music covers from Video Game Music, Anime, K-Pop, and more. He has covered songs from current and classic favorites such as: the Legend of Zelda, League of Legends, Naruto, Vocaloid, and the Persona series. He has performed at various cultural festivals and anime conventions, such as the 626 Night Market, FoodieLand, and Anime Expo. He was a Finalist at the 2020 Anime Los Angeles’ Next Top Star talent competition. He has been featured in Jubilee Media's SONGLAB series, ShoutOut SoCal Magazine, SD Voyager, TJS Radio, and Travel Deeper. You can find G-Moto on Instagram at @g.moto.fbx",
+			"embed": "https://www.youtube-nocookie.com/embed/d9zi1hOJD8M"
+		}
+	]
+}
