@@ -1,6 +1,11 @@
 {
     "sponsors": [
         {
+            "name": "Clip Studio Paint",
+            "image": "images/sponsor/logo_clipstudiopaint.png",
+            "url": "https://www.clipstudio.net/en/"
+        },
+        {
             "name": "Gundam Planet",
             "image": "images/sponsor/logo_gundamplanet.png",
             "url": "https://www.gundamplanet.com/"
