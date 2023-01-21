@@ -1,7 +1,7 @@
 import { Table } from "react-bootstrap"
 import { useState } from "react";
 
-export function Exhibitor({ data, highlighted }) {
+function Exhibitor({ data, highlighted }) {
     // takes a person object with "name" and optional "link" properties
     let styles = {}
     if (highlighted) {
