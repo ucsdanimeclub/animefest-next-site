@@ -1,6 +1,6 @@
 import { Col, Container, Ratio, Row } from 'react-bootstrap'
 import BackgroundImage from "../components/index/backgroundimage"
-// import ProgramsCarousel from "../components/programscarousel"
+// import ProgramsCarousel from "../components/index/programscarousel"
 import Social from "../components/index/social"
 import MyImage from "../components/myimage"
 // import Programs from "../data/programs.json"

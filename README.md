@@ -98,10 +98,6 @@ has with GitHub Pages, so please use this component instead of the regular image
 This component reads data in the format of `data/panels.json` and returns a table with columns for each entry's
 start-end times and topic.
 
-#### programscarousel.js
-
-This component reads data in the format of `data/programs.json` and returns a Carousel.
-
 #### navigation/layout.js
 
 This component contains the Navbar as well as footer tags. It is called in `pages/_app.js`.
@@ -122,6 +118,10 @@ in the page.
 
 This component is seen in `pages/index.js`. This component uses the data from `data/socials.json` and returns a
 horizontal ListGroup of the social media icons.
+
+#### index/programscarousel.js
+
+This component reads data in the format of `data/programs.json` and returns a Carousel.
 
 #### exhibitor/exhibitortable.js
 
