@@ -29,7 +29,7 @@ export default function Rules() {
           <li><p>Please don&apos;t hesitate to call convention staff or campus security if you see anything suspicious or disorderly conduct.</p></li>
         </ol>
         
-        <p><u>Cosplay & Prop Guidelines:</u></p>
+        <p><u>Cosplay &amp; Prop Guidelines:</u></p>
         <ol className="mb-5">
           <li><p>No inappropriate (18+) cosplay is permitted.</p></li>
           <li><p>No weapons or props designed or made with the ability to cause death or serious bodily injury to any person or property is permitted. Misuse of a prop will result in that prop being deemed unsafe.</p></li>
