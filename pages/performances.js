@@ -3,21 +3,37 @@ import {Container, Ratio} from 'react-bootstrap'
 import Performers from '../data/performers.json'
 import BackgroundImage from "../components/index/backgroundimage"
 
+
+function PerformerInfo({performer}) {
+    if (performer["embed"]) {
+        return (
+            <>
+                <p className="mb-4">{performer["description"]}</p>
+                <div className="video-player mx-auto">
+                    <Ratio aspectRatio="16x9">
+                        {/*iframe props may need to be updated in the future if YouTube changes their embed feature*/}
+                        <iframe className="border-stroke" src={performer["embed"]}
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen></iframe>
+                    </Ratio>
+                </div>
+            </>
+        )
+    }
+    else {
+        return (
+            <p>{performer["description"]}</p>
+        )
+    }
+}
+
 function PerformerDisplay({performer, ...otherProps}) {
     return (
         <Container fluid {...otherProps}>
             <h4 className="text-left mb-4 display-text">{performer["performer"].toUpperCase()}</h4>
             {/*<p className="text-left caption-text mb-4">{TimeConvert(performer["start"]) + ' - ' + TimeConvert(performer["end"]) + ": Performance"}</p>*/}
-            <p className="mb-4">{performer["description"]}</p>
-            <div className="video-player mx-auto">
-                <Ratio aspectRatio="16x9">
-                    {/*iframe props may need to be updated in the future if YouTube changes their embed feature*/}
-                    <iframe className="border-stroke" src={performer["embed"]}
-                            title="YouTube video player" frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen></iframe>
-                </Ratio>
-            </div>
+            <PerformerInfo performer={performer} />
         </Container>
     )
 }

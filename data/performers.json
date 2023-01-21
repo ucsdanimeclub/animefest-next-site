@@ -22,11 +22,17 @@
 			"embed": "https://www.youtube-nocookie.com/embed/TLeXOFLiPxo"
 		},
 		{
-			"start": "12:30",
-			"end": "13:00",
+			"start": "12:00",
+			"end": "12:15",
 			"performer": "G-Moto",
 			"description": "G-Moto is a Bamboo Flute-Beatboxer, based in Southern California. He performs music covers from Video Game Music, Anime, K-Pop, and more. He has covered songs from current and classic favorites such as: the Legend of Zelda, League of Legends, Naruto, Vocaloid, and the Persona series. He has performed at various cultural festivals and anime conventions, such as the 626 Night Market, FoodieLand, and Anime Expo. He was a Finalist at the 2020 Anime Los Angeles’ Next Top Star talent competition. He has been featured in Jubilee Media's SONGLAB series, ShoutOut SoCal Magazine, SD Voyager, TJS Radio, and Travel Deeper. You can find G-Moto on Instagram at @g.moto.fbx",
 			"embed": "https://www.youtube-nocookie.com/embed/d9zi1hOJD8M"
+		},
+		{
+			"start": "12:30",
+			"end": "13:00",
+			"performer": "Mochi Cafe",
+			"description": "Mochi Cafe was formed in 2009, and since then, it has been our mission to bring a taste of Akihabara's iconic maid cafes to San Diego, and to appreciate, celebrate, and educate our community on this unique aspect of Japanese pop culture. Our colorful maids and butlers bring Japan’s maid cafe scene to life here in California. Whether playing games with guests or dancing on stage, Mochi brings a welcoming and charming atmosphere wherever we go."
 		}
 	]
 }
