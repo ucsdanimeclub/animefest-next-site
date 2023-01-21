@@ -1,4 +1,5 @@
 import {Container} from 'react-bootstrap' //Col and Row for image when it is added
+import BackgroundImage from "../components/index/backgroundimage"
 // import MyImage from "../components/myimage"
 // import Prizes from "../data/prizes.json"
 // import PrizeImages from "../components/prizes/prizeimages"
@@ -8,8 +9,10 @@ export default function Yugioh() {
     // const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Smash Ultimate").map((prize) => prize["image"])
     return (
         <>
-            <Container fluid className="p-5 text-center jumbo-display">
-                <h1 className="display-4 mb-0">GAMMA GAMMA DRIVER YUGIOH</h1>
+            <Container fluid className="p-0 text-center">
+                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-light">GAMMA GAMMA DRIVER YUGIOH</h1>
+                </BackgroundImage>
             </Container>
 
             <Container fluid className="p-3 section">

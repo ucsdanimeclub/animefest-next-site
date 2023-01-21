@@ -13,13 +13,15 @@ export default function Home() {
             <Container fluid className="text-center my-1 text-light">1/18: Less than one month till Animefest! Please read our updated rules page for 2023.</Container>
 
             <Container fluid className="text-center vh-100 p-0 mb-3">
-                <BackgroundImage src="images/landing.jpg" className="landing">
+                <BackgroundImage src="images/landing.jpg" className="landing h-100">
                     <Row className="align-items-center h-75 g-0 glow-text">
                         <Col>
                             <MyImage src="images/logo_af.svg" className="w-50 my-4" alt="Animefest 2022 logo" />
-                            <h4>February 18 at UC San Diego&apos;s Price Center</h4>
-                            <h5>11:00 AM to 8:00 PM</h5>
-                            <h5>Free Admission</h5>
+                            <div className="text-light">
+                                <h4>February 18 at UC San Diego&apos;s Price Center</h4>
+                                <h5>11:00 AM to 8:00 PM</h5>
+                                <h5>Free Admission</h5>
+                            </div>
                         </Col>
                     </Row>
                 </BackgroundImage>
@@ -27,7 +29,7 @@ export default function Home() {
 
             <Container>
                 <Social data={Socials} className="mb-2" />
-                <p className="caption-text text-center mb-3">Contact us and get live event coverage on our social
+                <p className="caption-text text-center mb-3 text-light">Contact us and get live event coverage on our social
                     media!</p>
             </Container>
 

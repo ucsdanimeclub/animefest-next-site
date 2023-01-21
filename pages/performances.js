@@ -1,6 +1,7 @@
 import {Container, Ratio} from 'react-bootstrap'
 // import {TimeConvert} from '../components/eventtable'
 import Performers from '../data/performers.json'
+import BackgroundImage from "../components/index/backgroundimage"
 
 function PerformerDisplay({performer, ...otherProps}) {
     return (
@@ -26,8 +27,10 @@ export default function Performances() {
     const performersSorted = allPerformers.sort((e1, e2) => e1["start"].localeCompare(e2["start"]))
     return (
         <>
-            <Container fluid className="p-5 text-center jumbo-display">
-                <h1 className="display-4 mb-0">PERFORMANCES</h1>
+            <Container fluid className="p-0 text-center">
+                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-light">PERFORMANCES</h1>
+                </BackgroundImage>
             </Container>
 
             <Container fluid className="p-3 section">

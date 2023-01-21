@@ -1,4 +1,6 @@
-import {Col, Container, Row} from 'react-bootstrap' // import Button for forms
+import {Col, Container, Row} from 'react-bootstrap'
+import BackgroundImage from "../components/index/backgroundimage"
+// import Button for forms
 // import Prizes from "../data/prizes.json"
 // import PrizeImages from "../components/prizes/prizeimages"
 
@@ -7,8 +9,10 @@ export default function Cosplay() {
     // const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Cosplay Masquerade").map((prize) => prize["image"])
     return (
         <>
-            <Container fluid className="p-5 text-center jumbo-display">
-                <h1 className="display-4 mb-0">COSPLAY CONTEST</h1>
+            <Container fluid className="p-0 text-center">
+                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-light">COSPLAY CONTEST</h1>
+                </BackgroundImage>
             </Container>
 
             <Row className="align-items-center g-0">

@@ -1,4 +1,6 @@
-import {Container} from 'react-bootstrap' //Row, Col for the table positioning
+import {Container} from 'react-bootstrap'
+import BackgroundImage from "../components/index/backgroundimage"
+//Row, Col for the table positioning
 // import Artists from "../data/artists.json"
 // import Vendors from "../data/vendors.json"
 // import ExhibitorTable from "../components/exhibitor/exhibitortable"
@@ -8,8 +10,10 @@ import {Container} from 'react-bootstrap' //Row, Col for the table positioning
 export default function Exhibitor() {
     return (
         <>
-            <Container fluid className="p-5 text-center jumbo-display">
-                <h1 className="display-4 mb-0">EXHIBITOR HALL</h1>
+            <Container fluid className="p-0 text-center">
+                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-light">EXHIBITOR HALL</h1>
+                </BackgroundImage>
             </Container>
 
             <Container fluid className="p-3 section">
