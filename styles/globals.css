@@ -19,10 +19,6 @@ body {
   align-items: center;
 }
 
-.jumbo-display {
-  background-color: #212529;
-}
-
 .landing {
   background-size: cover;
   background-position: left;
