@@ -31,6 +31,16 @@ export default function Cosplay() {
                         {/*    <Button variant="danger" href="https://forms.gle/QcQZJKVACZNGxfLq8">Vote for the winners HERE!</Button>*/}
                         {/*</div>*/}
                     </Container>
+
+                    <Container fluid className="p-3 mt-4 section">
+                        <h1 className="text-left mb-4 display-text">COSPLAY & PROP GUIDELINES</h1>
+                        <ol>
+                            <li><p>No inappropriate (18+) cosplay is permitted.</p></li>
+                            <li><p>No weapons or props designed or made with the ability to cause death or serious bodily injury to any person or property is permitted. Misuse of a prop will result in that prop being deemed unsafe.</p></li>
+                            <li><p>Props resembling weapons are prohibited, including but not limited to bows, replica/toy swords, and firearms (airsoft, replica, paintball, BB guns, and Nerf guns).</p></li>
+                            <li><p>All props will be checked and marked with tape by our convention staff at the registration table.</p></li>
+                        </ol>
+                    </Container>
                 </Col>
                 {/*<Col lg={4} className="d-none d-lg-block p-4">*/}
                 {/*    <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100"/>*/}
