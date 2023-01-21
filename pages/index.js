@@ -54,7 +54,7 @@ export default function Home() {
             <Container fluid className="p-3 mt-4 section" id="map">
                 <h1 className="text-left mb-4 display-text">MAP AND SCHEDULE</h1>
                 <p>Animefest is held at the Price Center at UC San Diego. Specifically, it will be at the West Ballroom,
-                    East Ballroom, Muir,
+                    East Ballroom,
                     Thurgood Marshall,
                     Eleanor Roosevelt, Roger Revelle, Theater, Red Shoe, Bear, and Green Table
                     rooms.</p>
