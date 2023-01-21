@@ -13,7 +13,7 @@ export default function Home() {
             <Container fluid className="text-center my-1 text-light">1/18: Less than one month till Animefest! Please read our updated rules page for 2023.</Container>
 
             <Container fluid className="text-center vh-100 p-0 mb-3">
-                <BackgroundImage src="images/landing.jpg" className="landing" style={{ backdropFilter: "contrast(10%)" }}>
+                <BackgroundImage src="images/landing.jpg" className="landing">
                     <Row className="align-items-center h-75 g-0 glow-text">
                         <Col>
                             <MyImage src="images/logo_af.svg" className="w-50 my-4" alt="Animefest 2022 logo" />

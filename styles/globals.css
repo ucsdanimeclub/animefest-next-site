@@ -24,7 +24,7 @@ body {
 
 .landing {
   background-size: cover;
-  background-position: center;
+  background-position: left;
   height: 100%;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .glow-text {
-  text-shadow: 0 0 10px #0D0B16;
+  text-shadow: 0 0 5px #0D0B16;
 }
 
 .dropdown-menu {
