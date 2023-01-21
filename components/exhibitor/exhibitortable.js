@@ -30,7 +30,7 @@ export default function ExhibitorTable({ data, ...otherProps }) {
     return (
         <div {...otherProps}>
             <input type="search" placeholder="Search name..." value={text}
-                className="mb-1 w-75 bg-dark text-white border-stroke" onChange={onSearchChange} />
+                className="mb-1 w-75 bg-dark text-light border-stroke" onChange={onSearchChange} />
 
             <Table striped bordered hover responsive variant="dark" className="border-stroke" >
                 <thead>
