@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
-// import MyImage from "../components/myimage"
+import MyImage from "../components/myimage"
 
 
 export default function Rules() {
@@ -46,10 +46,10 @@ export default function Rules() {
           <li><p>Enable contact tracing: On Android, contact tracing from Google can be enabled in your device&apos;s settings, or downloaded as an app for your state at the link <a href="https://support.google.com/android/answer/9888358?hl=en">here.</a> On iPhone, opt-in to Exposure Notifications in your device&apos;s settings.</p></li>
         </ol>
         <Row className="align-items-center">
-          {/*<Col lg={4} className="d-none d-lg-block">*/}
-          {/*  <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100" />*/}
-          {/*</Col>*/}
-          <Col lg={12}> {/* Change to lg-8 when mascot art is ready*/}
+          <Col lg={4} className="d-none d-lg-block">
+            <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100" />
+          </Col>
+          <Col lg={8}>
             <h4 className="text-left title-text mb-4">About Anime &amp; Manga Enthusiasts</h4>
             <p>Anime &amp; Manga Enthusiasts is the anime club at UC San Diego. We hold weekly meetings on Mondays, where we show anime or hold other fun events. We also have other socials on weekends such as karaoke, game nights, and potlucks. Membership is free and open to all!</p>
             <p>If you are interested in learning more about our club or events, please visit our website <a href="https://ucsd.moe/">ucsd.moe</a> for more information.</p>
