@@ -10,7 +10,7 @@ export default function Rules() {
       </Container>
 
       <Container fluid className="p-3 section">
-        <h4 className="text-center title-text">By attending Animefest 2023, you agree to have read and will abide by
+        <h4 className="text-center title-text">By attending Animefest, you agree to have read and will abide by
           our detailed rules below.
         </h4>
         <h4 className="highlight text-center title-text mb-5">These rules are NOT final and will continue to update as we prepare for Animefest. Please revisit our rules the week prior to Animefest to read the most updated information.</h4>
@@ -18,7 +18,7 @@ export default function Rules() {
           <li><p>Anime &amp; Manga Enthusiasts and UC San Diego reserves the right to remove anyone not in compliance with the rules to their discretion.</p></li>
           <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
             <ul>
-              <li><p>Masking is <b>required at Animefest 2023.</b></p></li>
+              <li><p>Masking is <b>required</b> at Animefest 2023.</p></li>
             </ul>
           </li>
           <li><p>Attendees must respect common sense rules for public behavior, personal interaction, common courtesy, and respect for private property. Harassing or offensive behavior will not be tolerated. If your behavior becomes problematic,
