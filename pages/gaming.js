@@ -38,8 +38,11 @@ export default function Gaming() {
                 <Row className="mb-2">
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
-                        <MyImage src="images/smashbros.png" alt="Super Smash Bros gameplay"
-                                 className="mw-100 border-stroke mx-auto d-block"/>
+                        <a href="images/smashbros.png">
+                            <MyImage src="images/smashbros.png" alt="Super Smash Bros gameplay"
+                                     className="mw-100 border-stroke mx-auto d-block mb-1"/>
+                        </a>
+                        <p className="text-center caption-text">Click on the image to open.</p>
                     </Col>
                     <Col xs={0} md={2} lg={3}/>
                 </Row>
