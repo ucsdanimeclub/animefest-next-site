@@ -1,4 +1,6 @@
-import {Container} from 'react-bootstrap' //Row, Col for the table positioning
+import {Container} from 'react-bootstrap'
+import BackgroundImage from "../components/index/backgroundimage"
+//Row, Col for the table positioning
 // import Artists from "../data/artists.json"
 // import Vendors from "../data/vendors.json"
 // import ExhibitorTable from "../components/exhibitor/exhibitortable"
@@ -8,8 +10,10 @@ import {Container} from 'react-bootstrap' //Row, Col for the table positioning
 export default function Exhibitor() {
     return (
         <>
-            <Container fluid className="p-5 text-center jumbo-display">
-                <h1 className="display-4 mb-0">EXHIBITOR HALL</h1>
+            <Container fluid className="p-0 text-center">
+                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-light">EXHIBITOR HALL</h1>
+                </BackgroundImage>
             </Container>
 
             <Container fluid className="p-3 section">
@@ -17,7 +21,7 @@ export default function Exhibitor() {
                 <p>The Exhibitor Hall is home to our Artist Alley and Vendor space. It is located
                     throughout the West
                     Ballroom.</p> {/* className="mb-4" when the tables are displayed */}
-                <p>More information coming soon!</p>
+                <p>Registration for our Exhibitor Hall has closed. Look forward to our list of exhibitors being released!</p>
                 {/*<h4 className="text-left title-text mb-4">Artists</h4>*/}
                 {/*<Row>*/}
                 {/*    <Col xs={0} md={1} lg={2}>*/}

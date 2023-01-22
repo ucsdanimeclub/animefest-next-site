@@ -1,16 +1,19 @@
 import { Container, Row, Col } from 'react-bootstrap'
-// import MyImage from "../components/myimage"
+import MyImage from "../components/myimage"
+import BackgroundImage from "../components/index/backgroundimage"
 
 
 export default function Rules() {
   return (
     <>
-      <Container fluid className="p-5 text-center jumbo-display">
-        <h1 className="display-4 mb-0">RULES</h1>
+      <Container fluid className="p-0 text-center">
+        <BackgroundImage src="images/header.jpg" className="landing p-5">
+          <h1 className="display-4 mb-0 text-light">RULES</h1>
+        </BackgroundImage>
       </Container>
 
       <Container fluid className="p-3 section">
-        <h4 className="text-center title-text">By attending Animefest 2023, you agree to have read and will abide by
+        <h4 className="text-center title-text">By attending Animefest, you agree to have read and will abide by
           our detailed rules below.
         </h4>
         <h4 className="highlight text-center title-text mb-5">These rules are NOT final and will continue to update as we prepare for Animefest. Please revisit our rules the week prior to Animefest to read the most updated information.</h4>
@@ -18,7 +21,7 @@ export default function Rules() {
           <li><p>Anime &amp; Manga Enthusiasts and UC San Diego reserves the right to remove anyone not in compliance with the rules to their discretion.</p></li>
           <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
             <ul>
-              <li><p>Masking is <b>required at Animefest 2023.</b></p></li>
+              <li><p>Masking is <b>required</b> at Animefest 2023.</p></li>
             </ul>
           </li>
           <li><p>Attendees must respect common sense rules for public behavior, personal interaction, common courtesy, and respect for private property. Harassing or offensive behavior will not be tolerated. If your behavior becomes problematic,
@@ -29,7 +32,7 @@ export default function Rules() {
           <li><p>Please don&apos;t hesitate to call convention staff or campus security if you see anything suspicious or disorderly conduct.</p></li>
         </ol>
         
-        <p><u>Cosplay & Prop Guidelines:</u></p>
+        <p><u>Cosplay &amp; Prop Guidelines:</u></p>
         <ol className="mb-5">
           <li><p>No inappropriate (18+) cosplay is permitted.</p></li>
           <li><p>No weapons or props designed or made with the ability to cause death or serious bodily injury to any person or property is permitted. Misuse of a prop will result in that prop being deemed unsafe.</p></li>
@@ -46,10 +49,10 @@ export default function Rules() {
           <li><p>Enable contact tracing: On Android, contact tracing from Google can be enabled in your device&apos;s settings, or downloaded as an app for your state at the link <a href="https://support.google.com/android/answer/9888358?hl=en">here.</a> On iPhone, opt-in to Exposure Notifications in your device&apos;s settings.</p></li>
         </ol>
         <Row className="align-items-center">
-          {/*<Col lg={4} className="d-none d-lg-block">*/}
-          {/*  <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100" />*/}
-          {/*</Col>*/}
-          <Col lg={12}> {/* Change to lg-8 when mascot art is ready*/}
+          <Col lg={4} className="d-none d-lg-block">
+            <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100" />
+          </Col>
+          <Col lg={8}>
             <h4 className="text-left title-text mb-4">About Anime &amp; Manga Enthusiasts</h4>
             <p>Anime &amp; Manga Enthusiasts is the anime club at UC San Diego. We hold weekly meetings on Mondays, where we show anime or hold other fun events. We also have other socials on weekends such as karaoke, game nights, and potlucks. Membership is free and open to all!</p>
             <p>If you are interested in learning more about our club or events, please visit our website <a href="https://ucsd.moe/">ucsd.moe</a> for more information.</p>

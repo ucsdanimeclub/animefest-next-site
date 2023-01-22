@@ -7,7 +7,7 @@ import Sponsors from "../../data/sponsors.json"
 export default function Layout({children}) {
     return (
         <>
-            <Navbar bg="light" expand="lg" sticky="top">
+            <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
                 <Container>
                     <Link href="/" passHref><Navbar.Brand className="display-text">ANIMEFEST</Navbar.Brand></Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
@@ -50,9 +50,9 @@ export default function Layout({children}) {
             <main>{children}</main>
             <footer className="footer">
                 <Container className="text-center">
-                    <h5 className="mb-3">Sponsored By</h5>
+                    <h5 className="mb-3 text-light">Sponsored By</h5>
                     <Sponsor data={Sponsors}/>
-                    <p className="caption-text">&copy; 2022 Anime &amp; Manga Enthusiasts at UC San Diego. All assets belong to their respective owners.</p>
+                    <p className="caption-text text-light">&copy; 2022 Anime &amp; Manga Enthusiasts at UC San Diego. All assets belong to their respective owners.</p>
                 </Container>
             </footer>
         </>

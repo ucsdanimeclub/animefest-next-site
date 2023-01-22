@@ -1,5 +1,6 @@
 import {Col, Container, Row} from 'react-bootstrap'
 import MyImage from "../components/myimage"
+import BackgroundImage from "../components/index/backgroundimage"
 // import Prizes from "../data/prizes.json"
 // import PrizeImages from "../components/prizes/prizeimages"
 
@@ -8,8 +9,10 @@ export default function Gaming() {
     // const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Smash Ultimate").map((prize) => prize["image"])
     return (
         <>
-            <Container fluid className="p-5 text-center jumbo-display">
-                <h1 className="display-4 mb-0">TRITON SMASH</h1>
+            <Container fluid className="p-0 text-center">
+                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-light">TRITON SMASH</h1>
+                </BackgroundImage>
             </Container>
 
             <Container fluid className="p-3 section">
@@ -38,8 +41,11 @@ export default function Gaming() {
                 <Row className="mb-2">
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
-                        <MyImage src="images/smashbros.png" alt="Super Smash Bros gameplay"
-                                 className="mw-100 border-stroke mx-auto d-block"/>
+                        <a href="images/smashbros.png">
+                            <MyImage src="images/smashbros.png" alt="Super Smash Bros gameplay"
+                                     className="mw-100 border-stroke mx-auto d-block mb-1"/>
+                        </a>
+                        <p className="text-center caption-text">Click on the image to open.</p>
                     </Col>
                     <Col xs={0} md={2} lg={3}/>
                 </Row>

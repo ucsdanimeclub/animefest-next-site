@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14pt;
+  background: linear-gradient(to right, #0173C1, #FFAACE);
 }
 
 * {
@@ -18,18 +19,13 @@ body {
   align-items: center;
 }
 
-.jumbo-display {
-  background-color: #0D0B16;
-}
-
 .landing {
   background-size: cover;
-  background-position: center;
-  height: 100%;
+  background-position: left;
 }
 
 .section {
-  background-color: #2C2F3F;
+  background-color: #F8F9FA;
 }
 
 .video-player {
@@ -49,7 +45,7 @@ body {
 .border-stroke {
   border-style: solid;
   border-width: 2px;
-  border-color: #313D44;
+  border-color: #003983;
 }
 
 .display-text {
@@ -69,11 +65,11 @@ body {
 }
 
 .highlight {
-  color: #69F1F7
+  color: #EE489A
 }
 
 .glow-text {
-  text-shadow: 0 0 10px #0D0B16;
+  text-shadow: 0 0 5px #212529;
 }
 
 .dropdown-menu {

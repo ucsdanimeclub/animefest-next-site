@@ -1,4 +1,5 @@
 import {Container} from 'react-bootstrap' //Row, Col for the panel tables
+import BackgroundImage from "../components/index/backgroundimage"
 // import EventTable from "../components/eventtable"
 // import Panelists from "../data/panels.json"
 
@@ -7,8 +8,10 @@ export default function Panels() {
     // const panelsSorted = Panelists["panels"].sort((e1, e2) => e1["topic"].localeCompare(e2["topic"]))
     return (
         <>
-            <Container fluid className="p-5 text-center jumbo-display">
-                <h1 className="display-4 mb-0">PANELS</h1>
+            <Container fluid className="p-0 text-center">
+                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-light">PANELS</h1>
+                </BackgroundImage>
             </Container>
 
             <Container fluid className="p-3 section">

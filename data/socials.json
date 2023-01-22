@@ -2,22 +2,22 @@
     "socials": [
         {
             "name": "Discord",
-            "icon": "images/discord.svg",
+            "icon": "images/socials/discord.svg",
             "url": "https://discord.gg/Jja4tsVW8q"
         },
         {
             "name": "Twitter",
-            "icon": "images/twitter.svg",
+            "icon": "images/socials/twitter.svg",
             "url": "https://twitter.com/ucsdanimeclub"
         },
         {
             "name": "Facebook",
-            "icon": "images/facebook.png",
+            "icon": "images/socials/facebook.png",
             "url": "https://www.facebook.com/groups/ucsdanimeclub"
         },
         {
             "name": "Instagram",
-            "icon": "images/instagram.png",
+            "icon": "images/socials/instagram.png",
             "url": "https://www.instagram.com/ucsdanimeclub/"
         }
     ]
