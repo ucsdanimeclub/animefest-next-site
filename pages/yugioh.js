@@ -44,7 +44,7 @@ export default function Yugioh() {
                     </p>    
                 <h4 className="text-left title-text mb-4">Schedule:</h4>
                     <p>Doors will open at <b>1 PM</b>, and the bracket will start at <b>1 PM.</b> Free play will begin after
-                    the tournament ends, around <b>5 PM</b></p>
+                    the tournament ends, around <b>5 PM.</b></p>
                 <h4 className="text-left title-text mb-4">Location:</h4>
                 <p>We’ll be in the <b>Green Table Room</b>, which is inside Sun God Lounge.</p>
                 {/*Rows and Cols is a grid system provided by React-Bootstrap. This allows things to be centered on a page.*/}
