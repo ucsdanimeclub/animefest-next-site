@@ -9,8 +9,8 @@ function PerformerInfo({performer}) {
     let performerWebsite = <></>
     if (performer["profile"]) {
         performerWebsite =
-            <a href={performer["profile"]}><p className="text-left caption-text mb-4">{performer["performer"]}&apos;s
-                Website</p></a>
+            <p className="text-left caption-text mb-4"><a href={performer["profile"]}>{performer["performer"]}&apos;s
+                Website</a></p>
     }
 
     if (performer["embed"]) {
