@@ -17,10 +17,12 @@ export default function Home() {
                     <Row className="align-items-center h-75 g-0 glow-text">
                         <Col>
                             <MyImage src="images/logo_af.svg" className="w-50 my-4" alt="Animefest 2022 logo" />
-                            <div className="text-light">
-                                <h4>February 18 at UC San Diego&apos;s Price Center</h4>
-                                <h5>11:00 AM to 8:00 PM</h5>
-                                <h5>Free Admission</h5>
+                            <div className="text-light ">
+                                <div className="d-inline-flex flex-column bg-translucent p-2 rounded">
+                                    <h4>February 18 at UC San Diego&apos;s Price Center</h4>
+                                    <h5>11:00 AM to 8:00 PM</h5>
+                                    <h5>Free Admission</h5>
+                                </div>
                             </div>
                         </Col>
                     </Row>
