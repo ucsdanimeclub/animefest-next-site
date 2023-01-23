@@ -8,7 +8,9 @@ function PerformerInfo({performer}) {
     // const performerTime = <p className="text-left caption-text mb-1">{TimeConvert(performer["start"]) + ' - ' + TimeConvert(performer["end"]) + ": Performance"}</p>
     let performerWebsite = <></>
     if (performer["profile"]) {
-        performerWebsite = <a href={performer["profile"]}><p className="text-left caption-text mb-4">{performer["performer"]}&apos;s Website</p></a>
+        performerWebsite =
+            <a href={performer["profile"]}><p className="text-left caption-text mb-4">{performer["performer"]}&apos;s
+                Website</p></a>
     }
 
     if (performer["embed"]) {
@@ -28,8 +30,7 @@ function PerformerInfo({performer}) {
                 </div>
             </>
         )
-    }
-    else {
+    } else {
         return (
             <>
                 {performerWebsite}
@@ -44,7 +45,7 @@ function PerformerDisplay({performer, ...otherProps}) {
     return (
         <Container fluid {...otherProps}>
             <h4 className="text-left mb-4 display-text">{performer["performer"].toUpperCase()}</h4>
-            <PerformerInfo performer={performer} />
+            <PerformerInfo performer={performer}/>
         </Container>
     )
 }
