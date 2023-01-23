@@ -13,14 +13,16 @@
 			"end": "15:30",
 			"performer": "Intermission Orchestra",
 			"description": "Intermission Orchestra plays music from video games, anime, film, and other pop culture! They'll be performing select pieces from their upcoming Winter 2023 concert at Animefest.",
-			"embed": "https://www.youtube-nocookie.com/embed/jceUgX0sWgE"
+			"embed": "https://www.youtube-nocookie.com/embed/jceUgX0sWgE",
+			"profile": "https://intermission.ucsd.edu/"
 		},
 		{
 			"start": "13:00",
 			"end": "14:00",
 			"performer": "Aqu♡rius Encore Project",
 			"description": "Aqu♡rius Encore Project is going on a Carnival Field Trip! Join Jelli, Lily, Haley, Eggy, and Eden on a singing and dancing rollercoaster performance! This live will be filled with a variety of jpop songs from your favorite artists and series. Let's have fun on this musical merry-go-round!",
-			"embed": "https://www.youtube-nocookie.com/embed/TLeXOFLiPxo"
+			"embed": "https://www.youtube-nocookie.com/embed/TLeXOFLiPxo",
+			"profile": "https://aquariusunshine.wixsite.com/idol"
 		},
 		{
 			"start": "12:00",
@@ -34,7 +36,8 @@
 			"start": "12:30",
 			"end": "13:00",
 			"performer": "Mochi Cafe",
-			"description": "Mochi Cafe was formed in 2009, and since then, it has been their mission to bring a taste of Akihabara's iconic maid cafes to San Diego, and to appreciate, celebrate, and educate their community on this unique aspect of Japanese pop culture. Their colorful maids and butlers bring Japan’s maid cafe scene to life here in California. Whether playing games with guests or dancing on stage, Mochi brings a welcoming and charming atmosphere wherever they go."
+			"description": "Mochi Cafe was formed in 2009, and since then, it has been their mission to bring a taste of Akihabara's iconic maid cafes to San Diego, and to appreciate, celebrate, and educate their community on this unique aspect of Japanese pop culture. Their colorful maids and butlers bring Japan’s maid cafe scene to life here in California. Whether playing games with guests or dancing on stage, Mochi brings a welcoming and charming atmosphere wherever they go.",
+			"profile": "http://www.mochicafe.org/"
 		}
 	]
 }
