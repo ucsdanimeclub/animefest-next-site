@@ -27,7 +27,7 @@ export default function Theater() {
                         {/*<p className="text-left caption-text mb-4">5:00 PM - 7:00 PM: Second Showing</p>*/}
                         <p>We will be hosting two showings of <i>The Wind Rises</i>. </p>
                         
-                        <h4 className="text-left title-text mb-4">Synopsis</h4>
+                        <h4 className="text-left title-text">Synopsis</h4>
                         <p>The movie is a fictional biography of Jiro Horikoshi, the chief engineer of Japanese fighter
                         planes in WWII. Jiro dreams of becoming a pilot, but is stopped short by his nearsightedness.
                         Regardless, he pursues his dreams as a designer for planes. As Jiro finds success and love,
@@ -35,7 +35,7 @@ export default function Theater() {
                         cruel reality of war?</p>
 
 
-                        <h4 className="text-left title-text mb-4">Behind the Scenes</h4>
+                        <h4 className="text-left title-text">Behind the Scenes</h4>
                         <p><i>The Wind Rises</i> is the last movie produced by the legendary director of Studio Ghibli,
                         Hayao Miyazaki. Hideaki Anno, creator of the classic series <i>Neon Genesis Evangelion</i>, is
                         the main voice actor, or seiyuu, for the main character of the film. Joe Hisaishi composed
