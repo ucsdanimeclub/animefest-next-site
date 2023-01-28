@@ -30,18 +30,18 @@ export default function Yugioh() {
                 <p>Gamma Gamma Drive Yu-gi-oh will be hosting a tournament for Yu-gi-oh TCG! The tournament will be <b>free
                     to enter</b>, and open to all <b>UCSD Students and Alumni</b>.</p>
                 <h4 className="text-left title-text mb-4">Register:</h4>
-                <p>You can register for the event on site during Animefest</p>
+                <p>You can register for the event on site during Animefest.</p>
                 <h4 className="text-left title-text mb-4">Cost and Prizing:</h4>
                 <p>The tournament will be free to enter, and will have a grand prize for the winner provided by Anime &amp;
                     Manga Enthusiasts!</p>
                 <h4 className="text-left title-text mb-4">Tournament Rules:</h4>
-                <p>
+                <ul>
                     <li>Rounds will be Swiss</li>
                     <li><b>We will be using current banlist</b></li>
                     <li>TCG format only</li>
                     <li>No OCG cards or custom cards</li>
                     <li>For foreign cards, please have a translation ready</li>
-                    </p>    
+                    </ul>    
                 <h4 className="text-left title-text mb-4">Schedule:</h4>
                     <p>Doors will open at <b>1 PM</b>, and the bracket will start at <b>1 PM.</b> Free play will begin after
                     the tournament ends, around <b>5 PM.</b></p>
