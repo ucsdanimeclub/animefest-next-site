@@ -4,35 +4,40 @@
 			"start": "16:30",
 			"end": "17:30",
 			"performer": "Super Tonic",
-			"description": "We are a San Diego based anime and video game cover band formed in 2019. From hype anime openings to obscure video game soundtracks, we are passionate about playing music and strive to share the joy and excitement we feel about this unique subculture through our own sound.",
-			"embed": "https://www.youtube-nocookie.com/embed/HlicXuZ_LNw"
+			"description": "Super Tonic is a San Diego based anime and video game cover band formed in 2019. From hype anime openings to obscure video game soundtracks, they are passionate about playing music and strive to share the joy and excitement they feel about this unique subculture through their own sound.",
+			"embed": "https://www.youtube-nocookie.com/embed/HlicXuZ_LNw",
+			"profile": "https://supertonicband.com/"
 		},
 		{
 			"start": "15:00",
 			"end": "15:30",
 			"performer": "Intermission Orchestra",
-			"description": "We're an orchestra that plays music from video games, anime, film, and other pop culture! We'll be performing select pieces from our upcoming Winter 2023 concert at Animefest.",
-			"embed": "https://www.youtube-nocookie.com/embed/jceUgX0sWgE"
+			"description": "Intermission Orchestra plays music from video games, anime, film, and other pop culture! They'll be performing select pieces from their upcoming Winter 2023 concert at Animefest.",
+			"embed": "https://www.youtube-nocookie.com/embed/jceUgX0sWgE",
+			"profile": "https://intermission.ucsd.edu/"
 		},
 		{
 			"start": "13:00",
 			"end": "14:00",
 			"performer": "Aqu♡rius Encore Project",
 			"description": "Aqu♡rius Encore Project is going on a Carnival Field Trip! Join Jelli, Lily, Haley, Eggy, and Eden on a singing and dancing rollercoaster performance! This live will be filled with a variety of jpop songs from your favorite artists and series. Let's have fun on this musical merry-go-round!",
-			"embed": "https://www.youtube-nocookie.com/embed/TLeXOFLiPxo"
+			"embed": "https://www.youtube-nocookie.com/embed/TLeXOFLiPxo",
+			"profile": "https://aquariusunshine.wixsite.com/idol"
 		},
 		{
 			"start": "12:00",
 			"end": "12:15",
 			"performer": "G-Moto",
 			"description": "G-Moto is a Bamboo Flute-Beatboxer, based in Southern California. He performs music covers from Video Game Music, Anime, K-Pop, and more. He has covered songs from current and classic favorites such as: the Legend of Zelda, League of Legends, Naruto, Vocaloid, and the Persona series. He has performed at various cultural festivals and anime conventions, such as the 626 Night Market, FoodieLand, and Anime Expo. He was a Finalist at the 2020 Anime Los Angeles’ Next Top Star talent competition. He has been featured in Jubilee Media's SONGLAB series, ShoutOut SoCal Magazine, SD Voyager, TJS Radio, and Travel Deeper. You can find G-Moto on Instagram at @g.moto.fbx",
-			"embed": "https://www.youtube-nocookie.com/embed/d9zi1hOJD8M"
+			"embed": "https://www.youtube-nocookie.com/embed/d9zi1hOJD8M",
+			"profile": "https://www.instagram.com/g.moto.fbx/?hl=en"
 		},
 		{
 			"start": "12:30",
 			"end": "13:00",
 			"performer": "Mochi Cafe",
-			"description": "Mochi Cafe was formed in 2009, and since then, it has been our mission to bring a taste of Akihabara's iconic maid cafes to San Diego, and to appreciate, celebrate, and educate our community on this unique aspect of Japanese pop culture. Our colorful maids and butlers bring Japan’s maid cafe scene to life here in California. Whether playing games with guests or dancing on stage, Mochi brings a welcoming and charming atmosphere wherever we go."
+			"description": "Mochi Cafe was formed in 2009, and since then, it has been their mission to bring a taste of Akihabara's iconic maid cafes to San Diego, and to appreciate, celebrate, and educate their community on this unique aspect of Japanese pop culture. Their colorful maids and butlers bring Japan’s maid cafe scene to life here in California. Whether playing games with guests or dancing on stage, Mochi brings a welcoming and charming atmosphere wherever they go.",
+			"profile": "http://www.mochicafe.org/"
 		}
 	]
 }

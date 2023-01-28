@@ -5,9 +5,19 @@ import BackgroundImage from "../components/index/backgroundimage"
 
 
 function PerformerInfo({performer}) {
+    // const performerTime = <p className="text-left caption-text mb-1">{TimeConvert(performer["start"]) + ' - ' + TimeConvert(performer["end"]) + ": Performance"}</p>
+    let performerWebsite = <></>
+    if (performer["profile"]) {
+        performerWebsite =
+            <p className="text-left caption-text mb-4"><a href={performer["profile"]}>{performer["performer"]}&apos;s
+                Website</a></p>
+    }
+
     if (performer["embed"]) {
         return (
             <>
+                {performerWebsite}
+                {/*{performerTime}*/}
                 <p className="mb-4">{performer["description"]}</p>
                 <div className="video-player mx-auto">
                     <Ratio aspectRatio="16x9">
@@ -20,10 +30,13 @@ function PerformerInfo({performer}) {
                 </div>
             </>
         )
-    }
-    else {
+    } else {
         return (
-            <p>{performer["description"]}</p>
+            <>
+                {performerWebsite}
+                {/*{performerTime}*/}
+                <p>{performer["description"]}</p>
+            </>
         )
     }
 }
@@ -32,8 +45,7 @@ function PerformerDisplay({performer, ...otherProps}) {
     return (
         <Container fluid {...otherProps}>
             <h4 className="text-left mb-4 display-text">{performer["performer"].toUpperCase()}</h4>
-            {/*<p className="text-left caption-text mb-4">{TimeConvert(performer["start"]) + ' - ' + TimeConvert(performer["end"]) + ": Performance"}</p>*/}
-            <PerformerInfo performer={performer} />
+            <PerformerInfo performer={performer}/>
         </Container>
     )
 }
@@ -59,79 +71,6 @@ export default function Performances() {
                     <PerformerDisplay performer={performerDatum} key={index} className="p-3 mt-4 section"/>
                 )
             })}
-            {/*<Container fluid className="p-3 mt-4 section">*/}
-            {/*    <h4 className="text-left mb-4 display-text">G-MOTO</h4>*/}
-            {/*    /!*<p className="text-left caption-text mb-4">3:00 PM - 4:00 PM: Performance</p>*!/*/}
-            {/*    <p className="mb-4">G-Moto is a Bamboo Flute-Beatboxer, based in Southern California. He performs music*/}
-            {/*        covers from Video Game Music, Anime, K-Pop, and more. He has covered songs from current and classic*/}
-            {/*        favorites such as: the Legend of Zelda, League of Legends, Naruto, Vocaloid, and the Persona series.*/}
-            {/*        He has performed at various cultural festivals and anime conventions, such as the 626 Night Market,*/}
-            {/*        FoodieLand, and Anime Expo. He was a Finalist at the 2020 Anime Los Angeles&apos; Next Top Star*/}
-            {/*        talent*/}
-            {/*        competition. He has been featured in Jubilee Media&apos;s SONGLAB series, ShoutOut SoCal Magazine,*/}
-            {/*        SD*/}
-            {/*        Voyager, TJS Radio, and Travel Deeper. You can find G-Moto on Instagram at <a*/}
-            {/*            href="https://www.instagram.com/g.moto.fbx/?hl=en">@g.moto.fbx</a></p>*/}
-            {/*    <div className="video-player mx-auto">*/}
-            {/*        <Ratio aspectRatio="16x9">*/}
-            {/*            <iframe className="border-stroke" src="https://www.youtube-nocookie.com/embed/d9zi1hOJD8M"*/}
-            {/*                    title="YouTube video player" frameBorder="0"*/}
-            {/*                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"*/}
-            {/*                    allowFullScreen></iframe>*/}
-            {/*        </Ratio>*/}
-            {/*    </div>*/}
-            {/*</Container>*/}
-
-            {/*<Container fluid className="p-3 mt-4 section">*/}
-            {/*    <h4 className="text-left mb-4 display-text">AQU♡RIUS ENCORE PROJECT</h4>*/}
-            {/*    /!*<p className="text-left caption-text mb-4">3:00 PM - 4:00 PM: Performance</p>*!/*/}
-            {/*    <p className="mb-4">Aqu♡rius Encore Project is going on a Carnival Field Trip! Join Jelli, Lily, Haley,*/}
-            {/*        Eggy, and Eden on a singing and dancing rollercoaster performance! This live will be filled with a*/}
-            {/*        variety of jpop songs from your favorite artists and series. Let&apos;s have fun on this musical*/}
-            {/*        merry-go-round!</p>*/}
-            {/*    <div className="video-player mx-auto">*/}
-            {/*        <Ratio aspectRatio="16x9">*/}
-            {/*            <iframe className="border-stroke" src="https://www.youtube-nocookie.com/embed/TLeXOFLiPxo"*/}
-            {/*                    title="YouTube video player" frameBorder="0"*/}
-            {/*                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"*/}
-            {/*                    allowFullScreen></iframe>*/}
-            {/*        </Ratio>*/}
-            {/*    </div>*/}
-            {/*</Container>*/}
-
-            {/*<Container fluid className="p-3 mt-4 section">*/}
-            {/*    <h4 className="text-left mb-4 display-text">INTERMISSION ORCHESTRA</h4>*/}
-            {/*    /!*<p className="text-left caption-text mb-4">3:00 PM - 4:00 PM: Performance</p>*!/*/}
-            {/*    <p className="mb-4">We&apos;re an orchestra that plays music from video games, anime, film, and other*/}
-            {/*        pop*/}
-            {/*        culture! We&apos;ll be performing select pieces from our upcoming Winter 2023 concert at*/}
-            {/*        Animefest.</p>*/}
-            {/*    <div className="video-player mx-auto">*/}
-            {/*        <Ratio aspectRatio="16x9">*/}
-            {/*            <iframe className="border-stroke" src="https://www.youtube-nocookie.com/embed/jceUgX0sWgE"*/}
-            {/*                    title="YouTube video player" frameBorder="0"*/}
-            {/*                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"*/}
-            {/*                    allowFullScreen></iframe>*/}
-            {/*        </Ratio>*/}
-            {/*    </div>*/}
-            {/*</Container>*/}
-
-            {/*<Container fluid className="p-3 mt-4 section">*/}
-            {/*    <h4 className="text-left mb-4 display-text">SUPER TONIC</h4>*/}
-            {/*    /!*<p className="text-left caption-text mb-4">3:00 PM - 4:00 PM: Performance</p>*!/*/}
-            {/*    <p className="mb-4">We are a San Diego based anime and video game cover band formed in 2019. From hype*/}
-            {/*        anime openings to obscure video game soundtracks, we are passionate about playing music and strive*/}
-            {/*        to share the joy and excitement we feel about this unique subculture through our own sound.</p>*/}
-            {/*    <div className="video-player mx-auto">*/}
-            {/*        <Ratio aspectRatio="16x9">*/}
-            {/*            <iframe className="border-stroke"*/}
-            {/*                    src="https://www.youtube-nocookie.com/embed/HlicXuZ_LNw"*/}
-            {/*                    title="YouTube video player" frameBorder="0"*/}
-            {/*                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"*/}
-            {/*                    allowFullScreen></iframe>*/}
-            {/*        </Ratio>*/}
-            {/*    </div>*/}
-            {/*</Container>*/}
         </>
     )
 }

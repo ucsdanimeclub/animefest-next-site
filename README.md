@@ -181,7 +181,7 @@ This JSON file contains the organization names and links of each vendor we have 
 
 #### performers.json
 
-This JSON file contains each performance's name, times, description, and YouTube embed link for the year. It is read in the `performances.js` page.
+This JSON file contains each performance's name, times, description, social media profile, and YouTube embed link for the year. It is read in the `performances.js` page.
 
 ### Images
 

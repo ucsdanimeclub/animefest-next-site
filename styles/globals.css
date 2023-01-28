@@ -89,3 +89,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.bg-translucent {
+    background-color: rgba(3, 29, 56, 0.5);
+}
