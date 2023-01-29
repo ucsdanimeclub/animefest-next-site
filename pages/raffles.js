@@ -20,7 +20,7 @@ export default function Raffles() {
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
                 {/*<p className="text-left caption-text mb-1">1:30 PM - 2:00 PM: Afternoon Raffle</p>*/}
                 {/*<p className="text-left caption-text mb-4">7:00 PM - 8:00 PM: Evening Raffle</p>*/}
-                <p>Our raffles will be held in the East Ballroom. There will be two raffle periods: one in the morning and one in the evening.</p>
+                <p>Our raffles will be held in the East Ballroom. There will be two raffle periods: one in the afternoon and one in the evening.</p>
             </Container>
 
             <Container fluid className="p-3 mt-4 section">
