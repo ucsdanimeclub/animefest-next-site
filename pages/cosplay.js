@@ -1,12 +1,12 @@
 import {Col, Container, Row} from 'react-bootstrap'
 import BackgroundImage from "../components/index/backgroundimage"
-// import Button for forms
-// import Prizes from "../data/prizes.json"
-// import PrizeImages from "../components/prizes/prizeimages"
+// import Button // for forms
+import Prizes from "../data/prizes.json"
+import PrizeImages from "../components/prizes/prizeimages"
 
 
 export default function Cosplay() {
-    // const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Cosplay Masquerade").map((prize) => prize["image"])
+    const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Cosplay Contest").map((prize) => prize["image"])
     return (
         <>
             <Container fluid className="p-0 text-center">
@@ -26,8 +26,8 @@ export default function Cosplay() {
                     </Container>
 
                     <Container fluid className="p-3 mt-4 section">
-                        <h1 className="text-left mb-4 display-text">ENTER AND VOTE</h1>
-                        <p>Look out for the registration and voting form for the winners here! The voting form will open
+                        <h1 className="text-left mb-4 display-text">REGISTRATION</h1>
+                        <p>Look out for the registration form here! The registration form will open
                             on the day of the convention.</p> {/*Add className="mb-4" when form buttons open*/}
                         {/*<div className="text-center mb-4">*/}
                         {/*    <Button variant="danger" href="https://forms.gle/E9RKd5Di2JVS16Je8" size="lg" className="mb-4">Cosplay Masquerade Sign Up Form</Button>*/}
@@ -51,10 +51,10 @@ export default function Cosplay() {
                 {/*</Col>*/}
             </Row>
 
-            {/*<Container fluid className="p-3 mt-4 section">*/}
-            {/*    <h4 className="text-left mb-4 display-text">PRIZING</h4>*/}
-            {/*    <PrizeImages prizes={prizesInPool}/>*/}
-            {/*</Container>*/}
+            <Container fluid className="p-3 mt-4 section">
+                <h4 className="text-left mb-4 display-text">PRIZING</h4>
+                <PrizeImages prizes={prizesInPool}/>
+            </Container>
         </>
     )
 }

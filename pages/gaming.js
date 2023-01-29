@@ -1,12 +1,12 @@
 import {Col, Container, Row} from 'react-bootstrap'
 import MyImage from "../components/myimage"
 import BackgroundImage from "../components/index/backgroundimage"
-// import Prizes from "../data/prizes.json"
-// import PrizeImages from "../components/prizes/prizeimages"
+import Prizes from "../data/prizes.json"
+import PrizeImages from "../components/prizes/prizeimages"
 
 
 export default function Gaming() {
-    // const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Smash Ultimate").map((prize) => prize["image"])
+    const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Smash").map((prize) => prize["image"])
     return (
         <>
             <Container fluid className="p-0 text-center">
@@ -36,8 +36,6 @@ export default function Gaming() {
                 <p>We’ll be in the <b>Red Shoe Room</b>, which is inside Sun God Lounge. Below is a helpful guide to
                     finding the room:</p>
 
-                {/*Rows and Cols is a grid system provided by React-Bootstrap. This allows things to be centered on a page.*/}
-                {/*The breakpoints for each display size should add up to 12. Learn more about breakpoints on getbootstrap.com*/}
                 <Row className="mb-2">
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
@@ -51,13 +49,10 @@ export default function Gaming() {
                 </Row>
             </Container>
 
-            {/*when uncommenting the below section, plus any other line with the word prizes in it, a prize*/}
-            {/*section will be created displaying all the prize images for Triton Smash*/}
-
-            {/*<Container fluid className="p-3 mt-4 section">*/}
-            {/*    <h4 className="text-left mb-4 display-text">PRIZING</h4>*/}
-            {/*    <PrizeImages prizes={prizesInPool}/>*/}
-            {/*</Container>*/}
+            <Container fluid className="p-3 mt-4 section">
+                <h4 className="text-left mb-4 display-text">PRIZING</h4>
+                <PrizeImages prizes={prizesInPool}/>
+            </Container>
         </>
     )
 }

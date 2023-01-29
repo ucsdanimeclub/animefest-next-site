@@ -3,7 +3,7 @@ import MyImage from "../myimage"
 
 export default function PrizeImages({ prizes, ...otherProps }) {
     let { className, ...otherPropsWithoutClassName } = otherProps
-    let classes = "mb-2 d-inline-flex flex-wrap justify-content-between"
+    let classes = "mb-2 d-inline-flex flex-wrap justify-content-center"
     if (className) {
         classes = classes + " " + className
     }
