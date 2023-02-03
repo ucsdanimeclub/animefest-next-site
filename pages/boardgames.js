@@ -29,7 +29,7 @@ export default function Boardgames() {
 
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
                 <p>The Board Games room will be at the Marshall College Room in Price Center.</p>
-                <p className="mb-4">Do you like good old-fashioned fun? Well in you're luck! Here in the
+                <p className="mb-4">Do you like good old-fashioned fun? Well in you&apos;re luck! Here in the
                 Board Games room, we got all kinda of 15-minute classics ranging from teamwork tabletops
                 like <i>Codenames!</i> to 1 hour high-stakes strategy games like <i>Catan</i>.</p>
 
@@ -46,7 +46,7 @@ export default function Boardgames() {
                     <li>Meepleland</li>
                     <li>Betrayal at the House on the Hill</li>
                     <li>Catan</li>
-                    <li>Memoir '44</li>
+                    <li>Memoir &apos;44</li>
                     <li>Tiny Epic Western</li>
                     <li>Tiny Epic Dinosaurs</li>
                     <li>The Duke</li>
