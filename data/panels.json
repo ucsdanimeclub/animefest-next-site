@@ -1,56 +1,40 @@
 {
 	"panels": [
 		{
-			"start": "14:00",
-			"end": "15:00",
-			"panelist": "Eden",
-			"topic": "AoD (Attack on Dinos)",
-			"description": "A workshop for people interested in origami, we will be folding two to three different dinosaurs that are relatively easy to follow along. Each origami piece will take ~10-15 minutes to finish, paper will be provided.",
-			"location": "marshall"
-		},
-		{
-			"start": "14:00",
-			"end": "15:00",
-			"topic": "Noob's Guide to Yuri",
-			"panelist": "Mashy",
-			"description": "Explore the world of Yuri and explore history, tropes and some of my personal favorites in the genre.",
-			"location": "roosevelt"
-		},
-		{
-			"start": "12:30",
-			"end": "13:30",
-			"topic": "Cosplay Armor? In MY Dorm Room?",
-			"panelist": "Dreidel Cosplay",
-			"description": "Want to get into building armor but don't have a big workshop at your disposal? Not to fear! Join experienced foamsmith and panelist Dreidel Cosplay for a beginner-focused lesson on how to use thermoplastic to safely make cosplay armor within the constraints of a university dorm! We'll cover budgeting, tools, safety, techniques, and give you the confidence to start building today!",
-			"location": "roosevelt"
-		},
-		{
 			"start": "11:30",
 			"end": "12:30",
-			"topic": "Henshin!: An Intro to Tokusatsu + The Origin of Madoka?",
-			"panelist": "Brandon Nguyen",
-			"description": "Ever wonder why hero characters in your anime keep having the name \"_____ Rider\"? Perhaps you are curious about where Power Rangers got all that fancy fight footage? Or maybe you want to find out what Spider-Man has to do with giant robots? Come learn what this genre of live-action Japanese superhero shows is all about and as a bonus, learn the possible origin of Madoka (yes, that one).",
+			"panelist": "Anime & Manga Enthusiasts",
+			"topic": "Kahoot!",
+			"description": "Compete in a game of Kahoot against other attendees to see who knows more anime trivia!",
 			"location": "roosevelt"
 		},
 		{
 			"start": "17:00",
 			"end": "18:00",
-			"topic": "How to plan an anime convention, from someone who used to plan Animefest",
-			"panelist": "Haoyu Jia",
-			"description": "Want to learn how an anime convention like this gets organized? How much would it cost to try hosting my own fan convention? Learn about convention organizing from someone who was the head organizer of last Animefest, from venue and programming selection to recruiting performers and sponsors. The world of event planning does lead to intriguing and juicy stories!",
+			"panelist": "Thomas Dudley",
+			"topic": "Defense Issues in Mecha Anime, Lessons Learned",
+			"description": "Defense Issues in Mecha Anime, Lessons Learned will cover issues in mecha anime like; sustainment, procurement, arms racing, and logistics in 3 different anime franchises ranging from Gundam to 86. This presentation will be more of case studies and teaching with footnotes on the specific topic and commentary on the lessons to be learned from the different factions of 86, Gundam, and the Neon Genesis Evangelion TV series. ",
 			"location": "roosevelt"
 		},
 		{
-			"start": "11:30",
-			"end": "12:30",
+			"start": "15:30",
+			"end": "16:30",
+			"topic": "Mashy’s Guide to Gunpla: Plastic Crack and War Crimes",
+			"panelist": "Mashy",
+			"description": "A 10 month old addict presents an overview of the Gundam series and the hobby that comes with them. Come and learn about the basics of Gunpla aka Plastic Crack and learn about the journey of how our speaker, Mashy, become an addict. There will be a giveaway of an Entry Grade Nu Gundam for answering some question at the end.",
+			"location": "roosevelt"
+		},
+		{
+			"start": "14:30",
+			"end": "15:30",
 			"topic": "Jeopardy!",
 			"panelist": "Anime & Manga Enthusiasts",
 			"description": "Play a game of Jeopardy (with an anime spin) with other attendees!",
-			"location": "marshall"
+			"location": "roosevelt"
 		},
 		{
-			"start": "17:00",
-			"end": "18:00",
+			"start": "16:30",
+			"end": "18:30",
 			"topic": "Karuta Tourney",
 			"panelist": "Anime & Manga Enthusiasts",
 			"description": "A Japanese card game of Karuta with a twist with anime songs.",
@@ -59,10 +43,10 @@
 		{
 			"start": "12:30",
 			"end": "13:30",
-			"topic": "Why Sumo Wrestling is Cool",
+			"topic": "Why You Should Write",
 			"panelist": "Marshall",
-			"description": "Learn all about sumo from a guy who knows nothing about sumo.",
-			"location": "marshall"
+			"description": "A member of Anime & Manga Enthusiasts at UC San Diego tries to persuade you to become a creative writer, regardless of whether you want to or not.",
+			"location": "roosevelt"
 		}
 	]
 }
