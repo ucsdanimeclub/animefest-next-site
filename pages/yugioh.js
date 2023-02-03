@@ -28,7 +28,7 @@ export default function Yugioh() {
                 </Row>
 
                 <p className="mb-0">Gamma Gamma Drive Yu-gi-oh will be hosting a tournament for Yu-gi-oh TCG! The tournament will be <b>free
-                    to enter</b>, and open to all <b>UCSD Students and Alumni</b>. Feel free to join our Discord server for more information!</p>
+                    to enter</b>, and open to all <b>UCSD Students and Alumni</b>. Feel free to join their Discord server for more information!</p>
                 <p><a 
                     href="https://discord.gg/e2vBZA7v">https://discord.gg/e2vBZA7v</a></p>
                 <h4 className="text-left title-text">Register:</h4>

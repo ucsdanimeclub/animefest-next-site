@@ -33,7 +33,7 @@ export default function Gaming() {
                 <p>Doors will open at <b>12 PM</b>, and setups will be open for friendlies. The bracket will start
                     at <b>1 PM.</b></p>
                 <h4 className="text-left title-text">Location:</h4>
-                <p>We’ll be in the <b>Red Shoe Room</b>, which is inside Sun God Lounge. Below is a helpful guide to
+                <p>They&apos;ll be in the <b>Red Shoe Room</b>, which is inside Sun God Lounge. Below is a helpful guide to
                     finding the room:</p>
 
                 <Row className="mb-2">

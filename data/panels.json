@@ -4,6 +4,7 @@
 			"start": "11:30",
 			"end": "12:30",
 			"panelist": "Anime & Manga Enthusiasts",
+			"type": "game",
 			"topic": "Kahoot!",
 			"description": "Compete in a game of Kahoot against other attendees to see who knows more anime trivia!",
 			"location": "roosevelt"
@@ -12,6 +13,7 @@
 			"start": "17:00",
 			"end": "18:00",
 			"panelist": "Thomas Dudley",
+			"type": "panel",
 			"topic": "Defense Issues in Mecha Anime, Lessons Learned",
 			"description": "Defense Issues in Mecha Anime, Lessons Learned will cover issues in mecha anime like; sustainment, procurement, arms racing, and logistics in 3 different anime franchises ranging from Gundam to 86. This presentation will be more of case studies and teaching with footnotes on the specific topic and commentary on the lessons to be learned from the different factions of 86, Gundam, and the Neon Genesis Evangelion TV series. ",
 			"location": "roosevelt"

@@ -14,23 +14,10 @@ export default function Boardgames() {
 
             <Container fluid className="p-3 section">
 
-                
-
-            <Row className="mb-4">
-                    <Col xs={0} md={0} lg={0}/>
-                    <Col xs={0} md={0} lg={0}>
-                        <MyImage src="images/game_syougi.png" alt="Shogi Image"
-                        className="img-fluid" width="50%" height="50%"/>
-                        <MyImage src="images/toy_game_saikoro_10men.png" alt="Dice Image"
-                        className="img-fluid" width="50%" height="50%"/>
-                    </Col>
-                    <Col xs={0} md={0} lg={0}/>
-                </Row>
-
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
                 <p>The Board Games room will be at the Marshall College Room in Price Center.</p>
                 <p className="mb-4">Do you like good old-fashioned fun? Well in you&apos;re luck! Here in the
-                Board Games room, we got all kinda of 15-minute classics ranging from teamwork tabletops
+                Board Games room, we got all kinds of 15-minute classics ranging from teamwork tabletops
                 like <i>Codenames!</i> to 1 hour high-stakes strategy games like <i>Catan</i>.</p>
 
                 <p>If any games catch your eye, stop by our room 11AM-3PM!</p>
