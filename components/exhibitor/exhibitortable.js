@@ -5,7 +5,7 @@ function Exhibitor({ data, highlighted }) {
     // takes a person object with "name" and optional "link" properties
     let styles = {}
     if (highlighted) {
-        styles["color"] = "gold"
+        styles["color"] = "mediumvioletred"
     }
     if (data["link"]) {
 
@@ -30,7 +30,7 @@ export default function ExhibitorTable({ data, ...otherProps }) {
     return (
         <div {...otherProps}>
             <input type="search" placeholder="Search name..." value={text}
-                className="mb-1 w-75 bg-dark text-light border-stroke" onChange={onSearchChange} />
+                className="mb-1 w-75 border-stroke" onChange={onSearchChange} />
 
             <Table striped bordered hover responsive className="border-stroke" >
                 <thead>
