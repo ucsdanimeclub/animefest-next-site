@@ -34,7 +34,7 @@ export default function EventTable({ data, location = "", ...otherProps }) {
     const eventsSorted = events.sort((e1, e2) => e1["start"].localeCompare(e2["start"]))
 
     return (
-        <Table striped bordered hover responsive variant="dark" className={classes} {...otherPropsWithoutClassName}>
+        <Table striped bordered hover responsive className={classes} {...otherPropsWithoutClassName}>
             <thead>
                 <tr>
                     <th width={"40%"}>Time</th>
