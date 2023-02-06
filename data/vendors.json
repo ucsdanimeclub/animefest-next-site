@@ -3,8 +3,8 @@
     "id": "1",
     "people": [
       {
-        "name": "Nandesuka",
-        "link": "https://www.instagram.com/Nandesuka_clothing/"
+        "name": "Omuart",
+        "link": "https://www.kyotatsu-shop.com/"
       }
     ]
   },
@@ -12,8 +12,8 @@
     "id": "2",
     "people": [
       {
-        "name": "ANIMECOAST.com",
-        "link": "https://www.animecoast.com/"
+        "name": "JellyfishTears",
+        "link": "https://www.depop.com/pyochan/"
       }
     ]
   },
@@ -21,7 +21,8 @@
     "id": "3",
     "people": [
       {
-        "name": "Power Coin Toy Collectibles"
+        "name": "Anime Topia",
+        "link": "https://www.myanimetopia.com/"
       }
     ]
   },
@@ -38,7 +39,8 @@
     "id": "5",
     "people": [
       {
-        "name": "JellyfishTears"
+        "name": "Super Potion Brand",
+        "link": "https://www.instagram.com/superpotionbrand"
       }
     ]
   },
@@ -46,7 +48,8 @@
     "id": "6",
     "people": [
       {
-        "name": "Bobarally.com"
+        "name": "cosmicloak",
+        "link": "https://www.instagram.com/cosmicloak/"
       }
     ]
   },
@@ -54,7 +57,8 @@
     "id": "7",
     "people": [
       {
-        "name": "M8's Warudo"
+        "name": "mightymiikke",
+        "link": "https://www.instagram.com/mightymiikke/"
       }
     ]
   },
@@ -62,8 +66,8 @@
     "id": "8",
     "people": [
       {
-        "name": "Anime Topia",
-        "link": "https://www.instagram.com/animetopiainc/"
+        "name": "Power Coin Toy Collectibles",
+        "link": "https://www.instagram.com/powercointoycollectibles/"
       }
     ]
   },
@@ -71,8 +75,8 @@
     "id": "9",
     "people": [
       {
-        "name": "Xaviercal Customs And Collectibles",
-        "link": "https://www.xaviercalcustomsandcollectibles.com/"
+        "name": "YSB",
+        "link": "https://ysbcreations.square.site/"
       }
     ]
   },
@@ -80,7 +84,16 @@
     "id": "10",
     "people": [
       {
-        "name": "Mini Boba Boutique LLC"
+        "name": "Totem World",
+        "link": "https://www.instagram.com/bobarally/?hl=en"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "people": [
+      {
+        "name": "AME Community Table"
       }
     ]
   }

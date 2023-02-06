@@ -33,9 +33,4 @@ yarn-error.log*
 .vercel
 
 # IntelliJ project files
-.idea/.gitignore
-.idea/animefest-next-site.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/inspectionProfiles/Project_Default.xml
+/.idea/

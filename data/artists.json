@@ -3,8 +3,8 @@
     "id": "A1",
     "people": [
       {
-        "name": "Superlens",
-        "link": "https://www.instagram.com/ellenwong_art/"
+        "name": "Tofutrap",
+        "link": "https://www.etsy.com/shop/TofuTrap"
       }
     ]
   },
@@ -12,8 +12,11 @@
     "id": "A2",
     "people": [
       {
-        "name": "Poppypraise",
-        "link": "https://www.instagram.com/poppypraise/"
+        "name": "Kaijuqid",
+        "link": "https://www.tumblr.com/kaijuqid"
+      },
+      {
+        "name": "Soumic"
       }
     ]
   },
@@ -21,8 +24,17 @@
     "id": "A3",
     "people": [
       {
-        "name": "khuwun",
-        "link": "https://twitter.com/khuwun"
+        "name": "The Apothekary by Akemi",
+        "link": "https://www.etsy.com/shop/TheApothekary"
+      }
+    ]
+  },
+  {
+    "id": "A4",
+    "people": [
+      {
+        "name": "Zetallis",
+        "link": "https://zetallis.com/"
       }
     ]
   },
@@ -30,8 +42,8 @@
     "id": "A5",
     "people": [
       {
-        "name": "emilieevo",
-        "link": "https://www.instagram.com/emilieevo/"
+        "name": "Falu Falyy",
+        "link": "https://twitter.com/_falyy"
       }
     ]
   },
@@ -39,8 +51,8 @@
     "id": "A6",
     "people": [
       {
-        "name": "Bubble Tea Penguin",
-        "link": "https://bubbleteapenguin.carrd.co/"
+        "name": "pandailee",
+        "link": "http://pandailee.carrd.co/"
       }
     ]
   },
@@ -48,7 +60,8 @@
     "id": "A7",
     "people": [
       {
-        "name": "Alberto Maldonado"
+        "name": "Superlens",
+        "link": "https://superlens.carrd.co/"
       }
     ]
   },
@@ -56,8 +69,12 @@
     "id": "B1",
     "people": [
       {
-        "name": "Eightfish",
-        "link": "https://www.instagram.com/actuallyoctopi/"
+        "name": "Hanahaki02",
+        "link": "https://www.instagram.com/hanahaki02/"
+      },
+      {
+        "name": "noebyuu",
+        "link": "https://www.instagram.com/noebyuu/"
       }
     ]
   },
@@ -65,8 +82,8 @@
     "id": "B2",
     "people": [
       {
-        "name": "Lottemp3",
-        "link": "https://www.lotte.studio/"
+        "name": "Infinity Rise",
+        "link": "infinityrise.net"
       }
     ]
   },
@@ -74,217 +91,13 @@
     "id": "B3",
     "people": [
       {
-        "name": "Loonartear",
-        "link": "https://www.instagram.com/loonartear/"
-      },
-      {
-        "name": "Tnkisu"
+        "name": "Uppermind Ink",
+        "link": "Instagram.com/uppermindink"
       }
     ]
   },
   {
     "id": "B4",
-    "people": [
-      {
-        "name": "Requiemofkings",
-        "link": "https://requiemofkings.artstation.com/"
-      },
-      {
-        "name": "Refreshments",
-        "link": "https://refreshmints.carbonmade.com/"
-      }
-    ]
-  },
-  {
-    "id": "B5",
-    "people": [
-      {
-        "name": "pakeji",
-        "link": "https://www.instagram.com/_pakeji"
-      }
-    ]
-  },
-  {
-    "id": "B6",
-    "people": [
-      {
-        "name": "KYUPLS",
-        "link": "https://tiffanychin.carbonmade.com/"
-      }
-    ]
-  },
-  {
-    "id": "B7",
-    "people": [
-      {
-        "name": "Chim Arts"
-      }
-    ]
-  },
-  {
-    "id": "C1",
-    "people": [
-      {
-        "name": "anticrystalist",
-        "link": "https://twitter.com/anticrystalist"
-      },
-      {
-        "name": "kisumis",
-        "link": "https://www.instagram.com/kisumis_/"
-      },
-      {
-        "name": "astronyu",
-        "link": "https://www.instagram.com/astronyu/"
-      }
-    ]
-  },
-  {
-    "id": "C2",
-    "people": [
-      {
-        "name": "Nachoz",
-        "link": "https://www.nachozart.com/"
-      }
-    ]
-  },
-  {
-    "id": "C3",
-    "people": [
-      {
-        "name": "genieart",
-        "link": "https://www.instagram.com/genieart"
-      }
-    ]
-  },
-  {
-    "id": "C4",
-    "people": [
-      {
-        "name": "Emily Echevarria",
-        "link": "https://twitter.com/FrenchieFie"
-      }
-    ]
-  },
-  {
-    "id": "C5",
-    "people": [
-      {
-        "name": "Aprahnicus",
-        "link": "https://twitter.com/aprahnicus"
-      }
-    ]
-  },
-  {
-    "id": "C6",
-    "people": [
-      {
-        "name": "MiaoYuen",
-        "link": "https://miaoyuen.carrd.co/"
-      },
-      {
-        "name": "Missdoodlesalot",
-        "link": "https://www.etsy.com/shop/YuniqueWares?ref=seller-platform-mcnav"
-      }
-    ]
-  },
-  {
-    "id": "C7",
-    "people": [
-      {
-        "name": "missdurianne",
-        "link": "https://twitter.com/missdurianne"
-      },
-      {
-        "name": "shim_loo",
-        "link": "https://twitter.com/shim_loo"
-      }
-    ]
-  },
-  {
-    "id": "D1",
-    "people": [
-      {
-        "name": "Zetallis",
-        "link": "https://shop.zetallis.com/"
-      }
-    ]
-  },
-  {
-    "id": "D2",
-    "people": [
-      {
-        "name": "The Apothekary",
-        "link": "https://www.etsy.com/shop/TheApothekary"
-      }
-    ]
-  },
-  {
-    "id": "D3",
-    "people": [
-      {
-        "name": "Merrymint",
-        "link": "https://merrymintstore.bigcartel.com/"
-      }
-    ]
-  },
-  {
-    "id": "D4",
-    "people": [
-      {
-        "name": "Tenshika"
-      }
-    ]
-  },
-  {
-    "id": "D5",
-    "people": [
-      {
-        "name": "Turqlight"
-      }
-    ]
-  },
-  {
-    "id": "D6",
-    "people": [
-      {
-        "name": "Ghostlygoods",
-        "link": "https://jaxcels.carrd.co/"
-      },
-      {
-        "name": "Camalilium",
-        "link": "https://camalilium.carrd.co/"
-      }
-    ]
-  },
-  {
-    "id": "D7",
-    "people": [
-      {
-        "name": "Hybrid Night Creations",
-        "link": "https://www.hybridnight.com/"
-      }
-    ]
-  },
-  {
-    "id": "E1",
-    "people": [
-      {
-        "name": "Amour",
-        "link": "https://hyeinjenkang.wixsite.com/amour"
-      }
-    ]
-  },
-  {
-    "id": "E2",
-    "people": [
-      {
-        "name": "Uppermind Ink",
-        "link": "https://www.instagram.com/uppermindink/"
-      }
-    ]
-  },
-  {
-    "id": "E3",
     "people": [
       {
         "name": "Royally Divine",
@@ -293,68 +106,161 @@
     ]
   },
   {
-    "id": "E4",
+    "id": "B5",
     "people": [
       {
-        "name": "Girls Are Scary"
+        "name": "deoidesign",
+        "link": "https://www.instagram.com/deoidesign/"
       }
     ]
   },
   {
-    "id": "E5",
+    "id": "B6",
     "people": [
       {
-        "name": "Artistsan Studio"
+        "name": "Chocochocola",
+        "link": "Chocolapop.com"
+      },
+      {
+        "name": "Shhcha"
       }
     ]
   },
   {
-    "id": "E6",
+    "id": "B7",
     "people": [
       {
-        "name": "InfinityRise1",
-        "link": "https://www.infinityrise.net/"
+        "name": "Fifth Element Pins",
+        "link": "https://fifthelementpins.wixsite.com/my-site-1"
       }
     ]
   },
   {
-    "id": "E7",
+    "id": "C1",
     "people": [
       {
-        "name": "Yuururin",
-        "link": "https://instagram.com/yuururin?utm_medium=copy_link"
+        "name": "Bubble Tea Penguin",
+        "link": "https://www.instagram.com/bubble_tea_penguin/"
       }
     ]
   },
   {
-    "id": "F1",
+    "id": "C2",
     "people": [
       {
-        "name": "Adzusai Art",
-        "link": "https://twitter.com/AdzusaiArt"
+        "name": "genthipa",
+        "link": "https://instagram.com/genthipa"
+      },
+      {
+        "name": "HuaXuan",
+        "link": "https://instagram.com/hua.xuann"
       }
     ]
   },
   {
-    "id": "F2",
+    "id": "C3",
     "people": [
       {
-        "name": "basiatlu",
-        "link": "https://www.instagram.com/basiatlu/"
+        "name": "kybcr / castlevermore",
+        "link": "https://twitter.com/kybcr"
       }
     ]
   },
   {
-    "id": "F3",
+    "id": "C4",
     "people": [
       {
-        "name": "Flight & Fancy Co.",
-        "link": "https://www.flightandfancy.co/"
+        "name": "jnii.jpg",
+        "link": "https://www.instagram.com/vampirevalentine_/"
       }
     ]
   },
   {
-    "id": "F4",
+    "id": "C5",
+    "people": [
+      {
+        "name": "emilieevo",
+        "link": "ohemilievo.com"
+      }
+    ]
+  },
+  {
+    "id": "C6",
+    "people": [
+      {
+        "name": "KYUPLS",
+        "link": "http://tiffanychin.carbonmade.com"
+      }
+    ]
+  },
+  {
+    "id": "C7",
+    "people": [
+      {
+        "name": "pakeji",
+        "link": "https://www.instagram.com/_pakeji/"
+      }
+    ]
+  },
+  {
+    "id": "D1",
+    "people": [
+      {
+        "name": "lackingsoy"
+      }
+    ]
+  },
+  {
+    "id": "D2",
+    "people": [
+      {
+        "name": "Poppypraise",
+        "link": "https://www.etsy.com/shop/Poppypraise"
+      }
+    ]
+  },
+  {
+    "id": "D3",
+    "people": [
+      {
+        "name": "03RIN",
+        "link": "https://www.instagram.com/03rin__/"
+      }
+    ]
+  },
+  {
+    "id": "D4",
+    "people": [
+      {
+        "name": "arrupako",
+        "link": "https://twitter.com/Arrupako"
+      }
+    ]
+  },
+  {
+    "id": "D5",
+    "people": [
+      {
+        "name": "Ghostlygoods",
+        "link": "https://jaxcels.carrd.co/"
+      },
+      {
+        "name": "Camalillium",
+        "link": "https://camalilium.carrd.co/"
+      }
+    ]
+  },
+  {
+    "id": "D6",
+    "people": [
+      {
+        "name": "Chim Arts",
+        "link": "twitter.com/chimfucius"
+      }
+    ]
+  },
+  {
+    "id": "D7",
     "people": [
       {
         "name": "chiffonsu",
@@ -363,11 +269,114 @@
     ]
   },
   {
+    "id": "E1",
+    "people": [
+      {
+        "name": "Demonic Owl",
+        "link": "https://www.instagram.com/the_demonic_owl/"
+      }
+    ]
+  },
+  {
+    "id": "E2",
+    "people": [
+      {
+        "name": "OKINPULU",
+        "link": "instagram.com/okinpulu"
+      }
+    ]
+  },
+  {
+    "id": "E3",
+    "people": [
+      {
+        "name": "Yuurina",
+        "link": "https://www.instagram.com/yuurina.art/"
+      }
+    ]
+  },
+  {
+    "id": "E4",
+    "people": [
+      {
+        "name": "Turqs Shinny shop",
+        "link": "https://www.instagram.com/turqlight/?hl=en"
+      }
+    ]
+  },
+  {
+    "id": "E5",
+    "people": [
+      {
+        "name": "haiyun",
+        "link": "https://haiyun.moe/"
+      }
+    ]
+  },
+  {
+    "id": "E6",
+    "people": [
+      {
+        "name": "Krystal Melodie Art",
+        "link": "https://bio.site/krystalmelodie"
+      }
+    ]
+  },
+  {
+    "id": "E7",
+    "people": [
+      {
+        "name": "TwinkleStarCC",
+        "link": "https://cherylkrueger.art/commissioned/"
+      }
+    ]
+  },
+  {
+    "id": "F1",
+    "people": [
+      {
+        "name": "khuwun",
+        "link": "https://khuwun.com/"
+      }
+    ]
+  },
+  {
+    "id": "F2",
+    "people": [
+      {
+        "name": "Lycheenhi",
+        "link": "https://www.instagram.com/lycheenhi/"
+      }
+    ]
+  },
+  {
+    "id": "F3",
+    "people": [
+      {
+        "name": "lahaijiaojiao",
+        "link": "http://twitter.com/lahaijiaojiao"
+      },
+      {
+        "name": "posebean",
+        "link": "http://twitter.com/posebean"
+      }
+    ]
+  },
+  {
+    "id": "F4",
+    "people": [
+      {
+        "name": "weinlesefest",
+        "link": "http://twitter.com/weinlesefest"
+      }
+    ]
+  },
+  {
     "id": "F5",
     "people": [
       {
         "name": "DurgaVC",
-        "link": "https://www.instagram.com/artbyvc/"
+        "link": "https://instagram.com/artbyvc_21_?igshid=YmMyMTA2M2Y="
       }
     ]
   },
@@ -375,7 +384,8 @@
     "id": "F6",
     "people": [
       {
-        "name": "Twisty Loop Creations"
+        "name": "Twisty Loop Creations",
+        "link": "www.instagram.com/twistyloopcreations"
       }
     ]
   },
@@ -384,7 +394,7 @@
     "people": [
       {
         "name": "ButtsCrafts",
-        "link": "https://www.instagram.com/buttscrafts/"
+        "link": "instagram.com/buttscrafts"
       }
     ]
   },
@@ -392,7 +402,8 @@
     "id": "G1",
     "people": [
       {
-        "name": "Anime & Manga Enthusiasts"
+        "name": "dvdarts",
+        "link": "https://twitter.com/daveednh"
       }
     ]
   },
@@ -400,8 +411,11 @@
     "id": "G2",
     "people": [
       {
-        "name": "o.megano",
-        "link": "https://www.etsy.com/shop/moomoomegan"
+        "name": "MiaoYuen Art",
+        "link": "miaoyuen.carrd.co"
+      },
+      {
+        "name": "awkwardiu plushies"
       }
     ]
   },
@@ -409,8 +423,17 @@
     "id": "G3",
     "people": [
       {
-        "name": "jnii.jpg",
-        "link": "https://www.instagram.com/jnii.jpg/"
+        "name": "Aprahnicus",
+        "link": "https://twitter.com/aprahnicus"
+      }
+    ]
+  },
+  {
+    "id": "G4",
+    "people": [
+      {
+        "name": "soaporsalad",
+        "link": "soaporsalad.com"
       }
     ]
   },
@@ -418,8 +441,8 @@
     "id": "G5",
     "people": [
       {
-        "name": "Poison Tragic",
-        "link": "https://poisontragic.com/"
+        "name": "greenminivans",
+        "link": "https://www.instagram.com/greenminivans/"
       }
     ]
   },
@@ -427,8 +450,8 @@
     "id": "G6",
     "people": [
       {
-        "name": "Fifth Element Pins",
-        "link": "https://fifthelementpins.carrd.co"
+        "name": "The Intermission Orchestra at UCSD",
+        "link": "https://intermission.ucsd.edu/"
       }
     ]
   },
@@ -436,8 +459,70 @@
     "id": "G7",
     "people": [
       {
-        "name": "Pitangawang",
-        "link": "https://www.instagram.com/pitangawang/"
+        "name": "Pitangawang"
+      }
+    ]
+  },
+  {
+    "id": "H1",
+    "people": [
+      {
+        "name": "Silent Beauty Art",
+        "link": "https://www.instagram.com/melizbeauty/"
+      }
+    ]
+  },
+  {
+    "id": "H2",
+    "people": [
+      {
+        "name": "USHOU_",
+        "link": "https://twitter.com/USHOU_"
+      }
+    ]
+  },
+  {
+    "id": "H3",
+    "people": [
+      {
+        "name": "missdurianne",
+        "link": "https://missdurianne.carrd.co/"
+      }
+    ]
+  },
+  {
+    "id": "H4",
+    "people": [
+      {
+        "name": "shim-loo",
+        "link": "https://instagram.com/shim.loo?igshid=YTY2NzY3YTc="
+      }
+    ]
+  },
+  {
+    "id": "H5",
+    "people": [
+      {
+        "name": "HyperWasHere",
+        "link": "https://instagram.com/hyperwashere?igshid=YmMyMTA2M2Y="
+      }
+    ]
+  },
+  {
+    "id": "H6",
+    "people": [
+      {
+        "name": "starfish",
+        "link": "https://starfeesh.carrd.co/"
+      }
+    ]
+  },
+  {
+    "id": "H7",
+    "people": [
+      {
+        "name": "Tamas Last Life",
+        "link": "https://www.tamaslastlife.shop/"
       }
     ]
   }
