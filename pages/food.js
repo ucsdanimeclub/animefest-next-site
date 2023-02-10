@@ -1,6 +1,6 @@
-import {Container} from 'react-bootstrap'
+import {Col, Container, Row} from 'react-bootstrap'
 import BackgroundImage from "../components/index/backgroundimage"
-// import MyImage from "../components/myimage"
+import MyImage from "../components/myimage"
 
 
 export default function Food() {
@@ -18,12 +18,17 @@ export default function Food() {
                     href="https://universitycenters.ucsd.edu/dining-retail/dining/">dining
                     options</a> convenient for staying fed during the convention.
                 </p>
-                <p>Check back here closer to the event date for more information.</p>
-                {/*<div className="text-center">*/}
-                {/*    <a href="images/food_coupon.png"><MyImage src="images/food_coupon.png" alt="Food coupon"*/}
-                {/*                                              className="mw-100 border-stroke mb-1"/></a>*/}
-                {/*    <p className="caption-text mb-0">Click on the image to open.</p>*/}
-                {/*</div>*/}
+                <Row>
+                    <Col xs={0} md={2} lg={3}/>
+                    <Col xs={12} md={8} lg={6}>
+                        <div className="text-center">
+                            <a href="images/food_coupon.png"><MyImage src="images/food_coupon.png" alt="Food coupon"
+                                                                      className="mw-100 border-stroke mx-auto d-block mb-1"/></a>
+                            <p className="caption-text mb-0">Click on the image to open.</p>
+                        </div>
+                    </Col>
+                    <Col xs={0} md={2} lg={3}/>
+                </Row>
             </Container>
         </>
     )
