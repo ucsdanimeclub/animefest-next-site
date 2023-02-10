@@ -19,7 +19,7 @@ export default function Cosplay() {
                 <Col lg={12}> {/*Change to lg-8 when mascot art is ready*/}
                     <Container fluid className="p-3 section">
                         <h1 className="text-left mb-4 display-text">ABOUT</h1>
-                        {/*<p className="text-left caption-text mb-4">4:30 PM - 5:00 PM: Contest</p>*/}
+                        <p className="text-left caption-text mb-3">6:00 PM - 7:00 PM: Contest</p>
                         <p>The Cosplay Masquerade is our annual contest where participants show off their cosplay! It
                             will be held at the East Ballroom. Check back here closer to the event date for more
                             information!</p>

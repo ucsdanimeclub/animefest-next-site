@@ -23,8 +23,8 @@ export default function Theater() {
                 <Row className="align-items-start">
                     <Col md={8}>
                         <h4 className="text-left mb-4 display-text">THE WIND RISES</h4>
-                        {/*<p className="text-left caption-text mb-1">11:30 AM - 1:30 PM: First Showing</p>*/}
-                        {/*<p className="text-left caption-text mb-4">5:00 PM - 7:00 PM: Second Showing</p>*/}
+                        <p className="text-left caption-text mb-1">11:30 AM - 1:30 PM: First Showing</p>
+                        <p className="text-left caption-text mb-3">5:00 PM - 7:00 PM: Second Showing</p>
                         <p>We will be hosting two showings of <i>The Wind Rises</i>. </p>
                         
                         <h4 className="text-left title-text">Synopsis</h4>
