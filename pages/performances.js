@@ -1,23 +1,25 @@
 import {Container, Ratio} from 'react-bootstrap'
-// import {TimeConvert} from '../components/eventtable'
+import {TimeConvert} from '../components/eventtable'
 import Performers from '../data/performers.json'
 import BackgroundImage from "../components/index/backgroundimage"
 
 
 function PerformerInfo({performer}) {
-    // const performerTime = <p className="text-left caption-text mb-1">{TimeConvert(performer["start"]) + ' - ' + TimeConvert(performer["end"]) + ": Performance"}</p>
+    const performerTime = <p className="text-left caption-text">{TimeConvert(performer["start"]) + ' - ' + TimeConvert(performer["end"]) + ": Performance"}</p>
     let performerWebsite = <></>
     if (performer["profile"]) {
         performerWebsite =
-            <p className="text-left caption-text mb-4"><a href={performer["profile"]}>{performer["performer"]}&apos;s
+            <p className="text-left caption-text mb-1"><a href={performer["profile"]}>{performer["performer"]}&apos;s
                 Website</a></p>
     }
 
     if (performer["embed"]) {
         return (
             <>
-                {performerWebsite}
-                {/*{performerTime}*/}
+                <div className="mb-2">
+                    {performerWebsite}
+                    {performerTime}
+                </div>
                 <p className="mb-4">{performer["description"]}</p>
                 <div className="video-player mx-auto">
                     <Ratio aspectRatio="16x9">
@@ -33,8 +35,10 @@ function PerformerInfo({performer}) {
     } else {
         return (
             <>
-                {performerWebsite}
-                {/*{performerTime}*/}
+                <div className="mb-2">
+                    {performerWebsite}
+                    {performerTime}
+                </div>
                 <p>{performer["description"]}</p>
             </>
         )
