@@ -21,11 +21,10 @@ export default function Gaming() {
                 <p>Triton Smash will be hosting a tournament for Super Smash Bros. Ultimate! The tournament will be <b>free
                     to enter</b>, and <b>open to anyone</b> at all (not just UCSD students).</p>
                 <h4 className="text-left title-text">Register:</h4>
-                <p className="mb-0">You can register for the event on start.gg! Registration will also be available in person until
+                <p>You can register for the event on <a
+                    href="https://www.start.gg/tournament/animefest-2023/details">start.gg!</a> Registration will also
+                    be available in person until
                     bracket starts.</p>
-                <p><a
-                    href="https://www.start.gg/tournament/animefest-2023/details">https://www.start.gg/tournament/animefest-2023/details</a>
-                </p>
                 <h4 className="text-left title-text">Cost and Prizing:</h4>
                 <p>The tournament will be free to enter, and will have prizes for the top spots provided by Anime &amp;
                     Manga Enthusiasts!</p>
@@ -33,7 +32,8 @@ export default function Gaming() {
                 <p>Doors will open at <b>12 PM</b>, and setups will be open for friendlies. The bracket will start
                     at <b>1 PM.</b></p>
                 <h4 className="text-left title-text">Location:</h4>
-                <p>They&apos;ll be in the <b>Red Shoe Room</b>, which is inside Sun God Lounge. Below is a helpful guide to
+                <p>They&apos;ll be in the <b>Red Shoe Room</b>, which is inside Sun God Lounge. Below is a helpful guide
+                    to
                     finding the room:</p>
 
                 <Row className="mb-2">
