@@ -23,6 +23,7 @@
 			"end": "16:30",
 			"topic": "Mashy’s Guide to Gunpla: Plastic Crack and War Crimes",
 			"panelist": "Mashy",
+			"type": "panel",
 			"description": "A 10 month old addict presents an overview of the Gundam series and the hobby that comes with them. Come and learn about the basics of Gunpla aka Plastic Crack and learn about the journey of how our speaker, Mashy, become an addict. There will be a giveaway of an Entry Grade Nu Gundam for answering some question at the end.",
 			"location": "roosevelt"
 		},
@@ -31,6 +32,7 @@
 			"end": "15:30",
 			"topic": "Jeopardy!",
 			"panelist": "Anime & Manga Enthusiasts",
+			"type": "game",
 			"description": "Play a game of Jeopardy (with an anime spin) with other attendees!",
 			"location": "roosevelt"
 		},
@@ -39,6 +41,7 @@
 			"end": "18:30",
 			"topic": "Karuta Tourney",
 			"panelist": "Anime & Manga Enthusiasts",
+			"type": "game",
 			"description": "A Japanese card game of Karuta with a twist with anime songs.",
 			"location": "marshall"
 		},
@@ -47,6 +50,7 @@
 			"end": "13:30",
 			"topic": "Why You Should Write",
 			"panelist": "Marshall",
+			"type": "panel",
 			"description": "A member of Anime & Manga Enthusiasts at UC San Diego tries to persuade you to become a creative writer, regardless of whether you want to or not.",
 			"location": "roosevelt"
 		}

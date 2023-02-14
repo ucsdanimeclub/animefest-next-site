@@ -163,7 +163,7 @@ Kit page.
 
 #### panels.json
 
-This JSON file contains the start and end time, panel topic, panelist display name, and description for each panel, by
+This JSON file contains the start and end time, panel **or game show** topic, panelist display name, and description for each panel, by
 the room that they are hosted in.
 
 #### prizes.json

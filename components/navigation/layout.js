@@ -33,7 +33,7 @@ export default function Layout({children}) {
                                 <NavDropdown.Header>Price Center Theater</NavDropdown.Header>
                                 <Link href="/theater" passHref><NavDropdown.Item>Movie Showing</NavDropdown.Item></Link>
                                 <NavDropdown.Header>College Rooms</NavDropdown.Header>
-                                <Link href="/panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
+                                <Link href="/panels" passHref><NavDropdown.Item>Panels and Game Shows</NavDropdown.Item></Link>
                                 <Link href="/boardgames" passHref><NavDropdown.Item>Board
                                     Games</NavDropdown.Item></Link>
                                 <Link href="/manga" passHref><NavDropdown.Item>Manga Library</NavDropdown.Item></Link>
