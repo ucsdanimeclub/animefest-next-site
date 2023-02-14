@@ -1,6 +1,5 @@
-import {Col, Container, Row} from 'react-bootstrap'
+import {Col, Container, Row, Button} from 'react-bootstrap'
 import BackgroundImage from "../components/index/backgroundimage"
-// import Button // for forms
 import Prizes from "../data/prizes.json"
 import PrizeImages from "../components/prizes/prizeimages"
 
@@ -16,36 +15,45 @@ export default function Cosplay() {
             </Container>
 
             <Row className="align-items-center g-0">
-                <Col lg={12}> {/*Change to lg-8 when mascot art is ready*/}
+                <Col lg={12}> {/*Change to lg-8 when Kai mascot art is ready*/}
                     <Container fluid className="p-3 section">
                         <h1 className="text-left mb-4 display-text">ABOUT</h1>
                         <p className="text-left caption-text mb-3">6:00 PM - 7:00 PM: Contest</p>
                         <p>The Cosplay Masquerade is our annual contest where participants show off their cosplay! It
-                            will be held at the East Ballroom. Check back here closer to the event date for more
-                            information!</p>
+                            will be held at the East Ballroom.</p>
+                        <p>Participants will have up to 30 seconds to show off
+                            their cosplay. During those 30 seconds, you may do a model walk or perform a short skit.</p>
+                        <p>The top winners will be awarded prizes! Winners will be determined by a panel of judges and announced shortly after the contest.</p>
                     </Container>
 
                     <Container fluid className="p-3 mt-4 section">
-                        <h1 className="text-left mb-4 display-text">REGISTRATION</h1>
-                        <p>Look out for the registration form here! The registration form will open
-                            on the day of the convention.</p> {/*Add className="mb-4" when form buttons open*/}
-                        {/*<div className="text-center mb-4">*/}
-                        {/*    <Button variant="danger" href="https://forms.gle/E9RKd5Di2JVS16Je8" size="lg" className="mb-4">Cosplay Masquerade Sign Up Form</Button>*/}
-                        {/*    <br />*/}
-                        {/*    <Button variant="danger" href="https://forms.gle/QcQZJKVACZNGxfLq8">Vote for the winners HERE!</Button>*/}
-                        {/*</div>*/}
+                        <h1 className="text-left mb-4 display-text">SIGN UP</h1>
+                        <p className="mb-4">The contest sign-up form will open
+                            on the day of the convention at 11:00 AM and close at 5:45 PM, 15 minutes prior to the start
+                            of
+                            the contest. The sign-up form is also available on-site at the East Ballroom Help Desks.</p>
+                        <div className="text-center">
+                            <Button variant="primary" href="https://forms.gle/WypcPTuR5wFNpUy98" size="lg"
+                                    className="mb-4">Cosplay Masquerade Sign-Up Form</Button>
+                        </div>
                     </Container>
 
                     <Container fluid className="p-3 mt-4 section">
                         <h1 className="text-left mb-4 display-text">COSPLAY & PROP GUIDELINES</h1>
                         <ol>
                             <li><p>No inappropriate (18+) cosplay is permitted.</p></li>
-                            <li><p>No weapons or props designed or made with the ability to cause death or serious bodily injury to any person or property is permitted. Misuse of a prop will result in that prop being deemed unsafe.</p></li>
-                            <li><p>Props resembling weapons are prohibited, including but not limited to bows, replica/toy swords, and firearms (airsoft, replica, paintball, BB guns, and Nerf guns).</p></li>
-                            <li><p>All props will be checked and marked with tape by our convention staff at the registration table.</p></li>
+                            <li><p>No weapons or props designed or made with the ability to cause death or serious
+                                bodily injury to any person or property is permitted. Misuse of a prop will result in
+                                that prop being deemed unsafe.</p></li>
+                            <li><p>Props resembling weapons are prohibited, including but not limited to bows,
+                                replica/toy swords, and firearms (airsoft, replica, paintball, BB guns, and Nerf
+                                guns).</p></li>
+                            <li><p>All props will be checked and marked with tape by our convention staff at the
+                                registration table.</p></li>
                         </ol>
                     </Container>
                 </Col>
+                {/*Uncomment the following Col when Kai mascot art is ready*/}
                 {/*<Col lg={4} className="d-none d-lg-block p-4">*/}
                 {/*    <MyImage src="images/kai.png" alt="Kai mascot art" className="mw-100"/>*/}
                 {/*</Col>*/}
