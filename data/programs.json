@@ -1,34 +1,54 @@
 {
     "programs": [
         {
-            "name": "Main Stage and Raffles",
-            "image": "images/carousel_images/main_stage.jpg",
-            "description": "Our annual Cosplay Masquerade and raffles are held on the Main Stage in West Ballroom."
-        },
-        {
             "name": "Exhibitor Hall",
             "image": "images/carousel_images/exhibitor_hall.jpg",
             "description": "Browse fanmade merchandise drawn or designed by local artists in the Artist Alley, or check out items sold by industry vendors."
         },
         {
-            "name": "Theater",
-            "image": "images/carousel_images/theater.jpg",
-            "description": "Performances and movie showings will be held in the Price Center Theater."
+            "name": "Performances",
+            "image": "images/carousel_images/orchestra.jpg",
+            "description": "View live performances including an orchestra and rock band in the East Ballroom."
         },
         {
-            "name": "Panels",
+            "name": "Cosplay Masquerade",
+            "image": "images/carousel_images/cosplay.jpg",
+            "description": "Our annual cosplay contest is held in the East Ballroom."
+        },
+        {
+            "name": "Raffles",
+            "image": "images/carousel_images/raffles.jpg",
+            "description": "Earn an additional raffle ticket by completing our Scavenger Hunt."
+        },
+        {
+            "name": "Movie Showing",
+            "image": "images/carousel_images/movie.jpg",
+            "description": "Showings will be held in the Price Center Theater."
+        },
+        {
+            "name": "Panels and Game Shows",
             "image": "images/carousel_images/panels.jpg",
-            "description": "We have informational and interactive panels for your enjoyment run by students, alumni, and professionals. Check them out!"
+            "description": "We have panels and game shows for your enjoyment run by students and alumni. Check them out!"
         },
         {
-            "name": "Gaming",
+            "name": "Board Games",
+            "image": "images/carousel_images/boardgames.jpg",
+            "description": "Have fun with a selection of board games in the Thurgood Marshall room."
+        },
+        {
+            "name": "Manga Library",
+            "image": "images/carousel_images/manga_library.jpg",
+            "description": "Relax and enjoy reading some of our manga collections in the Roger Revelle room."
+        },
+        {
+            "name": "Super Smash Bros. Tournament",
             "image": "images/carousel_images/gaming.jpg",
             "description": "We have a Super Smash Bros. Ultimate tournament with prizes, brought to you by Triton Smash!"
         },
         {
-            "name": "Featured Activities",
-            "image": "images/carousel_images/tabletop.jpg",
-            "description": "Have fun with the Board Game and Origami Folders clubs, and try out the Cardfight!! Vanguard card game."
+            "name": "Yu-Gi-Oh! Tournament",
+            "image": "images/carousel_images/yugioh.jpg",
+            "description": "Compete in a Yu-Gi-Oh! card game tournament, brought to you by Gamma Gamma Driver Yugioh!"
         }
     ]
 }

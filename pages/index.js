@@ -1,9 +1,9 @@
 import {Col, Container, Ratio, Row} from 'react-bootstrap'
 import BackgroundImage from "../components/index/backgroundimage"
-// import ProgramsCarousel from "../components/index/programscarousel"
+import ProgramsCarousel from "../components/index/programscarousel"
 import Social from "../components/index/social"
 import MyImage from "../components/myimage"
-// import Programs from "../data/programs.json"
+import Programs from "../data/programs.json"
 import Socials from "../data/socials.json"
 
 
@@ -45,7 +45,7 @@ export default function Home() {
                     and check out your favorite manga in our manga library! And of course, there will be cosplays,
                     festival games, and video games&mdash;all for some otaku fun.</p>
                 <p className="mb-4">For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
-                <div className="video-player mx-auto mb-2">
+                <div className="video-player mx-auto mb-4">
                     <Ratio aspectRatio="16x9">
                         <iframe className="border-stroke"
                                 src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c"
@@ -54,7 +54,7 @@ export default function Home() {
                                 allowFullScreen={true}/>
                     </Ratio>
                 </div>
-                {/*<ProgramsCarousel data={Programs["programs"]}/>*/}
+                <ProgramsCarousel data={Programs["programs"]} className="mb-2"/>
             </Container>
 
             <Container fluid className="p-3 mt-4 section" id="registration">
