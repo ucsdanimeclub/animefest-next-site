@@ -54,6 +54,7 @@ If you would like to display the following characters, they will need to be repl
 * `&` : \&amp;
 * `<` : \&lt;
 * `>` : \&gt;
+* `—` : \&mdash;
 
 Failure to do so will cause the Actions build to fail, and your website update will not be published!
 
