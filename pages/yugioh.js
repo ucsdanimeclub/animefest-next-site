@@ -32,7 +32,7 @@ export default function Yugioh() {
                 <p><a 
                     href="https://discord.gg/e2vBZA7v">https://discord.gg/e2vBZA7v</a></p>
                 <h4 className="text-left title-text">Register:</h4>
-                <p>You can register for the event on site during Animefest.</p>
+                <p>You can register for the event on site during Animefest and also on their Discord.</p>
                 <h4 className="text-left title-text">Cost and Prizing:</h4>
                 <p>The tournament will be free to enter, and will have a grand prize for the winner provided by Anime &amp;
                     Manga Enthusiasts!</p>
