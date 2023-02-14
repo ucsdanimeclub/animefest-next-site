@@ -1,4 +1,4 @@
-import { Col, Container, Ratio, Row } from 'react-bootstrap'
+import {Col, Container, Ratio, Row} from 'react-bootstrap'
 import BackgroundImage from "../components/index/backgroundimage"
 // import ProgramsCarousel from "../components/index/programscarousel"
 import Social from "../components/index/social"
@@ -10,13 +10,14 @@ import Socials from "../data/socials.json"
 export default function Home() {
     return (
         <>
-            <Container fluid className="text-center my-1 text-light">1/18: Less than one month till Animefest! Please read our updated rules page for 2023.</Container>
+            <Container fluid className="text-center my-1 text-light">Welcome to Animefest! Please register at our
+                check-in tables before entering the convention rooms.</Container>
 
             <Container fluid className="text-center vh-100 p-0 mb-3">
                 <BackgroundImage src="images/landing.jpg" className="landing h-100">
                     <Row className="align-items-center h-75 g-0 glow-text">
                         <Col>
-                            <MyImage src="images/logo_af.svg" className="w-50 my-4" alt="Animefest 2022 logo" />
+                            <MyImage src="images/logo_af.svg" className="w-50 my-4" alt="Animefest 2022 logo"/>
                             <div className="text-light ">
                                 <div className="d-inline-flex flex-column bg-translucent p-2 rounded">
                                     <h4>February 18 at UC San Diego&apos;s Price Center</h4>
@@ -30,8 +31,9 @@ export default function Home() {
             </Container>
 
             <Container>
-                <Social data={Socials} className="mb-2" />
-                <p className="caption-text text-center mb-3 text-light">Contact us and get live event coverage on our social
+                <Social data={Socials} className="mb-2"/>
+                <p className="caption-text text-center mb-3 text-light">Contact us and get live event coverage on our
+                    social
                     media!</p>
             </Container>
 
@@ -46,13 +48,22 @@ export default function Home() {
                 <div className="video-player mx-auto mb-2">
                     <Ratio aspectRatio="16x9">
                         <iframe className="border-stroke"
-                            src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c"
-                            title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen={true} />
+                                src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen={true}/>
                     </Ratio>
                 </div>
                 {/*<ProgramsCarousel data={Programs["programs"]}/>*/}
+            </Container>
+
+            <Container fluid className="p-3 mt-4 section" id="registration">
+                <h1 className="text-left mb-4 display-text">REGISTRATION</h1>
+                <p><u>Admission to Animefest is free!</u> All attendees must register at one of our check-in tables
+                    designated on the map in the section below.</p>
+                <p>Attendees will also have to present a completed Event Participant Waiver for UC San Diego events.
+                    This waiver can be electronically signed prior to the convention at the <a href="https://ewaivers.ucsd.edu/af2023/waiver/">link here.</a> We strongly recommend attendees under 18
+                    years old to complete the waiver ahead of time.</p>
             </Container>
 
             <Container fluid className="p-3 mt-4 section" id="map">
@@ -75,14 +86,14 @@ export default function Home() {
                 {/*</div>*/}
                 <div className="text-center">
                     <Row className="mb-4">
-                        <Col xs={0} md={2} />
+                        <Col xs={0} md={2}/>
                         <Col xs={12} md={8}>
                             <a href="images/schedule.png">
                                 <MyImage src="images/schedule.png" className="border-stroke mw-100"
                                          alt="Schedule"></MyImage>
                             </a>
                         </Col>
-                        <Col xs={0} md={2} />
+                        <Col xs={0} md={2}/>
                     </Row>
                     <Row className="mb-1 g-3">
                         <Col xs={0} md={0} lg={2}/>
@@ -118,13 +129,27 @@ export default function Home() {
                 <p className="mb-4">
                     The Gilman Parking Structure is the closest parking structure to the convention. You can use the
                     Wayfinding feature or the map below to navigate to Price Center:</p>
-                <div className="map mx-auto mb-2">
+                <div className="map mx-auto mb-4">
                     <Ratio aspectRatio="4x3">
                         <iframe className="border-stroke"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.697394192468!2d-117.2383838856308!3d32.87972498605018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c46a524fb9%3A0x68571efb243bc289!2sPrice%20Center%2C%20La%20Jolla%2C%20CA%2092093!5e0!3m2!1sen!2sus!4v1638064542514!5m2!1sen!2sus"
-                            width="600" height="450" allowFullScreen="" loading="lazy" />
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.697394192468!2d-117.2383838856308!3d32.87972498605018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c46a524fb9%3A0x68571efb243bc289!2sPrice%20Center%2C%20La%20Jolla%2C%20CA%2092093!5e0!3m2!1sen!2sus!4v1638064542514!5m2!1sen!2sus"
+                                width="600" height="450" allowFullScreen="" loading="lazy"/>
                     </Ratio>
                 </div>
+
+                <h4 className="text-left title-text mb-4">Gilman Parking Structure Visitor Guide</h4>
+                <Row>
+                    <Col xs={0} md={2} lg={3}/>
+                    <Col xs={12} md={8} lg={6}>
+                        <div className="text-center">
+                            <a href="images/gilman_visitor_guide.png"><MyImage src="images/gilman_visitor_guide.png"
+                                                                               alt="Gilman Parking Structure Visitor Guide"
+                                                                               className="mw-100 border-stroke mx-auto d-block mb-1"/></a>
+                            <p className="caption-text mb-0">Click on the image to open.</p>
+                        </div>
+                    </Col>
+                    <Col xs={0} md={2} lg={3}/>
+                </Row>
             </Container>
         </>
     )
