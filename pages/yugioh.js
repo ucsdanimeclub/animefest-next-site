@@ -30,7 +30,7 @@ export default function Yugioh() {
                 <p className="mb-0">Gamma Gamma Drive Yu-gi-oh will be hosting a tournament for Yu-gi-oh TCG! The tournament will be <b>free
                     to enter</b>, and open to all <b>UCSD Students and Alumni</b>. Feel free to join their Discord server for more information!</p>
                 <p><a 
-                    href="https://discord.gg/87QQfwQx">https://discord.gg/87QQfwQx</a></p>
+                    href="https://discord.gg/Q3k8jEfbES">https://discord.gg/Q3k8jEfbES</a></p>
                 <h4 className="text-left title-text">Register:</h4>
                 <p>You can register for the event on site during Animefest and also on their Discord.</p>
                 <h4 className="text-left title-text">Cost and Prizing:</h4>
