@@ -1,4 +1,4 @@
-import {Col, Container, Row, Button} from 'react-bootstrap'
+import {Col, Container, Row} from 'react-bootstrap'
 import BackgroundImage from "../components/index/backgroundimage"
 import Prizes from "../data/prizes.json"
 import PrizeImages from "../components/prizes/prizeimages"
@@ -31,11 +31,7 @@ export default function Cosplay() {
                         <p className="mb-4">The contest sign-up form will open
                             on the day of the convention at 11:00 AM and close at 5:45 PM, 15 minutes prior to the start
                             of
-                            the contest. The sign-up form is also available on-site at the East Ballroom Help Desks.</p>
-                        <div className="text-center">
-                            <Button variant="primary" href="https://forms.gle/WypcPTuR5wFNpUy98" size="lg"
-                                    className="mb-4">Cosplay Masquerade Sign-Up Form</Button>
-                        </div>
+                            the contest. The sign-up form is only available on-site at the East Ballroom Help Desk.</p>
                     </Container>
 
                     <Container fluid className="p-3 mt-4 section">
