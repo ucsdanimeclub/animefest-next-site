@@ -38,10 +38,6 @@ export default function Boardgames() {
                     <li>Tiny Epic Dinosaurs</li>
                     <li>The Duke</li>
                     </ul>
-                {/*add className="mb-4" when displaying image*/}
-
-                {/*Rows and Cols is a grid system provided by React-Bootstrap. This allows things to be centered on a page.
-                The breakpoints for each display size should add up to 12. Learn more about breakpoints on getbootstrap.com*/}
 
                 <Row className="mb-4">
                     <Col xs={0} md={2} lg={4} />

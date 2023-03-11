@@ -54,9 +54,6 @@ export default function Yugioh() {
                     href="https://animefest.ucsd.moe/gaming">Triton Smash</a></p>
             </Container>
 
-            {/*when uncommenting the below section, plus any other line with the word prizes in it, a prize*/}
-            {/*section will be created displaying all the prize images for Triton Smash*/}
-
             <Container fluid className="p-3 mt-4 section">
                 <h4 className="text-left mb-4 display-text">PRIZING</h4>
                 <PrizeImages prizes={prizesInPool}/>
