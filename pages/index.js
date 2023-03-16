@@ -10,8 +10,7 @@ import Socials from "../data/socials.json"
 export default function Home() {
     return (
         <>
-            <Container fluid className="text-center my-1 text-light">Welcome to Animefest! Please register at our
-                check-in tables before entering the convention rooms.</Container>
+            <Container fluid className="text-center my-1 text-light">Thank you for coming to Animefest 2023! Check our socials for details on next Animefest!</Container>
 
             <Container fluid className="text-center vh-100 p-0 mb-3">
                 <BackgroundImage src="images/landing.jpg" className="landing h-100">
