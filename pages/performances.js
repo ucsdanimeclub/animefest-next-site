@@ -60,7 +60,7 @@ export default function Performances() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                <BackgroundImage src="images/header_2024.png" className="landing p-5">
                     <h1 className="display-4 mb-0 text-light">PERFORMANCES</h1>
                 </BackgroundImage>
             </Container>
