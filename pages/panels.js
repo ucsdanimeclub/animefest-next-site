@@ -18,7 +18,7 @@ export default function Panels() {
 
             <Container fluid className="p-3 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
-                <p>Panels will be held in the Elanor Roosevelt room in Price Center, while game shows will be held in the
+                <p>Panels will be held in the Eleanor Roosevelt room in Price Center, while game shows will be held in the
                     Thurgood Marshall room and Price Center Theatre in Price Center.</p>
                 <p>The best place for learning more not just about anime, but passion and culture as well! Interesting
                     discussion topics will be present and available for participation at your discretion!

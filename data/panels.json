@@ -11,7 +11,7 @@
 		},
 		{
 			"start": "12:30",
-			"end": "13:30",
+			"end": "13:20",
 			"panelist": "Tom",
 			"type": "panel",
 			"topic": "Anime and the Japanese economy, a case study in two parts: merchandise and tourism.",
@@ -20,7 +20,7 @@
 		},
 		{
 			"start": "13:30",
-			"end": "14:30",
+			"end": "14:20",
 			"topic": "The Fantastical History of Fanfiction",
 			"panelist": "das_hazel",
 			"type": "panel",
@@ -28,8 +28,8 @@
 			"location": "roosevelt"
 		},
 		{
-			"start": "12:30",
-			"end": "13:30",
+			"start": "14:30",
+			"end": "15:20",
 			"panelist": "USHOU_",
 			"type": "panel",
 			"topic": "Live2D Vtuber Models: Easier Than You Think",
@@ -38,7 +38,7 @@
 		},
 		{
 			"start": "16:30",
-			"end": "17:30",
+			"end": "17:20",
 			"panelist": "Eric Lin",
 			"type": "panel",
 			"topic": "Introduction to Visual Novels",
@@ -47,7 +47,7 @@
 		},
 		{
 			"start": "15:30",
-			"end": "16:30",
+			"end": "16:20",
 			"topic": "How I developed a first-person anime shooter in 3 months",
 			"panelist": "William Supian",
 			"type": "panel",
@@ -56,7 +56,7 @@
 		},
 		{
 			"start": "17:30",
-			"end": "18:30",
+			"end": "18:20",
 			"topic": "Mythological Foundations of Modern Anime",
 			"panelist": "Sri Missula",
 			"type": "panel",
@@ -92,7 +92,7 @@
 		},
 		{
 			"start": "11:30",
-			"end": "12:30",
+			"end": "12:20",
 			"topic": "You are not Kirito",
 			"panelist": "Franklin James",
 			"type": "panel",
