@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14pt;
-  background: linear-gradient(to right, #0173C1, #FFAACE);
+  background: linear-gradient(to right, #A4201d, #f9ae0b);
 }
 
 * {
@@ -45,7 +45,7 @@ body {
 .border-stroke {
   border-style: solid;
   border-width: 2px;
-  border-color: #003983;
+  border-color: #f9ae0b;
 }
 
 .display-text {
@@ -91,5 +91,5 @@ body {
 }
 
 .bg-translucent {
-    background-color: rgba(3, 29, 56, 0.5);
+    background-color: #4a0A0c;
 }

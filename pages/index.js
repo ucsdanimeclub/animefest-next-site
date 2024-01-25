@@ -10,16 +10,17 @@ import Socials from "../data/socials.json"
 export default function Home() {
     return (
         <>
-            <Container fluid className="text-center my-1 text-light">Thank you for coming to Animefest 2023! Check our socials for details on next Animefest!</Container>
+            <Container fluid className="text-center my-1 text-light">Welcome to Animefest! Please register at our
+                check-in tables before entering the convention rooms.</Container>
 
             <Container fluid className="text-center vh-100 p-0 mb-3">
-                <BackgroundImage src="images/landing.jpg" className="landing h-100">
+                <BackgroundImage src="images/Website_blank_better.png" className="landing h-100">
                     <Row className="align-items-center h-75 g-0 glow-text">
                         <Col>
-                            <MyImage src="images/logo_af.svg" className="w-50 my-4" alt="Animefest 2022 logo"/>
+                            <MyImage src="images/AF24_light_re_png.png" className="w-50 my-4" alt="Animefest 2024 logo"/>
                             <div className="text-light ">
                                 <div className="d-inline-flex flex-column bg-translucent p-2 rounded">
-                                    <h4>February 18 at UC San Diego&apos;s Price Center</h4>
+                                    <h4>February 17 2024 at UC San Diego&apos;s Price Center</h4>
                                     <h5>11:00 AM to 8:00 PM</h5>
                                     <h5>Free Admission</h5>
                                 </div>
@@ -39,15 +40,15 @@ export default function Home() {
             <Container fluid className="p-3 section" id="about">
                 <h1 className="text-left mb-4 display-text">ABOUT</h1>
                 <p>Animefest, a time and place where animanga lovers, artists, and entertainers celebrate what we love!
-                    On February 18, 2023, participants go to the Price Center at UCSD to attend discussion and workshop
+                    On February 17, 2024, participants go to the Price Center at UCSD to attend discussion and workshop
                     panels, buy the best artwork,
                     and check out your favorite manga in our manga library! And of course, there will be cosplays,
                     festival games, and video games&mdash;all for some otaku fun.</p>
-                <p className="mb-4">For a taste of the convention, take a look at our recap video of Animefest 2019:</p>
+                <p className="mb-4">For a taste of the convention, take a look at our recap video of Animefest 2023:</p>
                 <div className="video-player mx-auto mb-4">
                     <Ratio aspectRatio="16x9">
                         <iframe className="border-stroke"
-                                src="https://www.youtube-nocookie.com/embed/eITsJPrRF4c"
+                                src="https://www.youtube.com/embed/xDMjU_dA4CU?si=aP4Fd6-g5tKPc6mN"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen={true}/>
@@ -60,8 +61,8 @@ export default function Home() {
                 <h1 className="text-left mb-4 display-text">REGISTRATION</h1>
                 <p><u>Admission to Animefest is free!</u> All attendees must register at one of our check-in tables
                     designated on the map in the section below.</p>
-                <p>Attendees will also have to present a completed Event Participant Waiver for UC San Diego events.
-                    This waiver can be electronically signed prior to the convention at the <a href="https://ewaivers.ucsd.edu/af2023/waiver/">link here.</a> We strongly recommend attendees under 18
+                <p>Attendees under 18 will also have to present a completed Event Participant Waiver for UC San Diego events.
+                    This waiver can be electronically signed prior to the convention at the following link (link not ready yet). We strongly recommend attendees under 18
                     years old to complete the waiver ahead of time.</p>
             </Container>
 
@@ -87,8 +88,8 @@ export default function Home() {
                     <Row className="mb-4">
                         <Col xs={0} md={2}/>
                         <Col xs={12} md={8}>
-                            <a href="images/schedule.png">
-                                <MyImage src="images/schedule.png" className="border-stroke mw-100"
+                            <a href="images/Hina&Kai_chibis.png">
+                                <MyImage src="images/Hina&Kai_chibis.png" className="border-stroke mw-100"
                                          alt="Schedule"></MyImage>
                             </a>
                         </Col>
