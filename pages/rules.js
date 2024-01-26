@@ -17,7 +17,7 @@ export default function Rules() {
                     our detailed rules below.
                 </h4>
                 <h4 className="highlight text-center title-text mb-5">All attendees must possess a wristband from one of our check-in tables.
-                    Attendees will have to present a completed Event Participant Waiver, which can be e-signed prior to the convention at a link 
+                    Attendees under 18 will have to present a completed Event Participant Waiver, which can be e-signed prior to the convention at a link 
                     which will be provided soon</h4>
                 <ol className="mb-5">
                     <li><p>Anime &amp; Manga Enthusiasts and UC San Diego reserves the right to remove anyone not in
