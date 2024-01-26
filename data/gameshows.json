@@ -1,0 +1,40 @@
+{
+	"gameshows": [
+		{
+			"start": "15:30",
+			"end": "16:00",
+			"panelist": "Anime & Manga Enthusiasts",
+			"type": "game",
+			"topic": "Kahoot!",
+			"description": "Compete in a game of Kahoot against other attendees to see who knows more anime trivia!",
+			"location": "pctheatre"
+		},
+		{
+			"start": "11:30",
+			"end": "12:30",
+			"topic": "Jeopardy! 1",
+			"panelist": "Anime & Manga Enthusiasts",
+			"type": "game",
+			"description": "Play a game of Jeopardy (with an anime spin) with other attendees!",
+			"location": "marshall"
+		},
+		{
+			"start": "13:00",
+			"end": "14:00",
+			"topic": "Jeopardy! 2",
+			"panelist": "Anime & Manga Enthusiasts",
+			"type": "game",
+			"description": "Play a game of Jeopardy (with an anime spin) with other attendees!",
+			"location": "marshall"
+		},
+		{
+			"start": "16:30",
+			"end": "18:30",
+			"topic": "Anisong Karuta",
+			"panelist": "Anime & Manga Enthusiasts",
+			"type": "game",
+			"description": "A Japanese card game of Karuta with a twist with anime songs.",
+			"location": "marshall"
+		}
+	]
+}
