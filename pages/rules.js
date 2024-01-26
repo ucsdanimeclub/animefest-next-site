@@ -7,7 +7,7 @@ export default function Rules() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                <BackgroundImage src="images/header_2024.png" className="landing p-5">
                     <h1 className="display-4 mb-0 text-light">RULES</h1>
                 </BackgroundImage>
             </Container>
@@ -17,14 +17,14 @@ export default function Rules() {
                     our detailed rules below.
                 </h4>
                 <h4 className="highlight text-center title-text mb-5">All attendees must possess a wristband from one of our check-in tables.
-                    Attendees will have to present a completed Event Participant Waiver, which can be e-signed prior to the convention at the <a
-                        href="https://ewaivers.ucsd.edu/af2023/waiver/">link here.</a></h4>
+                    Attendees will have to present a completed Event Participant Waiver, which can be e-signed prior to the convention at a link 
+                    which will be provided soon</h4>
                 <ol className="mb-5">
                     <li><p>Anime &amp; Manga Enthusiasts and UC San Diego reserves the right to remove anyone not in
                         compliance with the rules to their discretion.</p></li>
                     <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
                         <ul>
-                            <li><p>Masking is <b>required</b> at Animefest 2023.</p></li>
+                            <li><p>Masking is <b>encouraged, but not required</b> at Animefest 2024.</p></li>
                         </ul>
                     </li>
                     <li><p>Attendees must respect common sense rules for public behavior, personal interaction, common
@@ -71,7 +71,7 @@ export default function Rules() {
                 </ol>
                 <Row className="align-items-center">
                     <Col lg={4} className="d-none d-lg-block">
-                        <MyImage src="images/hina.png" alt="Hina mascot art" className="mw-100"/>
+                        <MyImage src="images/Hina&Kai_chibis.png" alt="Hina & Kai chibis" className="mw-100"/>
                     </Col>
                     <Col lg={8}>
                         <h4 className="text-left title-text mb-4">About Anime &amp; Manga Enthusiasts</h4>

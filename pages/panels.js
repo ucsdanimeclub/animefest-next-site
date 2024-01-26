@@ -50,7 +50,7 @@ export default function Panels() {
                 <Row className="mb-4">
                     <Col xs={0} md={2} lg={4} />
                     <Col xs={12} md={8} lg={4}>
-                        <MyImage src="images/karuta2023.jpg" alt="karuta photo"
+                        <MyImage src="images/panels2023.jpg" alt="mashy panel photo"
                                  className="mw-100 border-stroke mx-auto d-block" />
                     </Col>
                     <Col xs={0} md={2} lg={4} />
