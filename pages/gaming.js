@@ -21,7 +21,9 @@ export default function Gaming() {
                 <p>Triton Smash will be hosting a tournament for Super Smash Bros. Ultimate! The tournament will be <b>free
                     to enter</b>, and <b>open to anyone</b> at all (not just UCSD students).</p>
                 <h4 className="text-left title-text">Register:</h4>
-                <p> Registration will be available in person until bracket starts.</p>
+                <p>You can register for the event at <a
+                    href="https://www.start.gg/tournament/animefest-2024">start.gg!</a></p>
+                <p> Registration will also be available in-person until the bracket starts.</p>
                 <h4 className="text-left title-text">Cost and Prizing:</h4>
                 <p>The tournament will be free to enter, and will have prizes for the top spots provided by Anime &amp;
                     Manga Enthusiasts!</p>
