@@ -61,15 +61,19 @@
       "pool": "Cosplay Contest"
     },
     {
-      "image": "images/raffle/Smash/Gundam_Livelance_Heaven_(HG_Gundam_Breaker_Battlogue)_(1_144).jpeg",
+      "image": "images/raffle/Smash/hg_Aerial_rebuild.jpg",
       "pool": "Smash"
     },
     {
-      "image": "images/raffle/Smash/Gundam_Helios_(HG_Gundam_Breaker_Battlogue)_(1_144).jpg",
+      "image": "images/raffle/Smash/makima_noodlestopper.jpg",
       "pool": "Smash"
     },
     {
-      "image": "images/raffle/YGO/Blazing_Gundam_(HG_Gundam_Breaker_Battlogue)_(1_144).jpeg",
+      "image": "images/raffle/YGO/ultimagear_millenium_puzzle_model_kit.jpg",
+      "pool": "YGO"
+    },
+    {
+      "image": "images/raffle/YGO/gold_sarcophagus_for_millenium_puzzle.jpg",
       "pool": "YGO"
     }
   ]

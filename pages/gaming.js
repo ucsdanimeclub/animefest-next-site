@@ -10,7 +10,7 @@ export default function Gaming() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                <BackgroundImage src="images/header_2024.png" className="landing p-5">
                     <h1 className="display-4 mb-0 text-light">TRITON SMASH</h1>
                 </BackgroundImage>
             </Container>
@@ -21,16 +21,13 @@ export default function Gaming() {
                 <p>Triton Smash will be hosting a tournament for Super Smash Bros. Ultimate! The tournament will be <b>free
                     to enter</b>, and <b>open to anyone</b> at all (not just UCSD students).</p>
                 <h4 className="text-left title-text">Register:</h4>
-                <p>You can register for the event on <a
-                    href="https://www.start.gg/tournament/animefest-2023/details">start.gg!</a> Registration will also
-                    be available in person until
-                    bracket starts.</p>
+                <p> Registration will be available in person until bracket starts.</p>
                 <h4 className="text-left title-text">Cost and Prizing:</h4>
                 <p>The tournament will be free to enter, and will have prizes for the top spots provided by Anime &amp;
                     Manga Enthusiasts!</p>
                 <h4 className="text-left title-text">Schedule:</h4>
-                <p>Doors will open at <b>12 PM</b>, and setups will be open for friendlies. The bracket will start
-                    at <b>1 PM.</b></p>
+                <p>Doors will open at <b>12 PM</b>, and setups will be open for friendlies. The bracket will go from <b>1 PM</b> until <b>6pm</b>, 
+                but free play will be reopened at <b>4 PM</b> and last until <b>6pm</b>.</p>
                 <h4 className="text-left title-text">Location:</h4>
                 <p>They&apos;ll be in the <b>Red Shoe Room</b>, which is inside Sun God Lounge. Below is a helpful guide
                     to
