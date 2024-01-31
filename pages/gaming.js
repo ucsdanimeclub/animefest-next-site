@@ -28,8 +28,8 @@ export default function Gaming() {
                 <p>The tournament will be free to enter, and will have prizes for the top spots provided by Anime &amp;
                     Manga Enthusiasts!</p>
                 <h4 className="text-left title-text">Schedule:</h4>
-                <p>Doors will open at <b>12 PM</b>, and setups will be open for friendlies. The bracket will go from <b>1 PM</b> until <b>6pm</b>, 
-                but free play will be reopened at <b>4 PM</b> and last until <b>6pm</b>.</p>
+                <p>Doors will open at <b>12 PM</b>, and setups will be open for friendlies. The bracket will go from <b>1 PM</b> until <b>6PM</b>, 
+                but free play will be reopened at <b>4 PM</b> and last until <b>6PM</b>.</p>
                 <h4 className="text-left title-text">Location:</h4>
                 <p>They&apos;ll be in the <b>Red Shoe Room</b>, which is inside Sun God Lounge. Below is a helpful guide
                     to

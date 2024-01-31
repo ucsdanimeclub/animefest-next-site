@@ -53,7 +53,7 @@ export default function Yugioh() {
                     </ul>
                     </ul>    
                 <h4 className="text-left title-text">Schedule:</h4>
-                    <p>In-person sign ups start from <b>12pm</b>, and the bracket will start at <b>1 PM</b> and last until <b>6pm</b>.</p>
+                    <p>In-person sign ups start from <b>12PM</b>, and the bracket will start at <b>1 PM</b> and last until <b>6PM</b>.</p>
                 <h4 className="text-left title-text">Location:</h4>
                 <p className="mb-0">We’ll be in the <b>Green Table Room</b>, which is inside Sun God Lounge. You can find
                 directions to the Sun God Lounge on the Triton Smash webpage.</p> 
