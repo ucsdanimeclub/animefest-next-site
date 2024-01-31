@@ -10,9 +10,9 @@ export default function MyApp({Component, pageProps}) {
     return (
         <>
             <Head>
-                <title>Animefest 2023</title>
-                <meta name="description" content="February 18, 2023 at UC San Diego's Price Center"/>
-                <link rel="icon" href={`${router.basePath}/favicon.png`}/>
+                <title>Animefest 2024</title>
+                <meta name="description" content="February 17, 2024 at UC San Diego's Price Center"/>
+                <link rel="icon" href={`${router.basePath}/favicon_2024.png`}/>
                 <link rel="stylesheet" href={`${router.basePath}/fonts.css`}/>
             </Head>
 
