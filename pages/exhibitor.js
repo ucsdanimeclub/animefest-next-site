@@ -10,7 +10,7 @@ export default function Exhibitor() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                <BackgroundImage src="images/header_2024.png" className="landing p-5">
                     <h1 className="display-4 mb-0 text-light">EXHIBITOR HALL</h1>
                 </BackgroundImage>
             </Container>
@@ -42,7 +42,7 @@ export default function Exhibitor() {
                 </Row>
                 <h4 className="text-left title-text mb-4">West Ballroom Map</h4>
                 <div className="text-center">
-                    <a href="images/west_ballroom_exhibitors.png"><MyImage src="images/west_ballroom_exhibitors.png"
+                    <a href="images/west_ballroom_exhibitors_2024.png"><MyImage src="images/west_ballroom_exhibitors_2024.png"
                                                                            alt="West Ballroom map"
                                                                            className="mw-100 mb-1 border-stroke"/></a>
                     <p className="caption-text mb-0">Click on the image to open.</p>

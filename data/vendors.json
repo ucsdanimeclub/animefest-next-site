@@ -3,8 +3,8 @@
     "id": "1",
     "people": [
       {
-        "name": "Omuart",
-        "link": "https://www.kyotatsu-shop.com/"
+        "name": "Anime Effects",
+        "link": "https://www.instagram.com/animeeffects23"
       }
     ]
   },
@@ -12,8 +12,8 @@
     "id": "2",
     "people": [
       {
-        "name": "JellyfishTears",
-        "link": "https://www.depop.com/pyochan/"
+        "name": "Furyu",
+        "link": "https://www.furyu.jp/english/"
       }
     ]
   },
@@ -21,8 +21,8 @@
     "id": "3",
     "people": [
       {
-        "name": "Anime Topia",
-        "link": "https://www.myanimetopia.com/"
+        "name": "Xaviercal Customs and Collectibles",
+        "link": "https://www.instagram.com/xaviercal_collectibles/"
       }
     ]
   },
@@ -30,8 +30,8 @@
     "id": "4",
     "people": [
       {
-        "name": "Pika Dude",
-        "link": "https://pikadude.com/"
+        "name": "Anime Topia",
+        "link": "https://www.instagram.com/animetopiainc/?hl=en"
       }
     ]
   },
@@ -39,8 +39,8 @@
     "id": "5",
     "people": [
       {
-        "name": "Super Potion Brand",
-        "link": "https://www.instagram.com/superpotionbrand"
+        "name": "Pika Dude",
+        "link": "https://www.instagram.com/pikadudestore/"
       }
     ]
   },
@@ -48,13 +48,22 @@
     "id": "6",
     "people": [
       {
-        "name": "cosmicloak",
-        "link": "https://www.instagram.com/cosmicloak/"
+        "name": "TuziNeko",
+        "link": "https://www.instagram.com/tuzineko"
       }
     ]
   },
   {
     "id": "7",
+    "people": [
+      {
+        "name": "ANIMECOAST.com",
+        "link": "https://www.instagram.com/anime.coast/"
+      }
+    ]
+  },
+  {
+    "id": "8",
     "people": [
       {
         "name": "mightymiikke",
@@ -63,37 +72,11 @@
     ]
   },
   {
-    "id": "8",
-    "people": [
-      {
-        "name": "Power Coin Toy Collectibles",
-        "link": "https://www.instagram.com/powercointoycollectibles/"
-      }
-    ]
-  },
-  {
     "id": "9",
     "people": [
       {
         "name": "YSB",
-        "link": "https://ysbcreations.square.site/"
-      }
-    ]
-  },
-  {
-    "id": "10",
-    "people": [
-      {
-        "name": "Totem World",
-        "link": "https://www.instagram.com/bobarally/?hl=en"
-      }
-    ]
-  },
-  {
-    "id": "11",
-    "people": [
-      {
-        "name": "AME Community Table"
+        "link": "https://www.instagram.com/ysbcreations"
       }
     ]
   }
