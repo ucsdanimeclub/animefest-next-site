@@ -54,6 +54,11 @@ export default function Home() {
                                 allowFullScreen={true}/>
                     </Ratio>
                 </div>
+                
+            </Container>
+
+            <Container fluid className="p-3 mt-4 section" id="programs">
+                <h1 className="text-left mb-4 display-text">PROGRAMS</h1>
                 <ProgramsCarousel data={Programs["programs"]} className="mb-2"/>
             </Container>
 
@@ -88,8 +93,8 @@ export default function Home() {
                     <Row className="mb-4">
                         <Col xs={0} md={2}/>
                         <Col xs={12} md={8}>
-                            <a href="images/Hina&Kai_chibis.png">
-                                <MyImage src="images/Hina&Kai_chibis.png" className="border-stroke mw-100"
+                            <a href="images/schedule_2024.png">
+                                <MyImage src="images/schedule_2024.png" className="border-stroke mw-100"
                                          alt="Schedule"></MyImage>
                             </a>
                         </Col>

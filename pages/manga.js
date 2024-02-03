@@ -7,7 +7,7 @@ export default function Manga() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                <BackgroundImage src="images/header_2024.png" className="landing p-5">
                     <h1 className="display-4 mb-0 text-light">MANGA LIBRARY</h1>
                 </BackgroundImage>
             </Container>
@@ -23,7 +23,7 @@ export default function Manga() {
                 <Row>
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
-                        <MyImage src="images/manga_library_room.jpg" alt="Manga Library photo"
+                        <MyImage src="images/manga_library_2024.jpg" alt="Manga Library photo"
                                  className="mw-100 border-stroke mx-auto d-block"/>
                     </Col>
                     <Col xs={0} md={2} lg={3}/>
