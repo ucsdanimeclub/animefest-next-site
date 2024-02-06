@@ -1,6 +1,7 @@
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Ratio, Col} from 'react-bootstrap'
 import MyImage from "../components/myimage"
 import BackgroundImage from "../components/index/backgroundimage"
+
 
 
 export default function Theater() {
@@ -48,9 +49,19 @@ export default function Theater() {
                         Hiroyuki Oohashi. The film was produced by the studios Rock&apos;n Roll Mountain and Tip Top, 
                         and stars the voices of Shintaro Sakamoto, Tateto Serizawa, Tomoya Maeno, Ren Komai, Naoto Takenaka 
                         and Kami Hiraiwa. </p>
+
+                        <div className="video-player mx-auto mb-4">
+                            <Ratio aspectRatio="16x9">
+                                <iframe className="border-stroke"
+                                        src="https://www.youtube.com/embed/sFbD6T4kbIM?si=pDzAVGTSplacbfma"
+                                        title="YouTube video player"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen={true}/>
+                            </Ratio>
+                        </div>
                     </Col>
-                    <Col md={4}>
-                        <MyImage src="images/movie_poster_2024.jpg" alt="Ongaku poster"
+                    <Col md={3}>
+                        <MyImage src="images/movie_poster_vertical_2024.jpg" alt="Ongaku poster"
                                  className="border-stroke mw-100 mx-auto d-block"/>
                     </Col>
                 </Row>
