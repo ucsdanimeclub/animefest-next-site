@@ -17,14 +17,17 @@ export default function Rules() {
                     our detailed rules below.
                 </h4>
                 <h4 className="highlight text-center title-text mb-3">All attendees must possess a wristband from one of our check-in tables.</h4>
-                <h4 className="highlight text-center title-text mb-5">Attendees under 18 will have to present a completed Event Participant Waiver, which can be e-signed prior to the convention at a link 
-                    which will be provided soon</h4>
+                <h4 className="highlight text-center title-text mb-5">Attendees under 18 will have to present a completed Event 
+                    Participant Waiver, which can be e-signed prior to the convention 
+                    using this <a href="https://ewaivers.ucsd.edu/af2024/waiver/">link</a></h4>
                 <ol className="mb-5">
                     <li><p>Anime &amp; Manga Enthusiasts and UC San Diego reserves the right to remove anyone not in
                         compliance with the rules to their discretion.</p></li>
                     <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
                         <ul>
                             <li><p>Masking is <b>encouraged, but not required</b> at Animefest 2024.</p></li>
+                            <li><p>Consult this <a href="https://ophd.ucsd.edu/policies-procedures/polpro_student.html">link</a> for 
+                                additional guidance.  </p></li>
                         </ul>
                     </li>
                     <li><p>Attendees must respect common sense rules for public behavior, personal interaction, common

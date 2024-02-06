@@ -66,8 +66,8 @@ export default function Home() {
                 <h1 className="text-left mb-4 display-text">REGISTRATION</h1>
                 <p><u>Admission to Animefest is free!</u> All attendees must register at one of our check-in tables
                     designated on the map in the section below.</p>
-                <p>Attendees under 18 will also have to present a completed Event Participant Waiver for UC San Diego events.
-                    This waiver can be electronically signed prior to the convention at the following link (link not ready yet). We strongly recommend attendees under 18
+                <p>Attendees <b>under 18</b> will also have to present a completed Event Participant Waiver for UC San Diego events.
+                    This waiver <b>can be electronically signed prior to the convention</b> using this <a href="https://ewaivers.ucsd.edu/af2024/waiver/">link</a>. We strongly recommend attendees under 18
                     years old to complete the waiver ahead of time.</p>
             </Container>
 
