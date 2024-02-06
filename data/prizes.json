@@ -1,51 +1,63 @@
 {
   "prizes": [
     {
-      "image": "images/raffle/Early Raffle/clipstudiopaint_ex.jpg",
+      "image": "images/raffle/Early Raffle/miorine_figure.jpg",
       "pool": "Early Raffle"
     },
     {
-      "image": "images/raffle/Early Raffle/clipstudiopaint_ex.jpg",
+      "image": "images/raffle/Early Raffle/sulleta_figure.jpg",
       "pool": "Early Raffle"
     },
     {
-      "image": "images/raffle/Early Raffle/VF_25S_Armored_Messiah_Valkyrie_Ozma_Custom_1_72.jpg",
+      "image": "images/raffle/Early Raffle/HG_gundam_calibarn.jpg",
       "pool": "Early Raffle"
     },
     {
-      "image": "images/raffle/Early Raffle/1-72-draken-iii-lill-draken-equipment-mirage-farina-jenius-custom-gp.jpg",
+      "image": "images/raffle/Early Raffle/yor_figure.jpg",
       "pool": "Early Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/clipstudiopaint_ex.jpg",
+      "image": "images/raffle/Early Raffle/bocchi_nendoroid.jpg",
+      "pool": "Early Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/miorine_figuarts.jpg",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/clipstudiopaint_ex.jpg",
+      "image": "images/raffle/Final Raffle/sulleta_figuarts.webp",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/The_Gundam_Base_Limited_Unicorn_Gundam_Perfectibility_1_100.jpg",
+      "image": "images/raffle/Final Raffle/chogokin_figure.jpg",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/1-72-siegfried-lill-draken-equipment-hayate-immelman-custom-gp.jpg",
+      "image": "images/raffle/Final Raffle/gawr_gura_figure.jpg",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/Hetare_Sabre_(Good_Smile).jpg",
+      "image": "images/raffle/Final Raffle/kaguya_figure.webp",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/Plamax_MF-05_Minimum_Factory_Yoshika_Miyafuji.jpg",
+      "image": "images/raffle/Final Raffle/k-on_yui_figure.jpg",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/Gundam_Perfect_Strike_Freedom_(HG_Gundam_Breaker_Battlogue)_(1_144).jpeg",
+      "image": "images/raffle/Final Raffle/toji_figure.webp",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/Nendoroid453(Captain Earth Mutou Hana).jpg",
+      "image": "images/raffle/Final Raffle/taito_hatsune_miku.jpg",
+      "pool": "Final Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/anya_bond_figure.jpg",
+      "pool": "Final Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/rei_figure.jpg",
       "pool": "Final Raffle"
     },
     {
@@ -62,6 +74,10 @@
     },
     {
       "image": "images/raffle/Smash/hg_Aerial_rebuild.jpg",
+      "pool": "Smash"
+    },
+    {
+      "image": "images/raffle/Smash/power_taito_figure.jpg",
       "pool": "Smash"
     },
     {
