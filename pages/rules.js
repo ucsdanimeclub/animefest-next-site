@@ -17,7 +17,7 @@ export default function Rules() {
                     our detailed rules below.
                 </h4>
                 <h4 className="highlight text-center title-text mb-3">All attendees must possess a wristband from one of our check-in tables.</h4>
-                <h4 className="highlight text-center title-text mb-5">Attendees under 18 will have to present a completed Event 
+                <h4 className="highlight text-center title-text mb-5">All attendees will have to present a completed Event 
                     Participant Waiver, which can be e-signed prior to the convention 
                     using this <a href="https://ewaivers.ucsd.edu/af2024/waiver/">link</a></h4>
                 <ol className="mb-5">
