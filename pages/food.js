@@ -7,7 +7,7 @@ export default function Food() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header.jpg" className="landing p-5">
+                <BackgroundImage src="images/header_2024.png" className="landing p-5">
                     <h1 className="display-4 mb-0 text-light">FOOD</h1>
                 </BackgroundImage>
             </Container>
@@ -22,7 +22,7 @@ export default function Food() {
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
                         <div className="text-center">
-                            <a href="images/food_coupon.png"><MyImage src="images/food_coupon.png" alt="Food coupon"
+                            <a href="images/food_voucher_2024.png"><MyImage src="images/food_voucher_2024.png" alt="Food coupon"
                                                                       className="mw-100 border-stroke mx-auto d-block mb-1"/></a>
                             <p className="caption-text mb-0">Click on the image to open.</p>
                         </div>
