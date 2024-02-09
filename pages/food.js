@@ -15,7 +15,7 @@ export default function Food() {
             <Container fluid className="p-3 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
                 <p>Animefest is located in UCSD&apos;s Price Center, which has a variety of <a
-                    href="https://universitycenters.ucsd.edu/dining-retail/dining/">dining
+                    href="https://universitycenters.ucsd.edu/dining-and-retail/index.html">dining
                     options</a> convenient for staying fed during the convention.
                 </p>
                 <Row>
