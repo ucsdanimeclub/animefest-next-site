@@ -54,7 +54,20 @@ export default function Home() {
                                 allowFullScreen={true}/>
                     </Ratio>
                 </div>
-                
+            </Container>
+
+            <Container fluid className="p-3 mt-4 section" id="map">
+                <h1 className="text-left mb-4 display-text">DISCORD</h1>
+                <p>Feel free to join the Animefest 2024 discord server here:</p>
+                <Row className="align-items-center mb-4">
+                <Col xs={12} sm={12} md={6} className="py-2">
+                    <Ratio aspectRatio={350 / 500}>
+                        <iframe src="https://discord.com/widget?id=913711233360879697&theme=dark" width="350"
+                                height="500"
+                                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    </Ratio>
+                </Col>
+                </Row>
             </Container>
 
             <Container fluid className="p-3 mt-4 section" id="programs">
