@@ -104,13 +104,13 @@ export default function Home() {
                         <Col xs={0} md={0} lg={2}/>
                         <Col xs={12} md={6} lg={4}>
                             <a href="images/map_2nd_floor.jpg">
-                                <MyImage src="images/map_2nd_floor.jpg" className="border-stroke mw-100"
+                                <MyImage src="images/map_2nd_floor_2024.png" className="border-stroke mw-100"
                                          alt="Price Center 2nd Floor map"></MyImage>
                             </a>
                         </Col>
                         <Col xs={12} md={6} lg={4}>
                             <a href="images/map_1st_floor.jpg">
-                                <MyImage src="images/map_1st_floor.jpg" className="border-stroke mw-100"
+                                <MyImage src="images/map_1st_floor_2024.png" className="border-stroke mw-100"
                                          alt="Price Center 1st Floor map"></MyImage>
                             </a>
                         </Col>
@@ -131,6 +131,8 @@ export default function Home() {
                     areas where you can park. Please ensure that you park in designated Visitor spots which will be
                     marked on the floor in these areas.</p>
 
+                <p><b>Please consult <a href="https://docs.google.com/document/d/13nS2z4nOe6K-V522hMTnI1TSUNFnefp4bo7-IQdv99E/edit?usp=sharing">this </a>document for guides on where to park and how to acquire a permit.</b></p>
+
                 <p className="mb-4">
                     The Gilman Parking Structure is the closest parking structure to the convention. You can use the
                     Wayfinding feature or the map below to navigate to Price Center:</p>
@@ -142,16 +144,40 @@ export default function Home() {
                     </Ratio>
                 </div>
 
-                <h4 className="text-left title-text mb-4">Gilman Parking Structure Visitor Guide</h4>
+                <h4 className="text-left title-text mb-4">Parking Structure Video Guides</h4>
                 <Row>
-                    <Col xs={0} md={2} lg={3}/>
-                    <Col xs={12} md={8} lg={6}>
-                        <div className="text-center">
-                            <a href="images/gilman_visitor_guide.png"><MyImage src="images/gilman_visitor_guide.png"
-                                                                               alt="Gilman Parking Structure Visitor Guide"
-                                                                               className="mw-100 border-stroke mx-auto d-block mb-1"/></a>
-                            <p className="caption-text mb-0">Click on the image to open.</p>
-                        </div>
+                    <Col xs={12} md={3} lg={4}>
+                    <div className="video-player mx-auto mb-4">
+                    <Ratio aspectRatio="16x9">
+                        <iframe className="border-stroke"
+                                src="https://www.youtube.com/embed/CyGVgK3G2rI?si=gMyVZFNcIAsPDJ-D"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen={true}/>
+                    </Ratio>
+                    </div>
+                    </Col>
+                    <Col xs={12} md={8} lg={4}>
+                    <div className="video-player mx-auto mb-4">
+                    <Ratio aspectRatio="16x9">
+                        <iframe className="border-stroke"
+                                src="https://www.youtube.com/embed/JZh_e8e9mU0?si=q66u5CjDi124pxRo"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen={true}/>
+                    </Ratio>
+                    </div>
+                    </Col>
+                    <Col xs={12} md={8} lg={4}>
+                    <div className="video-player mx-auto mb-4">
+                    <Ratio aspectRatio="16x9">
+                        <iframe className="border-stroke"
+                                src="https://www.youtube.com/embed/Eo9QfaOGJvA?si=e001i8kuFS1bW8i9"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen={true}/>
+                    </Ratio>
+                    </div>
                     </Col>
                     <Col xs={0} md={2} lg={3}/>
                 </Row>
