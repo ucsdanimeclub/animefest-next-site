@@ -56,7 +56,7 @@ export default function Home() {
                 </div>
             </Container>
 
-            <Container fluid className="p-3 mt-4 section" id="map">
+            <Container fluid className="p-3 mt-4 section" id="discord">
                 <h1 className="text-left mb-4 display-text">DISCORD</h1>
                 <p>Feel free to join the Animefest 2024 discord server here:</p>
                 <Row className="align-items-center mb-4">

@@ -48,10 +48,10 @@
 		{
 			"start": "15:30",
 			"end": "16:20",
-			"topic": "How I developed a first-person anime shooter in 3 months",
+			"topic": "How I developed a multiplayer anime-style first person shooter",
 			"panelist": "William Supian",
 			"type": "panel",
-			"description": "What does it take to make an anime-style multiplayer FPS game? In this talk I go over game design, programming, 3d art/animation and reveal the trade secrets of game development. Note: This will be a beginner friendly talk and you are not expected to know anything about game development.",
+			"description": "What does it take to make an anime-style multiplayer FPS game? In this talk I go over the game design, programming, 3d art/animation, software, and everything else in my journey of creating this game. This will be a beginner friendly talk and you are not expected to know anything about game development.",
 			"location": "roosevelt"
 		},
 		{
