@@ -1,9 +1,9 @@
 {
     "sponsors": [
         {
-            "name": "Bushiroad",
-            "image": "images/sponsor/logo_bushiroad.png",
-            "url": "https://en.bushiroad.com/"
+            "name" : "Bushiroad",
+            "image" : "images/sponsor/logo_bushiroad.png",
+            "url" : "https://en.bushiroad.com/"
         }
     ]
 }
