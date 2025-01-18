@@ -1,14 +1,9 @@
 {
     "sponsors": [
         {
-            "name": "Furyu",
-            "image": "images/sponsor/furyu_logo.jpg",
-            "url": "https://www.furyu.jp/english/"
-        },
-        {
-            "name": "Gundam Planet",
-            "image": "images/sponsor/logo_gundamplanet.png",
-            "url": "https://www.gundamplanet.com/"
+            "name": "Bushiroad",
+            "image": "images/sponsor/logo_bushiroad.png",
+            "url": "https://en.bushiroad.com/"
         }
     ]
 }
