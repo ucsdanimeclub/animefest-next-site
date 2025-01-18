@@ -55,7 +55,7 @@ export default function Layout({children}) {
                 <Container className="text-center">
                     <h5 className="mb-3 text-light">Sponsored By</h5>
                     <Sponsor data={Sponsors}/>
-                    <p className="caption-text text-light">&copy; 2024 Anime &amp; Manga Enthusiasts at UC San Diego. All assets belong to their respective owners.</p>
+                    <p className="caption-text text-light">&copy; 2025 Anime &amp; Manga Enthusiasts at UC San Diego. All assets belong to their respective owners.</p>
                 </Container>
             </footer>
         </>

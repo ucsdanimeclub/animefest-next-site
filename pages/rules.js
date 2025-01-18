@@ -25,7 +25,7 @@ export default function Rules() {
                         compliance with the rules to their discretion.</p></li>
                     <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
                         <ul>
-                            <li><p>Masking is <b>encouraged, but not required</b> at Animefest 2024.</p></li>
+                            <li><p>Masking is <b>encouraged, but not required</b> at Animefest 2025.</p></li>
                             <li><p>Consult this <a href="https://ophd.ucsd.edu/policies-procedures/polpro_student.html">link</a> for 
                                 additional guidance.  </p></li>
                         </ul>

@@ -20,7 +20,7 @@ export default function Home() {
                             <MyImage src="images/AF24_light_re_png.png" className="w-50 my-4" alt="Animefest 2024 logo"/>
                             <div className="text-light ">
                                 <div className="d-inline-flex flex-column bg-translucent p-2 rounded">
-                                    <h4>February 17 2024 at UC San Diego&apos;s Price Center</h4>
+                                    <h4>February 15 2025 at UC San Diego&apos;s Price Center</h4>
                                     <h5>11:00 AM to 8:00 PM</h5>
                                     <h5>Free Admission</h5>
                                 </div>
@@ -40,7 +40,7 @@ export default function Home() {
             <Container fluid className="p-3 section" id="about">
                 <h1 className="text-left mb-4 display-text">ABOUT</h1>
                 <p>Animefest, a time and place where animanga lovers, artists, and entertainers celebrate what we love!
-                    On February 17, 2024, participants go to the Price Center at UCSD to attend discussion and workshop
+                    On February 15, 2025, participants go to the Price Center at UCSD to attend discussion and workshop
                     panels, buy the best artwork,
                     and check out your favorite manga in our manga library! And of course, there will be cosplays,
                     festival games, and video games&mdash;all for some otaku fun.</p>
@@ -58,7 +58,7 @@ export default function Home() {
 
             <Container fluid className="p-3 mt-4 section" id="discord">
                 <h1 className="text-left mb-4 display-text">DISCORD</h1>
-                <p>Feel free to join the Animefest 2024 discord server here:</p>
+                <p>Feel free to join the Animefest 2025 discord server here:</p>
                 <Row className="align-items-center mb-4">
                 <Col xs={12} sm={12} md={6} className="py-2">
                     <Ratio aspectRatio={350 / 500}>
