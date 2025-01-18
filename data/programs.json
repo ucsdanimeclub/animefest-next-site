@@ -21,11 +21,6 @@
             "description": "Earn an additional raffle ticket by completing our Scavenger Hunt."
         },
         {
-            "name": "Movie Showing",
-            "image": "images/carousel_images/Movie Showing.png",
-            "description": "Showings will be held in the Price Center Theater."
-        },
-        {
             "name": "Panels and Game Shows",
             "image": "images/carousel_images/Panels and Game Shows.png",
             "description": "We have panels and game shows for your enjoyment run by students and alumni. Check them out!"
@@ -34,11 +29,6 @@
             "name": "Manga Library",
             "image": "images/carousel_images/Manga Library.png",
             "description": "Relax and enjoy reading some of our manga collections in the Roger Revelle room."
-        },
-        {
-            "name": "Super Smash Bros. Tournament",
-            "image": "images/carousel_images/Smash.png",
-            "description": "We have a Super Smash Bros. Ultimate tournament with prizes, brought to you by Triton Smash!"
         },
         {
             "name": "Yu-Gi-Oh! Tournament",
