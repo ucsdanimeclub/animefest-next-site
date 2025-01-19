@@ -14,19 +14,7 @@ export default function Home() {
                 check-in tables before entering the convention rooms.</Container>
 
             <Container fluid className="text-center vh-100 p-0 mb-3">
-                <BackgroundImage src="images/Website_blank_better.png" className="landing h-100">
-                    <Row className="align-items-center h-75 g-0 glow-text">
-                        <Col>
-                            <MyImage src="images/AF24_light_re_png.png" className="w-50 my-4" alt="Animefest 2024 logo"/>
-                            <div className="text-light ">
-                                <div className="d-inline-flex flex-column bg-translucent p-2 rounded">
-                                    <h4>February 15 2025 at UC San Diego&apos;s Price Center</h4>
-                                    <h5>11:00 AM to 8:00 PM</h5>
-                                    <h5>Free Admission</h5>
-                                </div>
-                            </div>
-                        </Col>
-                    </Row>
+                <BackgroundImage src="images/AF25_Website_Hero.png" className="landing h-100">
                 </BackgroundImage>
             </Container>
 
