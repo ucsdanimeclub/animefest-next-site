@@ -13,8 +13,8 @@ export default function Home() {
             <Container fluid className="text-center my-1 text-light">Welcome to Animefest! Please register at our
                 check-in tables before entering the convention rooms.</Container>
 
-            <Container fluid className="text-center vh-100 p-0 mb-3">
-                <BackgroundImage src="images/AF25_Website_Hero.png" className="landing h-100">
+            <Container fluid className="text-center p-0 mb-4" style={{ height: "130vh" }}>
+                <BackgroundImage src="images/AF25_Website_Hero5.png" className="landing h-100">
                 </BackgroundImage>
             </Container>
 
