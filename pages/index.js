@@ -17,7 +17,7 @@ export default function Home() {
                 <BackgroundImage src="images/AF25_Website_Banner.png" className="landing w-100">
                     <Row className="align-items-center h-75 g-0 glow-text">
                         <Col>
-                            <MyImage src="images/AF25_logo.png" className="w-75 my-4" alt="Animefest 2025 logo"/>
+                            <MyImage src="images/AF25_logo.png" className="w-75" alt="Animefest 2025 logo"/>
                             <div className="text-light ">
                                 <div className="d-inline-flex flex-column bg-translucent p-2 rounded">
                                     <h4>February 15 2025 at UC San Diego&apos;s Price Center</h4>
