@@ -13,8 +13,20 @@ export default function Home() {
             <Container fluid className="text-center my-1 text-light">Welcome to Animefest! Please register at our
                 check-in tables before entering the convention rooms.</Container>
 
-            <Container fluid className="text-center p-0 mb-4" style={{ height: "130vh" }}>
-                <BackgroundImage src="images/AF25_Website_Hero5.png" className="landing h-100">
+            <Container fluid className="text-center p-0 mb-4">
+                <BackgroundImage src="images/AF25_Website_Banner.png" className="landing w-100">
+                    <Row className="align-items-center h-75 g-0 glow-text">
+                        <Col>
+                            <MyImage src="images/AF25_logo.png" className="w-75 my-4" alt="Animefest 2025 logo"/>
+                            <div className="text-light ">
+                                <div className="d-inline-flex flex-column bg-translucent p-2 rounded">
+                                    <h4>February 15 2025 at UC San Diego&apos;s Price Center</h4>
+                                    <h5>11:00 AM to 8:00 PM</h5>
+                                    <h5>Free Admission</h5>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
                 </BackgroundImage>
             </Container>
 
