@@ -22,7 +22,7 @@ export default function Food() {
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
                         <div className="text-center">
-                            <a href="images/food_voucher_2024.png"><MyImage src="images/food_voucher_2024.png" alt="Food coupon"
+                            <a href="images/AF_2025_Food_Flyer.png"><MyImage src="images/AF_2025_Food_Flyer.png" alt="Food coupon"
                                                                       className="mw-100 border-stroke mx-auto d-block mb-1"/></a>
                             <p className="caption-text mb-0">Click on the image to open.</p>
                         </div>
