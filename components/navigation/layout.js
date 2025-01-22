@@ -20,7 +20,6 @@ export default function Layout({children}) {
                                 <Link href='/#discord' passHref><NavDropdown.Item>Discord</NavDropdown.Item></Link>
                                 <Link href='/#programs' passHref><NavDropdown.Item>Programs</NavDropdown.Item></Link>
                                 <Link href='/#registration' passHref><NavDropdown.Item>Registration</NavDropdown.Item></Link>
-                                <Link href='/#map' passHref><NavDropdown.Item>Map and Schedule</NavDropdown.Item></Link>
                                 <Link href='/#parking' passHref><NavDropdown.Item>Parking</NavDropdown.Item></Link>
                             </NavDropdown>
                             <NavDropdown title="Programming" id="basic-nav-dropdown">
@@ -46,6 +45,7 @@ export default function Layout({children}) {
                             </NavDropdown>
                             <Link href='/food' passHref><Nav.Link>Food</Nav.Link></Link>
                             <Link href='/rules' passHref><Nav.Link>Rules</Nav.Link></Link>
+                            <Link href='/map_schedule' passHref><Nav.Link>Map and Schedule</Nav.Link></Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
