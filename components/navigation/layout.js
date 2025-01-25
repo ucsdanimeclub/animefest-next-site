@@ -20,7 +20,6 @@ export default function Layout({children}) {
                                 <Link href='/#discord' passHref><NavDropdown.Item>Discord</NavDropdown.Item></Link>
                                 <Link href='/#programs' passHref><NavDropdown.Item>Programs</NavDropdown.Item></Link>
                                 <Link href='/#registration' passHref><NavDropdown.Item>Registration</NavDropdown.Item></Link>
-                                <Link href='/#map' passHref><NavDropdown.Item>Map and Schedule</NavDropdown.Item></Link>
                                 <Link href='/#parking' passHref><NavDropdown.Item>Parking</NavDropdown.Item></Link>
                             </NavDropdown>
                             <NavDropdown title="Programming" id="basic-nav-dropdown">
