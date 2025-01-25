@@ -42,16 +42,10 @@ export default function Map_Schedule() {
                     </Row>
                     <Row className="mb-1 g-3">
                         <Col xs={0} md={0} lg={2}/>
-                        <Col xs={12} md={6} lg={4}>
-                            <a href="images/map_2nd_floor.jpg">
-                                <MyImage src="images/map_2nd_floor_2024.png" className="border-stroke mw-100"
-                                            alt="Price Center 2nd Floor map"></MyImage>
-                            </a>
-                        </Col>
-                        <Col xs={12} md={6} lg={4}>
-                            <a href="images/map_1st_floor.jpg">
-                                <MyImage src="images/map_1st_floor_2024.png" className="border-stroke mw-100"
-                                            alt="Price Center 1st Floor map"></MyImage>
+                        <Col>
+                            <a href="images/AF_25_Map.jpg">
+                                <MyImage src="images/AF_25_Map.png" className="border-stroke mw-100"
+                                            alt="Price Center map"></MyImage>
                             </a>
                         </Col>
                         <Col xs={0} md={0} lg={2}/>
