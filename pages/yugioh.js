@@ -61,10 +61,10 @@ export default function Yugioh() {
                     href="https://animefest.ucsd.moe/gaming">Triton Smash</a></p>
             </Container>
 
-            <Container fluid className="p-3 mt-4 section">
+            {/* <Container fluid className="p-3 mt-4 section">
                 <h4 className="text-left mb-4 display-text">PRIZING</h4>
                 <PrizeImages prizes={prizesInPool}/>
-            </Container>
+            </Container> */}
         </>
     )
 }
