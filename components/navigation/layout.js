@@ -33,7 +33,7 @@ export default function Layout({children}) {
                                     Contest</NavDropdown.Item></Link>
                                 <Link href="/raffles" passHref><NavDropdown.Item>Raffles</NavDropdown.Item></Link>
                                 <NavDropdown.Header>Price Center Theater</NavDropdown.Header>
-                                <Link href="/theater" passHref><NavDropdown.Item>Movie Showing</NavDropdown.Item></Link>
+                                <Link href="/genshinpanel" passHref><NavDropdown.Item>Genshin VA Panel</NavDropdown.Item></Link>
                                 <NavDropdown.Header>College Rooms</NavDropdown.Header>
                                 <Link href="/panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
                                 <Link href="/gameshows" passHref><NavDropdown.Item>Game Shows</NavDropdown.Item></Link>
