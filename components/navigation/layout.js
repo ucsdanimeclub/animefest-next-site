@@ -39,7 +39,7 @@ export default function Layout({children}) {
                                 <Link href="/gameshows" passHref><NavDropdown.Item>Game Shows</NavDropdown.Item></Link>
                                 <Link href="/manga" passHref><NavDropdown.Item>Manga Library</NavDropdown.Item></Link>
                                 <NavDropdown.Header>Sun God Lounge</NavDropdown.Header>
-                                <Link href="/gaming" passHref><NavDropdown.Item>Triton Smash</NavDropdown.Item></Link>
+                                <Link href="/gaming" passHref><NavDropdown.Item>Triton Fighters</NavDropdown.Item></Link>
                                 <Link href="/yugioh" passHref><NavDropdown.Item>Gamma Gamma Driver
                                     Yugioh</NavDropdown.Item></Link>
                             </NavDropdown>
