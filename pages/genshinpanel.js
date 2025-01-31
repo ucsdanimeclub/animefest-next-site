@@ -15,7 +15,7 @@ export default function GenshinPanel() {
 
             <Container fluid className="p-3 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
-                <p>Come learn more about your favorite Genshin English voice actors and listen as they discuss what it’s 
+                <p>Come learn more about your favorite Genshin English voice actors and listen as they discuss what it&apos;s 
                     like to be a voice actor. Voice actors appearing include Ben Balmaceda (voice of Kaveh), with others being revealed soon! 
                     There will be time for questions afterward.</p>
                 <h4 className="text-left title-text">Voice Actor Introductions:</h4>
@@ -29,11 +29,11 @@ export default function GenshinPanel() {
                 <p>Ben Balmaceda is a Chilean voice actor currently based in LA. He primarily works in anime dubbing, with
                     some notable roles being Andy from Undead Unluck, Travis from Unicorn Overlord, Neku Sakuraba in
                     The World Ends With You: The Animation, Raido in Aharen-san wa Hakarenai, Jiro Yakuin in More Than A
-                    Married Couple But Not Lovers, Pedro in One Piece, Rikiel in Jojo's Bizarre Adventure: Stone Ocean,
-                    Tenza in Hell's Paradise and Saber in the upcoming dub of Fate/Strange fake. He's also appeared in
+                    Married Couple But Not Lovers, Pedro in One Piece, Rikiel in Jojo&apos;s Bizarre Adventure: Stone Ocean,
+                    Tenza in Hell&apos;s Paradise and Saber in the upcoming dub of Fate/Strange fake. He&apos;s also appeared in
                     numerous video games including Genshin Impact as Kaveh, LIVE A LIVE, Pokemon Masters EX, Eternal
                     Return, Path of the Midnight Sun and Project Wingman. Finally, he assisted in production work on
-                    several anime dubs including Kemono Jihen, A Place Further Than The Universe and Yakuza's Guide to
+                    several anime dubs including Kemono Jihen, A Place Further Than The Universe and Yakuza&apos;s Guide to
                     Babysittng.</p>
                 <h4 className="text-left title-text">Check-In:</h4>
                 <p>Please check-in at the check-in table in front of the entrance to Price Center Theater.</p>
