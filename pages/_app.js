@@ -12,7 +12,7 @@ export default function MyApp({Component, pageProps}) {
             <Head>
                 <title>Animefest 2025</title>
                 <meta name="description" content="February 15, 2025 at UC San Diego's Price Center"/>
-                <link rel="icon" href={`${router.basePath}/favicon_2024.png`}/>
+                <link rel="icon" href={`${router.basePath}/favicon_2025.jpg`}/>
                 <link rel="stylesheet" href={`${router.basePath}/fonts.css`}/>
             </Head>
 
