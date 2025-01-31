@@ -6,34 +6,29 @@ import PrizeImages from "../components/prizes/prizeimages"
 
 
 export default function Gaming() {
-    const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Smash").map((prize) => prize["image"])
+    //const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Smash").map((prize) => prize["image"])
     return (
         <>
             <Container fluid className="p-0 text-center">
                 <BackgroundImage src="images/header_2024.png" className="landing p-5">
-                    <h1 className="display-4 mb-0 text-light">TRITON SMASH</h1>
+                    <h1 className="display-4 mb-0 text-light">TRITON FIGHTERS</h1>
                 </BackgroundImage>
             </Container>
 
             <Container fluid className="p-3 section">
-                <h4 className="text-left mb-4 display-text">SUPER SMASH BROS. ULTIMATE TOURNAMENT</h4>
+                <h4 className="text-left mb-4 display-text">GRANBLUE FANTASY VERSUS: RISING TOURNAMENT</h4>
 
-                <p>Triton Smash will be hosting a tournament for Super Smash Bros. Ultimate! The tournament will be <b>free
-                    to enter</b>, and <b>open to anyone</b> at all (not just UCSD students).</p>
+                <p>Want to test your skills? Triton Fighters will be hosting a <b>Granblue Fantasy Versus: Rising Tournament</b>!
+                     The tournament is <b>free to enter and open to everyone</b>! Or participate in Free Play!</p>
                 <h4 className="text-left title-text">Register:</h4>
-                <p>You can register for the event at <a
-                    href="https://www.start.gg/tournament/animefest-2024">start.gg!</a></p>
-                <p> Registration will also be available in-person until the bracket starts.</p>
-                <h4 className="text-left title-text">Cost and Prizing:</h4>
-                <p>The tournament will be free to enter, and will have prizes for the top spots provided by Anime &amp;
-                    Manga Enthusiasts!</p>
+                <p>More details about registration will be released soon!</p>
+                <h4 className="text-left title-text">Prizing:</h4>
+                <p>Prizes will be given to top spots provided by Anime and Manga Enthusiasts!</p>
                 <h4 className="text-left title-text">Schedule:</h4>
-                <p>Doors will open at <b>12 PM</b>, and setups will be open for friendlies. The bracket will go from <b>1 PM</b> until <b>6PM</b>, 
-                but free play will be reopened at <b>4 PM</b> and last until <b>6PM</b>.</p>
+                <p>Triton Fighters will open for Free Play and In-Person Sign-ups at <b>12 PM</b> and will last till <b>1 PM</b>. 
+                    Bracket tournaments will last from <b>1 PM to 4 PM</b>. Free Play will resume from <b>4 PM to 6 PM</b>.</p>
                 <h4 className="text-left title-text">Location:</h4>
-                <p>They&apos;ll be in the <b>Red Shoe Room</b>, which is inside Sun God Lounge. Below is a helpful guide
-                    to
-                    finding the room:</p>
+                <p>The event will be held at <b>Sungod Gaming Lounge</b>. Below is a helpful guide on how to get there:</p>
 
                 <Row className="mb-2">
                     <Col xs={0} md={2} lg={3}/>
