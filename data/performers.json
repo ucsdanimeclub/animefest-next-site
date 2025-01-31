@@ -9,28 +9,12 @@
 			"profile": "https://supertonicband.com/"
 		},
 		{
-			"start": "15:00",
+			"start": "14:30",
 			"end": "15:30",
 			"performer": "Intermission Orchestra",
 			"description": "The Intermission Orchestra at UC San Diego is a student-run orchestra dedicated to bringing the music from video games, anime, and films to life!  In preparation to the much-anticipated AnimeFest 2025, we've prepared an array of selections for your favorite animes, and we're beyond excited to perform for everyone!",
 			"embed": "https://www.youtube.com/embed/60sroTQGBgY?si=Xs8uMTAqQ6GD2xGB",
 			"profile": "https://intermission.ucsd.edu/"
-		},
-		{
-			"start": "13:15",
-			"end": "13:35",
-			"performer": "Hopkins Sax Jam",
-			"description": "Hopkins Sax Jam, or 'HopSax' for short, is a group of student musicians brought together by a passion for the saxophone. We play music from a variety of genres and pop culture: jazz, anime, video games, you name it!",
-			"embed": "https://www.youtube.com/embed/EkdvZaZdoMw?si=zGq2pZYztPBVP76z",
-			"profile": "https://hopsax.ucsd.edu/"
-		},
-		{
-			"start": "12:00",
-			"end": "12:15",
-			"performer": "UCSD Wushu Club",
-			"description": "We are a club dedicated to passing on and promoting the culture of Chinese Wushu, a performance-based contemporary martial art. We're thrilled to have the opportunity to perform martial arts featuring characters and music from anime, games, and comics at Animefest 2025. Check out our Instagram @UCSDWushu or join our Discord!",
-			"embed": "https://www.youtube.com/embed/i1VbCK9TXcI?si=Qc14o7xu1QkglBbl",
-			"profile": "https://wushu.ucsd.edu/"
 		},
 		{
 			"start": "12:30",
