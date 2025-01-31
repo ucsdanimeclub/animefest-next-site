@@ -22,7 +22,7 @@ export default function Home() {
                                 <div className="d-inline-flex flex-column bg-translucent p-2 rounded">
                                     <h4>February 15 2025 at UC San Diego&apos;s Price Center</h4>
                                     <h5>11:00 AM to 8:00 PM</h5>
-                                    <h5>Free Admission</h5>
+                                    <h5>Free Admission for UCSD Affiliates</h5>
                                 </div>
                             </div>
                         </Col>
@@ -77,7 +77,7 @@ export default function Home() {
 
             <Container fluid className="p-3 mt-4 section" id="registration">
                 <h1 className="text-left mb-4 display-text">REGISTRATION</h1>
-                <p><u>Admission to Animefest is free!</u> All attendees must register at one of our check-in tables
+                <p><u>Admission to Animefest is free for all UCSD affiliates!</u> All attendees must register at one of our check-in tables
                     designated on the map in the section below.</p>
                 <p><b>All attendees</b> will also have to present a completed Event Participant Waiver for UC San Diego events.
                     This waiver <b>can be electronically signed prior to the convention</b> using this <a href="https://ewaivers.ucsd.edu/af2024/waiver/">link</a>. We strongly recommend all attendees
