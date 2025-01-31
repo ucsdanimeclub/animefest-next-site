@@ -4,6 +4,11 @@
             "name": "Bushiroad",
             "image": "images/sponsor/logo_bushiroad.png",
             "url": "https://en.bushiroad.com/"
+        },
+        {
+            "name": "Gundam Planet",
+            "image": "images/sponsor/logo_gundamplanet.png",
+            "url": "https://en.bushiroad.com/"
         }
     ]
 }
