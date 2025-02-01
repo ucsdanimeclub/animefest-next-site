@@ -9,6 +9,11 @@
             "name": "Gundam Planet",
             "image": "images/sponsor/logo_gundamplanet.png",
             "url": "https://en.bushiroad.com/"
+        },
+        {
+            "name": "Aniplex",
+            "image": "images/sponsor/logo_aniplex.png",
+            "url": "https://aniplexusa.com/"
         }
     ]
 }
