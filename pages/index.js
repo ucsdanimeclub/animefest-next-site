@@ -6,15 +6,14 @@ import MyImage from "../components/myimage"
 import Programs from "../data/programs.json"
 import Socials from "../data/socials.json"
 
-
 export default function Home() {
     return (
         <>
-            <Container fluid className="text-center my-1 text-light">Welcome to Animefest! Please register at our
+            <Container fluid className="text-center my-1 text-light p-0 m-0">Welcome to Animefest! Please register at our
                 check-in tables before entering the convention rooms.</Container>
 
-                <Container fluid className="text-center p-0 mb-4">
-                    <div className="landing w-100 d-flex flex-column justify-content-center align-items-center"
+            <Container fluid className="text-center p-0 mb-4">
+                <div className="landing w-100 d-flex flex-column justify-content-center align-items-center"
                         style={{
                             backgroundImage: "url('images/AF25_Website_Banner.png')",
                             backgroundSize: "cover",
@@ -22,36 +21,32 @@ export default function Home() {
                             backgroundRepeat: "no-repeat",
                             minHeight: "100vh"
                         }}>
-                        
-                        <Row className="w-100 justify-content-center mb-3 mb-sm-2 mb-md-3 mb-lg-4">
-                            <Col xs={10} sm={8} md={6} lg={4} className="d-flex justify-content-center">
-                                <MyImage src="images/AF25_logo.png" 
-                                    className="logo-img" 
-                                    alt="Animefest 2025 logo"
-                                />
-                            </Col>
-                        </Row>
-
-                        <Row className="w-100 justify-content-center">
-                            <Col xs={10} sm={8} md={6} lg={5}>
-                                <div className="text-light text-center">
-                                    <div className="d-inline-flex flex-column bg-translucent p-3 rounded"
-                                        style={{
-                                            wordWrap: "break-word",
-                                            overflowWrap: "break-word",
-                                            maxWidth: "100%",
-                                            whiteSpace: "normal"
-                                        }}>
-                                        <h4>February 15, 2025 at UC San Diego&apos;s Price Center</h4>
-                                        <h5>11:00 AM to 8:00 PM</h5>
-                                        <h5>Free Admission for UCSD Affiliates</h5>
-                                    </div>
+                    <Row className="align-items-center justify-content-center w-100 h-75 g-0 glow-text d-flex flex-column">
+                    
+                        <Col xs={12} sm={10} md={8} lg={6} xl={5} className="text-center">
+                            <MyImage src="images/AF25_logo.png" className="w-100 mb-3 img-fluid" alt="Animefest 2025 logo"
+                            />
+                        </Col>
+                        <Col xs={12} sm={10} md={8} lg={6} xl={5} className="text-center" >
+                            <div className="text-light">
+                                <div className="d-inline-flex flex-column bg-translucent p-3 rounded"
+                                    style={{
+                                        maxWidth: "90%",
+                                        width: "fit-content",
+                                        wordWrap: "break-word",
+                                        overflowWrap: "break-word",
+                                        whiteSpace: "normal"
+                                    }}>
+                                    <h4>February 15, 2025 at UC San Diego&apos;s Price Center</h4>
+                                    <h5>11:00 AM to 8:00 PM</h5>
+                                    <h5>Free Admission</h5>
                                 </div>
-                            </Col>
-                        </Row>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </Container>
 
-                    </div>
-                </Container>
 
 
             <Container>
