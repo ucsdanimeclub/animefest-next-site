@@ -45,6 +45,7 @@ export default function Layout({children}) {
                             </NavDropdown>
                             <Link href='/food' passHref><Nav.Link>Food</Nav.Link></Link>
                             <Link href='/rules' passHref><Nav.Link>Rules</Nav.Link></Link>
+                            <Link href='/map_schedule' passHref><Nav.Link>Map and Schedule</Nav.Link></Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
