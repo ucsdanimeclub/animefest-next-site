@@ -114,7 +114,7 @@ export default function Home() {
                     areas where you can park. Please ensure that you park in designated Visitor spots which will be
                     marked on the floor in these areas.</p>
 
-                <p><b>Please consult <a href="https://docs.google.com/document/d/13nS2z4nOe6K-V522hMTnI1TSUNFnefp4bo7-IQdv99E/edit?usp=sharing">this </a>document for guides on where to park and how to acquire a permit.</b></p>
+                <p><b>Please consult <a href="https://docs.google.com/document/d/11Sv21KM5owkWAo8rY6XuB6SZz1Ibxe4t/edit?usp=sharing&ouid=102259190788720064357&rtpof=true&sd=true">this </a>document for guides on where to park and how to acquire a permit.</b></p>
 
                 <p className="mb-4">
                     The Gilman Parking Structure is the closest parking structure to the convention. You can use the
