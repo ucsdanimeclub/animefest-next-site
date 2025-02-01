@@ -9,7 +9,7 @@ import Socials from "../data/socials.json"
 export default function Home() {
     return (
         <>
-            <Container fluid className="text-center my-1 text-light p-0 m-0">Welcome to Animefest! Please register at our
+            <Container fluid className="text-center my-1 text-light">Welcome to Animefest! Please register at our
                 check-in tables before entering the convention rooms.</Container>
 
             <Container fluid className="text-center p-0 mb-4">
