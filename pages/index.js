@@ -6,12 +6,17 @@ import MyImage from "../components/myimage"
 import Programs from "../data/programs.json"
 import Socials from "../data/socials.json"
 
+import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
+import '@leenguyen/react-flip-clock-countdown/dist/index.css';
+
+import Countdown from '../components/countdown'
+
 export default function Home() {
     return (
         <>
             <Container fluid className="text-center my-1 text-light">Welcome to Animefest! Please register at our
                 check-in tables before entering the convention rooms.</Container>
-
+                <Container fluid className="text-center p-0 mb-4"><Countdown/></Container>
             <Container fluid className="text-center p-0 mb-4">
                 <div className="landing w-100 d-flex flex-column justify-content-center align-items-center"
                         style={{
