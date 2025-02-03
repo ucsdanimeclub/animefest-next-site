@@ -21,7 +21,7 @@ export default function Yugioh() {
                 <Row className="mb-4">
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
-                        <MyImage src="images/yugioh_flyer2024.png" alt="Yu-gi-oh Flyer"
+                        <MyImage src="images/yugioh_flyer2025.png" alt="Yu-gi-oh Flyer"
                                  className="mw-100 border-stroke mx-auto d-block"/>
                     </Col>
                     <Col xs={0} md={2} lg={3}/>
@@ -33,11 +33,9 @@ export default function Yugioh() {
                     href="https://discord.gg/Q3k8jEfbES">https://discord.gg/Q3k8jEfbES</a></p>
 
                 <h4 className="text-left title-text">Register:</h4>
-                <p>You can register for the event on site during Animefest and also on their Discord.</p>
-                <p><a 
-                    href="https://forms.gle/vuyk18QVTaXgSS1M8">Click here to register!</a></p>
-                <h4 className="text-left title-text">Cost and Prizing:</h4>
-                <p>The tournament will be free to enter, and will have a grand prize for the winner provided by Anime &amp;
+                <p>More details about registration will be released soon!</p>
+                <h4 className="text-left title-text">Prizing:</h4>
+                <p>There will be a grand prize for the winner provided by Anime &amp;
                     Manga Enthusiasts!</p>
                 <h4 className="text-left title-text">Tournament Rules:</h4>
                 <ul>
@@ -56,9 +54,9 @@ export default function Yugioh() {
                     <p>In-person sign ups start from <b>12PM</b>, and the bracket will start at <b>1 PM</b> and last until <b>6PM</b>.</p>
                 <h4 className="text-left title-text">Location:</h4>
                 <p className="mb-0">We’ll be in the <b>Green Table Room</b>, which is inside Sun God Lounge. You can find
-                directions to the Sun God Lounge on the Triton Smash webpage.</p> 
+                directions to the Sun God Lounge on the Triton Fighters AF webpage.</p> 
                 <p><a 
-                    href="https://animefest.ucsd.moe/gaming">Triton Smash</a></p>
+                    href="https://animefest.ucsd.moe/gaming">Triton Fighters</a></p>
             </Container>
 
             {/* <Container fluid className="p-3 mt-4 section">
