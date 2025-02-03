@@ -1,8 +1,8 @@
 {
 	"gameshows": [
 		{
-			"start": "15:30",
-			"end": "16:00",
+			"start": "13:30",
+			"end": "14:00",
 			"panelist": "Anime & Manga Enthusiasts",
 			"type": "game",
 			"topic": "Kahoot!",
@@ -19,8 +19,8 @@
 			"location": "marshall"
 		},
 		{
-			"start": "13:00",
-			"end": "14:00",
+			"start": "13:30",
+			"end": "14:30",
 			"topic": "Jeopardy! 2",
 			"panelist": "Anime & Manga Enthusiasts",
 			"type": "game",
