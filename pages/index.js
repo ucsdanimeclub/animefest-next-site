@@ -49,7 +49,14 @@ export default function Home() {
                 </div>
             </Container>
 
-                                        
+            <Container>
+                <Row className="align-items-center justify-content-center w-100 h-75 g-0 glow-text d-flex flex-column">
+                    <Col xs={12} sm={10} md={8} lg={6} xl={5} className="text-center">
+                        <Countdown />
+                    </Col>
+                </Row>
+            </Container>
+                         
 
             <Container>
                 <Social data={Socials} className="mb-2"/>
@@ -58,14 +65,7 @@ export default function Home() {
                     media!</p>
             </Container>
 
-            <Container>
-                <Row className="align-items-center justify-content-center w-100 h-75 g-0 glow-text d-flex flex-column">
-                    <Col xs={12} sm={10} md={8} lg={6} xl={5} className="text-center">
-                        <Countdown />
-                    </Col>
-                </Row>
-            </Container>
-
+            
             <Container fluid className="p-3 section" id="about">
                 <h1 className="text-left mb-4 display-text">ABOUT</h1>
                 <p>Animefest, a time and place where animanga lovers, artists, and entertainers celebrate what we love!
