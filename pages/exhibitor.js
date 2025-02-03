@@ -40,13 +40,13 @@ export default function Exhibitor() {
                     <Col xs={0} md={1} lg={2}>
                     </Col>
                 </Row>
-                <h4 className="text-left title-text mb-4">West Ballroom Map</h4>
+                {/* <h4 className="text-left title-text mb-4">West Ballroom Map</h4>
                 <div className="text-center">
                     <a href="images/west_ballroom_exhibitors_2024.png"><MyImage src="images/west_ballroom_exhibitors_2024.png"
                                                                            alt="West Ballroom map"
                                                                            className="mw-100 mb-1 border-stroke"/></a>
                     <p className="caption-text mb-0">Click on the image to open.</p>
-                </div>
+                </div> */}
             </Container>
         </>
     )
