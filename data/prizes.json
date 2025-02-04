@@ -1,91 +1,103 @@
 {
   "prizes": [
     {
-      "image": "images/raffle/Early Raffle/miorine_figure.jpg",
+      "image": "images/raffle/Early Raffle/ddlcprize.png",
       "pool": "Early Raffle"
     },
     {
-      "image": "images/raffle/Early Raffle/sulleta_figure.jpg",
+      "image": "images/raffle/Early Raffle/gojoprize.png",
       "pool": "Early Raffle"
     },
     {
-      "image": "images/raffle/Early Raffle/HG_gundam_calibarn.jpg",
+      "image": "images/raffle/Early Raffle/holo0prize.png",
       "pool": "Early Raffle"
     },
     {
-      "image": "images/raffle/Early Raffle/yor_figure.jpg",
+      "image": "images/raffle/Early Raffle/puppetmatsuriprize.png",
       "pool": "Early Raffle"
     },
     {
-      "image": "images/raffle/Early Raffle/bocchi_nendoroid.jpg",
+      "image": "images/raffle/Early Raffle/holo1prize.png",
       "pool": "Early Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/miorine_figuarts.jpg",
+      "image": "images/raffle/Early Raffle/ikarugaprize.png",
+      "pool": "Early Raffle"
+    },
+    {
+      "image": "images/raffle/Early Raffle/pccaseprize.png",
+      "pool": "Early Raffle"
+    },
+    {
+      "image": "images/raffle/Early Raffle/remprize.png",
+      "pool": "Early Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/asunaprize.png",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/sulleta_figuarts.webp",
+      "image": "images/raffle/Final Raffle/blueeyeswhitedragonprize.png",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/chogokin_figure.jpg",
+      "image": "images/raffle/Final Raffle/frierenprize.png",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/gawr_gura_figure.jpg",
+      "image": "images/raffle/Final Raffle/ganyuprize(grand).png",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/kaguya_figure.webp",
+      "image": "images/raffle/Final Raffle/hetaliaprize.png",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/k-on_yui_figure.jpg",
+      "image": "images/raffle/Final Raffle/ichigoprize.png",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/toji_figure.webp",
+      "image": "images/raffle/Final Raffle/marcilleprize.png",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/taito_hatsune_miku.jpg",
+      "image": "images/raffle/Final Raffle/natsuprize.png",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/anya_bond_figure.jpg",
+      "image": "images/raffle/Final Raffle/purplegojoprize.png",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Final Raffle/rei_figure.jpg",
+      "image": "images/raffle/Final Raffle/redridinghoodmikuprize.png",
       "pool": "Final Raffle"
     },
     {
-      "image": "images/raffle/Cosplay Contest/BiCute_Bunnies_Hatsune_Miku_White_Rabbit_Pearl_Ver.jpg",
+      "image": "images/raffle/Cosplay Contest/bocchiprize.png",
       "pool": "Cosplay Contest"
     },
     {
-      "image": "images/raffle/Cosplay Contest/chainsaw-man-pochita-tongue-out-plush.jpg",
+      "image": "images/raffle/Cosplay Contest/mikumaidprize.png",
       "pool": "Cosplay Contest"
     },
     {
-      "image": "images/raffle/Cosplay Contest/figure-marin-kitagawa-my-dress-up-darling-luminasta-primary.jpg",
+      "image": "images/raffle/Cosplay Contest/mitsuriprize.png",
       "pool": "Cosplay Contest"
     },
     {
-      "image": "images/raffle/Smash/hg_Aerial_rebuild.jpg",
-      "pool": "Smash"
+      "image": "images/raffle/Fighters/chunliprize.png",
+      "pool": "Fighters"
     },
     {
-      "image": "images/raffle/Smash/power_taito_figure.jpg",
-      "pool": "Smash"
+      "image": "images/raffle/Fighters/ggstmatprize.png",
+      "pool": "Fighters"
     },
     {
-      "image": "images/raffle/YGO/ultimagear_millenium_puzzle_model_kit.jpg",
+      "image": "images/raffle/YGO/sxfmatprize.png",
       "pool": "YGO"
     },
     {
-      "image": "images/raffle/YGO/gold_sarcophagus_for_millenium_puzzle.jpg",
+      "image": "images/raffle/YGO/wingeddragonprize.png",
       "pool": "YGO"
     }
   ]
