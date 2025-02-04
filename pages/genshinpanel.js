@@ -59,6 +59,21 @@ export default function GenshinPanel() {
                     releases original music and story. She even designed her own character, Akira!
                     Follow her gremlin adventures online via Instagram or Twitter @KayliMills
                 </p>
+                <h5><b>Corina Boettger</b></h5>
+                <Row className="mb-4">
+                    <Col xs={6} md={4} lg={2}>
+                        <MyImage src="images/Corina_Boettger_Headshot.jpg" alt="Corina Boettger"
+                                 className="mw-100 border-stroke mx-auto d-block" />
+                    </Col>
+                </Row>
+                <p>Corina Boettger is a Non-binary professional actor for over 20 years starting as a child in theater/on-camera and now 
+                    working in the voice over world. They can be heard has Paimon in Genshin Impact, Tornado in One Punch Man, Naphula 
+                    in Welcome to Demon School Iruma-kun, Mizuki in Ai: The Somnium Files, Sailor Tin Nyanko in Sailor Moon, Somali in 
+                    Somali and the Forest Spirit, Marshtato Mary in DreamWorks&apos; Trollstopia and much more. You may also recognize their 
+                    face as they have guest starred and co-starred on shows like My Name is Earl, Glee, Shameless, Desperate Housewives 
+                    and more. They are an advocate for health care as Corina has Crohn&apos;s disease & Autism and wants to be an advocate for 
+                    others who are similar that want to become a part of the industry.
+                </p>
                 <h4 className="text-left title-text">Check-In:</h4>
                 <p>Please check-in at the check-in table in front of the entrance to Price Center Theater.</p>
                 <h4 className="text-left title-text">Schedule:</h4>
