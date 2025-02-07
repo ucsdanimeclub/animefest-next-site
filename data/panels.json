@@ -1,102 +1,48 @@
 {
 	"panels": [
 		{
-			"start": "15:30",
-			"end": "16:00",
-			"panelist": "Anime & Manga Enthusiasts",
-			"type": "game",
-			"topic": "Kahoot!",
-			"description": "Compete in a game of Kahoot against other attendees to see who knows more anime trivia!",
-			"location": "pctheatre"
-		},
-		{
 			"start": "12:30",
 			"end": "13:20",
-			"panelist": "Tom",
+			"panelist": "BubbleTeaPenguin",
 			"type": "panel",
-			"topic": "Anime and the Japanese economy, a case study in two parts: merchandise and tourism.",
-			"description": "This presentation will talk about the impact of anime on the Japanese economy in terms of both marketing of literally everything and tourism to some of the most inaccessible and hostile to tourism parts of Japan that have a good chunk of the local economy built off of it. This will focus on two areas: Oarai and  Japanese ads in general with case studies in things like trying to get kids into the sciences or other career fields.",
+			"topic": "Artist 101: Artist Alley Table",
+			"description": "You got accepted to your first artist alley, now what? With five years of selling her art, Bubble Tea Penguin is here to guide you to prepare for your first event. There will be discussions of planning a table set up, cost effective ways to set up your table, and many other tips to help out artists new to artist alley.",
 			"location": "roosevelt"
 		},
 		{
 			"start": "13:30",
 			"end": "14:20",
-			"topic": "The Fantastical History of Fanfiction",
-			"panelist": "das_hazel",
+			"panelist": "Lauren Choo",
 			"type": "panel",
-			"description": "What were some of the first fanfics? Why is ao3 popular? And how does fanfiction inherently fight against capitalism? If you are a writer, reader, or just someone curious of this transformative work of written fiction join Hazel, unofficial fanfic aficionado, for a panel appreciating fandom's history of fanfiction. Featuring a game of 'What's the Origin' In which participants will guess the fandom/ship a published novel is originally from. Instagram: das_hazel . Tiktok: _das_hazel_",
+			"topic": "NIKKE VA Panel",
+			"description": "Lauren Choo is a UCSD Theatre Alumni who is making her way through the voice acting sphere with fluency in multiple languages. She is best known for voicing characters such as Grave and Drilley in Goddess of Victory: Nikke, Seorin in Solo Leveling: Arise, Raven in Shift Up Warhaven, Gumiho in Black Desert Online: Land of the Morning Light, Alicia in Pearl Abyss Shadowverse, and many others!",
 			"location": "roosevelt"
 		},
 		{
 			"start": "14:30",
 			"end": "15:20",
-			"panelist": "USHOU_",
+			"panelist": "Mashy",
 			"type": "panel",
-			"topic": "Live2D Vtuber Models: Easier Than You Think",
-			"description": "Whether or not you're an artist, you're coming to this panel because you like Vtubers and are curious. This panel will cover the basics of how a Vtuber model is designed, then rigged in Live2D.",
+			"topic": "How to Become Like A Dragon - John Yakuza Version",
+			"description": "Are you ready to dive into the world of the Yakuza, the Like A Dragon game series? This panel will provide information and overview of the game series as a whole and introduce you to the many facets of video games crafted by Ryu Ga Gotoku Studio over the past decade with all its goofiness and seriousness.",
 			"location": "roosevelt"
 		},
 		{
 			"start": "16:30",
 			"end": "17:20",
-			"panelist": "Eric Lin",
+			"panelist": "Sri Missula",
 			"type": "panel",
-			"topic": "Introduction to Visual Novels",
-			"description": "An introduction to the visual novels genre. This presentation will cover what visual novels are, why you may want to consider reading them over watching the anime adaptations, and an overview of some popular visual novel series.",
-			"location": "roosevelt"
-		},
-		{
-			"start": "15:30",
-			"end": "16:20",
-			"topic": "How I developed a multiplayer anime-style first person shooter",
-			"panelist": "William Supian",
-			"type": "panel",
-			"description": "What does it take to make an anime-style multiplayer FPS game? In this talk I go over the game design, programming, 3d art/animation, software, and everything else in my journey of creating this game. This will be a beginner friendly talk and you are not expected to know anything about game development.",
+			"topic": "Mythological Foundations of Anime II",
+			"description": "The human experience is a universal one, spanning space and time; the stories of old inform the stories we tell, present and future. By applying theories of media studies and comparative mythology, we will explore how history, culture, and folklore have influenced the storytelling of anime. For the second iteration of this panel, we focus on the social reflections of the fantasy genre, and the iconography of fictional monsters. Whether you want to better understand anime history or to better craft impactful narratives, all are welcome to join our discourse on the stories that matter.",
 			"location": "roosevelt"
 		},
 		{
 			"start": "17:30",
 			"end": "18:20",
-			"topic": "Mythological Foundations of Modern Anime",
-			"panelist": "Sri Missula",
+			"panelist": "Brandon \"Albiore\" Nguyen",
 			"type": "panel",
-			"description": "The study of comparative mythology attempts to connect fundamental motifs of the human experience with the nuances of storytelling across culture, medium, and era. Throughout this panel, we explore the mythological and historical foundations of mecha, shoujo, and early fantasy anime, particularly their use of animism and iconography as a means to invoke the thematic imagery of the stories of old. We break down the cultural sources of these motifs, study the evolution in their portrayals over time, and further use them to understand the stylistic differences between Eastern and Western storytelling philosophy. In doing so, we hope to create discussion around the historic legacy of the stories that we love, and how—even as the times change—we continue to tell the stories that matter.",
-			"location": "roosevelt"
-		},
-		{
-			"start": "11:30",
-			"end": "12:30",
-			"topic": "Jeopardy! 1",
-			"panelist": "Anime & Manga Enthusiasts",
-			"type": "game",
-			"description": "Play a game of Jeopardy (with an anime spin) with other attendees!",
-			"location": "marshall"
-		},
-		{
-			"start": "13:00",
-			"end": "14:00",
-			"topic": "Jeopardy! 2",
-			"panelist": "Anime & Manga Enthusiasts",
-			"type": "game",
-			"description": "Play a game of Jeopardy (with an anime spin) with other attendees!",
-			"location": "marshall"
-		},
-		{
-			"start": "16:30",
-			"end": "18:30",
-			"topic": "Anisong Karuta",
-			"panelist": "Anime & Manga Enthusiasts",
-			"type": "game",
-			"description": "A Japanese card game of Karuta with a twist with anime songs.",
-			"location": "marshall"
-		},
-		{
-			"start": "11:30",
-			"end": "12:20",
-			"topic": "You are not Kirito",
-			"panelist": "Franklin James",
-			"type": "panel",
-			"description": "A panel on achieving a larger-than-life existence, the likes of which are only seen in media and at the tops of certain corporate ladders.",
+			"topic": "Henshin! An Intro to Toku Panel Part 3: Now Showing",
+			"description": "Returning for a 3rd year, this panel seeks to introduce to you the weird and wonderful world of Japanese live-action special effects media, otherwise called tokusatsu. In previous years I've discussed such things as the relationship between Madoka Magica and Kamen Rider Ryuki. This year I'm going to focus on how to actually get a hold of these shows to watch, as access to toku in the West has gotten much better in recent years, culminating in overseas theater releases of Shins Ultraman and Kamen Rider in 2023.",
 			"location": "roosevelt"
 		}
 	]

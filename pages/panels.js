@@ -8,7 +8,6 @@ import MyImage from "../components/myimage"
 export default function Panels() {
     const activitiesSorted = Panelists["panels"].sort((e1, e2) => e1["start"].localeCompare(e2["start"]))
     const panelsSorted = activitiesSorted.filter((e) => e["type"] === "panel")
-    const gamesSorted = activitiesSorted.filter((e) => e["type"] === "game") //redundant now
     return (
         <>
             <Container fluid className="p-0 text-center">
