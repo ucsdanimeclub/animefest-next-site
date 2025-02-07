@@ -6,7 +6,7 @@ import PrizeImages from "../components/prizes/prizeimages"
 
 
 export default function Gaming() {
-    //const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Smash").map((prize) => prize["image"])
+    const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "Fighters").map((prize) => prize["image"])
     return (
         <>
             <Container fluid className="p-0 text-center">
@@ -43,10 +43,10 @@ export default function Gaming() {
                 </Row>
             </Container>
 
-            {/* <Container fluid className="p-3 mt-4 section">
+            <Container fluid className="p-3 mt-4 section">
                 <h4 className="text-left mb-4 display-text">PRIZING</h4>
                 <PrizeImages prizes={prizesInPool}/>
-            </Container> */}
+            </Container>
         </>
     )
 }
