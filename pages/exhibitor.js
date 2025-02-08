@@ -1,6 +1,7 @@
 import {Container, Row, Col} from 'react-bootstrap'
 import BackgroundImage from "../components/index/backgroundimage"
 import Artists from "../data/artists.json"
+import CatTable from "../data/cattable.json"
 import Vendors from "../data/vendors.json"
 import ExhibitorTable from "../components/exhibitor/exhibitortable"
 import MyImage from "../components/myimage"
@@ -26,6 +27,16 @@ export default function Exhibitor() {
                     </Col>
                     <Col xs={12} md={10} lg={8}>
                         <ExhibitorTable data={Artists} className="mb-4"/>
+                    </Col>
+                    <Col xs={0} md={1} lg={2}>
+                    </Col>
+                </Row>
+                <h4 className="text-left title-text mb-4">CAT Table</h4>
+                <Row>
+                    <Col xs={0} md={1} lg={2}>
+                    </Col>
+                    <Col xs={12} md={10} lg={8}>
+                        <ExhibitorTable data={CatTable} className="mb-4"/>
                     </Col>
                     <Col xs={0} md={1} lg={2}>
                     </Col>
