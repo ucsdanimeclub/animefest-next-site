@@ -111,7 +111,7 @@ export default function Home() {
                     designated on the map in the section below.</p>
                 <p><b>All attendees</b> will also have to present a completed Event Participant Waiver for UC San Diego events.
                     This waiver <b>can be electronically signed prior to the convention</b> using this <a href="https://ewaivers.ucsd.edu/rv8uqake/">link</a>. We strongly recommend all attendees
-                    complete the waiver ahead of time.</p>
+                    complete the waiver ahead of time. There will be another form to fill out at check-in on the day of Animefest.</p>
             </Container>
 
             <Container fluid className="p-3 mt-4 section" id="parking">
