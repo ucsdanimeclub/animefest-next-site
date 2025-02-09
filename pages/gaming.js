@@ -26,7 +26,7 @@ export default function Gaming() {
                 <p>Prizes will be given to top spots provided by Anime and Manga Enthusiasts!</p>
                 <h4 className="text-left title-text">Schedule:</h4>
                 <p>Triton Fighters will open for Free Play and In-Person Sign-ups at <b>12 PM</b> and will last till <b>1 PM</b>. 
-                    Bracket tournaments will last from <b>1 PM to 4 PM</b>. Free Play will resume from <b>4 PM to 6 PM</b>.</p>
+                    Bracket tournaments will last from <b>1 PM to 4 PM</b>. Free Play will resume from <b>4 PM to 6:30 PM</b>.</p>
                 <h4 className="text-left title-text">Location:</h4>
                 <p>The event will be held at <b>Sungod Gaming Lounge</b>. Below is a helpful guide on how to get there:</p>
 
