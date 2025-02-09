@@ -28,7 +28,7 @@ export default function Cosplay() {
             <Container fluid className="p-3 mt-4 section">
                 <h1 className="text-left mb-4 display-text">SIGN UP</h1>
                 <p className="mb-4">The contest sign-up form will open
-                    on the day of the convention at 11:00 AM and close at 5:45 PM, 15 minutes prior to the start
+                    on the day of the convention at 11:00 AM and close at 5:30 PM, 30 minutes prior to the start
                     of
                     the contest. The sign-up form is only available on-site at the East Ballroom Help Desk.</p>
             </Container>
