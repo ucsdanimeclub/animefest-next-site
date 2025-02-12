@@ -11,7 +11,7 @@ export default function Gameshows() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2024.png" className="landing p-5">
+                <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
                     <h1 className="display-4 mb-0 text-light">GAME SHOWS</h1>
                 </BackgroundImage>
             </Container>
@@ -31,7 +31,7 @@ export default function Gameshows() {
                 <Row className="mb-4">
                     <Col xs={0} md={3}/>
                     <Col xs={12} md={3} className="mb-2">
-                        <h4 className="text-left title-text text-center">Thurgood Marshall</h4>
+                        <h4 className="text-left title-text text-center">Thurgood Marshall Room</h4>
                         <EventTable data={GameShows["gameshows"]} location={"marshall"}/>
                     </Col>
                     <Col xs={12} md={3}>

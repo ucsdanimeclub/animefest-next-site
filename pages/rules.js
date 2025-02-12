@@ -7,7 +7,7 @@ export default function Rules() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2024.png" className="landing p-5">
+                <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
                     <h1 className="display-4 mb-0 text-light">RULES</h1>
                 </BackgroundImage>
             </Container>
@@ -74,7 +74,7 @@ export default function Rules() {
                 </ol>
                 <Row className="align-items-center">
                     <Col lg={4} className="d-none d-lg-block">
-                        <MyImage src="images/Hina&Kai_chibis.png" alt="Hina & Kai chibis" className="mw-100"/>
+                        <MyImage src="images/AF25 Hina_Action Chibi.png" alt="Hina & Kai chibis" className="mw-100"/>
                     </Col>
                     <Col lg={8}>
                         <h4 className="text-left title-text mb-4">About Anime &amp; Manga Enthusiasts</h4>

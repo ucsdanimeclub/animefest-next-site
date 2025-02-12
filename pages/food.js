@@ -7,7 +7,7 @@ export default function Food() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2024.png" className="landing p-5">
+                <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
                     <h1 className="display-4 mb-0 text-light">FOOD</h1>
                 </BackgroundImage>
             </Container>
