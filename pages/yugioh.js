@@ -10,7 +10,7 @@ export default function Yugioh() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2024.png" className="landing p-5">
+                <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
                     <h1 className="display-4 mb-0 text-light">GAMMA GAMMA DRIVER YUGIOH</h1>
                 </BackgroundImage>
             </Container>
@@ -27,7 +27,7 @@ export default function Yugioh() {
                     <Col xs={0} md={2} lg={3}/>
                 </Row>
 
-                <p className="mb-0">Gamma Gamma Drive Yu-gi-oh will be hosting a tournament for Yu-gi-oh TCG! The tournament will be <b>free
+                <p className="mb-0">Gamma Gamma Driver Yu-gi-oh will be hosting a tournament for Yu-gi-oh TCG! The tournament will be <b>free
                     to enter</b>, and open to all <b>UCSD Students and Alumni</b>. Feel free to join their Discord server for more information!</p>
                     <p><a 
                     href="https://discord.gg/Q3k8jEfbES">https://discord.gg/Q3k8jEfbES</a></p>
