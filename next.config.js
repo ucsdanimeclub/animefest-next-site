@@ -1,15 +1,12 @@
 const useSubDirectory = process.env.USE_SUB_DIRECTORY === 'true'
 
-// To host on ucsd.moe and animefest.ucsd.edu:
-// assetPrefix: useSubDirectory ? '/animefest-next-site/' : '',
-// basePath: useSubDirectory ? '/animefest-next-site' : ''
-
-// To host on animeclub.ucsd.edu:
-// assetPrefix: '/~animeclub/animefest/',
-// basePath: '/~animeclub/animefest'
-
-module.exports = {
+const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: useSubDirectory ? '/animefest-next-site/' : '',
-  basePath: useSubDirectory ? '/animefest-next-site' : ''
 }
+
+if (useSubDirectory) {
+  nextConfig.assetPrefix = '/animefest-next-site/'
+  nextConfig.basePath = '/animefest-next-site/'
+}
+
+module.exports = nextConfig
