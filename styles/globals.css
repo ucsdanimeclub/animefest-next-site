@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14pt;
-  background: linear-gradient(to right, #A03431, #DB8F0B);
+  background: linear-gradient(to right, #fb92be, #492325);
 }
 
 * {
@@ -91,5 +91,5 @@ body {
 }
 
 .bg-translucent {
-    background-color: #372f57;
+    background-color: #492325;
 }
