@@ -73,7 +73,16 @@ export default function Home() {
                     panels, buy the best artwork,
                     and check out your favorite manga in our manga library! And of course, there will be cosplays,
                     festival games, and video games&mdash;all for some otaku fun.</p>
-                <p className="mb-4">For a taste of the convention, take a look at our recap video of Animefest 2023:</p>
+                <p className="mb-4">For a taste of the convention, take a look at our recap videos of Animefest 2025 and Animefest 2023:</p>
+                <div className="video-player mx-auto mb-4">
+                    <Ratio aspectRatio="16x9">
+                        <iframe className="border-stroke"
+                                src="https://www.youtube.com/embed/LxBVW_yxuLw?si=HrMLfAxAtzUMJeZD"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen={true}/>
+                    </Ratio>
+                </div>
                 <div className="video-player mx-auto mb-4">
                     <Ratio aspectRatio="16x9">
                         <iframe className="border-stroke"

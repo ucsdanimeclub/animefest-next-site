@@ -20,7 +20,7 @@ export default function Exhibitor() {
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
                 <p className="mb-4">The Exhibitor Hall is home to our Artist Alley and Vendor space. It is located
                     throughout the West
-                    Ballroom.</p>
+                    Ballroom. More information, including a list of artists and vendors, is coming soon!</p>
                 <h4 className="text-left title-text mb-4">Artists</h4>
                 <Row>
                     <Col xs={0} md={1} lg={2}>
