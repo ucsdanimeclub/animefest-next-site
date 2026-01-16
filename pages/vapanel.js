@@ -4,7 +4,7 @@ import BackgroundImage from "../components/index/backgroundimage"
 
 
 
-export default function GenshinPanel() {
+export default function VAPanel() {
     return (
         <>
             <Container fluid className="p-0 text-center">
