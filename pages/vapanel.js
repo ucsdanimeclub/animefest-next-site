@@ -9,16 +9,14 @@ export default function GenshinPanel() {
         <>
             <Container fluid className="p-0 text-center">
                 <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
-                    <h1 className="display-4 mb-0 text-light">GENSHIN VA PANEL</h1>
+                    <h1 className="display-4 mb-0 text-light">VA PANEL</h1>
                 </BackgroundImage>
             </Container>
 
             <Container fluid className="p-3 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
-                <p>Come learn more about your favorite Genshin English voice actors and listen as they discuss what it&apos;s 
-                    like to be a voice actor. Voice actors appearing include Ben Balmaceda (voice of Kaveh) and Kayli Mills (voice of Keqing), with others being revealed soon! 
-                    There will be time for questions afterward.</p>
-                <h4 className="text-left title-text">Voice Actor Introductions:</h4>
+                <p>More info coming soon!</p>
+                {/* <h4 className="text-left title-text">Voice Actor Introductions:</h4>
                 <h5><b>Ben Balmaceda</b></h5>
                 <Row className="mb-4">
                     <Col xs={6} md={4} lg={2}>
@@ -87,7 +85,7 @@ export default function GenshinPanel() {
                                  className="mw-100 border-stroke mx-auto d-block" />
                     </Col>
                     <Col xs={0} md={2} lg={4} />
-                </Row>
+                </Row> */}
             </Container>
         </>
     )
