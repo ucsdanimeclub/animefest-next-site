@@ -16,17 +16,15 @@ export default function Gaming() {
             </Container>
 
             <Container fluid className="p-3 section">
-                <h4 className="text-left mb-4 display-text">GRANBLUE FANTASY VERSUS: RISING TOURNAMENT</h4>
+                <h4 className="text-left mb-4 display-text">GRANBLUE FANTASY VERSUS: RISING AND FIGHTERZ TOURNAMENT</h4>
 
-                <p>Want to test your skills? Triton Fighters will be hosting a <b>Granblue Fantasy Versus: Rising Tournament</b>!
+                <p>Want to test your skills? Triton Fighters will be hosting a <b>Granblue Fantasy Versus: Rising Tournament</b> and a <b>FighterZ Tournament</b>!
                      The tournament is <b>free to enter and open to everyone</b>! Or participate in Free Play!</p>
                 <h4 className="text-left title-text">Register:</h4>
                 <p>More details about registration will be released soon!</p>
-                <h4 className="text-left title-text">Prizing:</h4>
-                <p>Prizes will be given to top spots provided by Anime and Manga Enthusiasts!</p>
                 <h4 className="text-left title-text">Schedule:</h4>
-                <p>Triton Fighters will open for Free Play and In-Person Sign-ups at <b>12 PM</b> and will last till <b>1 PM</b>. 
-                    Bracket tournaments will last from <b>1 PM to 4 PM</b>. Free Play will resume from <b>4 PM to 6:30 PM</b>.</p>
+                <p>Triton Fighters will open for Free Play and In-Person Sign-ups at <b>11 AM</b> and will last till <b>12 PM</b>. 
+                    The Grandblue Fantasy Versus: Rising tournament will last from <b>12 PM to 3 PM</b>. The FighterZ tournament will last from <b>1 PM to 4 PM</b>. Free Play will resume from <b>4 PM to 6 PM</b>.</p>
                 <h4 className="text-left title-text">Location:</h4>
                 <p>The event will be held at <b>Sungod Gaming Lounge</b>. Below is a helpful guide on how to get there:</p>
 

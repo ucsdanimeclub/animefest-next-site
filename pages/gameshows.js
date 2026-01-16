@@ -22,7 +22,7 @@ export default function Gameshows() {
                 <p>The Game Shows will be held in the Marshall Room in Price Center, and at the Price Center Theatre.</p>
                 <p className="mb-4">Do you wanna test your anime knowledge? Come participate in our Jeopardy, Kahoot and 
                         Anisong Karuta game shows!</p>
-                <p>If anything catches your eye, stop by our rooms 11AM-6:30PM!</p>
+                <p>If anything catches your eye, stop by our rooms 11:30AM-7:00PM!</p>
             </Container>
                 
 
