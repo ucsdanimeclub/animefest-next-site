@@ -67,7 +67,8 @@ export default function Performances() {
 
             <Container fluid className="p-3 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
-                <p>Performances will be held in the East Ballroom. Check out our featured performers below!</p>
+                {/* <p>Performances will be held in the East Ballroom. Check out our featured performers below!</p> */}
+                <p>More information coming soon!</p>
             </Container>
 
             {performersSorted.map((performerDatum, index) => {
