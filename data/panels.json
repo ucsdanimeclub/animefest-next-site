@@ -1,48 +1,75 @@
 {
 	"panels": [
 		{
-			"start": "12:30",
-			"end": "13:20",
-			"panelist": "BubbleTeaPenguin",
+			"start": "12:00",
+			"end": "13:00",
+			"panelist": "Matthew Nguyen",
 			"type": "panel",
-			"topic": "Artist 101: Artist Alley Table",
-			"description": "You got accepted to your first artist alley, now what? With five years of selling her art, Bubble Tea Penguin is here to guide you to prepare for your first event. There will be discussions of planning a table set up, cost effective ways to set up your table, and many other tips to help out artists new to artist alley.",
+			"topic": "A Walk Through Hell: Explaining Fate and TYPE-MOON",
+			"description": "Interested in finally hearing someone explain the universe of Fate and the greater Nasuverse (TYPE-MOON)? Confused about the billion different timelines and overly complex magic system? Maybe you're a Fate fan looking to explore Tsukihime, The Garden of Sinners, and Witch on the Holy Night? Or maybe you just want to know more about the deep, interconnected tissue that creates one of the most intricate, interesting power systems in anime and manga? Together, we'll dive into the base concepts which define the Nasuverse, deeply exploring concepts ranging anywhere from Magecraft to Servants, True Ancestors to Mystery, Mystic Eyes to \"Mana Transfer\", King Arthur to Astolfo, who \"Saber\" even is, and more! As Shirou Emiya once said: \"Hey, that's hell you're walking into.\"",
 			"location": "roosevelt"
 		},
 		{
-			"start": "13:30",
-			"end": "14:20",
-			"panelist": "Lauren Choo",
+			"start": "13:00",
+			"end": "14:00",
+			"panelist": "NeonSparrow",
 			"type": "panel",
-			"topic": "NIKKE VA Panel [CANCELLED]",
-			"description": "Due to unforeseen circumstances, Lauren Choo will be unable to attend Animefest.",
+			"topic": "An Dive into Persona and Megami Tensei",
+			"description": "I will describe/talk about Persona and the overall Shin Megami Tensei franchise, describing the games to get more exposure to a wider audience and just to overall explain the franchise because it does get confusing to get into... This will go over: Persona: 1, 2 IS, 2 EP, all of 3, all of 4, all of 5, Shin Megami Tensei: 1-5, Strange Journey, Digital Devil Saga, and more! I will go into arcana and the meaning of the tarots as a deep dive soon after! I just love sharing about a franchise that means so much to me.",
 			"location": "roosevelt"
 		},
 		{
-			"start": "14:30",
-			"end": "15:20",
-			"panelist": "Mashy",
+			"start": "14:00",
+			"end": "15:00",
+			"panelist": "Joaquin Sanchez",
 			"type": "panel",
-			"topic": "How to Become Like A Dragon - John Yakuza Version",
-			"description": "Are you ready to dive into the world of the Yakuza, the Like A Dragon game series? This panel will provide information and overview of the game series as a whole and introduce you to the many facets of video games crafted by Ryu Ga Gotoku Studio over the past decade with all its goofiness and seriousness.",
+			"topic": "Why Kagurabachi Is the Best Up-And-Coming Series",
+			"description": "Out of all the currently running manga series, Kagurabachi by Takeru Hokazono is without a doubt one of the best. It combines compelling characters, a wonderful story, fluid and dynamic art, interesting paneling, a complex power system that has tons to expand on, and deep themes that tie back to real-world issues. In my panel, I will go over exactly how these, and more, are presented in the series, and explain why they combined make Kagurabachi the best newgen manga. Furthermore, I will touch on its excellent reception worldwide, such as the awards it’s won, the staggering amount of sales it has achieved in a short time, and the public cry for an anime adaptation. Hopefully after this panel, you can better understand exactly why Kagurabachi is a global phenomenon, and maybe even become one of us “bachibros”.",
 			"location": "roosevelt"
 		},
 		{
-			"start": "16:30",
-			"end": "17:20",
+			"start": "14:00",
+			"end": "15:00",
+			"panelist": "Jelli",
+			"type": "panel",
+			"topic": "Celebrating Your Oshi with Cupsleeves; A Guide to Cupsleeve Events!",
+			"description": "Have you wanted to make your own space in person to hang out with fellow fans of your oshi/bias outside of conventions and concerts? Try hosting a cupsleeve event for them! Cupsleeve events are events that are hosted by fans to celebrate idols, shows, games, fictional characters, and more! This panel will show you more about cupsleeve events, what goes into organizing one, cupsleeve event ideas, and even a mini mock cupsleeve event to simulate what it’s like to attend a cupsleeve event!",
+			"location": "marshall"
+		},
+		{
+			"start": "15:00",
+			"end": "16:00",
+			"panelist": "Di",
+			"type": "panel",
+			"topic": "Trains and Anime: How Transit Shapes the World",
+			"description": "Trains are everywhere in Japan, and therefore, everywhere in anime. How? And what does it have to do with your favorite series? We often don't think about how much transportation planning shapes our world, and much less the media we consume. The president of your local Public Transit Enthusiasts club will explain!",
+			"location": "roosevelt"
+		},
+		{
+			"start": "16:00",
+			"end": "17:00",
 			"panelist": "Sri Missula",
 			"type": "panel",
-			"topic": "Mythological Foundations of Anime II",
-			"description": "The human experience is a universal one, spanning space and time; the stories of old inform the stories we tell, present and future. By applying theories of media studies and comparative mythology, we will explore how history, culture, and folklore have influenced the storytelling of anime. For the second iteration of this panel, we focus on the social reflections of the fantasy genre, and the iconography of fictional monsters. Whether you want to better understand anime history or to better craft impactful narratives, all are welcome to join our discourse on the stories that matter.",
+			"topic": "Mythological Foundations of Anime III",
+			"description": "The study of comparative mythology attempts to connect fundamental motifs of the human experience with the nuances of storytelling across culture, medium, and era. Throughout this panel, we explore the mythological and historical foundations of mecha, fantasy, and early shojo anime. We will be breaking down their cultural and historical background to better understand how they existed in response to the prevailing culture or media mix of the time. In doing so, we can understand how depictions have evolved over time, and how those changes reflect shifting storytelling philosophies. In doing so, we hope to create discussion around the historic legacy of the stories that we love, and how—even as the times change—we continue to tell stories that matter.",
 			"location": "roosevelt"
 		},
 		{
-			"start": "17:30",
-			"end": "18:20",
-			"panelist": "Brandon \"Albiore\" Nguyen",
+			"start": "16:00",
+			"end": "17:00",
+			"panelist": "The uma merchant",
 			"type": "panel",
-			"topic": "Henshin! An Intro to Toku Panel Part 3: Now Showing",
-			"description": "Returning for a 3rd year, this panel seeks to introduce to you the weird and wonderful world of Japanese live-action special effects media, otherwise called tokusatsu. In previous years I've discussed such things as the relationship between Madoka Magica and Kamen Rider Ryuki. This year I'm going to focus on how to actually get a hold of these shows to watch, as access to toku in the West has gotten much better in recent years, culminating in overseas theater releases of Shins Ultraman and Kamen Rider in 2023.",
+			"topic": "funny honse panel",
+			"description": "It's a panel about the funny horse game mainly but also about related media. What more could you want.",
+			"location": "marshall"
+		},
+		{
+			"start": "17:00",
+			"end": "18:00",
+			"panelist": "Mashy",
+			"type": "panel",
+			"topic": "Undeclared",
+			"description": "TBD",
 			"location": "roosevelt"
 		}
 	]

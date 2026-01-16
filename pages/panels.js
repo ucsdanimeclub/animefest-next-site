@@ -29,8 +29,16 @@ export default function Panels() {
                 <Row className="mb-4">
                     <Col xs={0} md={4}/>
                     <Col xs={12} md={4}>
-                        <h4 className="text-left title-text text-center">Eleanor Roosevelt</h4>
+                        <h4 className="text-left title-text text-center">Eleanor Roosevelt College Room</h4>
                         <EventTable data={Panelists["panels"]} location={"roosevelt"}/>
+                    </Col>
+                    <Col xs={0} md={1}/>
+                </Row>
+                <Row className="mb-4">
+                    <Col xs={0} md={4}/>
+                    <Col xs={12} md={4}>
+                        <h4 className="text-left title-text text-center">Marshall College Room</h4>
+                        <EventTable data={Panelists["panels"]} location={"marshall"}/>
                     </Col>
                     <Col xs={0} md={1}/>
                 </Row>

@@ -11,7 +11,7 @@ export default function MTG() {
         <>
             <Container fluid className="p-0 text-center">
                 <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
-                    <h1 className="display-4 mb-0 text-light">Magic Trading Card Game (TCG) at UC San Diego</h1>
+                    <h1 className="display-4 mb-0 text-light">Magic: the Gathering at UC San Diego</h1>
                 </BackgroundImage>
             </Container>
 
@@ -27,9 +27,9 @@ export default function MTG() {
                     <Col xs={0} md={2} lg={3}/>
                 </Row> */}
 
-                <p className="mb-0">Magic Trading Card Game (TCG) at UC San Diego will be hosting a tournament for Magic: The Gathering! The tournament will be <b>free
-                    to enter</b>, and open to all! Feel free to join their Discord server for more information!</p>
-                    {/* <p><a href="https://discord.gg/Q3k8jEfbES">https://discord.gg/Q3k8jEfbES</a></p> */}
+                <p className="mb-0">Magic: the Gathering at UC San Diego will be hosting a tournament for Magic: The Gathering! The tournament will be <b>free
+                    to enter</b>, and open to all UCSD students and affiliates! Feel free to join their Discord server for more information!</p>
+                    <p><a href="https://discord.gg/wJdXcaTS7E">https://discord.gg/wJdXcaTS7E</a></p>
 
                 <h4 className="text-left title-text">Tournament:</h4>
                 <p>Come show your pauper prowess! Entry to the tournament is free and open to people in and outside of Magic: the Gathering at UC San Diego. Topping players will be rewarded with special prizes!</p>
