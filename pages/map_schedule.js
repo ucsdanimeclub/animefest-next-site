@@ -29,7 +29,7 @@ export default function Map_Schedule() {
                 {/*        href="https://docs.google.com/spreadsheets/d/11egWL19jhBBIf27SXAjf81tyDxkVJsRjCtNo4gr5bTE/edit?usp=sharing">Have*/}
                 {/*        trouble viewing? Click here!</a></p>*/}
                 {/*</div>*/}
-                <div className="text-center">
+                {/* <div className="text-center">
                     <Row className="mb-4">
                         <Col xs={0} md={2}/>
                         <Col xs={12} md={8}>
@@ -51,7 +51,7 @@ export default function Map_Schedule() {
                         <Col xs={0} md={0} lg={3}/>
                     </Row>
                     <p className="caption-text">Click on the images to open.</p>
-                </div>
+                </div> */}
             </Container>
         </>
     )

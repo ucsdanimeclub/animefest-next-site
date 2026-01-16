@@ -4,7 +4,7 @@ import '@leenguyen/react-flip-clock-countdown/dist/index.css';
 
 class Completed extends Component {
   render() {
-    return <h1>Animefest 2025 has begun!</h1>;
+    return <h1>Animefest 2026 has begun!</h1>;
   }
 }
 
@@ -61,7 +61,7 @@ class Countdown extends Component {
     return (
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
         <FlipClockCountdown
-          to={new Date("2025-02-15T11:00:00").getTime()}
+          to={new Date("2026-02-14T11:00:00").getTime()}
           digitBlockStyle={this.state.digitStyle}
           labelStyle={this.state.labelStyle}
           spacing={5 * (this.state.digitStyle.width / 60)}

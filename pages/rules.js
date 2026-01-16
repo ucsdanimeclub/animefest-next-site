@@ -17,15 +17,15 @@ export default function Rules() {
                     our detailed rules below.
                 </h4>
                 <h4 className="highlight text-center title-text mb-3">All attendees must possess a wristband from one of our check-in tables.</h4>
-                <h4 className="highlight text-center title-text mb-5">All attendees will have to present a completed Event 
+                {/* <h4 className="highlight text-center title-text mb-5">All attendees will have to present a completed Event 
                     Participant Waiver, which can be e-signed prior to the convention 
-                    using this <a href="https://ewaivers.ucsd.edu/rv8uqake/">link</a></h4>
+                    using this <a href="https://ewaivers.ucsd.edu/rv8uqake/">link</a></h4> */}
                 <ol className="mb-5">
                     <li><p>Anime &amp; Manga Enthusiasts and UC San Diego reserves the right to remove anyone not in
                         compliance with the rules to their discretion.</p></li>
                     <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
                         <ul>
-                            <li><p>Masking is <b>encouraged, but not required</b> at Animefest 2025.</p></li>
+                            <li><p>Masking is <b>encouraged, but not required</b> at Animefest 2026.</p></li>
                             <li><p>Consult this <a href="https://ophd.ucsd.edu/policies-procedures/polpro_student.html">link</a> for 
                                 additional guidance.  </p></li>
                         </ul>
@@ -82,7 +82,7 @@ export default function Rules() {
                             Mondays, where we show anime or hold other fun events. We also have other socials on
                             weekends such as karaoke, game nights, and potlucks. Membership is free and open to all!</p>
                         <p>If you are interested in learning more about our club or events, please visit our website <a
-                            href="https://ucsd.moe/">ucsd.moe</a> for more information.</p>
+                            href="https://ameatucsd.org/">ameatucsd.org</a> for more information.</p>
                     </Col>
                 </Row>
             </Container>

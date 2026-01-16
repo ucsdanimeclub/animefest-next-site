@@ -18,7 +18,7 @@ export default function Food() {
                     href="https://universitycenters.ucsd.edu/dining-and-retail/index.html">dining
                     options</a> convenient for staying fed during the convention.
                 </p>
-                <Row>
+                {/* <Row>
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
                         <div className="text-center">
@@ -28,7 +28,7 @@ export default function Food() {
                         </div>
                     </Col>
                     <Col xs={0} md={2} lg={3}/>
-                </Row>
+                </Row> */}
             </Container>
         </>
     )
