@@ -8,17 +8,17 @@
         {
             "name": "Twitter",
             "icon": "images/socials/twitter.svg",
-            "url": "https://twitter.com/ucsdanimeclub"
+            "url": "https://twitter.com/animeclubatucsd"
         },
         {
             "name": "Facebook",
             "icon": "images/socials/facebook.png",
-            "url": "https://www.facebook.com/groups/ucsdanimeclub"
+            "url": "https://www.facebook.com/groups/ucsdanimeclub/"
         },
         {
             "name": "Instagram",
             "icon": "images/socials/instagram.png",
-            "url": "https://www.instagram.com/ucsdanimeclub/"
+            "url": "https://www.instagram.com/animeclubatucsandiego"
         }
     ]
 }
