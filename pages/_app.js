@@ -12,7 +12,7 @@ export default function MyApp({Component, pageProps}) {
             <Head>
                 <title>Animefest 2026</title>
                 <meta name="description" content="Coming Soon!"/>
-                <link rel="icon" href={`${router.basePath}/favicon_2025.jpg`}/>
+                <link rel="icon" href={`${router.basePath}/favicon_2026.png`}/>
                 <link rel="stylesheet" href={`${router.basePath}/fonts.css`}/>
             </Head>
 
