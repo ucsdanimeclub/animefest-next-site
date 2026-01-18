@@ -23,10 +23,10 @@ export default function Raffles() {
                 <p>Our raffles will be held in the East Ballroom. There will be two raffle periods: one in the afternoon and one in the evening. A prize list is coming soon!</p>
             </Container>
 
-            <Container fluid className="p-3 mt-4 section">
+            {/* <Container fluid className="p-3 mt-4 section">
                 <h4 className="text-left mb-4 display-text">RAFFLE POOLS</h4>
                 <PrizeDisplay data={Prizes["prizes"]} pools={prizePools}/>
-            </Container>
+            </Container> */}
         </>
     )
 }
