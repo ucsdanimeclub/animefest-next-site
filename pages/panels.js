@@ -11,8 +11,8 @@ export default function Panels() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
-                    <h1 className="display-4 mb-0 text-light">PANELS</h1>
+                <BackgroundImage src="images/header_2026.png" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-header">PANELS</h1>
                 </BackgroundImage>
             </Container>
 

@@ -7,8 +7,8 @@ export default function Map_Schedule() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
-                    <h1 className="display-4 mb-0 text-light">MAP AND SCHEDULE</h1>
+                <BackgroundImage src="images/header_2026.png" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-header">MAP AND SCHEDULE</h1>
                 </BackgroundImage>
             </Container>
 
