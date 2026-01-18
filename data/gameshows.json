@@ -1,8 +1,8 @@
 {
 	"gameshows": [
 		{
-			"start": "13:30",
-			"end": "14:00",
+			"start": "15:00",
+			"end": "15:30",
 			"panelist": "Anime & Manga Enthusiasts",
 			"type": "game",
 			"topic": "Kahoot!",
@@ -12,24 +12,15 @@
 		{
 			"start": "11:30",
 			"end": "12:30",
-			"topic": "Jeopardy! 1",
+			"topic": "Jeopardy!",
 			"panelist": "Anime & Manga Enthusiasts",
 			"type": "game",
 			"description": "Play a game of Jeopardy (with an anime spin) with other attendees!",
 			"location": "marshall"
 		},
 		{
-			"start": "13:30",
-			"end": "14:30",
-			"topic": "Jeopardy! 2",
-			"panelist": "Anime & Manga Enthusiasts",
-			"type": "game",
-			"description": "Play a game of Jeopardy (with an anime spin) with other attendees!",
-			"location": "marshall"
-		},
-		{
-			"start": "16:30",
-			"end": "18:30",
+			"start": "17:00",
+			"end": "19:00",
 			"topic": "Anisong Karuta",
 			"panelist": "Anime & Manga Enthusiasts",
 			"type": "game",

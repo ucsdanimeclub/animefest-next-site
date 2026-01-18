@@ -1,28 +1,5 @@
 {
 	"performers": [
-		{
-			"start": "16:30",
-			"end": "17:30",
-			"performer": "Super Tonic",
-			"description": "Super Tonic is a San Diego based anime and video game cover band formed in 2019 from UCSD Alumni. They love anime, video games, and music so they joined together to creatively combine their passions and share it with the world.",
-			"embed": "https://www.youtube.com/embed/mVZZp6X_ONg?si=bh0sWL-ue0JqKuzS",
-			"profile": "https://supertonicband.com/"
-		},
-		{
-			"start": "14:30",
-			"end": "15:30",
-			"performer": "Intermission Orchestra",
-			"description": "The Intermission Orchestra at UC San Diego is a student-run orchestra dedicated to bringing the music from video games, anime, and films to life!  In preparation to the much-anticipated AnimeFest 2025, we've prepared an array of selections for your favorite animes, and we're beyond excited to perform for everyone!",
-			"embed": "https://www.youtube.com/embed/60sroTQGBgY?si=Xs8uMTAqQ6GD2xGB",
-			"profile": "https://intermission.ucsd.edu/"
-		},
-		{
-			"start": "12:30",
-			"end": "13:00",
-			"performer": "Mochi Cafe",
-			"description": "Mochi Cafe is a San Diego-based maid cafe seeking to bring a taste of Akihabara to you!~✿ Our team of maids and butlers take pride in putting smiles on our guests' faces with high-energy dance performances, colorful uniforms, and lots of games to play right at your table!",
-			"embed": "https://www.youtube.com/embed/8OsiiMm3vW4?si=ZxDePMw6ZtuoqNpb",
-			"profile": "http://www.mochicafe.org/"
-		}
+		
 	]
 }

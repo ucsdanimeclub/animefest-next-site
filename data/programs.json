@@ -29,11 +29,6 @@
             "name": "Manga Library",
             "image": "images/carousel_images/Manga Library.png",
             "description": "Relax and enjoy reading some of our manga collections in the Roger Revelle room."
-        },
-        {
-            "name": "Yu-Gi-Oh! Tournament",
-            "image": "images/carousel_images/Yugioh.png",
-            "description": "Compete in a Yu-Gi-Oh! card game tournament, brought to you by Gamma Gamma Driver Yugioh!"
         }
     ]
 }

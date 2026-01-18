@@ -7,8 +7,8 @@ export default function Food() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
-                    <h1 className="display-4 mb-0 text-light">FOOD</h1>
+                <BackgroundImage src="images/header_2026.png" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-header">FOOD</h1>
                 </BackgroundImage>
             </Container>
 
@@ -18,7 +18,7 @@ export default function Food() {
                     href="https://universitycenters.ucsd.edu/dining-and-retail/index.html">dining
                     options</a> convenient for staying fed during the convention.
                 </p>
-                <Row>
+                {/* <Row>
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
                         <div className="text-center">
@@ -28,7 +28,7 @@ export default function Food() {
                         </div>
                     </Col>
                     <Col xs={0} md={2} lg={3}/>
-                </Row>
+                </Row> */}
             </Container>
         </>
     )

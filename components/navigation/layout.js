@@ -33,15 +33,14 @@ export default function Layout({children}) {
                                     Contest</NavDropdown.Item></Link>
                                 <Link href="/raffles" passHref><NavDropdown.Item>Raffles</NavDropdown.Item></Link>
                                 <NavDropdown.Header>Price Center Theater</NavDropdown.Header>
-                                <Link href="/genshinpanel" passHref><NavDropdown.Item>Genshin VA Panel</NavDropdown.Item></Link>
+                                <Link href="/vapanel" passHref><NavDropdown.Item>VA Panel</NavDropdown.Item></Link>
                                 <NavDropdown.Header>College Rooms</NavDropdown.Header>
                                 <Link href="/panels" passHref><NavDropdown.Item>Panels</NavDropdown.Item></Link>
                                 <Link href="/gameshows" passHref><NavDropdown.Item>Game Shows</NavDropdown.Item></Link>
                                 <Link href="/manga" passHref><NavDropdown.Item>Manga Library</NavDropdown.Item></Link>
                                 <NavDropdown.Header>Sun God Lounge</NavDropdown.Header>
                                 <Link href="/gaming" passHref><NavDropdown.Item>Triton Fighters</NavDropdown.Item></Link>
-                                <Link href="/yugioh" passHref><NavDropdown.Item>Gamma Gamma Driver
-                                    Yugioh</NavDropdown.Item></Link>
+                                <Link href="/mtg" passHref><NavDropdown.Item>Magic: The Gathering</NavDropdown.Item></Link>
                             </NavDropdown>
                             <Link href='/food' passHref><Nav.Link>Food</Nav.Link></Link>
                             <Link href='/rules' passHref><Nav.Link>Rules</Nav.Link></Link>
@@ -55,7 +54,7 @@ export default function Layout({children}) {
                 <Container className="text-center">
                     <h5 className="mb-3 text-light">Sponsored By</h5>
                     <Sponsor data={Sponsors}/>
-                    <p className="caption-text text-light">&copy; 2025 Anime &amp; Manga Enthusiasts at UC San Diego. All assets belong to their respective owners.</p>
+                    <p className="caption-text text-light">&copy; 2026 Anime &amp; Manga Enthusiasts at UC San Diego. All assets belong to their respective owners.</p>
                 </Container>
             </footer>
         </>

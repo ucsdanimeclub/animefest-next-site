@@ -7,8 +7,8 @@ export default function Map_Schedule() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
-                    <h1 className="display-4 mb-0 text-light">MAP AND SCHEDULE</h1>
+                <BackgroundImage src="images/header_2026.png" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-header">MAP AND SCHEDULE</h1>
                 </BackgroundImage>
             </Container>
 
@@ -21,6 +21,7 @@ export default function Map_Schedule() {
                 <p>All rooms are located on the second floor with the exception of the Theater, which
                     is on the first
                     floor and below the Bear Room.</p>
+                <p><b>We will release a map and a schedule soon!</b></p>
                 {/*Example of embedding a Google Sheet (2022) in the below div, using custom sheet classes*/}
                 {/*<div className="text-center mb-5">*/}
                 {/*    <iframe className="sheet-schedule sheet-constraint w-75 d-block mb-1 mx-auto"*/}
@@ -29,7 +30,7 @@ export default function Map_Schedule() {
                 {/*        href="https://docs.google.com/spreadsheets/d/11egWL19jhBBIf27SXAjf81tyDxkVJsRjCtNo4gr5bTE/edit?usp=sharing">Have*/}
                 {/*        trouble viewing? Click here!</a></p>*/}
                 {/*</div>*/}
-                <div className="text-center">
+                {/* <div className="text-center">
                     <Row className="mb-4">
                         <Col xs={0} md={2}/>
                         <Col xs={12} md={8}>
@@ -51,7 +52,7 @@ export default function Map_Schedule() {
                         <Col xs={0} md={0} lg={3}/>
                     </Row>
                     <p className="caption-text">Click on the images to open.</p>
-                </div>
+                </div> */}
             </Container>
         </>
     )

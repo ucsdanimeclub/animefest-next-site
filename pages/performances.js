@@ -60,14 +60,15 @@ export default function Performances() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
-                    <h1 className="display-4 mb-0 text-light">PERFORMANCES</h1>
+                <BackgroundImage src="images/header_2026.png" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-header">PERFORMANCES</h1>
                 </BackgroundImage>
             </Container>
 
             <Container fluid className="p-3 section">
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
-                <p>Performances will be held in the East Ballroom. Check out our featured performers below!</p>
+                {/* <p>Performances will be held in the East Ballroom. Check out our featured performers below!</p> */}
+                <p>More information coming soon!</p>
             </Container>
 
             {performersSorted.map((performerDatum, index) => {

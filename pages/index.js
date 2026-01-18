@@ -17,7 +17,7 @@ export default function Home() {
             <Container fluid className="text-center p-0 mb-4">
                 <div className="landing w-100 d-flex flex-column justify-content-center align-items-center"
                         style={{
-                            backgroundImage: "url('images/AF25_Website_Banner.png')",
+                            backgroundImage: "url('images/AF26_Website_Banner_Flowers.png')",
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
@@ -26,7 +26,7 @@ export default function Home() {
                     <Row className="align-items-center justify-content-center w-100 h-75 g-0 glow-text d-flex flex-column">
                     
                         <Col xs={12} sm={10} md={8} lg={6} xl={5} className="text-center">
-                            <MyImage src="images/AF25_logo.png" className="w-100 mb-3 img-fluid" alt="Animefest 2025 logo"
+                            <MyImage src="images/AF26_logo.png" className="w-100 mb-3 img-fluid" alt="Animefest 2026 logo"
                             />
                         </Col>
                         <Col xs={12} sm={10} md={8} lg={6} xl={5} className="text-center" >
@@ -39,9 +39,9 @@ export default function Home() {
                                         overflowWrap: "break-word",
                                         whiteSpace: "normal"
                                     }}>
-                                    <h4>February 15, 2025 at UC San Diego&apos;s Price Center</h4>
+                                    <h4>February 14, 2026 at UC San Diego&apos;s Price Center</h4>
                                     <h5>11:00 AM to 8:00 PM</h5>
-                                    <h5>Free Admission</h5>
+                                    <h5>FREE Admission for UCSD affiliates. $5 General Entry</h5>
                                 </div>
                             </div>
                         </Col>
@@ -69,11 +69,20 @@ export default function Home() {
             <Container fluid className="p-3 section" id="about">
                 <h1 className="text-left mb-4 display-text">ABOUT</h1>
                 <p>Animefest, a time and place where animanga lovers, artists, and entertainers celebrate what we love!
-                    On February 15, 2025, participants go to the Price Center at UCSD to attend discussion and workshop
+                    On February 14, 2026, participants go to the Price Center at UCSD to attend discussion and workshop
                     panels, buy the best artwork,
                     and check out your favorite manga in our manga library! And of course, there will be cosplays,
                     festival games, and video games&mdash;all for some otaku fun.</p>
-                <p className="mb-4">For a taste of the convention, take a look at our recap video of Animefest 2023:</p>
+                <p className="mb-4">For a taste of the convention, take a look at our recap videos of Animefest 2025 and Animefest 2023:</p>
+                <div className="video-player mx-auto mb-4">
+                    <Ratio aspectRatio="16x9">
+                        <iframe className="border-stroke"
+                                src="https://www.youtube.com/embed/LxBVW_yxuLw?si=HrMLfAxAtzUMJeZD"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen={true}/>
+                    </Ratio>
+                </div>
                 <div className="video-player mx-auto mb-4">
                     <Ratio aspectRatio="16x9">
                         <iframe className="border-stroke"
@@ -87,7 +96,7 @@ export default function Home() {
 
             <Container fluid className="p-3 mt-4 section" id="discord">
                 <h1 className="text-left mb-4 display-text">DISCORD</h1>
-                <p>Feel free to join the Animefest 2025 discord server here:</p>
+                <p>Feel free to join the Animefest 2026 discord server here:</p>
                 <Row className="align-items-center mb-4">
                 <Col xs={12} sm={12} md={6} className="py-2">
                     <Ratio aspectRatio={350 / 500}>
@@ -107,11 +116,10 @@ export default function Home() {
             <Container fluid className="p-3 mt-4 section" id="registration">
                 <h1 className="text-left mb-4 display-text">REGISTRATION</h1>
                 <p><u>Admission to Animefest is free for all UCSD affiliates (those with an @ucsd.edu email)! UCSD affiliates includes 
-                    undergrads, grad students, employees, and alumni.</u> All attendees must register at one of our check-in tables
-                    designated on the map in the section below.</p>
-                <p><b>All attendees</b> will also have to present a completed Event Participant Waiver for UC San Diego events.
+                    undergrads, grad students, employees, and alumni.</u> For attendees who are not UCSD affiliates, there will be a $5 general entry fee. All attendees must register at one of our check-in tables on the day of the event.</p>
+                {/* <p><b>All attendees</b> will also have to present a completed Event Participant Waiver for UC San Diego events.
                     This waiver <b>can be electronically signed prior to the convention</b> using this <a href="https://ewaivers.ucsd.edu/rv8uqake/">link</a>. We strongly recommend all attendees
-                    complete the waiver ahead of time. There will be another form to fill out at check-in on the day of Animefest.</p>
+                    complete the waiver ahead of time. There will be another form to fill out at check-in on the day of Animefest.</p> */}
             </Container>
 
             <Container fluid className="p-3 mt-4 section" id="parking">

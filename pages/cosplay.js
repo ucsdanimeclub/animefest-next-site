@@ -9,8 +9,8 @@ export default function Cosplay() {
     return (
         <>
             <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2025_v2.png" className="landing p-5">
-                    <h1 className="display-4 mb-0 text-light">COSPLAY CONTEST</h1>
+                <BackgroundImage src="images/header_2026.png" className="landing p-5">
+                    <h1 className="display-4 mb-0 text-header">COSPLAY CONTEST</h1>
                 </BackgroundImage>
             </Container>
 
@@ -48,10 +48,10 @@ export default function Cosplay() {
                 </ol>
             </Container>
 
-            <Container fluid className="p-3 mt-4 section">
+            {/* <Container fluid className="p-3 mt-4 section">
                 <h4 className="text-left mb-4 display-text">PRIZING</h4>
                 <PrizeImages prizes={prizesInPool}/>
-            </Container>
+            </Container> */}
         </>
     )
 }
