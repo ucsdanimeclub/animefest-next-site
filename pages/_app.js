@@ -11,7 +11,7 @@ export default function MyApp({Component, pageProps}) {
         <>
             <Head>
                 <title>Animefest 2026</title>
-                <meta name="description" content="Coming Soon!"/>
+                <meta name="description" content="February 14th 2026"/>
                 <link rel="icon" href={`${router.basePath}/favicon_2026.png`}/>
                 <link rel="stylesheet" href={`${router.basePath}/fonts.css`}/>
             </Head>
