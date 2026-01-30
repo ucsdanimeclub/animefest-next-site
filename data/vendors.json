@@ -1,3 +1,83 @@
 [
-  
+  {
+    "id": "1",
+    "people": [
+      {
+        "name": "Pika Dude",
+        "link": "https://www.instagram.com/pikadudestore/"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "people": [
+      {
+        "name": "Xaviercal Customs and Collectibles",
+        "link": "https://www.instagram.com/xaviercal_collectibles/#"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "people": [
+      {
+        "name": "concon",
+        "link": "https://www.instagram.com/conconshop__/"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "people": [
+      {
+        "name": "cosmicloak",
+        "link": "https://cosmicloak.square.site"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "people": [
+      {
+        "name": "TBD",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "people": [
+      {
+        "name": "TBD",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "people": [
+      {
+        "name": "ANIMECOAST.com",
+        "link": "https://www.instagram.com/anime.coast/"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "people": [
+      {
+        "name": "Waifu Factory",
+        "link": "https://www.instagram.com/waifufactory97/"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "people": [
+      {
+        "name": "TL’s Mihoyo Merch Shop",
+        "link": "https://www.instagram.com/encore23333/"
+      }
+    ]
+  }
 ]
