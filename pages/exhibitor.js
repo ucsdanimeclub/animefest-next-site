@@ -20,8 +20,8 @@ export default function Exhibitor() {
                 <h4 className="text-left mb-4 display-text">ABOUT</h4>
                 <p className="mb-4">The Exhibitor Hall is home to our Artist Alley and Vendor space. It is located
                     throughout the West
-                    Ballroom. More information, including a list of artists and vendors, is coming soon!</p>
-                {/* <h4 className="text-left title-text mb-4">Artists</h4>
+                    Ballroom.</p>
+                <h4 className="text-left title-text mb-4">Artists</h4>
                 <Row>
                     <Col xs={0} md={1} lg={2}>
                     </Col>
@@ -50,14 +50,14 @@ export default function Exhibitor() {
                     </Col>
                     <Col xs={0} md={1} lg={2}>
                     </Col>
-                </Row> */}
-                {/* <h4 className="text-left title-text mb-4">West Ballroom Map</h4>
+                </Row>
+                <h4 className="text-left title-text mb-4">West Ballroom Map</h4>
                 <div className="text-center">
                     <a href="images/west_ballroom_exhibitors_2024.png"><MyImage src="images/west_ballroom_exhibitors_2024.png"
                                                                            alt="West Ballroom map"
                                                                            className="mw-100 mb-1 border-stroke"/></a>
                     <p className="caption-text mb-0">Click on the image to open.</p>
-                </div> */}
+                </div>
             </Container>
         </>
     )

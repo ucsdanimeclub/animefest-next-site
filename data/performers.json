@@ -1,5 +1,36 @@
 {
 	"performers": [
-		
+		{
+			"start": "12:00",
+			"end": "13:00",
+			"performer": "Intermission Orchestra",
+			"description": "The Intermission Orchestra is a student-arranged, student-conducted orchestra playing pieces from all forms for media including TV, anime, and video games! We are excited to play Animefest some of our hit anime arrangements and highlight the backing tracks of your favorite shows.",
+			"embed": "",
+			"profile": "https://www.instagram.com/tioatucsd/?hl=en"
+		},
+		{
+			"start": "14:30",
+			"end": "15:00",
+			"performer": "Hop Sax",
+			"description": "Hopkins Sax Jam, or “Hopsax” for short, is an all-saxophone ensemble that plays a variety of music and genres. We are thrilled to be working with AME again to bring you all sorts of Japanese music at Animefest!",
+			"embed": "",
+			"profile": "https://www.instagram.com/hopsax/"
+		},
+		{
+			"start": "15:30",
+			"end": "16:00",
+			"performer": "Blue Sanitizer",
+			"description": "We are Bluemoon Sanitizer, a J-pop and anime cover band featuring current UC San Diego students and alumni. Our set brings anime and game music to life with fresh arrangements, heartfelt vocals, and an energetic performance. ",
+			"embed": "",
+			"profile": "https://www.bluemoonsanitizer.com/performances"
+		},
+		{
+			"start": "16:30",
+			"end": "17:30",
+			"performer": "Super Tonic",
+			"description": "Super Tonic came together from 9 friends who all loved anime and videogame music. We celebrate and share our love for the two mediums with our unique sound, built from our dynamic 9-piece arrangements and the belief that fully live music can hit just as hard as the music on-screen.",
+			"embed": "https://www.youtube.com/embed/iEaFAxd5SyU",
+			"profile": "https://supertonicband.com/"
+		}
 	]
 }
