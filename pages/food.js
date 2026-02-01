@@ -18,17 +18,18 @@ export default function Food() {
                     href="https://universitycenters.ucsd.edu/dining-and-retail/index.html">dining
                     options</a> convenient for staying fed during the convention.
                 </p>
-                {/* <Row>
+                <p>Check out Tapioca Express and Yogurtworld located in UCSD&apos;s Price Center for a discount on your food! Show them the flyer below to collect your discount!</p>
+                <Row>
                     <Col xs={0} md={2} lg={3}/>
                     <Col xs={12} md={8} lg={6}>
                         <div className="text-center">
-                            <a href="images/AF_25_Food_Flyer.png"><MyImage src="images/AF_25_Food_Flyer.png" alt="Food coupon"
+                            <a href="images/AF_26_Food_Flyer.png"><MyImage src="images/AF_26_Food_Flyer.png" alt="Food coupon"
                                                                       className="mw-100 border-stroke mx-auto d-block mb-1"/></a>
                             <p className="caption-text mb-0">Click on the image to open.</p>
                         </div>
                     </Col>
                     <Col xs={0} md={2} lg={3}/>
-                </Row> */}
+                </Row>
             </Container>
         </>
     )
