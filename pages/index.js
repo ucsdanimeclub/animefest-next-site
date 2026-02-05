@@ -115,8 +115,8 @@ export default function Home() {
 
             <Container fluid className="p-3 mt-4 section" id="registration">
                 <h1 className="text-left mb-4 display-text">REGISTRATION</h1>
-                <p><u>Admission to Animefest is free for all UCSD affiliates (those with an @ucsd.edu email)! UCSD affiliates includes 
-                    undergrads, grad students, employees, and alumni.</u> For attendees who are not UCSD affiliates, there will be a $5 general entry fee. All attendees must register at one of our check-in tables on the day of the event.</p>
+                <p><u>Admission to Animefest is free for all UCSD affiliates! UCSD affiliates includes 
+                    undergrads, grad students, employees, and alumni. Please bring proof of UCSD affiliation (such as a ucsd.edu email, student ID, employee ID, or graduation photo) to the event.</u> For attendees who are not UCSD affiliates, there will be a $5 general entry fee. All attendees must register at one of our check-in tables on the day of the event.</p>
                 {/* <p><b>All attendees</b> will also have to present a completed Event Participant Waiver for UC San Diego events.
                     This waiver <b>can be electronically signed prior to the convention</b> using this <a href="https://ewaivers.ucsd.edu/rv8uqake/">link</a>. We strongly recommend all attendees
                     complete the waiver ahead of time. There will be another form to fill out at check-in on the day of Animefest.</p> */}
