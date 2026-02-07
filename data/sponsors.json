@@ -4,6 +4,16 @@
             "name": "Gundam Planet",
             "image": "images/sponsor/logo_gundamplanet.png",
             "url": "https://www.gundamplanet.com/"
+        },
+        {
+            "name": "Aniplex",
+            "image": "images/sponsor/logo_aniplex.png",
+            "url": "https://www.aniplexusa.com/"
+        },
+        {
+            "name": "Sekai Project",
+            "image": "images/sponsor/logo_sekaiproject.png",
+            "url": "https://sekaiproject.com/"
         }
     ]
 }
