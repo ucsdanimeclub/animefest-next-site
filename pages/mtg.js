@@ -6,7 +6,7 @@ import PrizeImages from "../components/prizes/prizeimages"
 
 
 export default function MTG() {
-    // const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "YGO").map((prize) => prize["image"])
+    const prizesInPool = Prizes["prizes"].filter((prize) => prize["pool"] === "MTG").map((prize) => prize["image"])
     return (
         <>
             <Container fluid className="p-0 text-center">
@@ -43,10 +43,10 @@ export default function MTG() {
                 <p className="mb-0">We&apos;ll be in the <b>Green Table Room</b>, which is inside Sun God Lounge.</p> 
             </Container>
 
-            {/* <Container fluid className="p-3 mt-4 section">
+            <Container fluid className="p-3 mt-4 section">
                 <h4 className="text-left mb-4 display-text">PRIZING</h4>
                 <PrizeImages prizes={prizesInPool}/>
-            </Container> */}
+            </Container>
         </>
     )
 }
