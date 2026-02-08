@@ -30,18 +30,18 @@ export default function Map_Schedule() {
                 {/*        href="https://docs.google.com/spreadsheets/d/11egWL19jhBBIf27SXAjf81tyDxkVJsRjCtNo4gr5bTE/edit?usp=sharing">Have*/}
                 {/*        trouble viewing? Click here!</a></p>*/}
                 {/*</div>*/}
-                {/* <div className="text-center">
+                <div className="text-center">
                     <Row className="mb-4">
                         <Col xs={0} md={2}/>
                         <Col xs={12} md={8}>
-                            <a href="images/AF25_Schedule.png">
-                                <MyImage src="images/AF25_Schedule.png" className="border-stroke mw-100"
+                            <a href="images/AF26_Schedule.png">
+                                <MyImage src="images/AF26_Schedule.png" className="border-stroke mw-100"
                                             alt="Schedule"></MyImage>
                             </a>
                         </Col>
                         <Col xs={0} md={2}/>
                     </Row>
-                    <Row className="mb-1 g-3">
+                    {/* <Row className="mb-1 g-3">
                         <Col xs={0} md={0} lg={3}/>
                         <Col>
                             <a href="images/AF25_Map.png">
@@ -50,9 +50,9 @@ export default function Map_Schedule() {
                             </a>
                         </Col>
                         <Col xs={0} md={0} lg={3}/>
-                    </Row>
+                    </Row> */}
                     <p className="caption-text">Click on the images to open.</p>
-                </div> */}
+                </div>
             </Container>
         </>
     )
