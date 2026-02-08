@@ -21,7 +21,6 @@ export default function Map_Schedule() {
                 <p>All rooms are located on the second floor with the exception of the Theater, which
                     is on the first
                     floor and below the Bear Room.</p>
-                <p><b>We will release a map and a schedule soon!</b></p>
                 {/*Example of embedding a Google Sheet (2022) in the below div, using custom sheet classes*/}
                 {/*<div className="text-center mb-5">*/}
                 {/*    <iframe className="sheet-schedule sheet-constraint w-75 d-block mb-1 mx-auto"*/}
