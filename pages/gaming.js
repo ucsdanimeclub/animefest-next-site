@@ -43,7 +43,6 @@ export default function Gaming() {
 
             <Container fluid className="p-3 mt-4 section">
                 <h4 className="text-left mb-4 display-text">PRIZING</h4>
-                <p>More info coming soon!</p>
                 <PrizeImages prizes={prizesInPool}/>
             </Container>
         </>

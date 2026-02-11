@@ -1,5 +1,84 @@
 {
   "prizes": [
-    
+    {
+      "image": "images/raffle/Early Raffle/anna.png",
+      "pool": "Early Raffle"
+    },
+    {
+      "image": "images/raffle/Early Raffle/kasumi.png",
+      "pool": "Early Raffle"
+    },
+    {
+      "image": "images/raffle/Early Raffle/finemotion.png",
+      "pool": "Early Raffle"
+    },
+    {
+      "image": "images/raffle/Early Raffle/maya.png",
+      "pool": "Early Raffle"
+    },
+    {
+      "image": "images/raffle/Early Raffle/godzilla.png",
+      "pool": "Early Raffle"
+    },
+    {
+      "image": "images/raffle/Early Raffle/madoka.png",
+      "pool": "Early Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/rem.png",
+      "pool": "Final Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/zanka.png",
+      "pool": "Final Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/teio.png",
+      "pool": "Final Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/vidar.png",
+      "pool": "Final Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/kotori.png",
+      "pool": "Final Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/lebron.png",
+      "pool": "Final Raffle"
+    },
+    {
+      "image": "images/raffle/Final Raffle/miku.png",
+      "pool": "Final Raffle"
+    },
+    {
+      "image": "images/raffle/Cosplay Contest/nino.png",
+      "pool": "Cosplay Contest"
+    },
+    {
+      "image": "images/raffle/Cosplay Contest/mai.png",
+      "pool": "Cosplay Contest"
+    },
+    {
+      "image": "images/raffle/Cosplay Contest/himmel.png",
+      "pool": "Cosplay Contest"
+    },
+    {
+      "image": "images/raffle/MTG/destiny.png",
+      "pool": "MTG"
+    },
+    {
+      "image": "images/raffle/MTG/pack.png",
+      "pool": "MTG"
+    },
+    {
+      "image": "images/raffle/Fighters/zeed.png",
+      "pool": "Fighters"
+    },
+    {
+      "image": "images/raffle/Fighters/kirito.png",
+      "pool": "Fighters"
+    }
   ]
 }
