@@ -21,8 +21,34 @@
     "id": "CAT Table (D1)",
     "people": [
       {
+        "name": "Lorenzo Berona"
+      }
+    ]
+  },
+  {
+    "id": "CAT Table (D1)",
+    "people": [
+      {
+        "name": "kimberkcally",
+        "link": "https://www.instagram.com/kimberkcally/"
+      }
+    ]
+  },
+  {
+    "id": "CAT Table (D1)",
+    "people": [
+      {
         "name": "abbavavoom",
         "link": "https://www.instagram.com/abbavavoom/"
+      }
+    ]
+  },
+  {
+    "id": "CAT Table (D1)",
+    "people": [
+      {
+        "name": "dwaynies",
+        "link": "https://www.instagram.com/dwaynies/"
       }
     ]
   },
@@ -65,6 +91,14 @@
       {
         "name": "illuminoes",
         "link": "https://twitter.com/illumin0es/"
+      }
+    ]
+  },
+  {
+    "id": "CAT Table (D1)",
+    "people": [
+      {
+        "name": "Alee Ong"
       }
     ]
   }
