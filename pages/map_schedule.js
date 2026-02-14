@@ -40,16 +40,16 @@ export default function Map_Schedule() {
                         </Col>
                         <Col xs={0} md={2}/>
                     </Row>
-                    {/* <Row className="mb-1 g-3">
+                    <Row className="mb-1 g-3">
                         <Col xs={0} md={0} lg={3}/>
                         <Col>
-                            <a href="images/AF25_Map.png">
-                                <MyImage src="images/AF25_Map.png" className="border-stroke mw-100"
+                            <a href="images/AF26_Map.png">
+                                <MyImage src="images/AF26_Map.png" className="border-stroke mw-100"
                                             alt="Price Center map"></MyImage>
                             </a>
                         </Col>
                         <Col xs={0} md={0} lg={3}/>
-                    </Row> */}
+                    </Row>
                     <p className="caption-text">Click on the images to open.</p>
                 </div>
             </Container>
