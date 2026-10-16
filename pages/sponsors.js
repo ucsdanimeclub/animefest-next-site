@@ -27,7 +27,7 @@ const sponsors = [
 export default function Sponsors() {
     return (
         <div className="sponsor-page">
-            <BackgroundImage src="images/panels2023.jpg" className="sponsor-banner">
+            <BackgroundImage src="images/sponsors/sponsors_banner.jpg" className="sponsor-banner">
                 <h1 className="sponsor-title">2026<br/>SPONSORS</h1>
                 <MyImage src="images/sponsors/kai26_chibi.png" className="sponsor-chibi" alt="Kai waving"/>
             </BackgroundImage>
