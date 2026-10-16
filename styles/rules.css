@@ -1,0 +1,93 @@
+/* ---------- Rules page ---------- */
+
+.rules {
+  font-family: "Cal Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.rules a {
+  color: inherit;
+}
+
+.rules-banner {
+  position: relative;
+  min-height: 368px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Darken the photo behind the title */
+.rules-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.79);
+}
+
+.rules-title {
+  position: relative;
+  margin: 0;
+  font-size: clamp(56px, 9vw, 128px);
+  font-weight: 400;
+  line-height: 1;
+  color: #ffffff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* The chibi image is square; the design crops it to a portrait box */
+.rules-chibi {
+  position: relative;
+  width: clamp(93px, 13vw, 186px);
+  aspect-ratio: 186 / 232;
+  object-fit: cover;
+  object-position: left center;
+}
+
+.rules-agree {
+  padding: 48px 16px;
+  text-align: center;
+  background-color: #0b0b0f;
+}
+
+.rules-agree p {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: clamp(28px, 3.4vw, 48px);
+  line-height: 1;
+  letter-spacing: 0;
+  color: #ffb518;
+}
+
+.rules-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.rules-heading {
+  font-size: clamp(40px, 5vw, 64px);
+  font-weight: 400;
+  line-height: 1;
+  color: #e64d44;
+  margin-bottom: 24px;
+}
+
+.rules-list {
+  margin-bottom: 0;
+}
+
+/* Blank line between numbered rules, as in the design */
+.rules-list > li + li {
+  margin-top: 30px;
+}

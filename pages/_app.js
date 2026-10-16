@@ -5,6 +5,7 @@ import '../styles/globals.css'
 import '../styles/theme.scss'
 import '../styles/parking.css'
 import '../styles/sponsors.css'
+import '../styles/rules.css'
 
 
 export default function MyApp({Component, pageProps}) {

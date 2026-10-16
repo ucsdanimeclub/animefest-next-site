@@ -1,92 +1,81 @@
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container} from 'react-bootstrap'
 import MyImage from "../components/myimage"
 import BackgroundImage from "../components/index/backgroundimage"
 
 
 export default function Rules() {
     return (
-        <>
-            <Container fluid className="p-0 text-center">
-                <BackgroundImage src="images/header_2026.png" className="landing p-5">
-                    <h1 className="display-4 mb-0 text-header">RULES</h1>
-                </BackgroundImage>
+        <div className="rules">
+            <BackgroundImage src="images/rules/banner.jpg" className="rules-banner">
+                <h1 className="rules-title">RULES</h1>
+                <MyImage src="images/AF25 Hina Chibi.png" className="rules-chibi" alt="Hina chibi"/>
+            </BackgroundImage>
+
+            <div className="rules-agree">
+                <p>By attending Animefest, you agree to have read and will abide by our detailed rules below.</p>
+            </div>
+
+            <Container className="rules-section">
+                <h2 className="rules-heading">Check-In</h2>
+                <p>All attendees must possess a wristband from one of our check-in tables.</p>
+                <p className="mb-0">Attendance is free for UCSD Affiliates.</p>
+                <ul className="mb-0">
+                    <li>Please show proof of affiliation at door with your UCSD ID.</li>
+                </ul>
+                <p className="mb-0">$8 General Entry</p>
+                <ul>
+                    <li>We will not be taking cash at the door.</li>
+                </ul>
+                <p className="mb-0">All attendees will have to present a completed Event Participant Waiver, which can be
+                    e-signed prior to the convention using this <a
+                        href="https://ewaivers.ucsd.edu/oal94e/waiver/">link</a>. Guardians must sign the waiver for
+                    accompanying minors.</p>
             </Container>
 
-            <Container fluid className="p-3 section">
-                <h4 className="text-center title-text mb-3">By attending Animefest, you agree to have read and will abide by
-                    our detailed rules below.
-                </h4>
-                <h4 className="highlight text-center title-text mb-3">All attendees must possess a wristband from one of our check-in tables.</h4>
-                <h4 className="highlight text-center title-text mb-3">Free for UCSD Affliates. $5 General Entry</h4>
-                <h4 className="highlight text-center title-text mb-5">All attendees will have to present a completed Event 
-                    Participant Waiver, which can be e-signed prior to the convention 
-                    using this <a href="https://ewaivers.ucsd.edu/oal94e/waiver/">link</a>. Guardians must sign the waiver for accompanying minors.</h4>
-                <ol className="mb-5">
-                    <li><p>Anime &amp; Manga Enthusiasts and UC San Diego reserves the right to remove anyone not in
-                        compliance with the rules to their discretion.</p></li>
-                    <li><p><u>All university policies and regulations apply to attendees of Animefest.</u></p>
+            <Container className="rules-section">
+                <h2 className="rules-heading">Guidelines</h2>
+                <ol className="rules-list">
+                    <li>Anime &amp; Manga Enthusiasts and UC San Diego reserves the right to remove anyone not in
+                        compliance with the rules to their discretion.</li>
+                    <li>All university policies and regulations apply to attendees of Animefest.
                         <ul>
-                            <li><p>Masking is <b>encouraged, but not required</b> at Animefest 2026.</p></li>
-                            <li><p>Consult this <a href="https://ophd.ucsd.edu/policies-procedures/polpro_student.html">link</a> for 
-                                additional guidance.  </p></li>
+                            <li>Consult this <a
+                                href="https://ophd.ucsd.edu/policies-procedures/polpro_student.html">link</a> for
+                                additional guidance.</li>
                         </ul>
                     </li>
-                    <li><p>Attendees must respect common sense rules for public behavior, personal interaction, common
+                    <li>Attendees must respect common sense rules for public behavior, personal interaction, common
                         courtesy, and respect for private property. Harassing or offensive behavior will not be
-                        tolerated. If your behavior becomes problematic,
-                        security will have to intervene to dispute the issue.</p></li>
-                    <li><p>Attendees are prohibited from directly handling the console setups. Any attendee seen
-                        tampering or otherwise damaging Animefest property are liable for repairs and/or
-                        replacements.</p></li>
-                    <li><p><b>Convention staff</b> may photograph and record video of the convention. By attending
-                        Animefest, you give consent to be included in these photographs and recordings by our staff.</p>
+                        tolerated.
+                        <ul>
+                            <li>If your behavior becomes problematic, security will have to intervene to dispute the
+                                issue.</li>
+                        </ul>
                     </li>
-                    <li><p>Physical contact, photography, or recordings of other individuals by non-staff is not allowed
-                        without their explicit permission.</p></li>
-                    <li><p>Please don&apos;t hesitate to call convention staff or campus security if you see anything
-                        suspicious or disorderly conduct.</p></li>
+                    <li>Attendees are prohibited from directly handling the console setups. Any attendee seen tampering
+                        or otherwise damaging Animefest property are liable for repairs and/or replacements.</li>
+                    <li><u>Convention staff</u> may photograph and record video of the convention. By attending
+                        Animefest, you give consent to be included in these photographs and recordings by our staff.</li>
+                    <li>Physical contact, photography, or recordings of other individuals by non-staff is not allowed
+                        without their explicit permission.</li>
+                    <li>Please don&apos;t hesitate to call convention staff or campus security if you see anything
+                        suspicious or disorderly conduct.</li>
                 </ol>
-
-                <p><u>Cosplay &amp; Prop Guidelines:</u></p>
-                <ol className="mb-5">
-                    <li><p>No inappropriate (18+) cosplay is permitted.</p></li>
-                    <li><p>No weapons or props designed or made with the ability to cause death or serious bodily injury
-                        to any person or property is permitted. Misuse of a prop will result in that prop being deemed
-                        unsafe.</p></li>
-                    <li><p>Props resembling weapons are prohibited, including but not limited to bows, replica/toy
-                        swords, and firearms (airsoft, replica, paintball, BB guns, and Nerf guns).</p></li>
-                    <li><p>All props will be checked and marked with tape by our convention staff at the registration
-                        table.</p></li>
-                </ol>
-
-                <p><u>COVID-19 Addendum:</u> Attendees are strongly advised to adhere to CDC guidelines which include:
-                </p>
-                <ol className="mb-5">
-                    <li><p>Keeping fully vaccinated, and quarantine if coming in contact with an affected individual and
-                        getting tested.</p></li>
-                    <li><p>Staying home if an attendee feels any sickness or symptoms of COVID-19 before the
-                        convention.</p></li>
-                    <li><p>Maintaining 6 feet of social distancing whenever possible.</p></li>
-                    <li><p>Cover coughs and sneezes and wash hands.</p></li>
-                    <li><p>Enable contact tracing: On Android, contact tracing from Google can be enabled in your
-                        device&apos;s settings, or downloaded as an app for your state at the link <a
-                            href="https://support.google.com/android/answer/9888358?hl=en">here.</a> On iPhone, opt-in
-                        to Exposure Notifications in your device&apos;s settings.</p></li>
-                </ol>
-                <Row className="align-items-center">
-                    <Col lg={4} className="d-none d-lg-block">
-                        <MyImage src="images/AF26_Hina_Action_Chibi.png" alt="Hina chibi" className="mw-100"/>
-                    </Col>
-                    <Col lg={8}>
-                        <h4 className="text-left title-text mb-4">About Anime &amp; Manga Enthusiasts</h4>
-                        <p>Anime &amp; Manga Enthusiasts is the anime club at UC San Diego. We hold weekly meetings on
-                            Mondays, where we show anime or hold other fun events. We also have other socials on
-                            weekends such as karaoke, game nights, and potlucks. Membership is free and open to all!</p>
-                        <p>If you are interested in learning more about our club or events, please visit our website <a
-                            href="https://ameatucsd.org/">ameatucsd.org</a> for more information.</p>
-                    </Col>
-                </Row>
             </Container>
-        </>
+
+            <Container className="rules-section">
+                <h2 className="rules-heading">Cosplays &amp; Props</h2>
+                <ol className="rules-list">
+                    <li>No inappropriate (18+) cosplay is permitted.</li>
+                    <li>No weapons or props designed or made with the ability to cause death or serious bodily injury to
+                        any person or property is permitted. Misuse of a prop will result in that prop being deemed
+                        unsafe.</li>
+                    <li>Props resembling weapons are prohibited, including but not limited to bows, replica/toy swords,
+                        and firearms (airsoft, replica, paintball, BB guns, and Nerf guns).</li>
+                    <li>All props will be checked and marked with tape by our convention staff at the registration
+                        table.</li>
+                </ol>
+            </Container>
+        </div>
     )
 }
