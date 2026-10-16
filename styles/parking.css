@@ -1,0 +1,67 @@
+/* ---------- Parking page ---------- */
+
+.parking {
+  font-family: "Cal Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.parking .text-red {
+  color: #e64d44;
+}
+
+.parking-banner {
+  position: relative;
+  min-height: 368px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Darken the photo behind the title */
+.parking-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.79);
+}
+
+.parking-title {
+  position: relative;
+  margin: 0;
+  font-size: clamp(56px, 9vw, 128px);
+  font-weight: 400;
+  line-height: 1;
+  color: #ffffff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.parking-chibi {
+  position: relative;
+  width: clamp(120px, 18vw, 264px);
+  transform: scaleX(-1);
+}
+
+.parking-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.parking-heading {
+  font-size: clamp(40px, 5vw, 64px);
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.parking a {
+  color: inherit;
+}

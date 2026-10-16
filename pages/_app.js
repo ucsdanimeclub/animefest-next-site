@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Layout from '../components/navigation/layout'
 import '../styles/globals.css'
 import '../styles/theme.scss'
+import '../styles/parking.css'
 
 
 export default function MyApp({Component, pageProps}) {
