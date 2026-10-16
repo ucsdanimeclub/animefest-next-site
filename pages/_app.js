@@ -4,6 +4,7 @@ import Layout from '../components/navigation/layout'
 import '../styles/globals.css'
 import '../styles/theme.scss'
 import '../styles/parking.css'
+import '../styles/sponsors.css'
 
 
 export default function MyApp({Component, pageProps}) {

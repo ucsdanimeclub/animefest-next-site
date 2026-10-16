@@ -1,0 +1,105 @@
+/* ---------- Sponsors and Sponsorship Opportunities pages ---------- */
+
+.sponsor-page {
+  font-family: "Cal Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.sponsor-page .text-red {
+  color: #e64d44;
+}
+
+.sponsor-page a {
+  color: inherit;
+}
+
+.sponsor-banner {
+  position: relative;
+  min-height: 376px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+}
+
+.sponsor-banner-tall {
+  min-height: 720px;
+}
+
+/* Darken the photo behind the title */
+.sponsor-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.76);
+}
+
+.sponsor-title {
+  position: relative;
+  margin: 0;
+  font-size: clamp(48px, 8.9vw, 128px);
+  font-weight: 400;
+  line-height: 1;
+  color: #ffffff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sponsor-chibi {
+  position: relative;
+  width: clamp(100px, 15vw, 214px);
+  transform: scaleX(-1);
+}
+
+.sponsor-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sponsor-heading {
+  font-size: clamp(40px, 5vw, 64px);
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.sponsor-subheading {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 24px 0 0;
+}
+
+.sponsor-redirect {
+  padding-bottom: 24px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #000000;
+}
+
+.sponsor-name {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1;
+  color: #4452e6;
+  margin-bottom: 24px;
+}
+
+.sponsor-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.sponsor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 50px;
+  padding: 10px;
+}
