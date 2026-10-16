@@ -1,76 +1,40 @@
-import React, { Component } from 'react';
-import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
-import '@leenguyen/react-flip-clock-countdown/dist/index.css';
+import {useEffect, useState} from 'react'
 
-class Completed extends Component {
-  render() {
-    return <h1>Animefest 2026 has begun!</h1>;
-  }
+const eventStart = new Date("2027-02-13T11:00:00").getTime()
+
+function timeLeft() {
+    const seconds = Math.max(0, Math.floor((eventStart - Date.now()) / 1000))
+    return {
+        days: Math.floor(seconds / 86400),
+        hours: Math.floor(seconds / 3600) % 24,
+        minutes: Math.floor(seconds / 60) % 60,
+        seconds: seconds % 60,
+    }
 }
 
-class Countdown extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { 
-      digitStyle: {}, 
-      labelStyle: {} 
-    };
-  }
+export default function Countdown() {
+    // Starts empty so the server render matches the first client render
+    const [time, setTime] = useState(null)
 
-  getDigitStyle = () => {
-    const screenWidth = window.innerWidth;
-    const scaleFactor = Math.min(1, screenWidth / 1000);
-    const baseSize = 60;
-    const baseFontSize = 4;
+    useEffect(() => {
+        setTime(timeLeft())
+        const timer = setInterval(() => setTime(timeLeft()), 1000)
+        return () => clearInterval(timer)
+    }, [])
 
-    return {
-      width: baseSize * scaleFactor,
-      height: (baseSize + 20) * scaleFactor,
-      fontSize: `${baseFontSize * scaleFactor}rem`,
-    };
-  };
+    if (time && Object.values(time).every((value) => value === 0)) {
+        return <h3 className="countdown-done">Animefest 2027 has begun!</h3>
+    }
 
-  getLabelStyle = () => {
-    const screenWidth = window.innerWidth;
-    const scaleFactor = Math.min(1, screenWidth / 1200);
-    const baseFontSize = 2;
-
-    return {
-      fontSize: `${baseFontSize * scaleFactor}rem`,
-      color: '#fff',
-    };
-  };
-
-  updateStyles = () => {
-    this.setState({ 
-      digitStyle: this.getDigitStyle(), 
-      labelStyle: this.getLabelStyle() 
-    });
-  };
-
-  componentDidMount() {
-    this.updateStyles();
-    window.addEventListener('resize', this.updateStyles);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.updateStyles);
-  }
-
-  render() {
+    const units = ["days", "hours", "minutes", "seconds"]
     return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
-        <FlipClockCountdown
-          to={new Date("2026-02-14T11:00:00").getTime()}
-          digitBlockStyle={this.state.digitStyle}
-          labelStyle={this.state.labelStyle}
-          spacing={5 * (this.state.digitStyle.width / 60)}
-        >
-          <Completed />
-        </FlipClockCountdown>
-      </div>
-    );
-  }
+        <div className="countdown">
+            {units.map((unit) => (
+                <div key={unit} className="countdown-unit">
+                    <span className="countdown-number">{time ? String(time[unit]).padStart(2, "0") : "00"}</span>
+                    <span className="countdown-label">{unit}</span>
+                </div>
+            ))}
+        </div>
+    )
 }
-
-export default Countdown;
