@@ -39,7 +39,7 @@ export default function Layout({children}) {
                     <Link href='/food' passHref><NavDropdown.Item>Food</NavDropdown.Item></Link>
                     <Link href='/rules' passHref><NavDropdown.Item>Rules</NavDropdown.Item></Link>
                     <Link href='/map_schedule' passHref><NavDropdown.Item>Map and Schedule</NavDropdown.Item></Link>
-                    <Link href='/#parking' passHref><NavDropdown.Item>Parking</NavDropdown.Item></Link>
+                    <Link href='/parking' passHref><NavDropdown.Item>Parking</NavDropdown.Item></Link>
                 </NavDropdown>
                 <Link href='/#sponsors' passHref><Nav.Link>Sponsor</Nav.Link></Link>
                 <div className="nav-buttons">
