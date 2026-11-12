@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@900&display=swap');
+
 html,
 body {
   padding: 0;
@@ -439,3 +441,79 @@ body {
     animation: none;
   }
 }
+
+.navbar.site-nav{
+  background: linear-gradient(#141414, #1d1d1d 50%, #141414);
+  padding: 32px 0 16px;
+}
+
+.nav-inner { 
+  padding: 0 40px; 
+}
+
+.nav-links {
+  align-items: center;
+  gap: 0;
+}
+
+.logo { 
+  font-family: 'Barlow', sans-serif; 
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff; 
+  letter-spacing: 0.5px; 
+}
+
+.logo-accent{ 
+  color: #E64D44; 
+} 
+
+.navbar.site-nav .navbar-nav .nav-link,
+.navbar.site-nav .navbar-nav .nav-link.dropdown-toggle {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: color 0.15s ease;
+}
+
+.navbar.site-nav .navbar-nav .nav-link:hover,
+.navbar.site-nav .navbar-nav .nav-link:focus,
+.navbar.site-nav .navbar-nav .nav-link.show,
+.navbar.site-nav .navbar-nav .nav-link.dropdown-toggle:hover {
+  color: #d9594c;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #000;
+  cursor: default;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 12px;
+  margin-left: 24px;
+}
+
+.nav-button-yellow { 
+  background: #f4b942;
+}
+
+.nav-button-yellow:hover {
+  background: #FFD782;
+}
+
+.nav-button-red { 
+  background: #d9594c; 
+}
+
+.nav-button-red:hover { 
+  background: #E57B75; 
+}
+
