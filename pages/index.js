@@ -1,12 +1,14 @@
 import {Col, Container, Row} from 'react-bootstrap'
+import {useRouter} from 'next/router'
 import BackgroundImage from "../components/index/backgroundimage"
 import Offers from "../components/index/offers"
 import Gallery from "../components/index/gallery"
 import MyImage from "../components/myimage"
 import Countdown from '../components/countdown'
 
+// Past sites are served from the `archive` branch at /<year>/ (2015's site wasn't found).
 const archive = [
-    {year: 2015, image: "images/home/archive/af15.png"},
+    {year: 2015, image: "images/home/archive/af15.png", noSite: true},
     {year: 2016, text: "ANIMEFEST", className: "archive-bebas"},
     {year: 2017, text: "ANIMEFEST", className: "archive-bebas"},
     {year: 2018, text: "ANIMEFEST", className: "archive-bebas"},
@@ -18,6 +20,24 @@ const archive = [
     {year: 2025, image: "images/home/archive/af25.png"},
     {year: 2026, image: "images/home/archive/af26.png"},
 ]
+
+function ArchiveItem({item}) {
+    const {basePath} = useRouter()
+    const content = (
+        <>
+            {item.image
+                ? <MyImage src={item.image} alt={"Animefest " + item.year + " logo"}
+                           className={item.year === 2015 ? "archive-wide" : "archive-square"}/>
+                : <span className={item.className}>{item.text}</span>}
+            <p>(Animefest {item.year})</p>
+        </>
+    )
+    if (item.noSite) {
+        return <div className="home-archive-item">{content}</div>
+    }
+    // A plain <a>, not next/link: the archived sites are static files, not pages in this app.
+    return <a href={`${basePath}/${item.year}/`} className="home-archive-item">{content}</a>
+}
 
 export default function Home() {
     return (
@@ -80,15 +100,7 @@ export default function Home() {
                 <h2 className="home-heading">ARCHIVE</h2>
                 <p>Check out our previous Animefest websites here...</p>
                 <div className="home-archive">
-                    {archive.map((item) => (
-                        <div key={item.year} className="home-archive-item">
-                            {item.image
-                                ? <MyImage src={item.image} alt={"Animefest " + item.year + " logo"}
-                                           className={item.year === 2015 ? "archive-wide" : "archive-square"}/>
-                                : <span className={item.className}>{item.text}</span>}
-                            <p>(Animefest {item.year})</p>
-                        </div>
-                    ))}
+                    {archive.map((item) => <ArchiveItem key={item.year} item={item}/>)}
                 </div>
             </section>
         </div>

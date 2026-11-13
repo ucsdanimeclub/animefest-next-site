@@ -389,6 +389,19 @@ body {
   margin: 0;
 }
 
+/* Linked years (past sites on the archive branch): keep the look, fade a little on hover */
+a.home-archive-item {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+a.home-archive-item:hover,
+a.home-archive-item:focus-visible {
+  color: inherit;
+  opacity: 0.75;
+}
+
 .archive-wide {
   width: 215px;
 }

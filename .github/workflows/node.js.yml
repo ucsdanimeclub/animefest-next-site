@@ -43,6 +43,13 @@ jobs:
         run: |
           cp CNAME out/CNAME
 
+      # Past years' sites live on the `archive` branch (one folder per year) and are
+      # served at /<year>/. The deploy replaces gh-pages entirely, so add them every time.
+      - name: Add archived sites
+        run: |
+          git fetch --depth=1 origin archive
+          git archive FETCH_HEAD -- . ':(exclude)README.md' | tar -x -C out
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/production' }}
