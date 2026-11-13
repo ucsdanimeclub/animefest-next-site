@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="./images/ico/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/2020/images/ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/2020/images/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/2020/images/ico/favicon-16x16.png">
+  <link rel="manifest" href="/2020/images/ico/site.webmanifest">
+  <link rel="mask-icon" href="/2020/images/ico/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/2020/images/ico/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/2020/images/ico/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Animefest: Map</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Custom styles for this template -->
+  <link href="main.css" rel="stylesheet">
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+  <div class="navbar-wrapper">
+    <div class="container">
+
+      <nav class="navbar navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Animefest</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="map.html">Map</a></li>
+              <li><a href="food.html">Food</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programming<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mainstage.html">Main Stage</a></li>
+                  <li><a href="gaming.html">Gaming</a></li>
+                  <li><a href="panels.html">Panels</a></li>
+                  <li><a href="showings.html">Showings</a></li>
+                  <li><a href="library.html">Manga Library</a></li>
+                  <li><a href="tabletop.html">Tabletop Club</a></li>
+                  <li><a href="origami.html">Origami Club</a></li>
+                  <li><a href="butlercafe.html">Butler Cafe</a></li>
+                </ul>
+              </li>
+              <li><a href="exhibitors.html">Exhibitors</a></li>
+              <!-- <li><a href="location.html">Location</a></li> -->
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="rules.html">Rules</a></li>
+
+              <!-- Replace with new link later -->
+              <!-- <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScQ9ona6ynuEHMk6Mzjhj_m_TE5AGVzsnR0SUkoOtYpiDn-Vw/viewform"">Register Now!</a></li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+  <!-- Main content
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container">
+
+    <div id="page-info" class="row featurette">
+      <div class="col-md-10 col-md-offset-1" id="history">
+        <h2 class="featurette-heading">Map & Main Schedule</h2>
+        <div class="lead">Animefest is held in Price Center on UC San Diego's campus. Specifically, our events will be held in the Price Center West and East Ballrooms, and the ERC, Marshall, Muir, and Revelle College rooms. A map of Price Center can be found <a href="./map.html">here</a>.</div>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1675.3496788199382!2d-117.23762024184255!3d32.879673047789126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c46a524fb9%3A0x68571efb243bc289!2sPrice+Center%2C+La+Jolla%2C+CA+92037!5e0!3m2!1sen!2sus!4v1485908111270" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <h2 class="subheader">Parking</h2>
+        <div class="lead">Parking is no longer free on UCSD's campus. We recommend you find free parking off campus and walking to campus or taking the bus to campus. For parking on campus, parking on Gilman is $6 for full day parking, and Pangea and Region are $4 for full day parking.  We apologize for the inconvenience.</div>
+        <iframe id="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1675.389227682771!2d-117.23474284184253!3d32.87758064784244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c5218d55eb%3A0xd07cbfc872e378aa!2sGilman+Parking+Structure%2C+3100+Gilman+Dr%2C+La+Jolla%2C+CA+92093!5e0!3m2!1sen!2sus!4v1485908726215" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <h2 class="subheader">Map</h2>
+        <img class="featurette-image img-responsive center-block" src="./images/animefest2020map.png" alt="PC Map">
+        <h2 class="subheader">Main Schedule</h2>
+        <a href="https://docs.google.com/spreadsheets/u/4/d/1bdb9vtRUwUa71aI0YXm-Xl9HYqJee28KDQdF0-GS5jw/pubhtml?widget=true&amp;headers=false">Have trouble viewing? Click here!</a>
+
+        <div class = "schedule-wrapper">
+          <iframe src="https://docs.google.com/spreadsheets/u/4/d/1bdb9vtRUwUa71aI0YXm-Xl9HYqJee28KDQdF0-GS5jw/pubhtml?widget=true&amp;headers=false"></iframe>
+        </div>
+        <p class="footer">All assets belong to their respective owners.</p>
+      </div>
+    </div>
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="./dist/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

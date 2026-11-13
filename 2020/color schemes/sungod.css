@@ -1,0 +1,773 @@
+/* Color Scheme Map:
+-- To change, Ctrl-F and replace all--
+Main Dominant: 2E4057
+Main Accent: F5AF38
+Site BG: F1F2EB
+Subheader: 39669C
+Sponsor BG: 1A2238
+Home Button: D33040
+
+*/
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  position: relative;
+  color: #5a5a5a;
+  background-color: #F1F2EB;
+}
+
+html,body{
+  height: 100%;
+}
+
+/* FONTS */
+@font-face {
+  font-family: 'Kalos';
+  src: url("./fonts/Kalos.ttf");
+ }
+
+ @font-face {
+  font-family: 'Butter';
+  src: url("./fonts/SFButtacupLettering.ttf");
+ }
+
+ @font-face {
+  font-family: "Gnu";
+  src: url("./fonts/gnuolane rg.ttf");
+ }
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 200;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-brand {
+  font-family: "Kalos";
+  font-weight: bold;
+  padding-left: 0px;
+  font-size: 50px;
+  vertical-align: middle;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+}
+
+.navbar {
+  background-color: #2E4057;
+  border-bottom:8px solid #F5AF38;
+  padding-bottom:10px;
+  /* remove rounded corners from navbar */
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+.navbar-nav {
+  font-family: "Kalos";
+  padding-right: 100px;
+  font-size: 30px;
+  color: #ffffff;
+  hover
+}
+
+.dropdown {
+  color: #ffffff;
+}
+
+.dropdown-menu{
+  font-size: 27px;
+  background-color: #2E4057;
+}
+
+.dropdown-menu li a{
+  color: #ffffff;
+}
+
+.navbar a{
+  color: #ffffff;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    background-color: #2E4057;
+    color: #F5AF38 !important;
+}
+
+.icon-bar{
+	background-color: #ffffff;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 50%;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Home Content
+------------------------- */
+/* TODO COPIED FROM CAROUSEL */
+
+.banner-caption {
+	z-index = 10;
+}
+
+.banner-caption h1 {
+	text-shadow: -3px 0 3px #ffffff, 0 3px 3px #ffffff, 3px 0 3px #ffffff, 0 -3px 3px #ffffff;
+}
+
+.banner-caption h2 {
+	text-shadow: -2.5px 0 3px #ffffff, 0 2.5px 3px #ffffff, 2.5px 0 3px #ffffff, 0 -2.5px 3px #ffffff;
+}
+
+.banner-inner > .item > img{
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 900px;
+	width: 1920px;
+	object-fit: cover;
+}
+
+.banner .item {
+	height: 900px;
+}
+
+.banner-inner > .item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 900px;
+}
+
+.links {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+#container {
+	width: 100%;
+	position: relative;
+	height: auto;
+}
+
+.banner-container {
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+#banner-info-container {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+#banner-info {
+    height: auto;
+    width: 70%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+#banner-info > * {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#preview2 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #2E4057;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 4vw;
+    padding: 5px;
+}
+
+#preview3 {
+    font-size: 4vw;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: -1px 0 3px #ffffff, 0 1px 3px #ffffff, 1px 0 3px #ffffff, 0 -1px 3px #ffffff;
+}
+
+/* General Page Layout */
+#page-info {
+	padding-top: 10%;
+}
+
+
+/* Featurettes
+------------------------- */
+#home-info {
+	padding-top: 0%;
+}
+.featurette{
+
+}
+
+.featurette h2{
+  font-family: "Butter";
+  font-size: 40px;
+  color: #2E4057;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+hr{
+  border: none;
+  height: 4px;
+  background-color: #2E4057;
+  margin-left: 0;
+  margin-top: -1px;
+}
+
+.subheader{
+  font-size: 35px !important;
+  color: #39669C !important;
+}
+
+.subsubheader {
+  font-size: 25px !important;
+  color: #39669C !important;
+}
+
+.table-striped {
+ background-color: #F1F2EB;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top 30px;
+    height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: $card-bg;
+  background-clip: border-box;
+  @include border-radius($card-border-radius);
+  padding: 2%;
+  padding-bottom: 25px;
+
+  > hr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  > .list-group:first-child {
+    .list-group-item:first-child {
+      @include border-top-radius($card-border-radius);
+    }
+  }
+
+  > .list-group:last-child {
+    .list-group-item:last-child {
+      @include border-bottom-radius($card-border-radius);
+    }
+  }
+}
+
+.card-body {
+  // Enable `flex-grow: 1` for decks and groups so that card blocks take up
+  // as much space as possible, ensuring footers are aligned to the bottom.
+  flex: 1 1 auto;
+  padding: $card-spacer-x;
+}
+
+.card-footer {
+  padding: $card-spacer-y $card-spacer-x;
+  background-color: $card-cap-bg;
+  border-top: $card-border-width solid $card-border-color;
+
+  &:last-child {
+    @include border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
+  }
+}
+
+.card-img-top {
+  width: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
+  @include border-top-radius($card-inner-border-radius);
+  border-radius: 10px;
+}
+
+.schedule-wrapper {
+  position: relative;
+
+  height: 600px;
+}
+
+.schedule-wrapper iframe {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.col-md-10{
+  background-color: #ffffff;
+}
+
+#map{
+  height: 400px;
+  width: 96%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#map2{
+  height: 400px;
+  width: 96%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.featurette-divider {
+  height: 3px;
+  background-color:  #ffffff;
+  border: 5px;
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.mid-divider {
+  height: 1px;
+  background-color:  #e7e9ef;
+  border: 5px;
+}
+
+.featurette-heading {
+  font-size: 50px !important;
+  font-weight: 300;
+  line-height: 1;
+  padding-top: -10px;
+  margin-top: -10px;
+}
+
+.align{
+  vertical-align: middle;
+  margin-top: -20px;
+}
+
+#intro{
+  text-align: center;
+}
+
+#programming {
+  padding-top: 70px;
+}
+
+#featuredheading{
+  margin-top: -50px !important;
+}
+
+#volunteerheading{
+  margin-top: -30px !important;
+}
+
+.homebtn{
+  background-color: #D33040;
+  color: #ffffff;
+  font-family: "Kalos";
+  font-size: 25px;
+}
+
+.top{
+  padding-top: 100px;
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+
+#title2 {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 10%;
+    letter-spacing: 3px;
+}
+
+.preview4{
+  font-family: "Butter";
+  font-size: 40px;
+  color: #2E4057;
+}
+
+.preview4text{
+  font-family: "Kalos";
+  font-size: 25px;
+  color: #2E4057;
+  line-height: 1;
+}
+
+#loc1{
+  padding-top: 8px;
+}
+
+#mainstagetable{
+  font-family: "Kalos";
+  font-size:25px;
+  margin-left: 30px;
+  width: 55%;
+}
+
+#gametournamenttable{
+  font-family: "Kalos";
+  font-size:25px;
+  margin-left: 30px;
+  width: 95%;
+}
+
+#panelstable{
+  font-family: "Kalos";
+  font-size:25px;
+  margin-left: 0px;
+  width: 95%;
+}
+
+#aatable{
+  font-family: "Kalos";
+  font-size:25px;
+  margin-left: 20px;
+  padding-top: 10px;
+  width: 60%;
+}
+
+.lead{
+  font-family: "Kalos";
+  font-size: 25px;
+  font-weight: normal;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 1.2;
+}
+
+.desc{
+  font-family: "Kalos";
+  font-size: 25px;
+  padding-top: 0;
+  margin-right: 20px;
+  margin-left: 22px;
+  line-height: 0.8;
+  padding-bottom: 15px;
+}
+
+.desc2{
+  font-family: "Kalos";
+  font-size: 25px;
+  padding-top: 0;
+  margin-right: 20px;
+  margin-left: 22px;
+  line-height: 0.8;
+}
+
+.lead2{
+  font-family: "Kalos";
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 0.8;
+}
+
+.lead3{
+  font-family: "Kalos";
+  font-size: 35px;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 1;
+}
+
+.footer{
+  font-family: "Kalos";
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  line-height: 0.8;
+}
+
+#contactend{
+  margin-bottom: 172px;
+}
+
+
+
+/* SPONSORS
+-------------------------------------------------- */
+.sponsors-c {
+  width: 100%;
+}
+
+.sponsors-p {
+  padding: 0px;
+  background: #1A2238;
+  width: 100%;
+}
+
+.sponsors {
+  width: 100%;
+  height: auto;
+  padding: 40px 10px;
+  z-index: 15;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  z-index: 1 !important;
+  text-align: center !important;
+  z-index: 99;
+}
+
+#sponsor-title {
+  font-family: Kalos;
+  color: #ffffff;
+}
+
+.sponsors h1 {
+  font-weight: 300 !important;
+  font-size: 6vw;
+}
+
+.sponsors h1 > strong {
+  font-weight: 700 !important;
+}
+
+.sponsors img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: auto;
+  vertical-align: middle;
+  max-width: 200px;
+}
+
+.sponsors ul {
+  padding: 0;
+  margin: 15px 0 0 0;
+  list-style: none;
+  display: block;
+}
+
+.sponsors ul.enter > span:not(.hover) {
+  opacity: .1;
+}
+
+.sponsors ul.enter > span.hover {
+  opacity: 1;
+  box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, .1), inset 1px 0 0 0 rgba(0, 0, 0, .1);
+}
+
+.sponsors ul span {
+  display: inline !important;
+
+  word-break: break-all;
+  word-wrap: break-word;
+  margin: 0px;
+  padding: 26px 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  -ms-transition: opacity 0.25s ease;
+  -o-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.sponsors ul span,
+.sponsors ul span li > a {
+  cursor: default !important;
+  border: none !important;
+  outline: 0 !important;
+  text-decoration: none !important;
+}
+
+.sponsors ul li {
+  margin: 35px 16px 0px;
+  display: inline-block;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 100px) {
+  #page-info {
+     padding-top: 30%;
+  }
+}
+@media (min-width: 411px) {
+  /* From banner */
+
+  .navbar-brand {
+	  padding-left: 75px;
+  }
+
+  #home-info {
+	  padding-top: 5%;
+  }
+
+  #page-info {
+	  padding-top: 20%;
+  }
+}
+
+@media(max-width: 750px) {
+  .sponsors img { max-width: 70px; }
+  .sponsors ul li {
+    margin: 15px 5px 0px;
+  }
+  #home-info {
+     padding-top: 3%;
+  }
+
+}
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-brand {
+	  padding-left: 100px;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  /* From banner */
+
+  #home-info {
+	  padding-top: 5%;
+  }
+
+  #page-info {
+	  padding-top: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+
+  #home-info {
+	  padding-top: 1%;
+  }
+
+  #page-info {
+	  padding-top: 0%;
+  }
+
+  .sponsors h1 {
+	  font-size: 55px;
+  }
+  #panelstable {
+    margin-left: 30px;
+  }
+
+}
+
+@media (min-width: 1100px) {
+  #home-info {
+	  padding-top: 2%;
+  }
+}
+
+@media (min-width: 1270px) {
+  #home-info {
+	  padding-top: 2%;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  #home-info {
+	  padding-top: 2%;
+  }
+}
+
+@media (min-width: 1500px) {
+  #home-info {
+	  padding-top: 2%;`
+  }
+}
+
+#footer {
+  font-family: "BasicTitle";
+  font-weight: bold;
+  font-size: 15px;
+}

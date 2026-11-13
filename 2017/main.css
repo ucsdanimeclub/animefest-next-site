@@ -1,0 +1,415 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  color: #5a5a5a;
+  background-color: #c1d5f4;
+}
+
+html,body{
+  height: 100%;
+}
+
+/* FONTS */
+@font-face {
+  font-family: 'Kalos';
+  src: url("./fonts/Kalos.ttf");
+ }
+
+ @font-face {
+  font-family: 'Butter';
+  src: url("./fonts/SFButtacupLettering.ttf");
+ }
+
+ @font-face {
+  font-family: "Gnu";
+  src: url("./fonts/gnuolane rg.ttf");
+ }
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-brand {
+  font-family: "Kalos";
+  font-weight: bold;
+  padding-left: 100px;
+  font-size: 50px;
+  vertical-align: middle;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+}
+
+.navbar {
+  background-color: #17336d;
+  border-bottom:8px solid #3167bf;
+  padding-bottom:10px;
+  /* remove rounded corners from navbar */
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+.navbar-nav {
+  font-family: "Kalos";
+  padding-right: 100px;
+  font-size: 30px;
+  color: #ffffff;
+  hover
+}
+
+.dropdown-menu{
+  font-size: 20px;
+}
+
+.navbar a{
+  color: #ffffff;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    background-color: #17336d;
+    color: #4778c6 !important;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+.featurette{
+  padding-top: 0;
+}
+
+.featurette h2{
+  font-family: "Butter";
+  font-size: 40px;
+  color: #17336d;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+hr{
+  border: none;
+  height: 4px;
+  background-color: #17336d;
+  margin-left: 0;
+  margin-top: -1px;
+}
+
+.subheader{
+  font-size: 35px !important;
+  color: #3167bf !important;
+}
+
+iframe{
+  margin: 0;
+}
+
+.col-md-10{
+  background-color: #ffffff;
+}
+
+#map{
+  height: 400px;
+  width: 96%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#map2{
+  height: 400px;
+  width: 96%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.featurette-divider {
+  height: 3px;
+  background-color:  #e7e9ef;
+  border: 5px;
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.mid-divider {
+  height: 1px;
+  background-color:  #e7e9ef;
+  border: 5px;
+}
+
+.featurette-heading {
+  font-size: 50px !important;
+  font-weight: 300;
+  line-height: 1;
+  padding-top: -10px;
+  margin-top: -10px;
+}
+
+.align{
+  vertical-align: middle;
+  margin-top: -20px;
+}
+
+#preview{
+  text-align: center;
+  margin-bottom: 100px;
+  letter-spacing: 1px;
+}
+
+#intro{
+  text-align: center;
+}
+
+#programming {
+  padding-top: 70px;
+}
+
+#featuredheading{
+  margin-top: -50px !important;
+}
+
+#volunteerheading{
+  margin-top: -30px !important;
+}
+
+.homebtn{
+  background-color: #3167bf;
+  color: #ffffff;
+  font-family: "Kalos";
+  font-size: 25px;
+}
+
+.top{
+  padding-top: 100px;
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+
+#title{
+  font-family: "Gnu";
+  text-align: center;
+  font-size: 12.5vw;
+  line-height: 0;
+  font-weight: bold;
+  margin-bottom: 90px;
+  letter-spacing: 6px;
+}
+
+#title2{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  letter-spacing: 3px;
+}
+
+#preview2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #17336d;
+  letter-spacing: 2px;
+}
+
+#preview3{
+  margin-top: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.preview4{
+  font-family: "Butter";
+  font-size: 40px;
+  color: #17336d;
+}
+
+.preview4text{
+  font-family: "Kalos";
+  font-size: 25px;
+  color: #17336d;
+  line-height: 1;
+}
+
+#banner{
+  height: 50px;
+  background-color: #17336d;
+}
+
+#loc1{
+  padding-top: 8px;
+}
+
+#mainstagetable{
+  font-family: "Kalos";
+  font-size:25px;
+  margin-left: 30px;
+  width: 55%;
+}
+
+#gametournamenttable{
+  font-family: "Kalos";
+  font-size:25px;
+  margin-left: 30px;
+  width: 95%;
+}
+
+#panelstable{
+  font-family: "Kalos";
+  font-size:25px;
+  margin-left: 30px;
+  width: 95%;
+}
+
+#aatable{
+  font-family: "Kalos";
+  font-size:25px;
+  margin-left: 20px;
+  padding-top: 10px;
+  width: 60%;
+}
+
+.lead{
+  font-family: "Kalos";
+  font-size: 25px;
+  font-weight: normal;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 1.2;
+}
+
+.desc{
+  font-family: "Kalos";
+  font-size: 25px;
+  padding-top: 0;
+  margin-right: 20px;
+  margin-left: 22px;
+  line-height: 0.8;
+  padding-bottom: 15px;
+}
+
+.desc2{
+  font-family: "Kalos";
+  font-size: 25px;
+  padding-top: 0;
+  margin-right: 20px;
+  margin-left: 22px;
+  line-height: 0.8;
+}
+
+.lead2{
+  font-family: "Kalos";
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 0.8;
+}
+
+.lead3{
+  font-family: "Kalos";
+  font-size: 35px;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 1;
+}
+
+.footer{
+  font-family: "Kalos";
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  line-height: 0.8;
+}
+
+#contactend{
+  margin-bottom: 172px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+#footer {
+  font-family: "BasicTitle";
+  font-weight: bold;
+  font-size: 15px;
+}
